@@ -1,3 +1,6 @@
+var lightfill   = '#eee';
+var darkfill    = '#555';
+var darkstroke  = '#222';
 var draw = SVG('drawing').size(300, 300);
 
 var points = [
@@ -19,5 +22,5 @@ var points = [
 ];
 
 var shape = draw.path(points.join(','))
-  .stroke({ color: '#333', width: 2 })
-  .fill('#eee');
+  .stroke({ color: darkstroke, width: 2 })
+  .fill(darkfill);
