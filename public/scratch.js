@@ -1,9 +1,9 @@
 var lightfill   = '#eee';
 var darkfill    = '#555';
 var darkstroke  = '#222';
-var draw = SVG('drawing').size(300, 300);
+var draw = SVG('drawing').size(500, 300);
 
-var points = [
+var bottomRowPoints = [
   'M 100, 100',  // top left
 
   // top edge
@@ -21,6 +21,14 @@ var points = [
   'z'            // close path (back to top left)
 ];
 
-var shape = draw.path(points.join(','))
+var shape = draw.path(bottomRowPoints.join(','))
   .stroke({ color: darkstroke, width: 2 })
   .fill(darkfill);
+
+var shape = draw.path(bottomRowPoints.join(','))
+  .transform({
+    x:100,
+    y:0
+  })
+  .stroke({ color: darkstroke, width: 2 })
+  .fill(lightfill);
