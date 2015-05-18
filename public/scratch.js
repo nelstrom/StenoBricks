@@ -32,10 +32,10 @@ var bottomRowPoints = [
   '  200, 080',  // control point 2
   '  200, 100',  // top right
 
-  'L 200, 150',  // bottom right
-  'C 200, 210',
-  '  100, 210',
-  '  100, 150',  // bottom left
+  'L 200, 220',  // bottom right
+  'C 200, 280',
+  '  100, 280',
+  '  100, 220',  // bottom left
   'z'            // close path (back to top left)
 ];
 
