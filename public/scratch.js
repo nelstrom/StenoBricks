@@ -57,6 +57,24 @@ var thumbRowAEPoints = [
   'z'            // close path (back to top left)
 ];
 
+var thumbRowOUPoints = [
+  'M 100, 100',  // top left
+
+  // top bump
+  'C 100, 080',  // control point 1
+  '  150, 080',  // control point 2
+  '  150, 100',  // top right
+
+  // top edge
+  'L 200, 100',  // top middle
+
+  'L 200, 300',  // bottom right
+  'C 200, 360',
+  '  100, 360',
+  '  100, 300',  // bottom left
+  'z'            // close path (back to top left)
+];
+
 var starKeyPoints = [
   'M 100, 100',  // top left
 
@@ -80,6 +98,15 @@ var starKeyPoints = [
 [350, 550].forEach(function(offset) {
   var shade = offset === 350 ? lightfill : darkfill;
   draw.path(thumbRowAEPoints.join(','))
+    .transform({ x:offset-50 })
+    .stroke({ color: darkstroke, width: 2 })
+    .fill(shade);
+});
+
+// draw O, U thumb keys
+[450, 650].forEach(function(offset) {
+  var shade = offset === 650 ? lightfill : darkfill;
+  draw.path(thumbRowOUPoints.join(','))
     .transform({ x:offset-50 })
     .stroke({ color: darkstroke, width: 2 })
     .fill(shade);
