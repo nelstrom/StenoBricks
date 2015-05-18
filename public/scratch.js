@@ -39,14 +39,14 @@ var bottomRowPoints = [
   'z'            // close path (back to top left)
 ];
 
+// draw left hand bottom row:
 var shape = draw.path(bottomRowPoints.join(','))
+  .transform({ x:0 })
   .stroke({ color: darkstroke, width: 2 })
   .fill(darkfill);
 
+// draw left hand top row:
 var shape = draw.path(topRowPoints.join(','))
-  .transform({
-    x:100,
-    y:0
-  })
+  .transform({ x:100 })
   .stroke({ color: darkstroke, width: 2 })
   .fill(lightfill);
