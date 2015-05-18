@@ -150,3 +150,40 @@ draw.path(starKeyPoints.join(','))
   .transform({ x:offset-50 })
   .stroke({ color: darkstroke, width: 2 })
   .fill(lightfill);
+
+// Add the text labels:
+[
+  { letter: "S", offset: 120 },
+  { letter: "T", offset: 170 },
+  { letter: "K", offset: 220 },
+  { letter: "P", offset: 270 },
+  { letter: "W", offset: 320 },
+  { letter: "H", offset: 370 },
+  { letter: "R", offset: 420 },
+  { letter: "A", offset: 470 },
+  { letter: "O", offset: 520 },
+
+  { letter: "*", offset: 595 },
+
+  { letter: "E", offset: 670 },
+  { letter: "U", offset: 720 },
+  { letter: "F", offset: 770 },
+  { letter: "R", offset: 820 },
+  { letter: "P", offset: 870 },
+  { letter: "B", offset: 920 },
+  { letter: "L", offset: 970 },
+  { letter: "G", offset: 1020 },
+  { letter: "T", offset: 1070 },
+  { letter: "S", offset: 1120 },
+  { letter: "D", offset: 1170 },
+  { letter: "Z", offset: 1220 },
+].forEach(function(plot) {
+var text = draw.text(plot.letter)
+  .font({
+    size: 24
+  })
+  .transform({
+    x: plot.offset-3,
+    y: 42
+  });
+});
