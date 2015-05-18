@@ -39,6 +39,25 @@ var bottomRowPoints = [
   'z'            // close path (back to top left)
 ];
 
+var starKeyPoints = [
+  'M 100, 100',  // top left
+
+  // top edge
+  'L 150, 100',  // top middle
+
+  // top bump
+  'C 150, 080',  // control point 1
+  '  250, 080',  // control point 2
+  '  250, 100',  // top right
+
+  'L 300, 100',  // top middle
+  'L 300, 220',  // bottom right
+  'C 300, 280',
+  '  100, 280',
+  '  100, 220',  // bottom left
+  'z'            // close path (back to top left)
+];
+
 // draw left hand bottom row:
 [0, 100, 200, 300].forEach(function(offset) {
   draw.path(bottomRowPoints.join(','))
@@ -70,3 +89,10 @@ var bottomRowPoints = [
     .stroke({ color: darkstroke, width: 2 })
     .fill(darkfill);
 });
+
+// draw the star key:
+var offset = 450;
+draw.path(starKeyPoints.join(','))
+  .transform({ x:offset-50 })
+  .stroke({ color: darkstroke, width: 2 })
+  .fill(lightfill);
