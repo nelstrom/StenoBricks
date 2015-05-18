@@ -40,13 +40,17 @@ var bottomRowPoints = [
 ];
 
 // draw left hand bottom row:
-var shape = draw.path(bottomRowPoints.join(','))
-  .transform({ x:0 })
-  .stroke({ color: darkstroke, width: 2 })
-  .fill(darkfill);
+[0, 100, 200, 300].forEach(function(offset) {
+  draw.path(bottomRowPoints.join(','))
+    .transform({ x:offset })
+    .stroke({ color: darkstroke, width: 2 })
+    .fill(darkfill);
+});
 
 // draw left hand top row:
-var shape = draw.path(topRowPoints.join(','))
-  .transform({ x:100 })
-  .stroke({ color: darkstroke, width: 2 })
-  .fill(lightfill);
+[100, 200, 300].forEach(function(offset) {
+  draw.path(topRowPoints.join(','))
+    .transform({ x:offset })
+    .stroke({ color: darkstroke, width: 2 })
+    .fill(lightfill);
+});
