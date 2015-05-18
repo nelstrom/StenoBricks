@@ -11,8 +11,10 @@ var points = [
   '  200, 080',  // control point 2
   '  200, 100',  // top right
 
-  'L 200, 200',  // bottom right
-  'L 100, 200',  // bottom left
+  'L 200, 160',  // bottom right
+  'C 200, 200',
+  '  100, 200',
+  '  100, 160',  // bottom left
   'z'            // close path (back to top left)
 ];
 
