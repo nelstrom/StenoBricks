@@ -1,7 +1,7 @@
 var lightfill   = '#eee';
 var darkfill    = '#555';
 var darkstroke  = '#222';
-var draw = SVG('drawing').size(1350, 300);
+var draw = SVG('drawing').size(1350, 500);
 
 var topRowPoints = [
   'M 100, 100',  // top left
@@ -39,6 +39,24 @@ var bottomRowPoints = [
   'z'            // close path (back to top left)
 ];
 
+var thumbRowAEPoints = [
+  'M 100, 100',  // top left
+
+  // top edge
+  'L 150, 100',  // top middle
+
+  // top bump
+  'C 150, 080',  // control point 1
+  '  200, 080',  // control point 2
+  '  200, 100',  // top right
+
+  'L 200, 300',  // bottom right
+  'C 200, 360',
+  '  100, 360',
+  '  100, 300',  // bottom left
+  'z'            // close path (back to top left)
+];
+
 var starKeyPoints = [
   'M 100, 100',  // top left
 
@@ -57,6 +75,15 @@ var starKeyPoints = [
   '  100, 220',  // bottom left
   'z'            // close path (back to top left)
 ];
+
+// draw A, E thumb keys
+[350, 550].forEach(function(offset) {
+  var shade = offset === 350 ? lightfill : darkfill;
+  draw.path(thumbRowAEPoints.join(','))
+    .transform({ x:offset-50 })
+    .stroke({ color: darkstroke, width: 2 })
+    .fill(shade);
+});
 
 // draw left hand bottom row:
 [0, 100, 200, 300].forEach(function(offset) {
