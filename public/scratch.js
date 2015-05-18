@@ -1,7 +1,7 @@
 var lightfill   = '#eee';
 var darkfill    = '#555';
 var darkstroke  = '#222';
-var draw = SVG('drawing').size(500, 300);
+var draw = SVG('drawing').size(1350, 300);
 
 var topRowPoints = [
   'M 100, 100',  // top left
@@ -42,7 +42,7 @@ var bottomRowPoints = [
 // draw left hand bottom row:
 [0, 100, 200, 300].forEach(function(offset) {
   draw.path(bottomRowPoints.join(','))
-    .transform({ x:offset })
+    .transform({ x:offset-50 })
     .stroke({ color: darkstroke, width: 2 })
     .fill(darkfill);
 });
@@ -50,7 +50,23 @@ var bottomRowPoints = [
 // draw left hand top row:
 [100, 200, 300].forEach(function(offset) {
   draw.path(topRowPoints.join(','))
-    .transform({ x:offset })
+    .transform({ x:offset-50 })
     .stroke({ color: darkstroke, width: 2 })
     .fill(lightfill);
+});
+
+// draw right hand bottom row:
+[700,800,900,1000,1100].forEach(function(offset) {
+  draw.path(bottomRowPoints.join(','))
+    .transform({ x:offset-50 })
+    .stroke({ color: darkstroke, width: 2 })
+    .fill(lightfill);
+});
+
+// draw right hand top row:
+[700,800,900,1000,1100].forEach(function(offset) {
+  draw.path(topRowPoints.join(','))
+    .transform({ x:offset-50 })
+    .stroke({ color: darkstroke, width: 2 })
+    .fill(darkfill);
 });
