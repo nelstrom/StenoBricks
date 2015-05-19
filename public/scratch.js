@@ -209,11 +209,6 @@ var monoStrokePoints = [
   'z'            // close path (back to top left)
 ];
 
-draw.path(monoStrokePoints.join(','))
-  .transform({ x: 0, y: -75 })
-  .stroke({ color: darkstroke, width: 1 })
-  .fill(white);
-
 var matcherStrokePoints = [
   'M 105, 100',  // top left
 
@@ -225,7 +220,14 @@ var matcherStrokePoints = [
   'z'            // close path (back to top left)
 ];
 
+[0, 100, 200, 300, 400, 550, 650, 750, 850, 950, 1050].forEach(function(offset) {
+draw.path(monoStrokePoints.join(','))
+  .transform({ x: offset, y: -75 })
+  .stroke({ color: darkstroke, width: 1 })
+  .fill(white);
+
 draw.path(matcherStrokePoints.join(','))
-  .transform({ x: 0, y: -25 })
+  .transform({ x: offset, y: -25 })
   .stroke({ color: darkstroke, width: 1 })
   .fill(darkfill);
+});
