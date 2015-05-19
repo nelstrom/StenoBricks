@@ -209,8 +209,23 @@ var monoStrokePoints = [
   'z'            // close path (back to top left)
 ];
 
-
 draw.path(monoStrokePoints.join(','))
   .transform({ x: 0, y: -75 })
   .stroke({ color: darkstroke, width: 1 })
   .fill(white);
+
+var matcherStrokePoints = [
+  'M 105, 100',  // top left
+
+  'L 145, 100',  // top right
+  'C 145, 116',  // control point 1
+  '  105, 116',  // control point 2
+  '  105, 100',  // top left
+
+  'z'            // close path (back to top left)
+];
+
+draw.path(matcherStrokePoints.join(','))
+  .transform({ x: 0, y: -25 })
+  .stroke({ color: darkstroke, width: 1 })
+  .fill(darkfill);
