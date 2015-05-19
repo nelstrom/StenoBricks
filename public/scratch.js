@@ -1,3 +1,4 @@
+var white       = '#fff';
 var lightfill   = '#eee';
 var darkfill    = '#555';
 var darkstroke  = '#222';
@@ -212,4 +213,4 @@ var monoStrokePoints = [
 draw.path(monoStrokePoints.join(','))
   .transform({ x: 0, y: -75 })
   .stroke({ color: darkstroke, width: 1 })
-  .fill(lightfill);
+  .fill(white);
