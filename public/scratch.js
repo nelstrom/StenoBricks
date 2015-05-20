@@ -198,13 +198,13 @@ var monoStrokePoints = [
   'M 105, 100',  // top left
 
   'L 145, 100',  // top right
-  'C 150, 110',  // control point 1
-  '  150, 140',  // control point 2
+  'C 151, 110',  // control point 1
+  '  151, 140',  // control point 2
   '  145, 150',  // bottom right
 
   'L 105, 150',  // bottom left
-  'C 100, 140',  // control point 1
-  '  100, 110',  // control point 2
+  'C  99, 140',  // control point 1
+  '   99, 110',  // control point 2
   '  105, 100',  // bottom right
   'z'            // close path (back to top left)
 ];
@@ -232,7 +232,7 @@ var matcherStrokePoints = [
     .fill(darkfill);
 });
 
-[50, 150, 250, 350, 450, 600, 700, 800, 900, 1000, 1100].forEach(function(offset) {
+[50, 150, 250, 350, 600, 700, 800, 900, 1000, 1100].forEach(function(offset) {
   draw.path(monoStrokePoints.join(','))
     .transform({ x: offset, y: -75 })
     .stroke({ color: darkstroke, width: 1 })
