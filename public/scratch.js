@@ -221,13 +221,25 @@ var matcherStrokePoints = [
 ];
 
 [0, 100, 200, 300, 400, 550, 650, 750, 850, 950, 1050].forEach(function(offset) {
-draw.path(monoStrokePoints.join(','))
-  .transform({ x: offset, y: -75 })
-  .stroke({ color: darkstroke, width: 1 })
-  .fill(white);
+  draw.path(monoStrokePoints.join(','))
+    .transform({ x: offset, y: -75 })
+    .stroke({ color: darkstroke, width: 1 })
+    .fill(white);
 
-draw.path(matcherStrokePoints.join(','))
-  .transform({ x: offset, y: -25 })
-  .stroke({ color: darkstroke, width: 1 })
-  .fill(darkfill);
+  draw.path(matcherStrokePoints.join(','))
+    .transform({ x: offset, y: -25 })
+    .stroke({ color: darkstroke, width: 1 })
+    .fill(darkfill);
+});
+
+[50, 150, 250, 350, 450, 600, 700, 800, 900, 1000, 1100].forEach(function(offset) {
+  draw.path(monoStrokePoints.join(','))
+    .transform({ x: offset, y: -75 })
+    .stroke({ color: darkstroke, width: 1 })
+    .fill(white);
+
+  draw.path(matcherStrokePoints.join(','))
+    .transform({ x: offset, y: -25 })
+    .stroke({ color: darkstroke, width: 1 })
+    .fill(lightfill);
 });
