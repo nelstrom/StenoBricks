@@ -1,12 +1,11 @@
 var white       = '#fff';
 var lightfill   = '#eee';
 var darkfill    = '#555';
-var darkstroke  = '#222';
 var lightText   = '#999';
 
-var strokeWidth = 1;
 var yOffset     =  50;
 var draw = SVG('drawing').size(1350, 500);
+draw.viewbox(0, 0, 1350, 500);
 
 var topRowPoints = [
   'M 100, 100',  // top left
@@ -104,7 +103,7 @@ var starKeyPoints = [
   var shade = offset === 350 ? lightfill : darkfill;
   draw.path(thumbRowAEPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(shade);
 });
 
@@ -113,7 +112,7 @@ var starKeyPoints = [
   var shade = offset === 650 ? lightfill : darkfill;
   draw.path(thumbRowOUPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(shade);
 });
 
@@ -121,7 +120,7 @@ var starKeyPoints = [
 [0, 100, 200, 300].forEach(function(offset) {
   draw.path(bottomRowPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(darkfill);
 });
 
@@ -129,7 +128,7 @@ var starKeyPoints = [
 [100, 200, 300].forEach(function(offset) {
   draw.path(topRowPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(lightfill);
 });
 
@@ -137,7 +136,7 @@ var starKeyPoints = [
 [700,800,900,1000,1100].forEach(function(offset) {
   draw.path(bottomRowPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(lightfill);
 });
 
@@ -145,7 +144,7 @@ var starKeyPoints = [
 [700,800,900,1000,1100].forEach(function(offset) {
   draw.path(topRowPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(darkfill);
 });
 
@@ -153,7 +152,7 @@ var starKeyPoints = [
 var offset = 450;
 draw.path(starKeyPoints.join(','))
   .transform({ x:offset-50, y:yOffset })
-  .stroke({ color: darkstroke, width: strokeWidth })
+  .attr('class', 'stroked')
   .fill(lightfill);
 
 // Add the text labels:
@@ -239,12 +238,12 @@ var matcherStrokePoints = [
 ].forEach(function(plot) {
   draw.path(monoStrokePoints.join(','))
     .transform({ x: plot.offset, y: -75 })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(white);
 
   draw.path(matcherStrokePoints.join(','))
     .transform({ x: plot.offset, y: -25 })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(darkfill);
 
   draw.text(plot.letter)
@@ -274,12 +273,12 @@ var matcherStrokePoints = [
 ].forEach(function(plot) {
   draw.path(monoStrokePoints.join(','))
     .transform({ x: plot.offset, y: -75 })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(white);
 
   draw.path(matcherStrokePoints.join(','))
     .transform({ x: plot.offset, y: -25 })
-    .stroke({ color: darkstroke, width: strokeWidth })
+    .attr('class', 'stroked')
     .fill(lightfill);
 
   draw.text(plot.letter)
