@@ -186,10 +186,11 @@ draw.path(starKeyPoints.join(','))
 ].forEach(function(plot) {
 var text = draw.text(plot.letter)
   .font({
-    size: 24
+    size: 24,
+    anchor: 'middle'
   })
   .transform({
-    x: plot.offset-3,
+    x: plot.offset+5,
     y: 42 + yOffset
   });
 });
