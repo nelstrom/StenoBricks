@@ -222,26 +222,70 @@ var matcherStrokePoints = [
   'z'            // close path (back to top left)
 ];
 
-[0, 100, 200, 300, 400, 550, 650, 750, 850, 950, 1050].forEach(function(offset) {
+[
+  { letter: 'S', offset: 0},
+  { letter: 'K', offset: 100 },
+  { letter: 'W', offset: 200 },
+  { letter: 'R', offset: 300 },
+  { letter: 'O', offset: 400 },
+  { letter: 'E', offset: 550 },
+  { letter: 'F', offset: 650 },
+  { letter: 'P', offset: 750 },
+  { letter: 'L', offset: 850 },
+  { letter: 'T', offset: 950 },
+  { letter: 'D', offset: 1050 }
+].forEach(function(plot) {
   draw.path(monoStrokePoints.join(','))
-    .transform({ x: offset, y: -75 })
+    .transform({ x: plot.offset, y: -75 })
     .stroke({ color: darkstroke, width: strokeWidth })
     .fill(white);
 
   draw.path(matcherStrokePoints.join(','))
-    .transform({ x: offset, y: -25 })
+    .transform({ x: plot.offset, y: -25 })
     .stroke({ color: darkstroke, width: strokeWidth })
     .fill(darkfill);
+
+  draw.text(plot.letter)
+    .font({
+      size: 24,
+      anchor: 'middle'
+    })
+    .transform({
+      x: plot.offset+125,
+      y: yOffset-22
+    });
+
 });
 
-[50, 150, 250, 350, 600, 700, 800, 900, 1000, 1100].forEach(function(offset) {
+[
+  { letter: 'T', offset: 50},
+  { letter: 'P', offset: 150},
+  { letter: 'H', offset: 250},
+  { letter: 'A', offset: 350},
+  { letter: 'U', offset: 600},
+  { letter: 'R', offset: 700},
+  { letter: 'B', offset: 800},
+  { letter: 'G', offset: 900},
+  { letter: 'S', offset: 1000},
+  { letter: 'Z', offset: 1100}
+].forEach(function(plot) {
   draw.path(monoStrokePoints.join(','))
-    .transform({ x: offset, y: -75 })
+    .transform({ x: plot.offset, y: -75 })
     .stroke({ color: darkstroke, width: strokeWidth })
     .fill(white);
 
   draw.path(matcherStrokePoints.join(','))
-    .transform({ x: offset, y: -25 })
+    .transform({ x: plot.offset, y: -25 })
     .stroke({ color: darkstroke, width: strokeWidth })
     .fill(lightfill);
+
+  draw.text(plot.letter)
+    .font({
+      size: 24,
+      anchor: 'middle'
+    })
+    .transform({
+      x: plot.offset+125,
+      y: yOffset-22
+    });
 });
