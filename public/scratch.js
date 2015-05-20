@@ -2,6 +2,7 @@ var white       = '#fff';
 var lightfill   = '#eee';
 var darkfill    = '#555';
 var darkstroke  = '#222';
+var lightText   = '#999';
 
 var strokeWidth = 1;
 var yOffset     =  50;
@@ -189,6 +190,7 @@ var text = draw.text(plot.letter)
     size: 24,
     anchor: 'middle'
   })
+  .fill({ color: lightText})
   .transform({
     x: plot.offset+5,
     y: 42 + yOffset
@@ -250,6 +252,7 @@ var matcherStrokePoints = [
       size: 24,
       anchor: 'middle'
     })
+    .fill({ color: lightText})
     .transform({
       x: plot.offset+125,
       y: yOffset-22
@@ -284,6 +287,7 @@ var matcherStrokePoints = [
       size: 24,
       anchor: 'middle'
     })
+    .fill({ color: lightText})
     .transform({
       x: plot.offset+125,
       y: yOffset-22
