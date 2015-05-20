@@ -3,6 +3,7 @@ var lightfill   = '#eee';
 var darkfill    = '#555';
 var darkstroke  = '#222';
 
+var strokeWidth = 1;
 var yOffset     =  50;
 var draw = SVG('drawing').size(1350, 500);
 
@@ -102,7 +103,7 @@ var starKeyPoints = [
   var shade = offset === 350 ? lightfill : darkfill;
   draw.path(thumbRowAEPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: 2 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(shade);
 });
 
@@ -111,7 +112,7 @@ var starKeyPoints = [
   var shade = offset === 650 ? lightfill : darkfill;
   draw.path(thumbRowOUPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: 2 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(shade);
 });
 
@@ -119,7 +120,7 @@ var starKeyPoints = [
 [0, 100, 200, 300].forEach(function(offset) {
   draw.path(bottomRowPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: 2 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(darkfill);
 });
 
@@ -127,7 +128,7 @@ var starKeyPoints = [
 [100, 200, 300].forEach(function(offset) {
   draw.path(topRowPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: 2 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(lightfill);
 });
 
@@ -135,7 +136,7 @@ var starKeyPoints = [
 [700,800,900,1000,1100].forEach(function(offset) {
   draw.path(bottomRowPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: 2 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(lightfill);
 });
 
@@ -143,7 +144,7 @@ var starKeyPoints = [
 [700,800,900,1000,1100].forEach(function(offset) {
   draw.path(topRowPoints.join(','))
     .transform({ x:offset-50, y:yOffset })
-    .stroke({ color: darkstroke, width: 2 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(darkfill);
 });
 
@@ -151,7 +152,7 @@ var starKeyPoints = [
 var offset = 450;
 draw.path(starKeyPoints.join(','))
   .transform({ x:offset-50, y:yOffset })
-  .stroke({ color: darkstroke, width: 2 })
+  .stroke({ color: darkstroke, width: strokeWidth })
   .fill(lightfill);
 
 // Add the text labels:
@@ -223,23 +224,23 @@ var matcherStrokePoints = [
 [0, 100, 200, 300, 400, 550, 650, 750, 850, 950, 1050].forEach(function(offset) {
   draw.path(monoStrokePoints.join(','))
     .transform({ x: offset, y: -75 })
-    .stroke({ color: darkstroke, width: 1 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(white);
 
   draw.path(matcherStrokePoints.join(','))
     .transform({ x: offset, y: -25 })
-    .stroke({ color: darkstroke, width: 1 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(darkfill);
 });
 
 [50, 150, 250, 350, 600, 700, 800, 900, 1000, 1100].forEach(function(offset) {
   draw.path(monoStrokePoints.join(','))
     .transform({ x: offset, y: -75 })
-    .stroke({ color: darkstroke, width: 1 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(white);
 
   draw.path(matcherStrokePoints.join(','))
     .transform({ x: offset, y: -25 })
-    .stroke({ color: darkstroke, width: 1 })
+    .stroke({ color: darkstroke, width: strokeWidth })
     .fill(lightfill);
 });
