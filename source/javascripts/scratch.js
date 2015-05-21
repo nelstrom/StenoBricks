@@ -1,8 +1,7 @@
 var lightText   = '#999';
 
 var yOffset     =  50;
-var draw = SVG('drawing').size(1350, 500);
-draw.viewbox(0, 0, 1350, 500);
+var draw = SVG('drawing').viewbox(0, 0, 1350, 500);
 
 var topRowPoints = [
   'M 100, 100',  // top left
