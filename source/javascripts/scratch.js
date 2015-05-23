@@ -321,3 +321,34 @@ if (showDiStroke) {
   draw.use(spanTwoKeys).move(550, -75);
 }
 
+function drawMatcherPoints(positionList) {
+  var matcherStrokePoints = [
+    'M 105, 100',  // top left
+    'L 145, 100',  // top right
+    'C 145, 116',  // control point 1
+    '  105, 116',  // control point 2
+    '  105, 100',  // top left
+    'z'            // close path (back to top left)
+  ];
+
+  positionList.forEach(function(position) {
+    var fillShade;
+    if (position <= 10 && position % 2 !== 0 || position > 11 && position % 2 === 0) {
+      fillShade = 'darkFill';
+    } else {
+      fillShade = 'lightFill';
+    }
+    var xOffset = position * 50;
+
+    draw.path(matcherStrokePoints.join(','))
+      .transform({
+        x: -50 + xOffset,
+        y: -25
+      })
+      .attr('class', 'stroked ' + fillShade);
+  });
+}
+
+drawMatcherPoints([1,2,3,4,5,6]);
+
+drawMatcherPoints([12,13,14,15]);
