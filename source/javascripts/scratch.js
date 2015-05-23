@@ -1,4 +1,5 @@
 var showMonoStrokes = false;
+var showDiStroke = false;
 var lightText   = '#999';
 
 var yOffset     =  50;
@@ -281,39 +282,42 @@ if (showMonoStrokes) {
   });
 }
 
-var spanTwoStrokePoints = [
-  'M 105, 100',  // top left
+if (showDiStroke) {
+  var spanTwoStrokePoints = [
+    'M 105, 100',  // top left
 
-  'L 195, 100',  // top right
-  'C 201, 110',  // control point 1
-  '  201, 140',  // control point 2
-  '  195, 150',  // bottom right
+    'L 195, 100',  // top right
+    'C 201, 110',  // control point 1
+    '  201, 140',  // control point 2
+    '  195, 150',  // bottom right
 
-  'L 105, 150',  // bottom left
-  'C  99, 140',  // control point 1
-  '   99, 110',  // control point 2
-  '  105, 100',  // bottom right
-  'z'            // close path (back to top left)
-];
+    'L 105, 150',  // bottom left
+    'C  99, 140',  // control point 1
+    '   99, 110',  // control point 2
+    '  105, 100',  // bottom right
+    'z'            // close path (back to top left)
+  ];
 
-var spanTwoKeys = draw.symbol();
-spanTwoKeys.path(spanTwoStrokePoints.join(','))
-  .attr('class', 'stroked whiteFill');
-spanTwoKeys.path(matcherStrokePoints.join(','))
-  .transform({ x: 0, y: 50 })
-  .attr('class', 'stroked darkFill');
-spanTwoKeys.path(matcherStrokePoints.join(','))
-  .transform({ x: 50, y: 50 })
-  .attr('class', 'stroked lightFill');
-spanTwoKeys.text("i")
-  .font({
-    size: 24,
-    anchor: 'middle'
-  })
-  .fill({ color: lightText})
-  .transform({
-    x: 150,
-    y: 100
-  });
+  var spanTwoKeys = draw.symbol();
+  spanTwoKeys.path(spanTwoStrokePoints.join(','))
+    .attr('class', 'stroked whiteFill');
+  spanTwoKeys.path(matcherStrokePoints.join(','))
+    .transform({ x: 0, y: 50 })
+    .attr('class', 'stroked darkFill');
+  spanTwoKeys.path(matcherStrokePoints.join(','))
+    .transform({ x: 50, y: 50 })
+    .attr('class', 'stroked lightFill');
+  spanTwoKeys.text("i")
+    .font({
+      size: 24,
+      anchor: 'middle'
+    })
+    .fill({ color: lightText})
+    .transform({
+      x: 150,
+      y: 100
+    });
 
-draw.use(spanTwoKeys).move(550, -75);
+  draw.use(spanTwoKeys).move(550, -75);
+}
+
