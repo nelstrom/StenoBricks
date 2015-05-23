@@ -340,7 +340,21 @@ function drawMatcherPoints(positionList) {
     }
     var xOffset = position * 50;
 
-    draw.path(matcherStrokePoints.join(','))
+    var pathPoints;
+    if (position === 10) {
+      pathPoints = [
+        'M 105, 100',  // top left
+        'L 195, 100',  // top right
+        'C 195, 116',  // control point 1
+        '  105, 116',  // control point 2
+        '  105, 100',  // top left
+        'z'            // close path (back to top left)
+      ].join(',');
+    } else {
+       pathPoints = matcherStrokePoints.join(',');
+    }
+
+    draw.path(pathPoints)
       .transform({
         x: -50 + xOffset,
         y: -25
@@ -349,6 +363,6 @@ function drawMatcherPoints(positionList) {
   });
 }
 
-drawMatcherPoints([1,2,3,4,5,6]);
-
-drawMatcherPoints([12,13,14,15]);
+drawMatcherPoints([0,1,2,3,4,5,6,7,8,9]);
+drawMatcherPoints([10]);
+drawMatcherPoints([12,13,14,15,16,17,18,19,20,21,22,23]);
