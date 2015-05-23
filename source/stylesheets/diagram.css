@@ -14,3 +14,7 @@
 .whiteFill {
   fill: #fff;
 }
+
+svg {
+  border: 1px dotted white;
+}
