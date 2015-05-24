@@ -476,4 +476,11 @@ function drawStroke(letter, keyList) {
 // drawStroke('D', [2,3]);
 // drawStroke('B', [4,5]);
 // drawStroke('L', [6,7]);
-drawStroke('G', [2,3,4,5]);
+// drawStroke('G', [2,3,4,5]);
+// drawStroke('Z', [1,2,3,4,5]);
+
+// Alphabet:
+drawStroke('A', [8]);
+
+drawStroke('B', [4,5]);
+drawStroke('B', [16]);
