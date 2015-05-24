@@ -99,11 +99,8 @@ var starKeyPoints = [
 var numberKeyPoints = [
   'M 100, 100',  // top left
 
-  // top edge
-  'L 150, 100',  // top middle
-
   // top bump
-  'C 150, 080',  // control point 1
+  'C 100, 080',  // control point 1
   '  200, 080',  // control point 2
   '  200, 100',  // top right
 
@@ -363,9 +360,12 @@ function drawMatcherPoints(positionList) {
       fillShade = 'lightFill';
     }
     var xOffset = position * 50;
+    if (position === 0) {
+      xOffset -= 50;
+    }
 
     var pathPoints;
-    if (position === 10) {
+    if (position === 0 || position === 10) {
       pathPoints = [
         'M 105, 100',  // top left
         'L 195, 100',  // top right
