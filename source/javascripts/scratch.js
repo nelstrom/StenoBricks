@@ -442,7 +442,40 @@ function spanKeys(keyList) {
     .transform({ x:xOffset, y:-75 });
 }
 
-spanKeys([0,3]);
+// spanKeys([0,3]);
 // spanKeys([6, 7]);
 // spanKeys([9, 11, 12]);
-spanKeys([10, 19]);
+// spanKeys([10, 19]);
+
+function drawStroke(letter, keyList) {
+  spanKeys(keyList);
+  var first = keyDimensions[keyList[0]];
+  var last  = keyDimensions[keyList[keyList.length-1]];
+  var width = last.right - first.left;
+  var leftedge = (first.left * 50 + 50);
+  var halfwidth = ((width*50)/2);
+  console.log('leftedge: ', leftedge);
+  console.log('halfwidth: ', halfwidth);
+  var xOffset = leftedge + halfwidth;
+
+  var text = draw.text(letter)
+    .font({
+      size: 24,
+      anchor: 'middle'
+    })
+    .fill({ color: lightText})
+    .transform({
+      x: xOffset,
+      y: 25
+    });
+
+}
+
+// drawStroke('2', [0,3]);
+// drawStroke('D', [2,3]);
+// drawStroke('B', [4,5]);
+// drawStroke('L', [6,7]);
+drawStroke('G', [2,3,4,5]);
+// drawStroke([6, 7]);
+// drawStroke([9, 11, 12]);
+// drawStroke([10, 19]);
