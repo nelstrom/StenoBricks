@@ -115,7 +115,7 @@ var numberKeyPoints = [
 [350, 550].forEach(function(offset) {
   var shade = offset === 350 ? 'lightFill' : 'darkFill';
   draw.path(thumbRowAEPoints.join(','))
-    .transform({ x:offset-50, y:yOffset })
+    .transform({ x:offset, y:yOffset })
     .attr('class', 'stroked ' + shade);
 });
 
@@ -123,78 +123,78 @@ var numberKeyPoints = [
 [450, 650].forEach(function(offset) {
   var shade = offset === 650 ? 'lightFill' : 'darkFill';
   draw.path(thumbRowOUPoints.join(','))
-    .transform({ x:offset-50, y:yOffset })
+    .transform({ x:offset, y:yOffset })
     .attr('class', 'stroked ' + shade);
 });
 
 // draw left hand bottom row:
 [0, 100, 200, 300].forEach(function(offset) {
   draw.path(bottomRowPoints.join(','))
-    .transform({ x:offset-50, y:yOffset })
+    .transform({ x:offset, y:yOffset })
     .attr('class', 'stroked darkFill');
 });
 
 // draw left hand top row:
 [100, 200, 300].forEach(function(offset) {
   draw.path(topRowPoints.join(','))
-    .transform({ x:offset-50, y:yOffset })
+    .transform({ x:offset, y:yOffset })
     .attr('class', 'stroked lightFill');
 });
 
 // draw right hand bottom row:
 [700,800,900,1000,1100].forEach(function(offset) {
   draw.path(bottomRowPoints.join(','))
-    .transform({ x:offset-50, y:yOffset })
+    .transform({ x:offset, y:yOffset })
     .attr('class', 'stroked lightFill');
 });
 
 // draw right hand top row:
 [700,800,900,1000,1100].forEach(function(offset) {
   draw.path(topRowPoints.join(','))
-    .transform({ x:offset-50, y:yOffset })
+    .transform({ x:offset, y:yOffset })
     .attr('class', 'stroked darkFill');
 });
 
 // draw the star key:
 var offset = 450;
 draw.path(starKeyPoints.join(','))
-  .transform({ x:offset-50, y:yOffset })
+  .transform({ x:offset, y:yOffset })
   .attr('class', 'stroked lightFill');
 
 // draw the number key:
 var offset = 450;
 draw.path(numberKeyPoints.join(','))
-  .transform({ x:-100, y:yOffset })
+  .transform({ x:-50, y:yOffset })
   .attr('class', 'stroked lightFill');
 
 // Add the text labels:
 [
-  { letter: "#", offset: 45 },
+  { letter: "#", offset: 95 },
 
-  { letter: "S", offset: 120 },
-  { letter: "T", offset: 170 },
-  { letter: "K", offset: 220 },
-  { letter: "P", offset: 270 },
-  { letter: "W", offset: 320 },
-  { letter: "H", offset: 370 },
-  { letter: "R", offset: 420 },
-  { letter: "A", offset: 470 },
-  { letter: "O", offset: 520 },
+  { letter: "S", offset: 170 },
+  { letter: "T", offset: 220 },
+  { letter: "K", offset: 270 },
+  { letter: "P", offset: 320 },
+  { letter: "W", offset: 370 },
+  { letter: "H", offset: 420 },
+  { letter: "R", offset: 470 },
+  { letter: "A", offset: 520 },
+  { letter: "O", offset: 570 },
 
-  { letter: "*", offset: 595 },
+  { letter: "*", offset: 645 },
 
-  { letter: "E", offset: 670 },
-  { letter: "U", offset: 720 },
-  { letter: "F", offset: 770 },
-  { letter: "R", offset: 820 },
-  { letter: "P", offset: 870 },
-  { letter: "B", offset: 920 },
-  { letter: "L", offset: 970 },
-  { letter: "G", offset: 1020 },
-  { letter: "T", offset: 1070 },
-  { letter: "S", offset: 1120 },
-  { letter: "D", offset: 1170 },
-  { letter: "Z", offset: 1220 },
+  { letter: "E", offset: 720 },
+  { letter: "U", offset: 770 },
+  { letter: "F", offset: 820 },
+  { letter: "R", offset: 870 },
+  { letter: "P", offset: 920 },
+  { letter: "B", offset: 970 },
+  { letter: "L", offset: 1020 },
+  { letter: "G", offset: 1070 },
+  { letter: "T", offset: 1120 },
+  { letter: "S", offset: 1170 },
+  { letter: "D", offset: 1220 },
+  { letter: "Z", offset: 1270 },
 ].forEach(function(plot) {
 var text = draw.text(plot.letter)
   .font({
@@ -237,17 +237,17 @@ var matcherStrokePoints = [
 
 if (showMonoStrokes) {
   [
-    { letter: 'S', offset: 0},
-    { letter: 'K', offset: 100 },
-    { letter: 'W', offset: 200 },
-    { letter: 'R', offset: 300 },
-    { letter: 'O', offset: 400 },
-    { letter: 'E', offset: 550 },
-    { letter: 'F', offset: 650 },
-    { letter: 'P', offset: 750 },
-    { letter: 'L', offset: 850 },
-    { letter: 'T', offset: 950 },
-    { letter: 'D', offset: 1050 }
+    { letter: 'S', offset: 50},
+    { letter: 'K', offset: 150 },
+    { letter: 'W', offset: 250 },
+    { letter: 'R', offset: 350 },
+    { letter: 'O', offset: 450 },
+    { letter: 'E', offset: 600 },
+    { letter: 'F', offset: 700 },
+    { letter: 'P', offset: 800 },
+    { letter: 'L', offset: 900 },
+    { letter: 'T', offset: 1000 },
+    { letter: 'D', offset: 1100 }
   ].forEach(function(plot) {
     draw.path(monoStrokePoints.join(','))
       .transform({ x: plot.offset, y: -75 })
@@ -271,16 +271,16 @@ if (showMonoStrokes) {
   });
 
   [
-    { letter: 'T', offset: 50},
-    { letter: 'P', offset: 150},
-    { letter: 'H', offset: 250},
-    { letter: 'A', offset: 350},
-    { letter: 'U', offset: 600},
-    { letter: 'R', offset: 700},
-    { letter: 'B', offset: 800},
-    { letter: 'G', offset: 900},
-    { letter: 'S', offset: 1000},
-    { letter: 'Z', offset: 1100}
+    { letter: 'T', offset: 100},
+    { letter: 'P', offset: 200},
+    { letter: 'H', offset: 300},
+    { letter: 'A', offset: 400},
+    { letter: 'U', offset: 650},
+    { letter: 'R', offset: 750},
+    { letter: 'B', offset: 850},
+    { letter: 'G', offset: 950},
+    { letter: 'S', offset: 1050},
+    { letter: 'Z', offset: 1150}
   ].forEach(function(plot) {
     draw.path(monoStrokePoints.join(','))
       .transform({ x: plot.offset, y: -75 })
@@ -339,7 +339,7 @@ if (showDiStroke) {
       y: 100
     });
 
-  draw.use(spanTwoKeys).move(550, -75);
+  draw.use(spanTwoKeys).move(600, -75);
 }
 
 function drawMatcherPoints(positionList) {
@@ -380,7 +380,7 @@ function drawMatcherPoints(positionList) {
 
     draw.path(pathPoints)
       .transform({
-        x: -50 + xOffset,
+        x: xOffset,
         y: -25
       })
       .attr('class', 'stroked ' + fillShade);
