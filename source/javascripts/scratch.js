@@ -449,6 +449,7 @@ function spanKeys(keyList) {
 
 function drawStroke(letter, keyList) {
   spanKeys(keyList);
+  drawMatcherPoints(keyList);
   var first = keyDimensions[keyList[0]];
   var last  = keyDimensions[keyList[keyList.length-1]];
   var width = last.right - first.left;
@@ -476,6 +477,3 @@ function drawStroke(letter, keyList) {
 // drawStroke('B', [4,5]);
 // drawStroke('L', [6,7]);
 drawStroke('G', [2,3,4,5]);
-// drawStroke([6, 7]);
-// drawStroke([9, 11, 12]);
-// drawStroke([10, 19]);
