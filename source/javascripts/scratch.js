@@ -501,9 +501,39 @@ function drawStroke(letter, keyList) {
 
 // drawStroke('L', [6,7]);
 
-drawStroke('M', [4, 6]);
-drawStroke('M', [15, 17]);
+// drawStroke('M', [4, 6]);
+// drawStroke('M', [15, 17]);
+
+// drawStroke('N', [2, 4, 6]);
+// drawStroke('N', [15, 16]);
 
 // drawStroke('O', [9]);
 
-drawStroke('U', [12]);
+// drawStroke('P', [4]);
+// drawStroke('P', [15]);
+
+// drawStroke('Q', [3, 5]);
+
+// drawStroke('R', [7]);
+// drawStroke('R', [14]);
+
+// drawStroke('S', [1]);
+// drawStroke('S', [20]);
+
+// drawStroke('T', [2]);
+// drawStroke('T', [19]);
+
+// drawStroke('U', [12]);
+
+// drawStroke('V', [1, 7]);
+// drawStroke('V', [13]);
+
+// drawStroke('W', [5]);
+
+// drawStroke('X', [3, 4]);
+// drawStroke('X', [16, 18, 20]);
+
+// drawStroke('Y', [3, 5, 7]);
+
+// drawStroke('Z', [1,2,3,4,5]);
+// drawStroke('Z', [22]);
