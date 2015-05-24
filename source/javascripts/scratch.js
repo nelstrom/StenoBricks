@@ -342,56 +342,7 @@ if (showDiStroke) {
   draw.use(spanTwoKeys).move(600, -75);
 }
 
-function drawMatcherPoints(positionList) {
-  var matcherStrokePoints = [
-    'M 105, 100',  // top left
-    'L 145, 100',  // top right
-    'C 145, 116',  // control point 1
-    '  105, 116',  // control point 2
-    '  105, 100',  // top left
-    'z'            // close path (back to top left)
-  ];
-
-  positionList.forEach(function(position) {
-    var fillShade;
-    if (position <= 10 && position % 2 !== 0 || position > 11 && position % 2 === 0) {
-      fillShade = 'darkFill';
-    } else {
-      fillShade = 'lightFill';
-    }
-    var xOffset = position * 50;
-    if (position === 0) {
-      xOffset -= 50;
-    }
-
-    var pathPoints;
-    if (position === 0 || position === 10) {
-      pathPoints = [
-        'M 105, 100',  // top left
-        'L 195, 100',  // top right
-        'C 195, 116',  // control point 1
-        '  105, 116',  // control point 2
-        '  105, 100',  // top left
-        'z'            // close path (back to top left)
-      ].join(',');
-    } else {
-       pathPoints = matcherStrokePoints.join(',');
-    }
-
-    draw.path(pathPoints)
-      .transform({
-        x: xOffset,
-        y: -25
-      })
-      .attr('class', 'stroked ' + fillShade);
-  });
-}
-
-// drawMatcherPoints([0,1,2,3,4,5,6,7,8,9]);
-// drawMatcherPoints([10]);
-// drawMatcherPoints([12,13,14,15,16,17,18,19,20,21,22,23]);
-
-var keyDimensions = {
+var keyInformation = {
    0: { left:  0, right:  2 },
    1: { left:  2, right:  3 },
    2: { left:  3, right:  4 },
@@ -417,9 +368,50 @@ var keyDimensions = {
   22: { left: 24, right: 25 },
 };
 
+function drawMatcherPoints(positionList) {
+  var matcherStrokePoints = [
+    'M 105, 100',  // top left
+    'L 145, 100',  // top right
+    'C 145, 116',  // control point 1
+    '  105, 116',  // control point 2
+    '  105, 100',  // top left
+    'z'            // close path (back to top left)
+  ];
+
+  positionList.forEach(function(position) {
+    var fillShade = (position % 2 !== 0) ? 'darkFill' : 'lightFill';
+
+    var keyInfo = keyInformation[position];
+    var xOffset = keyInfo.left * 50 - 50;
+    console.log(xOffset);
+
+    var width = keyInfo.right - keyInfo.left;
+    var rightEdge = 95 + (width * 50);
+    var pathPoints = [
+      'M 105, 100',  // top left
+      'L '+rightEdge+', 100',      // top right
+      'C '+rightEdge+', 116',  // control point 1
+      '  105, 116',  // control point 2
+      '  105, 100',  // top left
+      'z'            // close path (back to top left)
+    ].join(',');
+
+    draw.path(pathPoints)
+      .transform({
+        x: xOffset,
+        y: -25
+      })
+      .attr('class', 'stroked ' + fillShade);
+  });
+}
+
+// drawMatcherPoints([0,1,2,3,4,5,6,7,8,9]);
+// drawMatcherPoints([10]);
+// drawMatcherPoints([11,12,13,14,15,16,17,18,19,20,21,22]);
+
 function spanKeys(keyList) {
-  var first = keyDimensions[keyList[0]];
-  var last  = keyDimensions[keyList[keyList.length-1]];
+  var first = keyInformation[keyList[0]];
+  var last  = keyInformation[keyList[keyList.length-1]];
   var width = last.right - first.left;
   var xOffset = first.left * 50 - 50;
   var rightEdge = 95 + (width * 50);
@@ -450,8 +442,8 @@ function spanKeys(keyList) {
 function drawStroke(letter, keyList) {
   spanKeys(keyList);
   drawMatcherPoints(keyList);
-  var first = keyDimensions[keyList[0]];
-  var last  = keyDimensions[keyList[keyList.length-1]];
+  var first = keyInformation[keyList[0]];
+  var last  = keyInformation[keyList[keyList.length-1]];
   var width = last.right - first.left;
   var leftedge = (first.left * 50 + 50);
   var halfwidth = ((width*50)/2);
