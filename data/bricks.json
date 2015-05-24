@@ -1,0 +1,23 @@
+[
+  {
+    "id": "soft-a",
+    "letter": "A",
+    "keystrokes": [8]
+  },
+  {
+    "id": "start-b",
+    "letter": "B",
+    "keystrokes": [4,5]
+  },
+  {
+    "id": "end-b",
+    "letter": "B",
+    "keystrokes": [16]
+  },
+  {
+    "id": "start-c",
+    "letter": "C",
+    "keystrokes": [3,7]
+  }
+]
+

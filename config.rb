@@ -35,6 +35,8 @@
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+activate :directory_indexes
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
@@ -69,4 +71,11 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+if data.has_key? :bricks
+  data.bricks.each do |brick|
+    proxy "/bricks/#{brick.id}.html", "/brick.html",
+      locals: { letter: brick.letter, keystrokes: brick.keystrokes }, ignore: true
+  end
 end
