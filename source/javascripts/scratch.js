@@ -477,4 +477,7 @@ drawStroke('A', [8]);
 // drawStroke('B', [4,5]);
 // drawStroke('B', [16]);
 
-drawStroke('C', [3,7]);
+// drawStroke('C', [3,7]);
+
+drawStroke('D', [2,3]);
+drawStroke('D', [21]);
