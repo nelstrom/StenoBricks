@@ -387,6 +387,33 @@ function drawMatcherPoints(positionList) {
   });
 }
 
-drawMatcherPoints([0,1,2,3,4,5,6,7,8,9]);
-drawMatcherPoints([10]);
-drawMatcherPoints([12,13,14,15,16,17,18,19,20,21,22,23]);
+// drawMatcherPoints([0,1,2,3,4,5,6,7,8,9]);
+// drawMatcherPoints([10]);
+// drawMatcherPoints([12,13,14,15,16,17,18,19,20,21,22,23]);
+
+function spanKeys(keyList) {
+  var first = keyList[0];
+  var last  = keyList[keyList.length-1];
+  var width = last - first + 1;
+  var xOffset = first * 50;
+  var rightEdge = 95 + (width * 50);
+  var shapePath = [
+    'M 105, 100',  // top left
+
+    'L '+rightEdge+', 100',      // top right
+    'C '+(rightEdge+6)+', 110',  // control point 1
+    '  '+(rightEdge+6)+', 140',  // control point 2
+    '  '+rightEdge+', 150',      // bottom right
+
+    'L 105, 150',  // bottom left
+    'C  99, 140',  // control point 1
+    '   99, 110',  // control point 2
+    '  105, 100',  // bottom right
+    'z'            // close path (back to top left)
+  ];
+  draw.path(shapePath.join(','))
+    .attr('class', 'stroked whiteFill')
+    .transform({ x:xOffset, y:-75 });
+}
+
+spanKeys([6, 7]);
