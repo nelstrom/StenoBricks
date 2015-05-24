@@ -416,4 +416,6 @@ function spanKeys(keyList) {
     .transform({ x:xOffset, y:-75 });
 }
 
+spanKeys([3]);
 spanKeys([6, 7]);
+spanKeys([9, 11, 12]);
