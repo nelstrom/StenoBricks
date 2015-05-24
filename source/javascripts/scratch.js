@@ -96,6 +96,24 @@ var starKeyPoints = [
   'z'            // close path (back to top left)
 ];
 
+var numberKeyPoints = [
+  'M 100, 100',  // top left
+
+  // top edge
+  'L 150, 100',  // top middle
+
+  // top bump
+  'C 150, 080',  // control point 1
+  '  200, 080',  // control point 2
+  '  200, 100',  // top right
+
+  'L 200, 150',  // bottom right
+  'C 200, 210',
+  '  100, 210',
+  '  100, 150',  // bottom left
+  'z'            // close path (back to top left)
+];
+
 // draw A, E thumb keys
 [350, 550].forEach(function(offset) {
   var shade = offset === 350 ? 'lightFill' : 'darkFill';
@@ -144,6 +162,12 @@ var starKeyPoints = [
 var offset = 450;
 draw.path(starKeyPoints.join(','))
   .transform({ x:offset-50, y:yOffset })
+  .attr('class', 'stroked lightFill');
+
+// draw the number key:
+var offset = 450;
+draw.path(numberKeyPoints.join(','))
+  .transform({ x:-100, y:yOffset })
   .attr('class', 'stroked lightFill');
 
 // Add the text labels:
