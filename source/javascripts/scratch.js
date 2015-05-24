@@ -169,7 +169,7 @@ draw.path(numberKeyPoints.join(','))
 
 // Add the text labels:
 [
-  { letter: "#", offset: 70 },
+  { letter: "#", offset: 45 },
 
   { letter: "S", offset: 120 },
   { letter: "T", offset: 170 },
