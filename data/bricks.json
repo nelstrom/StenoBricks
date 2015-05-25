@@ -10,6 +10,11 @@
     "keystrokes": [4,5]
   },
   {
+    "id": "end-r",
+    "letter": "R",
+    "keystrokes": [14]
+  },
+  {
     "id": "end-b",
     "letter": "B",
     "keystrokes": [16]
