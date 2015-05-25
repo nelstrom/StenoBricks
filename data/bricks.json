@@ -90,6 +90,11 @@
     "keystrokes": [6,7]
   },
   {
+    "id": "end-l",
+    "letter": "L",
+    "keystrokes": [17]
+  },
+  {
     "id": "start-m",
     "letter": "M",
     "keystrokes": [4, 6]
