@@ -2,6 +2,11 @@
 
 body {
   background: #d4d4d4 url("../images/background.png");
-  text-align: center;
-  font-family: sans-serif; }
+  text-align: left;
+  font-family: sans-serif;
+}
 
+.brick-title,
+.definition-title {
+  text-align: center;
+}
