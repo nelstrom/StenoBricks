@@ -383,7 +383,6 @@ function drawMatcherPoints(positionList) {
 
     var keyInfo = keyInformation[position];
     var xOffset = keyInfo.left * 50 - 50;
-    console.log(xOffset);
 
     var width = keyInfo.right - keyInfo.left;
     var rightEdge = 95 + (width * 50);
@@ -447,8 +446,6 @@ function drawStroke(letter, keyList) {
   var width = last.right - first.left;
   var leftedge = (first.left * 50 + 50);
   var halfwidth = ((width*50)/2);
-  console.log('leftedge: ', leftedge);
-  console.log('halfwidth: ', halfwidth);
   var xOffset = leftedge + halfwidth;
 
   var text = draw.text(letter)
