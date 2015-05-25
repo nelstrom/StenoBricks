@@ -82,7 +82,7 @@ end
 
 if data.has_key? :definitions
   data.definitions.each do |definition|
-    proxy "/definition/#{definition.word}.html", "/definition.html",
+    proxy "/definitions/#{definition.word}.html", "/definition.html",
       locals: { word: definition.word, bricks: definition.bricks }, ignore: true
   end
 end
