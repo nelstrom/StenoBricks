@@ -774,5 +774,147 @@
       "soft-o",
       "end-r"
     ]
+  },
+  {
+    "word": "course",
+    "bricks": [
+      "start-k",
+      "soft-o",
+      "end-r",
+      "end-s"
+    ]
+  },
+  {
+    "word": "cover",
+    "bricks": [
+      "start-k",
+      "soft-o",
+      "end-f",
+      "end-r"
+    ]
+  },
+  {
+    "word": "hover",
+    "bricks": [
+      "start-h",
+      "soft-o",
+      "end-f",
+      "end-r"
+    ]
+  },
+  {
+    "word": "rabble",
+    "bricks": [
+      "start-r",
+      "soft-a",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "refer",
+    "bricks": [
+      "start-r",
+      "soft-e",
+      "end-f",
+      "end-r"
+    ]
+  },
+  {
+    "word": "rebel",
+    "bricks": [
+      "start-r",
+      "soft-e",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "robbed",
+    "bricks": [
+      "start-r",
+      "soft-o",
+      "end-b",
+      "end-d"
+    ]
+  },
+  {
+    "word": "rubbed",
+    "bricks": [
+      "start-r",
+      "soft-u",
+      "end-b",
+      "end-d"
+    ]
+  },
+  {
+    "word": "rubble",
+    "bricks": [
+      "start-r",
+      "soft-u",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "straps",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "start-r",
+      "soft-a",
+      "end-p",
+      "end-s"
+    ]
+  },
+  {
+    "word": "strapped",
+    "bricks": [
+      "start-s",
+      "soft-t",
+      "start-r",
+      "soft-a",
+      "end-p",
+      "end-d"
+    ]
+  },
+  {
+    "word": "trouble",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "soft-u",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "troubles",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "soft-u",
+      "end-b",
+      "end-l",
+      "end-s"
+    ]
+  },
+  {
+    "word": "waft",
+    "bricks": [
+      "start-w",
+      "soft-a",
+      "end-f",
+      "end-t"
+    ]
+  },
+  {
+    "word": "webbed",
+    "bricks": [
+      "start-w",
+      "soft-e",
+      "end-b",
+      "end-d"
+    ]
   }
 ]
