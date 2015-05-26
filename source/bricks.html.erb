@@ -4,6 +4,6 @@ title: Steno Bricks
 
 <ul class="brick-list">
   <% data.bricks.each do |brick| %>
-    <li><%= link_to brick.id, "/bricks/#{brick.id}/" %></li>
+    <li><%= link_to brick.id, "#{rootpath}/bricks/#{brick.id}/" %></li>
   <% end %>
 </ul>

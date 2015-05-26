@@ -4,7 +4,7 @@ title: Steno Definitions
 
 <ul class="definition-list">
   <% data.definitions.each do |definition| %>
-    <li><%= link_to definition.word, "/definitions/#{definition.word}/" %></li>
+    <li><%= link_to definition.word, "#{rootpath}/definitions/#{definition.word}/" %></li>
   <% end %>
 </ul>
 

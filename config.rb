@@ -73,6 +73,7 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+  set :rootpath, "/StenoBricks"
 end
 
 if data.has_key? :bricks
@@ -88,6 +89,8 @@ if data.has_key? :definitions
       locals: { word: definition.word, bricks: definition.bricks }, ignore: true
   end
 end
+
+set :rootpath, ""
 
 # Uncomment next line to use Pry as a console
 # ready { binding.pry }
