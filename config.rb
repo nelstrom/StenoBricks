@@ -1,3 +1,4 @@
+require 'pry'
 ###
 # Compass
 ###
@@ -87,3 +88,6 @@ if data.has_key? :definitions
       locals: { word: definition.word, bricks: definition.bricks }, ignore: true
   end
 end
+
+# Uncomment next line to use Pry as a console
+# ready { binding.pry }
