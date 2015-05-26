@@ -36,6 +36,7 @@
 # activate :automatic_image_sizes
 
 activate :directory_indexes
+set :relative_links, true
 
 # Reload the browser automatically whenever files change
 configure :development do
