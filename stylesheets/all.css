@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body {
+  background: #d4d4d4 url("../images/background.png");
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.brick-title,
+.definition-title {
+  text-align: center;
+}

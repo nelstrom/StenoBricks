@@ -1,0 +1,20 @@
+---
+title: Definition page
+---
+
+<h1 class="definition-title"><%= word %></h1>
+
+<div id="drawing"></div>
+<script src="/javascripts/scratch.js"></script>
+
+<script>
+  var brickDefs = <%= data.bricks.to_json %>;
+  var bricks = <%= bricks %>;
+
+  bricks.forEach(function(brick) { 
+    var def = _.findWhere(brickDefs, { id: brick });
+    if (!def) { return; }
+    drawStroke(def.letter, def.keystrokes);
+  });
+</script>
+

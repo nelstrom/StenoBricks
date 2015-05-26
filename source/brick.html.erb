@@ -1,0 +1,11 @@
+---
+title: Brick page
+---
+
+<h1 class="brick-title"><%= letter %></h1>
+
+<div id="drawing"></div>
+<script src="/javascripts/scratch.js"></script>
+<script>
+  drawStroke("<%= letter %>", <%= keystrokes %>);
+</script>
