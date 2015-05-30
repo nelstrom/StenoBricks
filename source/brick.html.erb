@@ -11,10 +11,14 @@ title: Brick page
 </script>
 
 
-<h2>Definitions that make use of this brick</h2>
+<% definitions = data.definitions.select { |defn| defn.bricks.include?(id) } %>
 
-<ul>
-  <% data.definitions.select { |defn| defn.bricks.include?(id) }.each do |definition| %>
-    <li><%= link_to definition.word, "#{rootpath}/definitions/#{definition.word}/" %></li>
-  <% end %>
-</ul>
+<% unless definitions.empty? %>
+  <h2>Definitions that make use of this brick</h2>
+
+  <ul>
+    <% definitions.sort_by(&:word).each do |definition| %>
+      <li><%= link_to definition.word, "#{rootpath}/definitions/#{definition.word}/" %></li>
+    <% end %>
+  </ul>
+<% end %>
