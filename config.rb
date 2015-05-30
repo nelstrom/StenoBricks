@@ -79,7 +79,7 @@ end
 if data.has_key? :bricks
   data.bricks.each do |brick|
     proxy "/bricks/#{brick.id}.html", "/brick.html",
-      locals: { letter: brick.letter, keystrokes: brick.keystrokes }, ignore: true
+      locals: { id: brick.id, letter: brick.letter, keystrokes: brick.keystrokes }, ignore: true
   end
 end
 

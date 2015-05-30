@@ -9,3 +9,12 @@ title: Brick page
 <script>
   drawStroke("<%= letter %>", <%= keystrokes %>);
 </script>
+
+
+<h2>Definitions that make use of this brick</h2>
+
+<ul>
+  <% data.definitions.select { |defn| defn.bricks.include?(id) }.each do |definition| %>
+    <li><%= link_to definition.word, "#{rootpath}/definitions/#{definition.word}/" %></li>
+  <% end %>
+</ul>
