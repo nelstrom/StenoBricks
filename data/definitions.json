@@ -3,7 +3,7 @@
     "word": "bar",
     "bricks": [
       "start-b",
-      "soft-a",
+      "short-a",
       "end-r"
     ]
   },
@@ -11,7 +11,7 @@
     "word": "half",
     "bricks": [
       "start-h",
-      "soft-a",
+      "short-a",
       "end-f"
     ]
   },
@@ -19,7 +19,7 @@
     "word": "hag",
     "bricks": [
       "start-h",
-      "soft-a",
+      "short-a",
       "end-g"
     ]
   },
@@ -27,7 +27,7 @@
     "word": "has",
     "bricks": [
       "start-h",
-      "soft-a",
+      "short-a",
       "end-z or has"
     ]
   },
@@ -35,7 +35,7 @@
     "word": "hat",
     "bricks": [
       "start-h",
-      "soft-a",
+      "short-a",
       "end-t"
     ]
   },
@@ -43,7 +43,7 @@
     "word": "had",
     "bricks": [
       "start-h",
-      "soft-a",
+      "short-a",
       "end-d"
     ]
   },
@@ -51,7 +51,7 @@
     "word": "head",
     "bricks": [
       "start-h",
-      "soft-e",
+      "short-e",
       "end-d"
     ]
   },
@@ -59,7 +59,7 @@
     "word": "hell",
     "bricks": [
       "start-h",
-      "soft-e",
+      "short-e",
       "end-l"
     ]
   },
@@ -67,7 +67,7 @@
     "word": "her",
     "bricks": [
       "start-h",
-      "soft-e",
+      "short-e",
       "end-r"
     ]
   },
@@ -75,7 +75,7 @@
     "word": "hog",
     "bricks": [
       "start-h",
-      "soft-o",
+      "short-o",
       "end-g"
     ]
   },
@@ -83,7 +83,7 @@
     "word": "hop",
     "bricks": [
       "start-h",
-      "soft-o",
+      "short-o",
       "end-p"
     ]
   },
@@ -91,7 +91,7 @@
     "word": "not",
     "bricks": [
       "start-n",
-      "soft-o",
+      "short-o",
       "end-t"
     ]
   },
@@ -99,7 +99,7 @@
     "word": "hub",
     "bricks": [
       "start-h",
-      "soft-u",
+      "short-u",
       "end-b"
     ]
   },
@@ -107,7 +107,7 @@
     "word": "huff",
     "bricks": [
       "start-h",
-      "soft-u",
+      "short-u",
       "end-f"
     ]
   },
@@ -115,7 +115,7 @@
     "word": "hug",
     "bricks": [
       "start-h",
-      "soft-u",
+      "short-u",
       "end-g"
     ]
   },
@@ -123,7 +123,7 @@
     "word": "hull",
     "bricks": [
       "start-h",
-      "soft-u",
+      "short-u",
       "end-l"
     ]
   },
@@ -131,7 +131,7 @@
     "word": "hut",
     "bricks": [
       "start-h",
-      "soft-u",
+      "short-u",
       "end-t"
     ]
   },
@@ -139,7 +139,7 @@
     "word": "cab",
     "bricks": [
       "start-k",
-      "soft-a",
+      "short-a",
       "end-b"
     ]
   },
@@ -147,7 +147,7 @@
     "word": "cad",
     "bricks": [
       "start-k",
-      "soft-a",
+      "short-a",
       "end-d"
     ]
   },
@@ -155,7 +155,7 @@
     "word": "cap",
     "bricks": [
       "start-k",
-      "soft-a",
+      "short-a",
       "end-p"
     ]
   },
@@ -163,7 +163,7 @@
     "word": "car",
     "bricks": [
       "start-k",
-      "soft-a",
+      "short-a",
       "end-r"
     ]
   },
@@ -171,7 +171,7 @@
     "word": "cat",
     "bricks": [
       "start-k",
-      "soft-a",
+      "short-a",
       "end-t"
     ]
   },
@@ -179,7 +179,7 @@
     "word": "keg",
     "bricks": [
       "start-k",
-      "soft-e",
+      "short-e",
       "end-g"
     ]
   },
@@ -187,7 +187,7 @@
     "word": "cod",
     "bricks": [
       "start-k",
-      "soft-o",
+      "short-o",
       "end-d"
     ]
   },
@@ -195,7 +195,7 @@
     "word": "cog",
     "bricks": [
       "start-k",
-      "soft-o",
+      "short-o",
       "end-g"
     ]
   },
@@ -203,7 +203,7 @@
     "word": "cop",
     "bricks": [
       "start-k",
-      "soft-o",
+      "short-o",
       "end-p"
     ]
   },
@@ -211,7 +211,7 @@
     "word": "core",
     "bricks": [
       "start-k",
-      "soft-o",
+      "short-o",
       "end-r"
     ]
   },
@@ -219,7 +219,7 @@
     "word": "cot",
     "bricks": [
       "start-k",
-      "soft-o",
+      "short-o",
       "end-t"
     ]
   },
@@ -227,7 +227,7 @@
     "word": "cub",
     "bricks": [
       "start-k",
-      "soft-u",
+      "short-u",
       "end-b"
     ]
   },
@@ -235,7 +235,7 @@
     "word": "cuff",
     "bricks": [
       "start-k",
-      "soft-u",
+      "short-u",
       "end-f"
     ]
   },
@@ -243,7 +243,7 @@
     "word": "cull",
     "bricks": [
       "start-k",
-      "soft-u",
+      "short-u",
       "end-l"
     ]
   },
@@ -251,7 +251,7 @@
     "word": "cup",
     "bricks": [
       "start-k",
-      "soft-u",
+      "short-u",
       "end-p"
     ]
   },
@@ -259,7 +259,7 @@
     "word": "cur",
     "bricks": [
       "start-k",
-      "soft-u",
+      "short-u",
       "end-r"
     ]
   },
@@ -267,7 +267,7 @@
     "word": "cuss",
     "bricks": [
       "start-k",
-      "soft-u",
+      "short-u",
       "end-s"
     ]
   },
@@ -275,7 +275,7 @@
     "word": "cut",
     "bricks": [
       "start-k",
-      "soft-u",
+      "short-u",
       "end-t"
     ]
   },
@@ -283,7 +283,7 @@
     "word": "pad",
     "bricks": [
       "start-p",
-      "soft-a",
+      "short-a",
       "end-d"
     ]
   },
@@ -291,7 +291,7 @@
     "word": "pal",
     "bricks": [
       "start-p",
-      "soft-a",
+      "short-a",
       "end-l"
     ]
   },
@@ -299,7 +299,7 @@
     "word": "pass",
     "bricks": [
       "start-p",
-      "soft-a",
+      "short-a",
       "end-s"
     ]
   },
@@ -307,7 +307,7 @@
     "word": "pat",
     "bricks": [
       "start-p",
-      "soft-a",
+      "short-a",
       "end-t"
     ]
   },
@@ -315,7 +315,7 @@
     "word": "peg",
     "bricks": [
       "start-p",
-      "soft-e",
+      "short-e",
       "end-g"
     ]
   },
@@ -323,7 +323,7 @@
     "word": "pep",
     "bricks": [
       "start-p",
-      "soft-e",
+      "short-e",
       "end-p"
     ]
   },
@@ -331,7 +331,7 @@
     "word": "pet",
     "bricks": [
       "start-p",
-      "soft-e",
+      "short-e",
       "end-t"
     ]
   },
@@ -339,7 +339,7 @@
     "word": "pod",
     "bricks": [
       "start-p",
-      "soft-o",
+      "short-o",
       "end-d"
     ]
   },
@@ -347,7 +347,7 @@
     "word": "poll",
     "bricks": [
       "start-p",
-      "soft-o",
+      "short-o",
       "end-l"
     ]
   },
@@ -355,7 +355,7 @@
     "word": "pour",
     "bricks": [
       "start-p",
-      "soft-o",
+      "short-o",
       "end-r"
     ]
   },
@@ -363,7 +363,7 @@
     "word": "pot",
     "bricks": [
       "start-p",
-      "soft-o",
+      "short-o",
       "end-t"
     ]
   },
@@ -371,7 +371,7 @@
     "word": "pub",
     "bricks": [
       "start-p",
-      "soft-u",
+      "short-u",
       "end-b"
     ]
   },
@@ -379,7 +379,7 @@
     "word": "puff",
     "bricks": [
       "start-p",
-      "soft-u",
+      "short-u",
       "end-f"
     ]
   },
@@ -387,7 +387,7 @@
     "word": "pug",
     "bricks": [
       "start-p",
-      "soft-u",
+      "short-u",
       "end-g"
     ]
   },
@@ -395,7 +395,7 @@
     "word": "pull",
     "bricks": [
       "start-p",
-      "soft-u",
+      "short-u",
       "end-ll"
     ]
   },
@@ -403,7 +403,7 @@
     "word": "pup",
     "bricks": [
       "start-p",
-      "soft-u",
+      "short-u",
       "end-p"
     ]
   },
@@ -411,7 +411,7 @@
     "word": "pus",
     "bricks": [
       "start-p",
-      "soft-u",
+      "short-u",
       "end-s"
     ]
   },
@@ -419,7 +419,7 @@
     "word": "put",
     "bricks": [
       "start-p",
-      "soft-u",
+      "short-u",
       "end-t"
     ]
   },
@@ -427,7 +427,7 @@
     "word": "rag",
     "bricks": [
       "start-r",
-      "soft-a",
+      "short-a",
       "end-g"
     ]
   },
@@ -435,7 +435,7 @@
     "word": "rap",
     "bricks": [
       "start-r",
-      "soft-a",
+      "short-a",
       "end-p"
     ]
   },
@@ -443,7 +443,7 @@
     "word": "rat",
     "bricks": [
       "start-r",
-      "soft-a",
+      "short-a",
       "end-t"
     ]
   },
@@ -451,7 +451,7 @@
     "word": "red",
     "bricks": [
       "start-r",
-      "soft-e",
+      "short-e",
       "end-d"
     ]
   },
@@ -459,7 +459,7 @@
     "word": "rob",
     "bricks": [
       "start-r",
-      "soft-o",
+      "short-o",
       "end-b"
     ]
   },
@@ -467,7 +467,7 @@
     "word": "rod",
     "bricks": [
       "start-r",
-      "soft-o",
+      "short-o",
       "end-d"
     ]
   },
@@ -475,7 +475,7 @@
     "word": "roll",
     "bricks": [
       "start-r",
-      "soft-o",
+      "short-o",
       "end-ll"
     ]
   },
@@ -483,7 +483,7 @@
     "word": "roar",
     "bricks": [
       "start-r",
-      "soft-o",
+      "short-o",
       "end-r"
     ]
   },
@@ -491,7 +491,7 @@
     "word": "rot",
     "bricks": [
       "start-r",
-      "soft-o",
+      "short-o",
       "end-t"
     ]
   },
@@ -499,7 +499,7 @@
     "word": "rub",
     "bricks": [
       "start-r",
-      "soft-u",
+      "short-u",
       "end-b"
     ]
   },
@@ -507,7 +507,7 @@
     "word": "rough",
     "bricks": [
       "start-r",
-      "soft-u",
+      "short-u",
       "end-f"
     ]
   },
@@ -515,7 +515,7 @@
     "word": "rug",
     "bricks": [
       "start-r",
-      "soft-u",
+      "short-u",
       "end-g"
     ]
   },
@@ -523,7 +523,7 @@
     "word": "rut",
     "bricks": [
       "start-r",
-      "soft-u",
+      "short-u",
       "end-t"
     ]
   },
@@ -531,7 +531,7 @@
     "word": "sad",
     "bricks": [
       "start-s",
-      "soft-a",
+      "short-a",
       "end-d"
     ]
   },
@@ -539,7 +539,7 @@
     "word": "sag",
     "bricks": [
       "start-s",
-      "soft-a",
+      "short-a",
       "end-g"
     ]
   },
@@ -547,7 +547,7 @@
     "word": "sap",
     "bricks": [
       "start-s",
-      "soft-a",
+      "short-a",
       "end-p"
     ]
   },
@@ -555,7 +555,7 @@
     "word": "sass",
     "bricks": [
       "start-s",
-      "soft-a",
+      "short-a",
       "end-s"
     ]
   },
@@ -563,7 +563,7 @@
     "word": "sat",
     "bricks": [
       "start-s",
-      "soft-a",
+      "short-a",
       "end-t"
     ]
   },
@@ -571,7 +571,7 @@
     "word": "sell",
     "bricks": [
       "start-s",
-      "soft-e",
+      "short-e",
       "end-l"
     ]
   },
@@ -579,7 +579,7 @@
     "word": "set",
     "bricks": [
       "start-s",
-      "soft-e",
+      "short-e",
       "end-t"
     ]
   },
@@ -587,7 +587,7 @@
     "word": "says",
     "bricks": [
       "start-s",
-      "soft-e",
+      "short-e",
       "end-z"
     ]
   },
@@ -595,7 +595,7 @@
     "word": "sob",
     "bricks": [
       "start-s",
-      "soft-o",
+      "short-o",
       "end-b"
     ]
   },
@@ -603,7 +603,7 @@
     "word": "sop",
     "bricks": [
       "start-s",
-      "soft-o",
+      "short-o",
       "end-p"
     ]
   },
@@ -611,7 +611,7 @@
     "word": "tab",
     "bricks": [
       "start-t",
-      "soft-a",
+      "short-a",
       "end-b"
     ]
   },
@@ -619,7 +619,7 @@
     "word": "tad",
     "bricks": [
       "start-t",
-      "soft-a",
+      "short-a",
       "end-d"
     ]
   },
@@ -627,7 +627,7 @@
     "word": "tag",
     "bricks": [
       "start-t",
-      "soft-a",
+      "short-a",
       "end-g"
     ]
   },
@@ -635,7 +635,7 @@
     "word": "tap",
     "bricks": [
       "start-t",
-      "soft-a",
+      "short-a",
       "end-p"
     ]
   },
@@ -643,7 +643,7 @@
     "word": "tar",
     "bricks": [
       "start-t",
-      "soft-a",
+      "short-a",
       "end-r"
     ]
   },
@@ -651,7 +651,7 @@
     "word": "tell",
     "bricks": [
       "start-t",
-      "soft-e",
+      "short-e",
       "end-l"
     ]
   },
@@ -659,7 +659,7 @@
     "word": "toll",
     "bricks": [
       "start-t",
-      "soft-o",
+      "short-o",
       "end-l"
     ]
   },
@@ -667,7 +667,7 @@
     "word": "top",
     "bricks": [
       "start-t",
-      "soft-o",
+      "short-o",
       "end-p"
     ]
   },
@@ -675,7 +675,7 @@
     "word": "tour",
     "bricks": [
       "start-t",
-      "soft-o",
+      "short-o",
       "end-r"
     ]
   },
@@ -683,7 +683,7 @@
     "word": "tub",
     "bricks": [
       "start-t",
-      "soft-u",
+      "short-u",
       "end-b"
     ]
   },
@@ -691,7 +691,7 @@
     "word": "tough",
     "bricks": [
       "start-t",
-      "soft-u",
+      "short-u",
       "end-f"
     ]
   },
@@ -699,7 +699,7 @@
     "word": "tug",
     "bricks": [
       "start-t",
-      "soft-u",
+      "short-u",
       "end-g"
     ]
   },
@@ -707,7 +707,7 @@
     "word": "wad",
     "bricks": [
       "start-w",
-      "soft-a",
+      "short-a",
       "end-d"
     ]
   },
@@ -715,7 +715,7 @@
     "word": "wag",
     "bricks": [
       "start-w",
-      "soft-a",
+      "short-a",
       "end-g"
     ]
   },
@@ -723,7 +723,7 @@
     "word": "war",
     "bricks": [
       "start-w",
-      "soft-a",
+      "short-a",
       "end-r"
     ]
   },
@@ -731,7 +731,7 @@
     "word": "was",
     "bricks": [
       "start-w",
-      "soft-u",
+      "short-u",
       "end-z"
     ]
   },
@@ -739,7 +739,7 @@
     "word": "web",
     "bricks": [
       "start-w",
-      "soft-e",
+      "short-e",
       "end-b"
     ]
   },
@@ -747,7 +747,7 @@
     "word": "wed",
     "bricks": [
       "start-w",
-      "soft-e",
+      "short-e",
       "end-d"
     ]
   },
@@ -755,7 +755,7 @@
     "word": "well",
     "bricks": [
       "start-w",
-      "soft-e",
+      "short-e",
       "end-l"
     ]
   },
@@ -763,7 +763,7 @@
     "word": "wet",
     "bricks": [
       "start-w",
-      "soft-e",
+      "short-e",
       "end-t"
     ]
   },
@@ -771,7 +771,7 @@
     "word": "wore",
     "bricks": [
       "start-w",
-      "soft-o",
+      "short-o",
       "end-r"
     ]
   },
@@ -779,7 +779,7 @@
     "word": "course",
     "bricks": [
       "start-k",
-      "soft-o",
+      "short-o",
       "end-r",
       "end-s"
     ]
@@ -788,7 +788,7 @@
     "word": "cover",
     "bricks": [
       "start-k",
-      "soft-o",
+      "short-o",
       "end-v",
       "end-r"
     ]
@@ -797,7 +797,7 @@
     "word": "hover",
     "bricks": [
       "start-h",
-      "soft-o",
+      "short-o",
       "end-v",
       "end-r"
     ]
@@ -806,7 +806,7 @@
     "word": "rabble",
     "bricks": [
       "start-r",
-      "soft-a",
+      "short-a",
       "end-b",
       "end-l"
     ]
@@ -815,7 +815,7 @@
     "word": "refer",
     "bricks": [
       "start-r",
-      "soft-e",
+      "short-e",
       "end-f",
       "end-r"
     ]
@@ -824,7 +824,7 @@
     "word": "rebel",
     "bricks": [
       "start-r",
-      "soft-e",
+      "short-e",
       "end-b",
       "end-l"
     ]
@@ -833,7 +833,7 @@
     "word": "robbed",
     "bricks": [
       "start-r",
-      "soft-o",
+      "short-o",
       "end-b",
       "end-d"
     ]
@@ -842,7 +842,7 @@
     "word": "rubbed",
     "bricks": [
       "start-r",
-      "soft-u",
+      "short-u",
       "end-b",
       "end-d"
     ]
@@ -851,7 +851,7 @@
     "word": "rubble",
     "bricks": [
       "start-r",
-      "soft-u",
+      "short-u",
       "end-b",
       "end-l"
     ]
@@ -862,7 +862,7 @@
       "start-s",
       "start-t",
       "start-r",
-      "soft-a",
+      "short-a",
       "end-p",
       "end-s"
     ]
@@ -871,9 +871,9 @@
     "word": "strapped",
     "bricks": [
       "start-s",
-      "soft-t",
+      "short-t",
       "start-r",
-      "soft-a",
+      "short-a",
       "end-p",
       "end-d"
     ]
@@ -883,7 +883,7 @@
     "bricks": [
       "start-t",
       "start-r",
-      "soft-u",
+      "short-u",
       "end-b",
       "end-l"
     ]
@@ -893,7 +893,7 @@
     "bricks": [
       "start-t",
       "start-r",
-      "soft-u",
+      "short-u",
       "end-b",
       "end-l",
       "end-s"
@@ -903,7 +903,7 @@
     "word": "waft",
     "bricks": [
       "start-w",
-      "soft-a",
+      "short-a",
       "end-f",
       "end-t"
     ]
@@ -912,7 +912,7 @@
     "word": "webbed",
     "bricks": [
       "start-w",
-      "soft-e",
+      "short-e",
       "end-b",
       "end-d"
     ]
@@ -922,7 +922,7 @@
     "bricks": [
       "start-s",
       "start-t",
-      "soft-i",
+      "short-i",
       "end-l"
     ]
   },
@@ -930,7 +930,7 @@
     "word": "rig",
     "bricks": [
       "start-r",
-      "soft-i",
+      "short-i",
       "end-g"
     ]
   },
@@ -938,7 +938,7 @@
     "word": "hit",
     "bricks": [
       "start-h",
-      "soft-i",
+      "short-i",
       "end-t"
     ]
   },
@@ -946,7 +946,7 @@
     "word": "sip",
     "bricks": [
       "start-s",
-      "soft-i",
+      "short-i",
       "end-p"
     ]
   },
@@ -954,7 +954,7 @@
     "word": "sir",
     "bricks": [
       "start-s",
-      "soft-i",
+      "short-i",
       "end-r"
     ]
   },
@@ -963,7 +963,7 @@
     "bricks": [
       "start-s",
       "start-k",
-      "soft-i",
+      "short-i",
       "end-r",
       "end-t"
     ]
@@ -972,7 +972,7 @@
     "word": "syrup",
     "bricks": [
       "start-s",
-      "soft-i",
+      "short-i",
       "end-r",
       "end-p"
     ]
@@ -982,7 +982,7 @@
     "bricks": [
       "start-t",
       "start-r",
-      "soft-i",
+      "short-i",
       "end-s",
       "end-t"
     ]
@@ -991,7 +991,7 @@
     "word": "pig",
     "bricks": [
       "start-p",
-      "soft-i",
+      "short-i",
       "end-g"
     ]
   },
@@ -999,7 +999,7 @@
     "word": "rift",
     "bricks": [
       "start-r",
-      "soft-i",
+      "short-i",
       "end-f",
       "end-t"
     ]
@@ -1010,7 +1010,7 @@
       "start-s",
       "start-k",
       "start-r",
-      "soft-i",
+      "short-i",
       "end-b",
       "end-l"
     ]
@@ -1019,7 +1019,7 @@
     "word": "rid",
     "bricks": [
       "start-r",
-      "soft-i",
+      "short-i",
       "end-d"
     ]
   },
@@ -1027,7 +1027,7 @@
     "word": "river",
     "bricks": [
       "start-r",
-      "soft-i",
+      "short-i",
       "end-f",
       "end-r"
     ]
@@ -1036,7 +1036,7 @@
     "word": "hid",
     "bricks": [
       "start-h",
-      "soft-i",
+      "short-i",
       "end-d"
     ]
   },
@@ -1044,7 +1044,7 @@
     "word": "wilt",
     "bricks": [
       "start-w",
-      "soft-i",
+      "short-i",
       "end-l",
       "end-t"
     ]
@@ -1053,7 +1053,7 @@
     "word": "wig",
     "bricks": [
       "start-w",
-      "soft-i",
+      "short-i",
       "end-g"
     ]
   },
@@ -1061,7 +1061,7 @@
     "word": "wit",
     "bricks": [
       "start-w",
-      "soft-i",
+      "short-i",
       "end-t"
     ]
   },
@@ -1070,7 +1070,7 @@
     "bricks": [
       "start-s",
       "start-p",
-      "soft-i",
+      "short-i",
       "end-l"
     ]
   },
@@ -1078,7 +1078,7 @@
     "word": "past",
     "bricks": [
       "start-p",
-      "soft-a",
+      "short-a",
       "end-f-as-s",
       "end-t"
     ]
@@ -1087,7 +1087,7 @@
     "word": "castle",
     "bricks": [
       "start-k",
-      "soft-a",
+      "short-a",
       "end-f-as-s",
       "end-l"
     ]
@@ -1098,7 +1098,7 @@
       "start-s",
       "start-t",
       "start-r",
-      "soft-e",
+      "short-e",
       "end-f-as-s",
       "end-d"
     ]
@@ -1108,7 +1108,7 @@
     "bricks": [
       "start-p",
       "start-r",
-      "soft-e",
+      "short-e",
       "end-f-as-s",
       "end-d"
     ]
@@ -1117,7 +1117,7 @@
     "word": "passed",
     "bricks": [
       "start-p",
-      "soft-a",
+      "short-a",
       "end-f-as-s",
       "end-d"
     ]
@@ -1126,7 +1126,7 @@
     "word": "test",
     "bricks": [
       "start-t",
-      "soft-e",
+      "short-e",
       "end-f-as-s",
       "end-t"
     ]
@@ -1135,7 +1135,7 @@
     "word": "tussle",
     "bricks": [
       "start-t",
-      "soft-u",
+      "short-u",
       "end-f-as-s",
       "end-l"
     ]
@@ -1145,7 +1145,7 @@
     "bricks": [
       "start-k",
       "start-r",
-      "soft-o",
+      "short-o",
       "end-f-as-s",
       "end-d"
     ]
@@ -1154,7 +1154,7 @@
     "word": "several",
     "bricks": [
       "start-s",
-      "soft-e",
+      "short-e",
       "end-v",
       "end-r",
       "end-l"
@@ -1166,14 +1166,14 @@
       "start-s",
       "start-p",
       "start-r",
-      "soft-e",
+      "short-e",
       "end-s"
     ]
   },
   {
     "word": "averages",
     "bricks": [
-      "soft-a",
+      "short-a",
       "end-v",
       "end-r",
       "end-g",
@@ -1184,7 +1184,7 @@
     "word": "tablet",
     "bricks": [
       "start-t",
-      "soft-a",
+      "short-a",
       "end-b",
       "end-l",
       "end-t"
@@ -1194,7 +1194,7 @@
     "word": "tepid",
     "bricks": [
       "start-t",
-      "soft-e",
+      "short-e",
       "end-p",
       "end-d"
     ]
@@ -1204,7 +1204,7 @@
     "bricks": [
       "start-s",
       "start-p",
-      "soft-e",
+      "short-e",
       "end-r",
       "end-b"
     ]
@@ -1214,7 +1214,7 @@
     "bricks": [
       "start-s",
       "start-k",
-      "soft-a",
+      "short-a",
       "end-f",
       "end-l",
       "end-d"
@@ -1225,7 +1225,7 @@
     "bricks": [
       "start-s",
       "start-k",
-      "soft-a",
+      "short-a",
       "end-r",
       "end-l",
       "end-t"
@@ -1236,7 +1236,7 @@
     "bricks": [
       "start-s",
       "start-t",
-      "soft-a",
+      "short-a",
       "end-r",
       "end-l",
       "end-t"
@@ -1247,7 +1247,7 @@
     "bricks": [
       "start-s",
       "start-t",
-      "soft-a",
+      "short-a",
       "end-r",
       "end-t",
       "end-d"
@@ -1257,7 +1257,7 @@
     "word": "ruffled",
     "bricks": [
       "start-r",
-      "soft-u",
+      "short-u",
       "end-f",
       "end-l",
       "end-d"
@@ -1268,7 +1268,7 @@
     "bricks": [
       "start-s",
       "start-k",
-      "soft-u",
+      "short-u",
       "end-f",
       "end-l",
       "end-d"
@@ -1279,7 +1279,7 @@
     "bricks": [
       "start-k",
       "start-r",
-      "soft-u",
+      "short-u",
       "end-p",
       "end-t",
       "end-d"
@@ -1290,7 +1290,7 @@
     "bricks": [
       "start-s",
       "start-p",
-      "soft-o",
+      "short-o",
       "end-t",
       "end-d"
     ]
@@ -1299,7 +1299,7 @@
     "word": "horrible",
     "bricks": [
       "start-h",
-      "soft-o",
+      "short-o",
       "end-r",
       "end-b",
       "end-l"
@@ -1308,7 +1308,7 @@
   {
     "word": "effort",
     "bricks": [
-      "soft-e",
+      "short-e",
       "end-f",
       "end-r",
       "end-t"
@@ -1317,7 +1317,7 @@
   {
     "word": "edit",
     "bricks": [
-      "soft-e",
+      "short-e",
       "end-t",
       "end-d"
     ],
@@ -1329,7 +1329,7 @@
   {
     "word": "elves",
     "bricks": [
-      "soft-e",
+      "short-e",
       "end-v",
       "end-l",
       "end-s"
@@ -1344,7 +1344,7 @@
     "bricks": [
       "start-t",
       "start-w",
-      "soft-e",
+      "short-e",
       "end-v",
       "end-l"
     ],
@@ -1358,7 +1358,7 @@
     "bricks": [
       "start-k",
       "start-r",
-      "soft-e",
+      "short-e",
       "end-t",
       "end-d"
     ],
@@ -1371,7 +1371,7 @@
     "word": "portal",
     "bricks": [
       "start-p",
-      "soft-o",
+      "short-o",
       "end-r",
       "end-l",
       "end-t"
@@ -1384,7 +1384,7 @@
   {
     "word": "arch",
     "bricks": [
-      "soft-a",
+      "short-a",
       "end-rch"
     ]
   },
@@ -1392,7 +1392,7 @@
     "word": "ranch",
     "bricks": [
       "start-r",
-      "soft-a",
+      "short-a",
       "end-nch"
     ]
   },
@@ -1400,7 +1400,7 @@
     "word": "hunch",
     "bricks": [
       "start-h",
-      "soft-u",
+      "short-u",
       "end-nch"
     ]
   },
@@ -1408,7 +1408,7 @@
     "word": "porch",
     "bricks": [
       "start-p",
-      "soft-o",
+      "short-o",
       "end-rch"
     ]
   },
@@ -1417,7 +1417,7 @@
     "bricks": [
       "start-k",
       "start-r",
-      "soft-u",
+      "short-u",
       "end-nch"
     ]
   },
@@ -1425,7 +1425,7 @@
     "word": "quench",
     "bricks": [
       "start-q",
-      "soft-e",
+      "short-e",
       "end-nch"
     ]
   },
@@ -1433,7 +1433,7 @@
     "word": "torch",
     "bricks": [
       "start-t",
-      "soft-o",
+      "short-o",
       "end-rch"
     ]
   },
@@ -1442,7 +1442,7 @@
     "bricks": [
       "start-t",
       "start-r",
-      "soft-e",
+      "short-e",
       "end-nch"
     ]
   },
@@ -1451,7 +1451,7 @@
     "bricks": [
       "start-s",
       "start-t",
-      "soft-e",
+      "short-e",
       "end-nch"
     ]
   },
@@ -1460,7 +1460,7 @@
     "bricks": [
       "start-s",
       "start-t",
-      "soft-a",
+      "short-a",
       "end-rch"
     ]
   },
@@ -1468,7 +1468,7 @@
     "word": "finch",
     "bricks": [
       "start-f",
-      "soft-i",
+      "short-i",
       "end-nch"
     ]
   },
@@ -1477,7 +1477,7 @@
     "bricks": [
       "start-k",
       "start-l",
-      "soft-e",
+      "short-e",
       "end-nch"
     ]
   },
@@ -1486,7 +1486,7 @@
     "bricks": [
       "start-b",
       "start-r",
-      "soft-a",
+      "short-a",
       "end-nch"
     ]
   },
@@ -1494,7 +1494,7 @@
     "word": "march",
     "bricks": [
       "start-m",
-      "soft-a",
+      "short-a",
       "end-rch"
     ]
   },
@@ -1502,7 +1502,7 @@
     "word": "lurch",
     "bricks": [
       "start-l",
-      "soft-u",
+      "short-u",
       "end-rch"
     ]
   },
@@ -1510,7 +1510,7 @@
     "word": "lynch",
     "bricks": [
       "start-l",
-      "soft-i",
+      "short-i",
       "end-nch"
     ]
   },
@@ -1518,7 +1518,7 @@
     "word": "birch",
     "bricks": [
       "start-b",
-      "soft-i",
+      "short-i",
       "end-rch"
     ]
   },
@@ -1527,7 +1527,7 @@
     "bricks": [
       "start-b",
       "start-r",
-      "soft-u",
+      "short-u",
       "end-nch"
     ]
   },
@@ -1535,7 +1535,7 @@
     "word": "church",
     "bricks": [
       "start-ch",
-      "soft-u",
+      "short-u",
       "end-rch"
     ]
   },
@@ -1544,7 +1544,7 @@
     "bricks": [
       "start-d",
       "start-r",
-      "soft-e",
+      "short-e",
       "end-nch"
     ]
   }

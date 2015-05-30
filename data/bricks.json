@@ -1,6 +1,6 @@
 [
   {
-    "id": "soft-a",
+    "id": "short-a",
     "letter": "A",
     "keystrokes": [8]
   },
@@ -35,7 +35,7 @@
     "keystrokes": [21]
   },
   {
-    "id": "soft-e",
+    "id": "short-e",
     "letter": "E",
     "keystrokes": [11]
   },
@@ -65,7 +65,7 @@
     "keystrokes": [6]
   },
   {
-    "id": "soft-i",
+    "id": "short-i",
     "letter": "I",
     "keystrokes": [11, 12]
   },
@@ -115,7 +115,7 @@
     "keystrokes": [15, 16]
   },
   {
-    "id": "soft-o",
+    "id": "short-o",
     "letter": "O",
     "keystrokes": [9]
   },
@@ -165,7 +165,7 @@
     "keystrokes": [19]
   },
   {
-    "id": "soft-u",
+    "id": "short-u",
     "letter": "U",
     "keystrokes": [12]
   },
