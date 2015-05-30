@@ -1073,5 +1073,81 @@
       "soft-i",
       "end-l"
     ]
+  },
+  {
+    "word": "past",
+    "bricks": [
+      "start-p",
+      "soft-a",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "castle",
+    "bricks": [
+      "start-k",
+      "soft-a",
+      "end-f-as-s",
+      "end-l"
+    ]
+  },
+  {
+    "word": "stressed",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "start-r",
+      "soft-e",
+      "end-f-as-s",
+      "end-d"
+    ]
+  },
+  {
+    "word": "pressed",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "soft-e",
+      "end-f-as-s",
+      "end-d"
+    ]
+  },
+  {
+    "word": "passed",
+    "bricks": [
+      "start-p",
+      "soft-a",
+      "end-f-as-s",
+      "end-d"
+    ]
+  },
+  {
+    "word": "test",
+    "bricks": [
+      "start-t",
+      "soft-e",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "tussle",
+    "bricks": [
+      "start-t",
+      "soft-u",
+      "end-f-as-s",
+      "end-l"
+    ]
+  },
+  {
+    "word": "crossed",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "soft-o",
+      "end-f-as-s",
+      "end-d"
+    ]
   }
 ]

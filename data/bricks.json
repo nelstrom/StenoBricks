@@ -150,6 +150,11 @@
     "keystrokes": [20]
   },
   {
+    "id": "end-f-as-s",
+    "letter": "S",
+    "keystrokes": [13]
+  },
+  {
     "id": "start-t",
     "letter": "T",
     "keystrokes": [2]
