@@ -1149,5 +1149,169 @@
       "end-f-as-s",
       "end-d"
     ]
+  },
+  {
+    "word": "several",
+    "bricks": [
+      "start-s",
+      "soft-e",
+      "end-v",
+      "end-r",
+      "end-l"
+    ]
+  },
+  {
+    "word": "suppress",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "soft-e",
+      "end-s"
+    ]
+  },
+  {
+    "word": "averages",
+    "bricks": [
+      "soft-a",
+      "end-v",
+      "end-r",
+      "end-g",
+      "end-s"
+    ]
+  },
+  {
+    "word": "tablet",
+    "bricks": [
+      "start-t",
+      "soft-a",
+      "end-b",
+      "end-l",
+      "end-t"
+    ]
+  },
+  {
+    "word": "tepid",
+    "bricks": [
+      "start-t",
+      "soft-e",
+      "end-p",
+      "end-d"
+    ]
+  },
+  {
+    "word": "superb",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "soft-e",
+      "end-r",
+      "end-b"
+    ]
+  },
+  {
+    "word": "scaffold",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "soft-a",
+      "end-f",
+      "end-l",
+      "end-d"
+    ]
+  },
+  {
+    "word": "scarlet",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "soft-a",
+      "end-r",
+      "end-l",
+      "end-t"
+    ]
+  },
+  {
+    "word": "starlet",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "soft-a",
+      "end-r",
+      "end-l",
+      "end-t"
+    ]
+  },
+  {
+    "word": "started",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "soft-a",
+      "end-r",
+      "end-t",
+      "end-d"
+    ]
+  },
+  {
+    "word": "ruffled",
+    "bricks": [
+      "start-r",
+      "soft-u",
+      "end-f",
+      "end-l",
+      "end-d"
+    ]
+  },
+  {
+    "word": "scuffled",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "soft-u",
+      "end-f",
+      "end-l",
+      "end-d"
+    ]
+  },
+  {
+    "word": "corrupted",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "soft-u",
+      "end-p",
+      "end-t",
+      "end-d"
+    ]
+  },
+  {
+    "word": "spotted",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "soft-o",
+      "end-t",
+      "end-d"
+    ]
+  },
+  {
+    "word": "horrible",
+    "bricks": [
+      "start-h",
+      "soft-o",
+      "end-r",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "effort",
+    "bricks": [
+      "soft-e",
+      "end-f",
+      "end-r",
+      "end-t"
+    ]
   }
 ]
