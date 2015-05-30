@@ -1320,6 +1320,10 @@
       "soft-e",
       "end-t",
       "end-d"
+    ],
+    "inversions": [
+      "end-t",
+      "end-d"
     ]
   },
   {
@@ -1329,6 +1333,10 @@
       "end-v",
       "end-l",
       "end-s"
+    ],
+    "inversions": [
+      "end-v",
+      "end-l"
     ]
   },
   {
@@ -1337,6 +1345,10 @@
       "start-t",
       "start-w",
       "soft-e",
+      "end-v",
+      "end-l"
+    ],
+    "inversions": [
       "end-v",
       "end-l"
     ]
@@ -1349,6 +1361,10 @@
       "soft-e",
       "end-t",
       "end-d"
+    ],
+    "inversions": [
+      "end-t",
+      "end-d"
     ]
   },
   {
@@ -1357,6 +1373,10 @@
       "start-p",
       "soft-o",
       "end-r",
+      "end-l",
+      "end-t"
+    ],
+    "inversions": [
       "end-l",
       "end-t"
     ]
