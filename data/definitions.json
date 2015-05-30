@@ -1313,5 +1313,52 @@
       "end-r",
       "end-t"
     ]
+  },
+  {
+    "word": "edit",
+    "bricks": [
+      "soft-e",
+      "end-t",
+      "end-d"
+    ]
+  },
+  {
+    "word": "elves",
+    "bricks": [
+      "soft-e",
+      "end-v",
+      "end-l",
+      "end-s"
+    ]
+  },
+  {
+    "word": "twelve",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "soft-e",
+      "end-v",
+      "end-l"
+    ]
+  },
+  {
+    "word": "credit",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "soft-e",
+      "end-t",
+      "end-d"
+    ]
+  },
+  {
+    "word": "portal",
+    "bricks": [
+      "start-p",
+      "soft-o",
+      "end-r",
+      "end-l",
+      "end-t"
+    ]
   }
 ]
