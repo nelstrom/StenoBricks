@@ -9,6 +9,7 @@ For each stroke, the Brick Chart shows how individual keypresses map to the phon
 * definitions - one or more strokes that produce a word
 * cheat sheets - a list of bricks that are grouped by some theme
 * words - for each word, provide a list of definitions that produce that word
+* keys - for each key on the keyboard, list the bricks that use that key
 
 ### Cheat sheets
 
