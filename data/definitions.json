@@ -1380,5 +1380,172 @@
       "end-l",
       "end-t"
     ]
+  },
+  {
+    "word": "arch",
+    "bricks": [
+      "soft-a",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "ranch",
+    "bricks": [
+      "start-r",
+      "soft-a",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "hunch",
+    "bricks": [
+      "start-h",
+      "soft-u",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "porch",
+    "bricks": [
+      "start-p",
+      "soft-o",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "crunch",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "soft-u",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "quench",
+    "bricks": [
+      "start-q",
+      "soft-e",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "torch",
+    "bricks": [
+      "start-t",
+      "soft-o",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "trench",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "soft-e",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "stench",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "soft-e",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "starch",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "soft-a",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "finch",
+    "bricks": [
+      "start-f",
+      "soft-i",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "clench",
+    "bricks": [
+      "start-k",
+      "start-l",
+      "soft-e",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "branch",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "soft-a",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "march",
+    "bricks": [
+      "start-m",
+      "soft-a",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "lurch",
+    "bricks": [
+      "start-l",
+      "soft-u",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "lynch",
+    "bricks": [
+      "start-l",
+      "soft-i",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "birch",
+    "bricks": [
+      "start-b",
+      "soft-i",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "brunch",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "soft-u",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "church",
+    "bricks": [
+      "start-ch",
+      "soft-u",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "drench",
+    "bricks": [
+      "start-d",
+      "start-r",
+      "soft-e",
+      "end-nch"
+    ]
   }
 ]
