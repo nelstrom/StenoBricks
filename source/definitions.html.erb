@@ -3,7 +3,7 @@ title: Steno Definitions
 ---
 
 <ul class="definition-list">
-  <% data.definitions.each do |definition| %>
+  <% data.definitions.sort_by(&:word).each do |definition| %>
     <li><%= link_to definition.word, "#{rootpath}/definitions/#{definition.word}/" %></li>
   <% end %>
 </ul>
