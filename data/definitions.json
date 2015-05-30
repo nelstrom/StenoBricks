@@ -916,5 +916,162 @@
       "end-b",
       "end-d"
     ]
+  },
+  {
+    "word": "still",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "soft-i",
+      "end-l"
+    ]
+  },
+  {
+    "word": "rig",
+    "bricks": [
+      "start-r",
+      "soft-i",
+      "end-g"
+    ]
+  },
+  {
+    "word": "hit",
+    "bricks": [
+      "start-h",
+      "soft-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "sip",
+    "bricks": [
+      "start-s",
+      "soft-i",
+      "end-p"
+    ]
+  },
+  {
+    "word": "sir",
+    "bricks": [
+      "start-s",
+      "soft-i",
+      "end-r"
+    ]
+  },
+  {
+    "word": "skirt",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "soft-i",
+      "end-r",
+      "end-t"
+    ]
+  },
+  {
+    "word": "syrup",
+    "bricks": [
+      "start-s",
+      "soft-i",
+      "end-r",
+      "end-p"
+    ]
+  },
+  {
+    "word": "tryst",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "soft-i",
+      "end-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "pig",
+    "bricks": [
+      "start-p",
+      "soft-i",
+      "end-g"
+    ]
+  },
+  {
+    "word": "rift",
+    "bricks": [
+      "start-r",
+      "soft-i",
+      "end-f",
+      "end-t"
+    ]
+  },
+  {
+    "word": "scribble",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "start-r",
+      "soft-i",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "rid",
+    "bricks": [
+      "start-r",
+      "soft-i",
+      "end-d"
+    ]
+  },
+  {
+    "word": "river",
+    "bricks": [
+      "start-r",
+      "soft-i",
+      "end-f",
+      "end-r"
+    ]
+  },
+  {
+    "word": "hid",
+    "bricks": [
+      "start-h",
+      "soft-i",
+      "end-d"
+    ]
+  },
+  {
+    "word": "wilt",
+    "bricks": [
+      "start-w",
+      "soft-i",
+      "end-l",
+      "end-t"
+    ]
+  },
+  {
+    "word": "wig",
+    "bricks": [
+      "start-w",
+      "soft-i",
+      "end-g"
+    ]
+  },
+  {
+    "word": "wit",
+    "bricks": [
+      "start-w",
+      "soft-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "spill",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "soft-i",
+      "end-l"
+    ]
   }
 ]
