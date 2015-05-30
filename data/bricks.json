@@ -208,5 +208,20 @@
     "id": "end-z",
     "letter": "Z",
     "keystrokes": [22]
+  },
+  {
+    "id": "end-rch",
+    "letter": "RCH",
+    "keystrokes": [13,14,15,16]
+  },
+  {
+    "id": "end-nch",
+    "letter": "NCH",
+    "keystrokes": [13,14,15,16]
+  },
+  {
+    "id": "start-ch",
+    "letter": "CH",
+    "keystrokes": [3,6]
   }
 ]
