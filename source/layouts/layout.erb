@@ -7,7 +7,13 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Steno Cluster Plots" %></title>
+    <% if defined?(letter) %>
+      <title><%= current_page.data.title %>: <%= letter %></title>
+    <% elsif defined?(word) %>
+      <title><%= word %></title>
+    <% else %>
+      <title><%= current_page.data.title %></title>
+    <% end %>
     
     <%= stylesheet_link_tag "normalize", "all", "diagram" %>
     <%= javascript_include_tag  "svg", "lodash" %>
