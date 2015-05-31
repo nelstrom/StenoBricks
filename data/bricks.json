@@ -228,5 +228,10 @@
     "id": "start-ch",
     "letter": "CH",
     "keystrokes": [3,6]
+  },
+  {
+    "id": "long-a",
+    "letter": "AY",
+    "keystrokes": [8,11,12]
   }
 ]

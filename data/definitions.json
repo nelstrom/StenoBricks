@@ -1547,5 +1547,131 @@
       "short-e",
       "end-nch"
     ]
+  },
+  {
+    "word": "aids",
+    "bricks": [
+      "long-a",
+      "end-d",
+      "end-z"
+    ]
+  },
+  {
+    "word": "ace",
+    "bricks": [
+      "long-a",
+      "end-s"
+    ]
+  },
+  {
+    "word": "ate",
+    "bricks": [
+      "long-a",
+      "end-t"
+    ]
+  },
+  {
+    "word": "able",
+    "bricks": [
+      "long-a",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "ape",
+    "bricks": [
+      "long-a",
+      "end-p"
+    ]
+  },
+  {
+    "word": "raid",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-d"
+    ]
+  },
+  {
+    "word": "raise",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-z"
+    ]
+  },
+  {
+    "word": "rail",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-l"
+    ]
+  },
+  {
+    "word": "rate",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-t"
+    ]
+  },
+  {
+    "word": "race",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-s"
+    ]
+  },
+  {
+    "word": "pay",
+    "bricks": [
+      "start-p",
+      "long-a"
+    ]
+  },
+  {
+    "word": "paid",
+    "bricks": [
+      "start-p",
+      "long-a",
+      "end-d"
+    ]
+  },
+  {
+    "word": "pace",
+    "bricks": [
+      "start-p",
+      "long-a",
+      "end-s"
+    ]
+  },
+  {
+    "word": "tape",
+    "bricks": [
+      "start-t",
+      "long-a",
+      "end-p"
+    ]
+  },
+  {
+    "word": "spray",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "long-a"
+    ]
+  },
+  {
+    "word": "praise",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-a",
+      "end-z"
+    ]
   }
 ]
