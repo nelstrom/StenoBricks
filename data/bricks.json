@@ -238,5 +238,10 @@
     "id": "long-e",
     "letter": "EE",
     "keystrokes": [8,9,11]
+  },
+  {
+    "id": "long-i",
+    "letter": "AYE",
+    "keystrokes": [8,9,11,12]
   }
 ]

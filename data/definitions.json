@@ -1840,5 +1840,128 @@
       "long-e",
       "end-t"
     ]
+  },
+  {
+    "word": "ire",
+    "bricks": [
+      "long-i",
+      "end-r"
+    ]
+  },
+  {
+    "word": "I'll",
+    "bricks": [
+      "long-i",
+      "end-l"
+    ]
+  },
+  {
+    "word": "ice",
+    "bricks": [
+      "long-i",
+      "end-s"
+    ]
+  },
+  {
+    "word": "rifle",
+    "bricks": [
+      "start-r",
+      "long-i",
+      "end-f",
+      "end-l"
+    ]
+  },
+  {
+    "word": "ripe",
+    "bricks": [
+      "start-r",
+      "long-i",
+      "end-p"
+    ]
+  },
+  {
+    "word": "right",
+    "bricks": [
+      "start-r",
+      "long-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "height",
+    "bricks": [
+      "start-h",
+      "long-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "wild",
+    "bricks": [
+      "start-w",
+      "long-i",
+      "end-l",
+      "end-d"
+    ]
+  },
+  {
+    "word": "pipe",
+    "bricks": [
+      "start-p",
+      "long-i",
+      "end-p"
+    ]
+  },
+  {
+    "word": "pride",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-i",
+      "end-d"
+    ]
+  },
+  {
+    "word": "prize",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-i",
+      "end-z"
+    ]
+  },
+  {
+    "word": "kite",
+    "bricks": [
+      "start-k",
+      "long-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "type",
+    "bricks": [
+      "start-t",
+      "long-i",
+      "end-p"
+    ]
+  },
+  {
+    "word": "spite",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "long-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "drive",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-i",
+      "end-v"
+    ]
   }
 ]
