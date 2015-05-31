@@ -248,5 +248,10 @@
     "id": "long-o",
     "letter": "OH",
     "keystrokes": [9,11]
+  },
+  {
+    "id": "long-u",
+    "letter": "EW",
+    "keystrokes": [8,9,12]
   }
 ]

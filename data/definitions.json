@@ -2136,5 +2136,148 @@
       "end-l",
       "end-d"
     ]
+  },
+  {
+    "word": "cube",
+    "bricks": [
+      "start-k",
+      "long-u",
+      "end-b"
+    ]
+  },
+  {
+    "word": "use",
+    "bricks": [
+      "long-u",
+      "end-z"
+    ]
+  },
+  {
+    "word": "rude",
+    "bricks": [
+      "start-r",
+      "long-u",
+      "end-d"
+    ]
+  },
+  {
+    "word": "rule",
+    "bricks": [
+      "start-r",
+      "long-u",
+      "end-l"
+    ]
+  },
+  {
+    "word": "pure",
+    "bricks": [
+      "start-p",
+      "long-u",
+      "end-r"
+    ]
+  },
+  {
+    "word": "prude",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-u",
+      "end-d"
+    ]
+  },
+  {
+    "word": "Proust",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-u",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "cure",
+    "bricks": [
+      "start-k",
+      "long-u",
+      "end-r"
+    ]
+  },
+  {
+    "word": "cute",
+    "bricks": [
+      "start-k",
+      "long-u",
+      "end-t"
+    ]
+  },
+  {
+    "word": "crew",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-u"
+    ]
+  },
+  {
+    "word": "cruel",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-u",
+      "end-l"
+    ]
+  },
+  {
+    "word": "crude",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-u",
+      "end-d"
+    ]
+  },
+  {
+    "word": "cruise",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-u",
+      "end-s"
+    ]
+  },
+  {
+    "word": "truce",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "long-u",
+      "end-s"
+    ]
+  },
+  {
+    "word": "truth",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "long-u",
+      "end-t"
+    ]
+  },
+  {
+    "word": "spew",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "long-u"
+    ]
+  },
+  {
+    "word": "skew",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "long-u"
+    ]
   }
 ]
