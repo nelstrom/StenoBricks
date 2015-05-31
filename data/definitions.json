@@ -835,7 +835,7 @@
       "start-r",
       "short-o",
       "end-b",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -844,7 +844,7 @@
       "start-r",
       "short-u",
       "end-b",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -875,7 +875,7 @@
       "start-r",
       "short-a",
       "end-p",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -914,7 +914,7 @@
       "start-w",
       "short-e",
       "end-b",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1100,7 +1100,7 @@
       "start-r",
       "short-e",
       "end-f-as-s",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1110,7 +1110,7 @@
       "start-r",
       "short-e",
       "end-f-as-s",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1119,7 +1119,7 @@
       "start-p",
       "short-a",
       "end-f-as-s",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1147,7 +1147,7 @@
       "start-r",
       "short-o",
       "end-f-as-s",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1250,7 +1250,7 @@
       "short-a",
       "end-r",
       "end-t",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1260,7 +1260,7 @@
       "short-u",
       "end-f",
       "end-l",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1271,7 +1271,7 @@
       "short-u",
       "end-f",
       "end-l",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1282,7 +1282,7 @@
       "short-u",
       "end-p",
       "end-t",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {
@@ -1292,7 +1292,7 @@
       "start-p",
       "short-o",
       "end-t",
-      "end-d"
+      "suffix-ed"
     ]
   },
   {

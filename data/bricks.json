@@ -35,6 +35,11 @@
     "keystrokes": [21]
   },
   {
+    "id": "suffix-ed",
+    "letter": "ED",
+    "keystrokes": [21]
+  },
+  {
     "id": "short-e",
     "letter": "E",
     "keystrokes": [11]
