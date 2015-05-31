@@ -1963,5 +1963,178 @@
       "long-i",
       "end-v"
     ]
+  },
+  {
+    "word": "hope",
+    "bricks": [
+      "start-h",
+      "long-o",
+      "end-p"
+    ]
+  },
+  {
+    "word": "spore",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "long-o",
+      "end-r"
+    ]
+  },
+  {
+    "word": "post",
+    "bricks": [
+      "start-p",
+      "long-o",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "sold",
+    "bricks": [
+      "start-s",
+      "long-o",
+      "end-l",
+      "end-d"
+    ]
+  },
+  {
+    "word": "prose",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-o",
+      "end-s"
+    ]
+  },
+  {
+    "word": "ode",
+    "bricks": [
+      "long-o",
+      "end-d"
+    ]
+  },
+  {
+    "word": "oat",
+    "bricks": [
+      "long-o",
+      "end-t"
+    ]
+  },
+  {
+    "word": "over",
+    "bricks": [
+      "long-o",
+      "end-v",
+      "end-r"
+    ]
+  },
+  {
+    "word": "robe",
+    "bricks": [
+      "start-r",
+      "long-o",
+      "end-b"
+    ]
+  },
+  {
+    "word": "rope",
+    "bricks": [
+      "start-r",
+      "long-o",
+      "end-p"
+    ]
+  },
+  {
+    "word": "rove",
+    "bricks": [
+      "start-r",
+      "long-o",
+      "end-v"
+    ]
+  },
+  {
+    "word": "host",
+    "bricks": [
+      "start-h",
+      "long-o",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "wove",
+    "bricks": [
+      "start-w",
+      "long-o",
+      "end-v"
+    ]
+  },
+  {
+    "word": "wrote",
+    "bricks": [
+      "start-w",
+      "start-r",
+      "long-o",
+      "end-t"
+    ]
+  },
+  {
+    "word": "pole",
+    "bricks": [
+      "start-p",
+      "long-o",
+      "end-l"
+    ]
+  },
+  {
+    "word": "pose",
+    "bricks": [
+      "start-p",
+      "long-o",
+      "end-s"
+    ]
+  },
+  {
+    "word": "cope",
+    "bricks": [
+      "start-k",
+      "long-o",
+      "end-p"
+    ]
+  },
+  {
+    "word": "coat",
+    "bricks": [
+      "start-k",
+      "long-o",
+      "end-t"
+    ]
+  },
+  {
+    "word": "code",
+    "bricks": [
+      "start-k",
+      "long-o",
+      "end-d"
+    ]
+  },
+  {
+    "word": "crow",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-o"
+    ]
+  },
+  {
+    "word": "told",
+    "bricks": [
+      "start-t",
+      "long-o",
+      "end-l",
+      "end-d"
+    ]
   }
 ]
