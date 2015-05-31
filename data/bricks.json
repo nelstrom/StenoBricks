@@ -233,5 +233,10 @@
     "id": "long-a",
     "letter": "AY",
     "keystrokes": [8,11,12]
+  },
+  {
+    "id": "long-e",
+    "letter": "EE",
+    "keystrokes": [8,9,11]
   }
 ]

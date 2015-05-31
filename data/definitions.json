@@ -1673,5 +1673,172 @@
       "long-a",
       "end-z"
     ]
+  },
+  {
+    "word": "weaver",
+    "bricks": [
+      "start-w",
+      "long-e",
+      "end-v",
+      "end-r"
+    ]
+  },
+  {
+    "word": "trees",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "long-e",
+      "end-s"
+    ]
+  },
+  {
+    "word": "eel",
+    "bricks": [
+      "long-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "eat",
+    "bricks": [
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "evil",
+    "bricks": [
+      "long-e",
+      "end-v",
+      "end-l"
+    ]
+  },
+  {
+    "word": "ear",
+    "bricks": [
+      "long-e",
+      "end-r"
+    ]
+  },
+  {
+    "word": "heat",
+    "bricks": [
+      "start-h",
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "heap",
+    "bricks": [
+      "start-h",
+      "long-e",
+      "end-p"
+    ]
+  },
+  {
+    "word": "wield",
+    "bricks": [
+      "start-w",
+      "long-e",
+      "end-l",
+      "end-d"
+    ]
+  },
+  {
+    "word": "weird",
+    "bricks": [
+      "start-w",
+      "long-e",
+      "end-r",
+      "end-d"
+    ]
+  },
+  {
+    "word": "peer",
+    "bricks": [
+      "start-p",
+      "long-e",
+      "end-r"
+    ]
+  },
+  {
+    "word": "priest",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-e",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "tree",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "long-e"
+    ]
+  },
+  {
+    "word": "tweeze",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "long-e",
+      "end-z"
+    ]
+  },
+  {
+    "word": "tweed",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "long-e",
+      "end-d"
+    ]
+  },
+  {
+    "word": "seat",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "cease",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-s"
+    ]
+  },
+  {
+    "word": "seed",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-d"
+    ]
+  },
+  {
+    "word": "seize",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-z"
+    ]
+  },
+  {
+    "word": "secrete",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "start-r",
+      "long-e",
+      "end-t"
+    ]
   }
 ]
