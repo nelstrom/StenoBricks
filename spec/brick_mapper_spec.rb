@@ -52,11 +52,11 @@ describe BrickMapper do
     }
   end
 
-  xit "converts simple 'car' definition to kar" do
+  it "converts simple 'car' definition to kar" do
     expect(mapper.lookup(car)).to eql('kar')
   end
 
-  xit "converts simple 'bar' definition to pwar" do
+  it "converts simple 'bar' definition to pwar" do
     expect(mapper.lookup(bar)).to eql('pwar')
   end
 

@@ -12,6 +12,10 @@ class BrickMapper
   end
 
   def lookup(definition)
-    'kar'
+    definition.fetch(:bricks).map { |brick|
+      brickset[brick]
+    }.flatten.map { |keystroke|
+      KEY_LABELS[keystroke]
+    }.join
   end
 end
