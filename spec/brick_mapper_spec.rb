@@ -3,7 +3,7 @@ require_relative '../lib/brick_mapper'
 
 describe BrickMapper do
 
-  let(:brickset) do
+  let(:bricks) do
     [
       {
         id: "short-a",
@@ -28,7 +28,7 @@ describe BrickMapper do
     ]
   end
 
-  let(:mapper) { BrickMapper.new(brickset) }
+  let(:mapper) { BrickMapper.new(bricks) }
 
   let(:car) do
     {
@@ -52,11 +52,20 @@ describe BrickMapper do
     }
   end
 
-  it "converts simple 'car' definition to kar" do
+  xit "converts simple 'car' definition to kar" do
     expect(mapper.lookup(car)).to eql('kar')
   end
 
-  it "converts simple 'bar' definition to pwar" do
+  xit "converts simple 'bar' definition to pwar" do
     expect(mapper.lookup(bar)).to eql('pwar')
+  end
+
+  it "turns supplied bricks into a hash" do
+    expect(mapper.brickset).to eql({
+      "short-a" => [8],
+      "start-b" => [4,5],
+      "start-k" => [3],
+      "end-r"   => [14],
+    })
   end
 end
