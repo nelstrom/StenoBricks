@@ -1,4 +1,10 @@
 require 'pry'
+
+require 'lib/brick_mapper'
+if data.has_key?(:bricks)
+  mapper = BrickMapper.new(data.bricks)
+end
+
 ###
 # Compass
 ###
@@ -85,7 +91,8 @@ end
 
 if data.has_key? :definitions
   data.definitions.each do |definition|
-    proxy "/definitions/#{definition.word}.html", "/definition.html",
+    chord = mapper.lookup(definition)
+    proxy "/definitions/#{chord}.html", "/definition.html",
       locals: { word: definition.word, bricks: definition.bricks }, ignore: true
   end
 end
