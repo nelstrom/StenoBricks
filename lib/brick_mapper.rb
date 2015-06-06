@@ -15,18 +15,20 @@ class BrickMapper
   end
 
   def lookup(definition)
-    keyNumbers = definition.fetch(:bricks).map { |brick|
-      brickset[brick]
-    }.flatten
+    keyNumbers = bricks_to_numbers(definition.fetch(:bricks))
 
-    startLabels = numbers_to_labels(keyNumbers, START)
-    finishLabels = numbers_to_labels(keyNumbers, FINISH)
-    middleLabels = numbers_to_labels(keyNumbers, MIDDLE, '-')
-
-    [startLabels, middleLabels, finishLabels].join
+    [
+      numbers_to_labels(keyNumbers, START),
+      numbers_to_labels(keyNumbers, MIDDLE, '-'),
+      numbers_to_labels(keyNumbers, FINISH),
+    ].join
   end
 
   private
+
+  def bricks_to_numbers(bricks)
+    bricks.map { |brick| brickset[brick] }.flatten
+  end
 
   def numbers_to_labels(numbers, segment = START, replace_blank = nil)
     labels = numbers
