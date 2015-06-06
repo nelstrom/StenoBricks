@@ -3,6 +3,7 @@ require 'pry'
 require 'lib/brick_mapper'
 if data.has_key?(:bricks)
   mapper = BrickMapper.new(data.bricks)
+  set :mapper, mapper
 end
 
 ###

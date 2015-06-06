@@ -4,7 +4,8 @@ title: Steno Definitions
 
 <ul class="definition-list">
   <% data.definitions.sort_by(&:word).each do |definition| %>
-    <li><%= link_to definition.word, "#{rootpath}/definitions/#{definition.word}/" %></li>
+    <% chord = mapper.lookup(definition) %>
+    <li><%= link_to definition.word, "#{rootpath}/definitions/#{chord}/" %></li>
   <% end %>
 </ul>
 
