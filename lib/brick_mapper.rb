@@ -15,7 +15,8 @@ class BrickMapper
   end
 
   def lookup(definition)
-    keyNumbers = bricks_to_numbers(definition.fetch(:bricks))
+    bricks = definition.fetch("bricks", definition[:bricks])
+    keyNumbers = bricks_to_numbers(bricks)
 
     [
       translate(keyNumbers, START),
