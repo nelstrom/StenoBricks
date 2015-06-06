@@ -19,21 +19,17 @@ class BrickMapper
       brickset[brick]
     }.flatten
 
-    startKeys = keyNumbers.select { |i| START.include?(i) }
-    middleKeys = keyNumbers.select { |i| MIDDLE.include?(i) }
-    finishKeys = keyNumbers.select { |i| FINISH.include?(i) }
-
-    startLabels = startKeys.map { |keystroke|
-      KEY_LABELS[keystroke]
-    }
-    middleLabels = middleKeys.map { |keystroke|
-      KEY_LABELS[keystroke]
-    }
-    finishLabels = finishKeys.map { |keystroke|
-      KEY_LABELS[keystroke]
-    }
+    startLabels = numbers_to_labels(keyNumbers, START)
+    finishLabels = numbers_to_labels(keyNumbers, FINISH)
+    middleLabels = numbers_to_labels(keyNumbers, MIDDLE)
     middleLabels = '-' if middleLabels.length == 0
+
     [startLabels, middleLabels, finishLabels].join
+  end
+
+  def numbers_to_labels(numbers, segment = START)
+    numbers.select { |i| segment.include?(i) }
+      .map { |keystroke| KEY_LABELS[keystroke] }
   end
 
 end
