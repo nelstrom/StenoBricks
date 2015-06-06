@@ -52,12 +52,14 @@ describe BrickMapper do
     }
   end
 
-  it "converts simple 'car' definition to kar" do
-    expect(mapper.lookup(car)).to eql('kar')
-  end
+  context 'definitions with a vowel (or star)' do
+    it "converts 'car' to kar" do
+      expect(mapper.lookup(car)).to eql('kar')
+    end
 
-  it "converts simple 'bar' definition to pwar" do
-    expect(mapper.lookup(bar)).to eql('pwar')
+    it "converts 'bar' to pwar" do
+      expect(mapper.lookup(bar)).to eql('pwar')
+    end
   end
 
   it "turns supplied bricks into a hash" do
