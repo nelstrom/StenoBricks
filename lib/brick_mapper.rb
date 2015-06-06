@@ -18,26 +18,29 @@ class BrickMapper
     keyNumbers = bricks_to_numbers(definition.fetch(:bricks))
 
     [
-      numbers_to_labels(keyNumbers, START),
-      numbers_to_labels(keyNumbers, MIDDLE, '-'),
-      numbers_to_labels(keyNumbers, FINISH),
+      translate(keyNumbers, START),
+      translate(keyNumbers, MIDDLE, '-'),
+      translate(keyNumbers, FINISH),
     ].join
   end
 
   private
 
-  def bricks_to_numbers(bricks)
-    bricks.map { |brick| brickset[brick] }.flatten
-  end
-
-  def numbers_to_labels(numbers, segment = START, replace_blank = nil)
-    labels = numbers
-      .select { |i| segment.include?(i) }
-      .map { |keystroke| KEY_LABELS[keystroke] }
+  def translate(numbers, segment = START, replace_blank = nil)
+    labels = numbers_to_labels(numbers, segment)
     if labels.empty? and replace_blank
       labels = replace_blank
     end
     labels
+  end
+
+  def numbers_to_labels(numbers, segment = START)
+    numbers.select { |i| segment.include?(i) }
+      .map { |keystroke| KEY_LABELS[keystroke] }
+  end
+
+  def bricks_to_numbers(bricks)
+    bricks.map { |brick| brickset[brick] }.flatten
   end
 
 end
