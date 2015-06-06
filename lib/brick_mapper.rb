@@ -21,15 +21,21 @@ class BrickMapper
 
     startLabels = numbers_to_labels(keyNumbers, START)
     finishLabels = numbers_to_labels(keyNumbers, FINISH)
-    middleLabels = numbers_to_labels(keyNumbers, MIDDLE)
-    middleLabels = '-' if middleLabels.length == 0
+    middleLabels = numbers_to_labels(keyNumbers, MIDDLE, '-')
 
     [startLabels, middleLabels, finishLabels].join
   end
 
-  def numbers_to_labels(numbers, segment = START)
-    numbers.select { |i| segment.include?(i) }
+  private
+
+  def numbers_to_labels(numbers, segment = START, replace_blank = nil)
+    labels = numbers
+      .select { |i| segment.include?(i) }
       .map { |keystroke| KEY_LABELS[keystroke] }
+    if labels.empty? and replace_blank
+      labels = replace_blank
+    end
+    labels
   end
 
 end
