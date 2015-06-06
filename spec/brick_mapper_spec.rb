@@ -26,6 +26,11 @@ describe BrickMapper do
         keystrokes: [14]
       },
       {
+        id: "end-n",
+        letter: "N",
+        keystrokes: [15, 16]
+      },
+      {
         id: "end-t",
         letter: "T",
         keystrokes: [20]
@@ -75,6 +80,16 @@ describe BrickMapper do
     }
   end
 
+  let(:been) do
+    {
+      word: "been",
+      bricks: [
+        "start-b",
+        "end-n",
+      ]
+    }
+  end
+
   context 'definitions with a vowel (or star)' do
     it "converts 'car' to kar" do
       expect(mapper.lookup(car)).to eql('kar')
@@ -93,6 +108,10 @@ describe BrickMapper do
     it "converts 'the' to '-T'" do
       expect(mapper.lookup(the)).to eql('-t')
     end
+
+    it "converts 'been' to 'PW-PB'" do
+      expect(mapper.lookup(been)).to eql('pw-pb')
+    end
   end
 
   it "turns supplied bricks into a hash" do
@@ -101,6 +120,7 @@ describe BrickMapper do
       "start-b" => [4,5],
       "start-k" => [3],
       "end-r"   => [14],
+      "end-n"   => [15, 16],
       "end-t"   => [20],
     })
   end
