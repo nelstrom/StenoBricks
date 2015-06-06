@@ -1,5 +1,11 @@
 [
   {
+    "word": "the",
+    "bricks": [
+      "end-t"
+    ]
+  },
+  {
     "word": "bar",
     "bricks": [
       "start-b",
