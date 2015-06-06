@@ -66,6 +66,15 @@ describe BrickMapper do
     }
   end
 
+  let(:about) do
+    {
+      word: "about",
+      bricks: [
+        "start-b"
+      ]
+    }
+  end
+
   context 'definitions with a vowel (or star)' do
     it "converts 'car' to kar" do
       expect(mapper.lookup(car)).to eql('kar')
@@ -77,6 +86,10 @@ describe BrickMapper do
   end
 
   context 'definitions with no vowel (or star)' do
+    it "converts 'about' to 'PW'" do
+      expect(mapper.lookup(about)).to eql('pw-')
+    end
+
     it "converts 'the' to '-T'" do
       expect(mapper.lookup(the)).to eql('-t')
     end
