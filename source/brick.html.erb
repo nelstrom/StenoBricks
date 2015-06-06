@@ -18,8 +18,7 @@ title: Brick
 
   <ul>
     <% definitions.sort_by(&:word).each do |definition| %>
-      <% chord = mapper.lookup(definition) %>
-      <li><%= link_to definition.word, "#{rootpath}/definitions/#{chord}/" %></li>
+      <li><%= link_to_definition(definition) %></li>
     <% end %>
   </ul>
 <% end %>
