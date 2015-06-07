@@ -6,6 +6,12 @@
     ]
   },
   {
+    "word": "about",
+    "bricks": [
+      "start-b"
+    ]
+  },
+  {
     "word": "bar",
     "bricks": [
       "start-b",
