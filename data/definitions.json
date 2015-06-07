@@ -2299,5 +2299,22 @@
       "start-k",
       "long-u"
     ]
+  },
+  {
+    "word": "death",
+    "bricks": [
+      "start-d",
+      "short-e",
+      "end-th"
+    ]
+  },
+  {
+    "word": "wealth",
+    "bricks": [
+      "start-w",
+      "short-e",
+      "end-l",
+      "end-th"
+    ]
   }
 ]
