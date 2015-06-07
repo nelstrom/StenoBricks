@@ -253,5 +253,10 @@
     "id": "long-u",
     "label": "EW",
     "keystrokes": [8,9,12]
+  },
+  {
+    "id": "end-th",
+    "label": "TH",
+    "keystrokes": [10,19]
   }
 ]
