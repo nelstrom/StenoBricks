@@ -19,10 +19,15 @@ topRowPoints = [
   'z'
 ].map(&:strip).join(' ')
 
+xml.symbol(id: 'topRowPath') do
+  xml.path(d: topRowPoints)
+end
+
 [100, 200, 300].each do |offset|
-  xml.path(
-    d: topRowPoints,
-    transform: "translate(#{offset} 50)",
+  xml.use(
+    "xlink:href" => '#topRowPath',
+    x: offset,
+    y: 50,
     class: "stroked lightFill"
   )
 end
