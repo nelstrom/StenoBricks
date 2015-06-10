@@ -15,5 +15,10 @@ xml.svg({
   "baseProfile" => "full",
   "viewBox"     => (current_page.data.viewBox || "0 0 1000 1000"),
 }) do
+
+  xml.style do
+    xml.cdata! File.read('source/stylesheets/diagram.css')
+  end
+
   xml << yield
 end
