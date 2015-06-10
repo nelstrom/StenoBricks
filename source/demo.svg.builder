@@ -48,48 +48,40 @@ symbols.each do |s|
   end
 end
 
-leftBottom = [
+leftBottom = [0,1,2,3].map do |i|
   {
-    index: 0,
+    index: i,
     fill: 'dark',
     symbol: '#bottomRowPath'
-  },
-  {
-    index: 1,
-    fill: 'dark',
-    symbol: '#bottomRowPath'
-  },
-  {
-    index: 2,
-    fill: 'dark',
-    symbol: '#bottomRowPath'
-  },
-  {
-    index: 3,
-    fill: 'dark',
-    symbol: '#bottomRowPath'
-  },
-]
+  }
+end
 
-leftTop = [
+leftTop = [1,2,3].map do |i|
   {
-    index: 1,
+    index: i,
     fill: 'light',
     symbol: '#topRowPath'
-  },
-  {
-    index: 2,
-    fill: 'light',
-    symbol: '#topRowPath'
-  },
-  {
-    index: 3,
-    fill: 'light',
-    symbol: '#topRowPath'
-  },
-]
+  }
+end
 
-[leftBottom, leftTop].flatten.each do |button|
+rightBottom = [7,8,9,10,11].map do |i|
+  {
+    index: i,
+    fill: 'light',
+    symbol: '#bottomRowPath'
+  }
+end
+
+rightTop = [7,8,9,10,11].map do |i|
+  {
+    index: i,
+    fill: 'dark',
+    symbol: '#topRowPath'
+  }
+end
+
+
+[leftBottom, leftTop, rightBottom, rightTop].flatten.each do |button|
   xml.use(
     "xlink:href" => button[:symbol],
     x: button[:index] * 100,
