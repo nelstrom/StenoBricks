@@ -48,20 +48,52 @@ symbols.each do |s|
   end
 end
 
-[0, 100, 200, 300].each do |offset|
-  xml.use(
-    "xlink:href" => '#bottomRowPath',
-    x: offset,
-    y: 50,
-    class: "stroked darkFill"
-  )
-end
+leftBottom = [
+  {
+    index: 0,
+    fill: 'dark',
+    symbol: '#bottomRowPath'
+  },
+  {
+    index: 1,
+    fill: 'dark',
+    symbol: '#bottomRowPath'
+  },
+  {
+    index: 2,
+    fill: 'dark',
+    symbol: '#bottomRowPath'
+  },
+  {
+    index: 3,
+    fill: 'dark',
+    symbol: '#bottomRowPath'
+  },
+]
 
-[100, 200, 300].each do |offset|
+leftTop = [
+  {
+    index: 1,
+    fill: 'light',
+    symbol: '#topRowPath'
+  },
+  {
+    index: 2,
+    fill: 'light',
+    symbol: '#topRowPath'
+  },
+  {
+    index: 3,
+    fill: 'light',
+    symbol: '#topRowPath'
+  },
+]
+
+[leftBottom, leftTop].flatten.each do |button|
   xml.use(
-    "xlink:href" => '#topRowPath',
-    x: offset,
+    "xlink:href" => button[:symbol],
+    x: button[:index] * 100,
     y: 50,
-    class: "stroked lightFill"
+    class: "stroked #{button[:fill]}Fill"
   )
 end
