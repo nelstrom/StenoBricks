@@ -13,7 +13,7 @@ xml.svg({
   "xmlns:ev"    => "http://www.w3.org/2001/xml-events",
   "version"     => "1.1",
   "baseProfile" => "full",
-  "viewBox"     => "0 0 1000 1000",
+  "viewBox"     => (current_page.data.viewBox || "0 0 1000 1000"),
 }) do
   xml << yield
 end

@@ -1,5 +1,6 @@
 ---
 layout: svg
+viewBox: "0 0 1000 1000"
 ---
 
 xml.circle(
