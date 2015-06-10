@@ -20,5 +20,8 @@ xml.svg({
     xml.cdata! File.read('source/stylesheets/diagram.css')
   end
 
+  xml.title current_page.data.title || "Diagram"
+  xml.description current_page.data.description
+
   xml << yield
 end
