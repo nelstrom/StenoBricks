@@ -19,4 +19,9 @@ topRowPoints = [
   'z'
 ].map(&:strip).join(' ')
 
-xml.path(d: topRowPoints)
+[100, 200, 300].each do |offset|
+  xml.path(
+    d: topRowPoints,
+    transform: "translate(#{offset} 50)"
+  )
+end
