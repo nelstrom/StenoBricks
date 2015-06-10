@@ -170,7 +170,15 @@ numberButton = {
   symbol: '#numberKeyPath'
 }
 
-[thumbs, starButton, leftBottom, leftTop, rightBottom, rightTop, numberButton].flatten.each do |button|
+[
+  thumbs,
+  leftBottom,
+  starButton,
+  rightBottom,
+  numberButton,
+  leftTop,
+  rightTop,
+].flatten.each do |button|
   xml.use(
     "xlink:href" => button[:symbol],
     x: button[:index] * 100,
