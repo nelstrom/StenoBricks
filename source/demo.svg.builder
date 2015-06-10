@@ -80,6 +80,20 @@ symbols = [
       '  100 220',
       'z'
     ]
+  },
+  {
+    id: 'numberKeyPath',
+    points: [
+      'M 100, 100',
+      'C 100, 080',
+      '  200, 080',
+      '  200, 100',
+      'L 200, 150',
+      'C 200, 210',
+      '  100, 210',
+      '  100, 150',
+      'z'
+    ]
   }
 ]
 
@@ -112,10 +126,10 @@ thumbs = [
   },
 ]
 
-star = {
-    index: 4.5,
-    fill: 'light',
-    symbol: '#starKeyPath'
+starButton = {
+  index: 4.5,
+  fill: 'light',
+  symbol: '#starKeyPath'
 }
 
 leftBottom = [0,1,2,3].map do |i|
@@ -150,7 +164,13 @@ rightTop = [7,8,9,10,11].map do |i|
   }
 end
 
-[thumbs, star, leftBottom, leftTop, rightBottom, rightTop].flatten.each do |button|
+numberButton = {
+  index: -0.5,
+  fill: 'light',
+  symbol: '#numberKeyPath'
+}
+
+[thumbs, starButton, leftBottom, leftTop, rightBottom, rightTop, numberButton].flatten.each do |button|
   xml.use(
     "xlink:href" => button[:symbol],
     x: button[:index] * 100,
