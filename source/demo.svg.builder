@@ -1,7 +1,7 @@
 ---
 layout: svg
 title: Steno Bricks Diagram
-viewBox: "0 0 1000 1000"
+viewBox: "0 0 1350 500"
 ---
 
 symbols = [
