@@ -16,12 +16,11 @@ xml.svg({
   "viewBox"     => (current_page.data.viewBox || "0 0 1000 1000"),
 }) do
 
-  xml.style do
+  xml.style :type => "text/css" do
     xml.cdata! File.read('source/stylesheets/diagram.css')
   end
 
   xml.title current_page.data.title || "Diagram"
-  xml.description current_page.data.description
 
   xml << yield
 end
