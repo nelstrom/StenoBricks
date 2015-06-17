@@ -21,7 +21,7 @@ StenoBrickKit::buttons.each do |button|
 end
 
 StenoBrickKit::labels.each do |label|
-  add = 75
+  add = -25
   if label[:width] == 2
     add = add + Dimensions::HORIZONTAL_UNIT/4
   end

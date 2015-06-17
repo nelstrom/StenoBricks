@@ -1,5 +1,4 @@
 module Dimensions
-  H_OFFSET=100
   HORIZONTAL_UNIT = 100
 end
 
@@ -9,90 +8,90 @@ module StenoBrickKit
       {
         id: 'topRowPath',
         points: [
-          "M #{Dimensions::H_OFFSET} 100",
-          "C #{Dimensions::H_OFFSET}  080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0}   100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 150",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 210",
-          "  #{Dimensions::H_OFFSET}  210",
-          "  #{Dimensions::H_OFFSET}  150",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.0} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 150",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 210",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 210",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 150",
           "z"
         ]
       },
       {
         id: 'bottomRowPath',
         points: [
-          "M #{Dimensions::H_OFFSET} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 220",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 280",
-          "  #{Dimensions::H_OFFSET} 280",
-          "  #{Dimensions::H_OFFSET} 220",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 220",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 280",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 280",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 220",
           "z"
         ]
       },
       {
         id: 'thumbFirstPath',
         points: [
-          "M #{Dimensions::H_OFFSET} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 300",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 360",
-          "  #{Dimensions::H_OFFSET} 360",
-          "  #{Dimensions::H_OFFSET} 300",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 300",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 360",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 360",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 300",
           "z"
         ]
       },
       {
         id: 'thumbSecondPath',
         points: [
-          "M #{Dimensions::H_OFFSET} 100",
-          "C #{Dimensions::H_OFFSET} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 300",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 360",
-          "  #{Dimensions::H_OFFSET} 360",
-          "  #{Dimensions::H_OFFSET} 300",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.0} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 300",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 360",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 360",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 300",
           "z"
         ]
       },
       {
         id: 'starKeyPath',
         points: [
-          "M #{Dimensions::H_OFFSET} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.5} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.5} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*2.0} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*2.0} 220",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*2.0} 280",
-          "  #{Dimensions::H_OFFSET} 280",
-          "  #{Dimensions::H_OFFSET} 220",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.5} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.5} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*2.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*2.0} 220",
+          "C #{Dimensions::HORIZONTAL_UNIT*2.0} 280",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 280",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 220",
           "z"
         ]
       },
       {
         id: 'numberKeyPath',
         points: [
-          "M #{Dimensions::H_OFFSET} 100",
-          "C #{Dimensions::H_OFFSET} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 080",
-          "  #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 150",
-          "C #{Dimensions::H_OFFSET + Dimensions::HORIZONTAL_UNIT*1.0} 210",
-          "  #{Dimensions::H_OFFSET} 210",
-          "  #{Dimensions::H_OFFSET} 150",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.0} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 080",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 150",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 210",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 210",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 150",
           "z"
         ]
       }
