@@ -33,7 +33,7 @@ describe BrickMapper do
       {
         id: "end-t",
         letter: "T",
-        keystrokes: [20]
+        keystrokes: [19]
       }
     ]
   end
@@ -121,7 +121,7 @@ describe BrickMapper do
       "start-k" => [3],
       "end-r"   => [14],
       "end-n"   => [15, 16],
-      "end-t"   => [20],
+      "end-t"   => [19],
     })
   end
 end
