@@ -14,8 +14,10 @@ end
 StenoBrickKit::buttons.each do |button|
   xml.use(
     "xlink:href" => button[:symbol],
-    :x => button[:index] * 100,
+    :x => button[:offset] * 100,
     :y => 50,
     :class => "stroked #{button[:fill]}Fill"
   )
 end
+
+
