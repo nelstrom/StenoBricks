@@ -1,5 +1,11 @@
 module Dimensions
   HORIZONTAL_UNIT = 100
+
+  V_STARTER=100
+  VERTICAL_UNIT_CURVE = 20
+  TOP_HEIGHT = 50
+  BOTTOM_HEIGHT = 120
+  THUMB_HEIGHT = 200
 end
 
 module StenoBrickKit
@@ -8,90 +14,90 @@ module StenoBrickKit
       {
         id: 'topRowPath',
         points: [
-          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
-          "C #{Dimensions::HORIZONTAL_UNIT*0.0} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 150",
-          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 210",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 210",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 150",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT}",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT}",
           "z"
         ]
       },
       {
         id: 'bottomRowPath',
         points: [
-          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "C #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 220",
-          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 280",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 280",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 220",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::BOTTOM_HEIGHT}",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::BOTTOM_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::BOTTOM_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::BOTTOM_HEIGHT}",
           "z"
         ]
       },
       {
         id: 'thumbFirstPath',
         points: [
-          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "C #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 300",
-          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 360",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 360",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 300",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::THUMB_HEIGHT}",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::THUMB_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::THUMB_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::THUMB_HEIGHT}",
           "z"
         ]
       },
       {
         id: 'thumbSecondPath',
         points: [
-          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
-          "C #{Dimensions::HORIZONTAL_UNIT*0.0} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 300",
-          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 360",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 360",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 300",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::THUMB_HEIGHT}",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::THUMB_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::THUMB_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::THUMB_HEIGHT}",
           "z"
         ]
       },
       {
         id: 'starKeyPath',
         points: [
-          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*0.5} 100",
-          "C #{Dimensions::HORIZONTAL_UNIT*0.5} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*1.5} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*1.5} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*2.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*2.0} 220",
-          "C #{Dimensions::HORIZONTAL_UNIT*2.0} 280",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 280",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 220",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.5} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.5} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.5} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*2.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*2.0} #{Dimensions::V_STARTER + Dimensions::BOTTOM_HEIGHT}",
+          "C #{Dimensions::HORIZONTAL_UNIT*2.0} #{Dimensions::V_STARTER + Dimensions::BOTTOM_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::BOTTOM_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::BOTTOM_HEIGHT}",
           "z"
         ]
       },
       {
         id: 'numberKeyPath',
         points: [
-          "M #{Dimensions::HORIZONTAL_UNIT*0.0} 100",
-          "C #{Dimensions::HORIZONTAL_UNIT*0.0} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 080",
-          "  #{Dimensions::HORIZONTAL_UNIT*1.0} 100",
-          "L #{Dimensions::HORIZONTAL_UNIT*1.0} 150",
-          "C #{Dimensions::HORIZONTAL_UNIT*1.0} 210",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 210",
-          "  #{Dimensions::HORIZONTAL_UNIT*0.0} 150",
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*-1.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT}",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT}",
           "z"
         ]
       }
