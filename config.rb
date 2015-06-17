@@ -1,4 +1,5 @@
 require 'pry'
+require 'lib/steno_brick_kit'
 
 require 'lib/brick_mapper'
 if data.has_key?(:bricks)
