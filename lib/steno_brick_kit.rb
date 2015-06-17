@@ -186,4 +186,32 @@ module StenoBrickKit
       rightTop,
     ].flatten
   end
+
+  def self.labels
+    [
+      { :text => '#', :xPosition => 0, :width => 2 },
+      { :text => 's', :xPosition => 2 },
+      { :text => 't', :xPosition => 3 },
+      { :text => 'k', :xPosition => 4 },
+      { :text => 'p', :xPosition => 5 },
+      { :text => 'w', :xPosition => 6 },
+      { :text => 'h', :xPosition => 7 },
+      { :text => 'r', :xPosition => 8 },
+      { :text => 'a', :xPosition => 9 },
+      { :text => 'o', :xPosition => 10 },
+      { :text => '*', :xPosition => 11, :width => 2 },
+      { :text => 'e', :xPosition => 13 },
+      { :text => 'u', :xPosition => 14 },
+      { :text => 'f', :xPosition => 15 },
+      { :text => 'r', :xPosition => 16 },
+      { :text => 'p', :xPosition => 17 },
+      { :text => 'b', :xPosition => 18 },
+      { :text => 'l', :xPosition => 19 },
+      { :text => 'g', :xPosition => 20 },
+      { :text => 't', :xPosition => 21 },
+      { :text => 's', :xPosition => 22 },
+      { :text => 'd', :xPosition => 23 },
+      { :text => 'z', :xPosition => 24 },
+    ]
+  end
 end

@@ -15,6 +15,14 @@
   fill: #fff;
 }
 
+.buttonLabel {
+  text-anchor: middle;
+  text-transform: capitalize;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  fill: #999;
+}
+
 svg {
   /* border: 1px dotted white; */
 }

@@ -10,7 +10,6 @@ StenoBrickKit::symbols.each do |s|
   end
 end
 
-
 StenoBrickKit::buttons.each do |button|
   xml.use(
     "xlink:href" => button[:symbol],
@@ -20,4 +19,13 @@ StenoBrickKit::buttons.each do |button|
   )
 end
 
+StenoBrickKit::labels.each do |label|
+  add = 75
+  if label[:width] == 2
+    add = add + 25
+  end
 
+  xml.text(:class => 'buttonLabel', :y => 115, :x => (add + label[:xPosition] * 50)) do
+    xml.tspan(label[:text])
+  end
+end
