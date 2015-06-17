@@ -14,7 +14,7 @@ end
 StenoBrickKit::buttons.each do |button|
   xml.use(
     "xlink:href" => button[:symbol],
-    :x => button[:offset] * 100,
+    :x => button[:offset] * Dimensions::HORIZONTAL_UNIT,
     :y => 50,
     :class => "stroked #{button[:fill]}Fill"
   )
@@ -23,10 +23,10 @@ end
 StenoBrickKit::labels.each do |label|
   add = 75
   if label[:width] == 2
-    add = add + 25
+    add = add + Dimensions::HORIZONTAL_UNIT/4
   end
 
-  xml.text(:class => 'buttonLabel', :y => 115, :x => (add + label[:xPosition] * 50)) do
+  xml.text(:class => 'buttonLabel', :y => 115, :x => (add + label[:xPosition] * Dimensions::HORIZONTAL_UNIT/2)) do
     xml.tspan(label[:text])
   end
 end
