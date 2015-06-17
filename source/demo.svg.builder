@@ -3,6 +3,7 @@ layout: svg
 title: Steno Bricks Diagram
 viewBox: "0 0 1350 500"
 ---
+load './lib/steno_brick_kit.rb'
 
 StenoBrickKit::symbols.each do |s|
   xml.symbol(:id => s[:id]) do
