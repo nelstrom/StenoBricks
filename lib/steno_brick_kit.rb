@@ -1,5 +1,5 @@
 module StenoBrickKit
-  def self.symbols 
+  def self.symbols
     [
       {
         id: 'topRowPath',
@@ -92,5 +92,98 @@ module StenoBrickKit
         ]
       }
     ]
+  end
+
+  def self.thumbs
+    [
+      {
+        index: 3.5,
+        fill: 'light',
+        symbol: '#thumbFirstPath'
+      },
+      {
+        index: 4.5,
+        fill: 'dark',
+        symbol: '#thumbSecondPath'
+      },
+      {
+        index: 5.5,
+        fill: 'dark',
+        symbol: '#thumbFirstPath'
+      },
+      {
+        index: 6.5,
+        fill: 'light',
+        symbol: '#thumbSecondPath'
+      },
+    ]
+  end
+
+  def self.starButton
+    {
+      index: 4.5,
+      fill: 'light',
+      symbol: '#starKeyPath'
+    }
+  end
+
+  def self.leftBottom
+    [0,1,2,3].map do |i|
+      {
+        index: i,
+        fill: 'dark',
+        symbol: '#bottomRowPath'
+      }
+    end
+  end
+
+  def self.leftTop
+    [1,2,3].map do |i|
+      {
+        index: i,
+        fill: 'light',
+        symbol: '#topRowPath'
+      }
+    end
+  end
+
+  def self.rightBottom
+    [7,8,9,10,11].map do |i|
+      {
+        index: i,
+        fill: 'light',
+        symbol: '#bottomRowPath'
+      }
+    end
+  end
+
+  def self.rightTop
+    [7,8,9,10,11].map do |i|
+      {
+        index: i,
+        fill: 'dark',
+        symbol: '#topRowPath'
+      }
+    end
+  end
+
+  def self.numberButton
+    {
+      index: -0.5,
+      fill: 'light',
+      symbol: '#numberKeyPath'
+    }
+  end
+
+  def self.buttons
+    [
+      thumbs,
+      leftBottom,
+      starButton,
+      rightBottom,
+      numberButton,
+      leftTop,
+      rightTop,
+    ].flatten
   end
 end
