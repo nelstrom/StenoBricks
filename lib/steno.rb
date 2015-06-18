@@ -36,5 +36,14 @@ module Steno
       last = KEY_INFORMATION[keystrokes.last][:right]
       return {start: first, width: (last - first)}
     end
+
+    def matchers
+      keystrokes.map { |index|
+        {
+          index: index,
+          shade: index.even? ? 'light' : 'dark'
+        }
+      }
+    end
   end
 end
