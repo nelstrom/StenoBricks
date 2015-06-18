@@ -57,4 +57,8 @@ module Steno
       }
     end
   end
+
+  class Chord < Struct.new(:bricks)
+  end
+
 end

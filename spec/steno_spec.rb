@@ -78,5 +78,11 @@ module Steno
 
     end
 
+    describe Chord do
+      subject{ Chord.new([start_b, soft_e, end_nch]) }
+      it '#bricks returns a list of bricks' do
+        expect(subject.bricks).to eql([start_b, soft_e, end_nch])
+      end
+    end
   end
 end
