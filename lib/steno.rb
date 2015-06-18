@@ -26,8 +26,9 @@ module Steno
   }
 
   class Brick
-    attr_reader :keystrokes
-    def initialize(keystrokes)
+    attr_reader :keystrokes, :label
+    def initialize(label='[no]', keystrokes)
+      @label = label
       @keystrokes = keystrokes
     end
 

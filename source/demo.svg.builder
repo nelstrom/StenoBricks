@@ -38,7 +38,7 @@ xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
     end
   end
 
-  brick = Steno::Brick.new(keystrokes)
+  brick = Steno::Brick.new(letter, keystrokes)
   brick.matchers.each do |matcher|
     xml.use(
       "xlink:href" => "#matcher-width-#{matcher[:width]}",
@@ -53,6 +53,12 @@ xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
     :y => -90,
     :class => "stroked whiteFill"
   )
+  xml.text(
+    :class => 'buttonLabel',
+    :x => -50 + brick.span[:start] * Dimensions::HORIZONTAL_UNIT/2,
+  ) do
+    xml.tspan(brick.label)
+  end
 
   # Steps involved in drawing a definition:
   # a definition may consist of 1 or more chords

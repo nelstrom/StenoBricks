@@ -4,7 +4,7 @@ require_relative '../lib/steno'
 module Steno
   describe Brick do
     context 'with one keystroke, 2 units wide' do
-      subject { Brick.new([10]) }
+      subject { Brick.new('e', [10]) }
       it 'spans a range covering two units' do
         expect(subject.span).to eql({start: 11, width: 2})
       end
@@ -13,10 +13,13 @@ module Steno
           {start: 11, width: 2, shade: 'light'}
         ])
       end
+      it 'returns the text label' do
+        expect(subject.label).to eql('e')
+      end
     end
 
     context 'with two keystrokes, including the * key (2 units wide)' do
-      subject { Brick.new([10, 19]) }
+      subject { Brick.new('th', [10, 19]) }
 
       it 'spans a range covering intermediate keys' do
         expect(subject.span).to eql({start: 11, width: 11})
@@ -27,11 +30,14 @@ module Steno
           {start: 21, width: 1, shade: 'dark'},
         ])
       end
+      it 'returns the text label' do
+        expect(subject.label).to eql('th')
+      end
 
     end
 
     context 'with four keystrokes' do
-      subject { Brick.new([13, 14, 15, 16]) }
+      subject { Brick.new('nch', [13, 14, 15, 16]) }
 
       it 'spans a range covering intermediate keys' do
         expect(subject.span).to eql({start: 15, width: 4})
@@ -43,6 +49,9 @@ module Steno
           {start: 17, width: 1, shade: 'dark'},
           {start: 18, width: 1, shade: 'light'},
         ])
+      end
+      it 'returns the text label' do
+        expect(subject.label).to eql('nch')
       end
 
     end
