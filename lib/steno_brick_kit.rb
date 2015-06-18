@@ -7,9 +7,30 @@ module Dimensions
   TOP_HEIGHT = 50
   BOTTOM_HEIGHT = 120
   THUMB_HEIGHT = 200
+  SPAN_CURVE = 10
 end
 
 module StenoBrickKit
+  def self.span_key_symbols
+    1.upto(15).map do |width|
+      {
+        id: "span-width-#{width}",
+        points: [
+          "M #{Dimensions::HORIZONTAL_UNIT * 0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT * 0.5 * width - Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT * 0.5 * width} #{Dimensions::V_STARTER + Dimensions::SPAN_CURVE}",
+          "  #{Dimensions::HORIZONTAL_UNIT * 0.5 * width} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT - Dimensions::SPAN_CURVE}",
+          "  #{Dimensions::HORIZONTAL_UNIT * 0.5 * width - Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT}",
+          "L #{Dimensions::HORIZONTAL_UNIT * 0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT}",
+          "C  0 #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT - Dimensions::SPAN_CURVE}",
+          "   0 #{Dimensions::V_STARTER + Dimensions::SPAN_CURVE}",
+          "  #{Dimensions::HORIZONTAL_UNIT * 0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
+          "z"
+        ]
+      }
+    end
+  end
+
   def self.symbols
     [
       {

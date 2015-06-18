@@ -11,6 +11,12 @@ StenoBrickKit::symbols.each do |s|
   end
 end
 
+StenoBrickKit::span_key_symbols.each do |s|
+  xml.symbol(:id => s[:id]) do
+    xml.path(:d => s[:points].map(&:strip).join(' '))
+  end
+end
+
 xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
   StenoBrickKit::buttons.each do |button|
     xml.use(
@@ -32,7 +38,8 @@ xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
     end
   end
 
-  Steno::Brick.new([0, 3]).matchers.each do |matcher|
+  brick = Steno::Brick.new([9, 10])
+  brick.matchers.each do |matcher|
     xml.use(
       "xlink:href" => "#matcher-width-#{matcher[:width]}",
       :x => -50 + matcher[:start] * Dimensions::HORIZONTAL_UNIT/2,
@@ -40,6 +47,12 @@ xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
       :class => "stroked #{matcher[:shade]}Fill"
     )
   end
+  xml.use(
+    "xlink:href" => "#span-width-#{brick.span[:width]}",
+    :x => -50 + brick.span[:start] * Dimensions::HORIZONTAL_UNIT/2,
+    :y => -90,
+    :class => "stroked whiteFill"
+  )
 
   # Steps involved in drawing a definition:
   # a definition may consist of 1 or more chords
