@@ -40,7 +40,7 @@
     "bricks": [
       "start-h",
       "short-a",
-      "end-z or has"
+      "end-z"
     ]
   },
   {
@@ -408,7 +408,7 @@
     "bricks": [
       "start-p",
       "short-u",
-      "end-ll"
+      "end-l"
     ]
   },
   {
@@ -488,7 +488,7 @@
     "bricks": [
       "start-r",
       "short-o",
-      "end-ll"
+      "end-l"
     ]
   },
   {
@@ -883,7 +883,7 @@
     "word": "strapped",
     "bricks": [
       "start-s",
-      "short-t",
+      "start-t",
       "start-r",
       "short-a",
       "end-p",
