@@ -34,7 +34,7 @@ module Steno
     def span
       first = KEY_INFORMATION[keystrokes.first][:left]
       last = KEY_INFORMATION[keystrokes.last][:right]
-      return {first: first, last: last}
+      return {start: first, width: (last - first)}
     end
   end
 end

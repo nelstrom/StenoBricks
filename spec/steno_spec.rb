@@ -10,7 +10,7 @@ module Steno
         expect(subject.keystrokes).to eql([8])
       end
       it 'spans a range covering one key' do
-        expect(subject.span).to eql({first: 9, last: 10})
+        expect(subject.span).to eql({start: 9, width: 1})
       end
     end
 
@@ -21,14 +21,14 @@ module Steno
         expect(subject.keystrokes).to eql([8, 9])
       end
       it 'spans a range covering two keys' do
-        expect(subject.span).to eql({first: 9, last: 11})
+        expect(subject.span).to eql({start: 9, width: 2})
       end
     end
 
     context 'with one keystroke, 2 units wide' do
       subject { Brick.new([10]) }
       it 'spans a range covering two units' do
-        expect(subject.span).to eql({first: 11, last: 13})
+        expect(subject.span).to eql({start: 11, width: 2})
       end
     end
 
@@ -39,7 +39,7 @@ module Steno
         expect(subject.keystrokes).to eql([10, 19])
       end
       it 'spans a range covering intermediate keys' do
-        expect(subject.span).to eql({first: 11, last: 22})
+        expect(subject.span).to eql({start: 11, width: 11})
       end
 
     end
