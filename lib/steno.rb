@@ -33,8 +33,11 @@ module Steno
 
     def span
       first = KEY_INFORMATION[keystrokes.first][:left]
-      last = KEY_INFORMATION[keystrokes.last][:right]
-      return {start: first, width: (last - first)}
+      last  = KEY_INFORMATION[keystrokes.last][:right]
+      {
+        start: first,
+        width: (last - first)
+      }
     end
 
     def matchers
