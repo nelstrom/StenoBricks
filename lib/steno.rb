@@ -73,6 +73,9 @@ module Steno
     def lookup(id)
       @bricks.fetch(id)
     end
+    def to_s
+      "#{super}: #{@bricks.keys.map(&:to_s)}"
+    end
   end
 
   class Chord < Struct.new(:bricks)

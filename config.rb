@@ -4,8 +4,11 @@ require 'lib/steno_brick_kit'
 
 require 'lib/brick_mapper'
 if data.has_key?(:bricks)
-  mapper = BrickMapper.new(data.bricks)
-  set :mapper, mapper
+  set :mapper, BrickMapper.new(data.bricks)
+  set :brickset, Steno::BrickRegistry.new
+  data.bricks.each do |brick|
+    brickset.add(brick)
+  end
 end
 
 ###
