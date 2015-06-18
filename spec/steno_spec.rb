@@ -78,6 +78,27 @@ module Steno
 
     end
 
+    describe BrickRegistry do
+      context 'a fresh BrickRegistry with nothing in it' do
+        subject{ BrickRegistry.new }
+        it '#add generates a Brick and returns it' do
+          brick = subject.add(label: 'b', keystrokes: [4, 5])
+          expect(brick).to eql(start_b)
+        end
+      end
+
+      context 'a BrickRegistry containing some bricks' do
+        subject{ BrickRegistry.new }
+        before do
+          subject.add(id: 'start-b', label: 'b', keystrokes: [4, 5])
+        end
+        it '#lookup finds things by id' do
+          brick = subject.lookup("start-b")
+          expect(brick).to eql(start_b)
+        end
+      end
+    end
+
     describe Chord do
       subject{ Chord.new([start_b, soft_e, end_nch]) }
       it '#bricks returns a list of bricks' do

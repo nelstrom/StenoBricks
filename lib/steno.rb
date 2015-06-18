@@ -26,6 +26,7 @@ module Steno
   }
 
   class Brick
+
     attr_reader :keystrokes, :label
 
     def initialize(label='[no]', keystrokes)
@@ -55,6 +56,22 @@ module Steno
           shade: index.even? ? 'light' : 'dark'
         }
       }
+    end
+
+    def eql?(other)
+      self.keystrokes == other.keystrokes && self.label == other.label
+    end
+  end
+
+  class BrickRegistry
+    def initialize
+      @bricks = {}
+    end
+    def add(values)
+      @bricks[values[:id]] = Brick.new(values[:label], values[:keystrokes])
+    end
+    def lookup(id)
+      @bricks.fetch(id)
     end
   end
 
