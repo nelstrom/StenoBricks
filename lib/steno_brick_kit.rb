@@ -1,5 +1,6 @@
 module Dimensions
   HORIZONTAL_UNIT = 100
+  HORIZONTAL_PINCH = 5
 
   V_STARTER=100
   VERTICAL_UNIT_CURVE = 20
@@ -98,6 +99,28 @@ module StenoBrickKit
           "C #{Dimensions::HORIZONTAL_UNIT*1.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
           "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT + Dimensions::VERTICAL_UNIT_CURVE*3.0}",
           "  #{Dimensions::HORIZONTAL_UNIT*0.0} #{Dimensions::V_STARTER + Dimensions::TOP_HEIGHT}",
+          "z"
+        ]
+      },
+      {
+        id: 'matcher-width-1',
+        points: [
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*0.5 - Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT*0.5 - Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*0.75}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*0.75}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
+          "z"
+        ]
+      },
+      {
+        id: 'matcher-width-2',
+        points: [
+          "M #{Dimensions::HORIZONTAL_UNIT*0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
+          "L #{Dimensions::HORIZONTAL_UNIT*1.0 - Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
+          "C #{Dimensions::HORIZONTAL_UNIT*1.0 - Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*0.75}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER + Dimensions::VERTICAL_UNIT_CURVE*0.75}",
+          "  #{Dimensions::HORIZONTAL_UNIT*0.0 + Dimensions::HORIZONTAL_PINCH} #{Dimensions::V_STARTER}",
           "z"
         ]
       }

@@ -32,6 +32,15 @@ xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
     end
   end
 
+  Steno::Brick.new([0, 3]).matchers.each do |matcher|
+    xml.use(
+      "xlink:href" => "#matcher-width-#{matcher[:width]}",
+      :x => -50 + matcher[:start] * Dimensions::HORIZONTAL_UNIT/2,
+      :y => -40,
+      :class => "stroked #{matcher[:shade]}Fill"
+    )
+  end
+
   # Steps involved in drawing a definition:
   # a definition may consist of 1 or more chords
   # definition.chords.each do |chord|
