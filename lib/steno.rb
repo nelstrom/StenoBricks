@@ -42,8 +42,10 @@ module Steno
 
     def matchers
       keystrokes.map { |index|
+        info = KEY_INFORMATION[index]
         {
-          index: index,
+          start: info[:left],
+          width: info[:right] - info[:left],
           shade: index.even? ? 'light' : 'dark'
         }
       }
