@@ -31,4 +31,17 @@ xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
       xml.tspan(label[:text])
     end
   end
+
+  # Steps involved in drawing a definition:
+  # a definition may consist of 1 or more chords
+  # definition.chords.each do |chord|
+  #   a chord is made up of 1 or more bricks
+  #   chord.bricks.each do |brick|
+  #     brick.matcher_points.each do |matcher|
+  #     end
+  #     brick.span_keys
+  #     brick.text_label
+  #   end
+  # end
+
 end
