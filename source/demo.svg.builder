@@ -38,7 +38,7 @@ xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
     end
   end
 
-  brick = Steno::Brick.new([9, 10])
+  brick = Steno::Brick.new(keystrokes)
   brick.matchers.each do |matcher|
     xml.use(
       "xlink:href" => "#matcher-width-#{matcher[:width]}",
