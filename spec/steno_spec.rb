@@ -16,6 +16,11 @@ module Steno
       it 'returns the text label' do
         expect(subject.label).to eql('e')
       end
+
+      it '#midpoint returns the midpoint' do
+        expect(subject.midpoint).to eql(12.0)
+      end
+
     end
 
     context 'with two keystrokes, including the * key (2 units wide)' do
@@ -33,6 +38,9 @@ module Steno
       it 'returns the text label' do
         expect(subject.label).to eql('th')
       end
+      it '#midpoint returns the midpoint' do
+        expect(subject.midpoint).to eql(16.5)
+      end
 
     end
 
@@ -42,6 +50,7 @@ module Steno
       it 'spans a range covering intermediate keys' do
         expect(subject.span).to eql({start: 15, width: 4})
       end
+
       it 'returns matchers labelled dark/light' do
         expect(subject.matchers).to eql([
           {start: 15, width: 1, shade: 'dark'},
@@ -50,8 +59,13 @@ module Steno
           {start: 18, width: 1, shade: 'light'},
         ])
       end
+
       it 'returns the text label' do
         expect(subject.label).to eql('nch')
+      end
+
+      it '#midpoint returns the point between start and end' do
+        expect(subject.midpoint).to eql(17.0)
       end
 
     end

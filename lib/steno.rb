@@ -27,6 +27,7 @@ module Steno
 
   class Brick
     attr_reader :keystrokes, :label
+
     def initialize(label='[no]', keystrokes)
       @label = label
       @keystrokes = keystrokes
@@ -39,6 +40,10 @@ module Steno
         start: first,
         width: (last - first)
       }
+    end
+
+    def midpoint
+      span[:start] + span[:width]/2.0
     end
 
     def matchers

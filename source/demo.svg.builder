@@ -55,7 +55,8 @@ xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
   )
   xml.text(
     :class => 'buttonLabel',
-    :x => -50 + brick.span[:start] * Dimensions::HORIZONTAL_UNIT/2,
+    :x => -50 + brick.midpoint * Dimensions::HORIZONTAL_UNIT/2,
+    :y => 42
   ) do
     xml.tspan(brick.label)
   end
