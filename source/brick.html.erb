@@ -4,12 +4,7 @@ title: Brick
 
 <h1 class="brick-title"><%= letter %></h1>
 
-<div id="drawing"></div>
-<%= javascript_include_tag  "scratch" %>
-<script>
-  drawStroke("<%= letter %>", <%= keystrokes %>);
-</script>
-
+<img src="/bricks/<%= id %>.svg"/>
 
 <% definitions = data.definitions.select { |defn| defn.bricks.include?(id) } %>
 
