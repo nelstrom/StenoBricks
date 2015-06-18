@@ -88,7 +88,7 @@ end
 if data.has_key? :bricks
   data.bricks.each do |brick|
 
-    proxy "/bricks/#{brick.id}.svg", "/demo.svg",
+    proxy "/bricks/#{brick.id}.svg", "/brick.svg",
       locals: { id: brick.id, letter: brick.letter, keystrokes: brick.keystrokes }, ignore: true
 
     proxy "/bricks/#{brick.id}.html", "/brick.html",
