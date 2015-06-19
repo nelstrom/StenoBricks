@@ -1,3 +1,5 @@
+require 'set'
+
 module Steno
   KEY_INFORMATION = {
     0  => { left:  0, right:  2 },
@@ -79,6 +81,21 @@ module Steno
   end
 
   class Chord < Struct.new(:bricks)
+    def foundation
+      f = []
+      bricks.reverse.each_cons(2) do |one,two|
+        set_one = Set.new(one.keystrokes.first.upto(one.keystrokes.last))
+        set_two = Set.new(two.keystrokes.first.upto(two.keystrokes.last))
+        if set_one.intersect?(set_two)
+          f << one
+        end
+      end
+      f
+    end
+
+    def overlay
+      (bricks - foundation).reverse
+    end
   end
 
 end

@@ -3,6 +3,7 @@ require_relative '../lib/steno'
 
 module Steno
   describe 'Steno' do
+    let(:start_d) { Brick.new('d', [2, 3]) }
     let(:start_b) { Brick.new('b', [4, 5]) }
     let(:soft_e) { Brick.new('e', [10]) }
     let(:end_th) { Brick.new('th', [10, 19]) }
@@ -100,9 +101,36 @@ module Steno
     end
 
     describe Chord do
-      subject{ Chord.new([start_b, soft_e, end_nch]) }
-      it '#bricks returns a list of bricks' do
-        expect(subject.bricks).to eql([start_b, soft_e, end_nch])
+      context "with bricks that don't overlap" do
+        subject{ Chord.new([start_b, soft_e, end_nch]) }
+
+        it '#bricks returns a list of bricks' do
+          expect(subject.bricks).to eql([start_b, soft_e, end_nch])
+        end
+
+        it '#foundation returns an empty list' do
+          expect(subject.foundation).to eql([])
+        end
+
+        it '#overlay returns bricks in reverse order' do
+          expect(subject.overlay).to eql([end_nch, soft_e, start_b])
+        end
+      end
+
+      context "with bricks that do overlap" do
+        subject{ Chord.new([start_d, soft_e, end_th]) }
+
+        it '#bricks returns a list of bricks' do
+          expect(subject.bricks).to eql([start_d, soft_e, end_th])
+        end
+
+        it '#foundation returns end_th brick' do
+          expect(subject.foundation).to eql([end_th])
+        end
+
+        it '#overlay returns non-foundation bricks in reverse order' do
+          expect(subject.overlay).to eql([soft_e, start_d])
+        end
       end
     end
   end
