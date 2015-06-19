@@ -109,7 +109,7 @@ if data.has_key? :definitions
     }, ignore: true
 
     proxy "/definitions/#{chord}.html", "/definition.html",
-      locals: { word: definition.word, bricks: definition.bricks }, ignore: true
+      locals: { word: definition.word, bricks: definition.bricks, chord: chord }, ignore: true
   end
 end
 

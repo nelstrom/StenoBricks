@@ -4,17 +4,4 @@ title: Definition page
 
 <h1 class="definition-title"><%= word %></h1>
 
-<div id="drawing"></div>
-<%= javascript_include_tag  "scratch" %>
-
-<script>
-  var brickDefs = <%= data.bricks.to_json %>;
-  var bricks = <%= bricks %>;
-
-  bricks.forEach(function(brick) { 
-    var def = _.findWhere(brickDefs, { id: brick });
-    if (!def) { return; }
-    drawStroke(def.letter, def.keystrokes);
-  });
-</script>
-
+<img src="/definitions/<%= chord %>.svg"/>
