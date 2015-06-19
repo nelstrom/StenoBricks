@@ -103,8 +103,10 @@ if data.has_key? :definitions
   data.definitions.each do |definition|
     chord = mapper.lookup(definition)
 
-    proxy "/definitions/#{chord}.svg", "/definition.svg",
-      locals: { word: definition.word, bricks: definition.bricks }, ignore: true
+    proxy "/definitions/#{chord}.svg", "/definition.svg", locals: {
+      word: definition.word,
+      bricks: definition.bricks.map { |name| brickset.lookup(name) }
+    }, ignore: true
 
     proxy "/definitions/#{chord}.html", "/definition.html",
       locals: { word: definition.word, bricks: definition.bricks }, ignore: true
