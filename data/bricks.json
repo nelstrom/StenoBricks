@@ -1,257 +1,257 @@
 [
   {
     "id": "short-a",
-    "letter": "A",
+    "label": "A",
     "keystrokes": [8]
   },
   {
     "id": "start-b",
-    "letter": "B",
+    "label": "B",
     "keystrokes": [4,5]
   },
   {
     "id": "end-r",
-    "letter": "R",
+    "label": "R",
     "keystrokes": [14]
   },
   {
     "id": "end-b",
-    "letter": "B",
+    "label": "B",
     "keystrokes": [16]
   },
   {
     "id": "start-c",
-    "letter": "C",
+    "label": "C",
     "keystrokes": [3,7]
   },
   {
     "id": "start-d",
-    "letter": "D",
+    "label": "D",
     "keystrokes": [2,3]
   },
   {
     "id": "end-d",
-    "letter": "D",
+    "label": "D",
     "keystrokes": [21]
   },
   {
     "id": "suffix-ed",
-    "letter": "ED",
+    "label": "ED",
     "keystrokes": [21]
   },
   {
     "id": "short-e",
-    "letter": "E",
+    "label": "E",
     "keystrokes": [11]
   },
   {
     "id": "start-f",
-    "letter": "F",
+    "label": "F",
     "keystrokes": [2, 4]
   },
   {
     "id": "end-f",
-    "letter": "F",
+    "label": "F",
     "keystrokes": [13]
   },
   {
     "id": "start-g",
-    "letter": "G",
+    "label": "G",
     "keystrokes": [2,3,4,5]
   },
   {
     "id": "end-g",
-    "letter": "G",
+    "label": "G",
     "keystrokes": [18]
   },
   {
     "id": "start-h",
-    "letter": "H",
+    "label": "H",
     "keystrokes": [6]
   },
   {
     "id": "short-i",
-    "letter": "I",
+    "label": "I",
     "keystrokes": [11, 12]
   },
   {
     "id": "start-j",
-    "letter": "J",
+    "label": "J",
     "keystrokes": [1, 3, 5, 7]
   },
   {
     "id": "start-k",
-    "letter": "K",
+    "label": "K",
     "keystrokes": [3]
   },
   {
     "id": "end-k",
-    "letter": "K",
+    "label": "K",
     "keystrokes": [16, 18]
   },
   {
     "id": "start-l",
-    "letter": "L",
+    "label": "L",
     "keystrokes": [6,7]
   },
   {
     "id": "end-l",
-    "letter": "L",
+    "label": "L",
     "keystrokes": [17]
   },
   {
     "id": "start-m",
-    "letter": "M",
+    "label": "M",
     "keystrokes": [4, 6]
   },
   {
     "id": "end-m",
-    "letter": "M",
+    "label": "M",
     "keystrokes": [15, 17]
   },
   {
     "id": "start-n",
-    "letter": "N",
+    "label": "N",
     "keystrokes": [2, 4, 6]
   },
   {
     "id": "end-n",
-    "letter": "N",
+    "label": "N",
     "keystrokes": [15, 16]
   },
   {
     "id": "short-o",
-    "letter": "O",
+    "label": "O",
     "keystrokes": [9]
   },
   {
     "id": "start-p",
-    "letter": "P",
+    "label": "P",
     "keystrokes": [4]
   },
   {
     "id": "end-p",
-    "letter": "P",
+    "label": "P",
     "keystrokes": [15]
   },
   {
     "id": "start-q",
-    "letter": "Q",
+    "label": "Q",
     "keystrokes": [3, 5]
   },
   {
     "id": "start-r",
-    "letter": "R",
+    "label": "R",
     "keystrokes": [7]
   },
   {
     "id": "start-s",
-    "letter": "S",
+    "label": "S",
     "keystrokes": [1]
   },
   {
     "id": "end-s",
-    "letter": "S",
+    "label": "S",
     "keystrokes": [20]
   },
   {
     "id": "end-f-as-s",
-    "letter": "S",
+    "label": "S",
     "keystrokes": [13]
   },
   {
     "id": "start-t",
-    "letter": "T",
+    "label": "T",
     "keystrokes": [2]
   },
   {
     "id": "end-t",
-    "letter": "T",
+    "label": "T",
     "keystrokes": [19]
   },
   {
     "id": "short-u",
-    "letter": "U",
+    "label": "U",
     "keystrokes": [12]
   },
   {
     "id": "start-v",
-    "letter": "V",
+    "label": "V",
     "keystrokes": [1, 7]
   },
   {
     "id": "end-v",
-    "letter": "V",
+    "label": "V",
     "keystrokes": [13]
   },
   {
     "id": "start-w",
-    "letter": "W",
+    "label": "W",
     "keystrokes": [5]
   },
   {
     "id": "start-x",
-    "letter": "X",
+    "label": "X",
     "keystrokes": [3, 4]
   },
   {
     "id": "end-x",
-    "letter": "X",
+    "label": "X",
     "keystrokes": [16, 18, 20]
   },
   {
     "id": "start-y",
-    "letter": "Y",
+    "label": "Y",
     "keystrokes": [3, 5, 7]
   },
   {
     "id": "start-z",
-    "letter": "Z",
+    "label": "Z",
     "keystrokes": [1,2,3,4,5]
   },
   {
     "id": "end-z",
-    "letter": "Z",
+    "label": "Z",
     "keystrokes": [22]
   },
   {
     "id": "end-rch",
-    "letter": "RCH",
+    "label": "RCH",
     "keystrokes": [13,14,15,16]
   },
   {
     "id": "end-nch",
-    "letter": "NCH",
+    "label": "NCH",
     "keystrokes": [13,14,15,16]
   },
   {
     "id": "start-ch",
-    "letter": "CH",
+    "label": "CH",
     "keystrokes": [3,6]
   },
   {
     "id": "long-a",
-    "letter": "AY",
+    "label": "AY",
     "keystrokes": [8,11,12]
   },
   {
     "id": "long-e",
-    "letter": "EE",
+    "label": "EE",
     "keystrokes": [8,9,11]
   },
   {
     "id": "long-i",
-    "letter": "AYE",
+    "label": "AYE",
     "keystrokes": [8,9,11,12]
   },
   {
     "id": "long-o",
-    "letter": "OH",
+    "label": "OH",
     "keystrokes": [9,11]
   },
   {
     "id": "long-u",
-    "letter": "EW",
+    "label": "EW",
     "keystrokes": [8,9,12]
   }
 ]
