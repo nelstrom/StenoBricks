@@ -122,15 +122,16 @@ module Steno
     private
 
     def detect_overlaps
+      @overlay = bricks.reverse.clone
       @foundation = []
       bricks.reverse.each_cons(2) do |one,two|
         set_one = Set.new(one.keystrokes.first.upto(one.keystrokes.last))
         set_two = Set.new(two.keystrokes.first.upto(two.keystrokes.last))
         if set_one.intersect?(set_two)
-          @foundation << one
+          @overlay = @overlay - [one]
+          @foundation << FoundationBrick.new(one.label, one.keystrokes, two)
         end
       end
-      @overlay = bricks.reverse - @foundation
     end
   end
 
