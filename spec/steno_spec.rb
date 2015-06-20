@@ -3,15 +3,16 @@ require_relative '../lib/steno'
 
 module Steno
   describe 'Steno' do
-    let(:start_d) { Brick.new('d', [2, 3]) }
-    let(:start_b) { Brick.new('b', [4, 5]) }
-    let(:soft_e) { Brick.new('e', [10]) }
-    let(:end_th) { Brick.new('th', [10, 19]) }
+    let(:start_d) { Brick.new('d',   [2, 3]) }
+    let(:start_b) { Brick.new('b',   [4, 5]) }
+    let(:star)    { Brick.new('*',   [10]) }
+    let(:soft_e)  { Brick.new('e',   [11]) }
+    let(:end_th)  { Brick.new('th',  [10, 19]) }
     let(:end_nch) { Brick.new('nch', [13, 14, 15, 16]) }
 
     describe Brick do
       context 'with one keystroke, 2 units wide' do
-        subject { soft_e }
+        subject { star }
         it 'spans a range covering two units' do
           expect(subject.span).to eql({start: 11, width: 2})
         end
@@ -21,7 +22,7 @@ module Steno
           ])
         end
         it 'returns the text label' do
-          expect(subject.label).to eql('e')
+          expect(subject.label).to eql('*')
         end
 
         it '#midpoint returns the midpoint' do
@@ -77,6 +78,18 @@ module Steno
 
       end
 
+    end
+
+    describe FoundationBrick do
+      subject { FoundationBrick.new('th', [10, 19], soft_e) }
+
+      it '#cover records the rightmost overlay brick' do
+        expect(subject.cover).to eql(soft_e)
+      end
+
+      it '#midpoint is adjusted to accommodate the cover brick' do
+        expect(subject.midpoint).to eql(18.0)
+      end
     end
 
     describe BrickRegistry do

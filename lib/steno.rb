@@ -65,6 +65,22 @@ module Steno
     end
   end
 
+  class FoundationBrick < Brick
+    attr_reader :cover
+
+    def initialize(label, keystrokes, cover)
+      super(label, keystrokes)
+      @cover = cover
+    end
+
+    def midpoint
+      first = cover.span[:start] + cover.span[:width]
+      last  = KEY_INFORMATION[keystrokes.last][:right]
+      width = last - first
+      first + width/2.0
+    end
+  end
+
   class BrickRegistry
     def initialize
       @bricks = {}
