@@ -146,7 +146,7 @@ module Steno
         end
 
         it '#foundation returns end_th brick' do
-          expect(subject.foundation).to eql([end_th])
+          expect(subject.foundation).to eql([FoundationBrick.new('th', [10, 19], soft_e)])
         end
 
         it '#overlay returns non-foundation bricks in reverse order' do

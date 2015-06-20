@@ -53,6 +53,10 @@ module Steno
       label_span[:start] + label_span[:width]/2.0
     end
 
+    def is_foundation?
+      false
+    end
+
     def matchers
       keystrokes.map { |index|
         info = KEY_INFORMATION[index]
@@ -65,7 +69,9 @@ module Steno
     end
 
     def eql?(other)
-      self.keystrokes == other.keystrokes && self.label == other.label
+      self.keystrokes == other.keystrokes &&
+        self.label == other.label &&
+        self.is_foundation? == other.is_foundation?
     end
   end
 
@@ -75,6 +81,10 @@ module Steno
     def initialize(label, keystrokes, cover)
       super(label, keystrokes)
       @cover = cover
+    end
+
+    def is_foundation?
+      true
     end
 
     def label_span
