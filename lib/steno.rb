@@ -45,8 +45,12 @@ module Steno
       }
     end
 
+    def label_span
+      span
+    end
+
     def midpoint
-      span[:start] + span[:width]/2.0
+      label_span[:start] + label_span[:width]/2.0
     end
 
     def matchers
@@ -73,11 +77,13 @@ module Steno
       @cover = cover
     end
 
-    def midpoint
+    def label_span
       first = cover.span[:start] + cover.span[:width]
       last  = KEY_INFORMATION[keystrokes.last][:right]
-      width = last - first
-      first + width/2.0
+      {
+        start: first,
+        width: (last - first)
+      }
     end
   end
 
