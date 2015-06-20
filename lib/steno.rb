@@ -80,21 +80,25 @@ module Steno
     end
   end
 
-  class Chord < Struct.new(:bricks)
-    def foundation
-      f = []
+  class Chord
+    attr_reader :bricks, :foundation, :overlay
+    def initialize(bricks)
+      @bricks = bricks
+      detect_overlaps
+    end
+
+    private
+
+    def detect_overlaps
+      @foundation = []
       bricks.reverse.each_cons(2) do |one,two|
         set_one = Set.new(one.keystrokes.first.upto(one.keystrokes.last))
         set_two = Set.new(two.keystrokes.first.upto(two.keystrokes.last))
         if set_one.intersect?(set_two)
-          f << one
+          @foundation << one
         end
       end
-      f
-    end
-
-    def overlay
-      (bricks - foundation).reverse
+      @overlay = bricks.reverse - @foundation
     end
   end
 
