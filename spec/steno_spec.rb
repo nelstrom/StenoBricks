@@ -101,6 +101,14 @@ module Steno
     end
 
     describe Chord do
+      context "given bricks in wrong order" do
+        subject{ Chord.new([soft_e, start_b, end_nch]) }
+
+        it '#bricks returns bricks with correct order' do
+          expect(subject.bricks).to eql([start_b, soft_e, end_nch])
+        end
+      end
+
       context "with bricks that don't overlap" do
         subject{ Chord.new([start_b, soft_e, end_nch]) }
 

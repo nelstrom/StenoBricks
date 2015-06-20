@@ -83,7 +83,7 @@ module Steno
   class Chord
     attr_reader :bricks, :foundation, :overlay
     def initialize(bricks)
-      @bricks = bricks
+      @bricks = bricks.sort_by { |b| b.keystrokes.last }
       detect_overlaps
     end
 
