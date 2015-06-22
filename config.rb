@@ -124,6 +124,11 @@ definition_list.each do |definition|
     locals: { definition: definition }, ignore: true
 end
 
+wordset.each_pair do |word, definitions|
+  proxy "/words/#{word}", "/word.html",
+    locals: { word: word, definitions: definitions }, ignore: true
+end
+
 set :rootpath, ""
 
 # Uncomment next line to use Pry as a console
