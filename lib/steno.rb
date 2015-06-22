@@ -57,6 +57,10 @@ module Steno
       false
     end
 
+    def span_key_set
+      Set.new(keystrokes.first.upto(keystrokes.last))
+    end
+
     def matchers
       keystrokes.map { |index|
         info = KEY_INFORMATION[index]
@@ -125,9 +129,7 @@ module Steno
       @overlay = bricks.reverse.clone
       @foundation = []
       bricks.reverse.each_cons(2) do |one,two|
-        set_one = Set.new(one.keystrokes.first.upto(one.keystrokes.last))
-        set_two = Set.new(two.keystrokes.first.upto(two.keystrokes.last))
-        if set_one.intersect?(set_two)
+        if one.span_key_set.intersect?(two.span_key_set)
           @overlay = @overlay - [one]
           @foundation << FoundationBrick.new(one.label, one.keystrokes, two)
         end
