@@ -3,12 +3,30 @@ require 'lib/steno'
 require 'lib/steno_brick_kit'
 
 require 'lib/brick_mapper'
-if data.has_key?(:bricks)
+if data.has_key?(:bricks) && data.has_key?(:definitions)
   set :mapper, BrickMapper.new(data.bricks)
   set :brickset, Steno::BrickRegistry.new
+  set :definition_list, []
+  set :wordset, Hash.new
+
   data.bricks.each do |brick|
     brickset.add(brick)
   end
+
+  definition_list = data.definitions.map do |definition|
+    {
+      word: definition.word,
+      chord: mapper.lookup(definition),
+      bricks: definition.bricks.map { |name| brickset.lookup(name) }
+    }
+  end
+
+  definition_list.each do |definition|
+    wordset[definition[:word]] ||= []
+    wordset[definition[:word]] << definition
+  end
+else
+  abort "Cannot build site without data"
 end
 
 ###
@@ -99,18 +117,14 @@ if data.has_key? :bricks
   end
 end
 
-if data.has_key? :definitions
-  data.definitions.each do |definition|
-    chord = mapper.lookup(definition)
+definition_list.each do |definition|
+  proxy "/definitions/#{definition[:chord]}.svg", "/definition.svg", locals: {
+    word: definition[:word],
+    bricks: definition[:bricks]
+  }, ignore: true
 
-    proxy "/definitions/#{chord}.svg", "/definition.svg", locals: {
-      word: definition.word,
-      bricks: definition.bricks.map { |name| brickset.lookup(name) }
-    }, ignore: true
-
-    proxy "/definitions/#{chord}.html", "/definition.html",
-      locals: { word: definition.word, bricks: definition.bricks, chord: chord }, ignore: true
-  end
+  proxy "/definitions/#{definition[:chord]}.html", "/definition.html",
+    locals: { word: definition[:word], chord: definition[:chord] }, ignore: true
 end
 
 set :rootpath, ""
