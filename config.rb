@@ -108,7 +108,6 @@ end
 
 if data.has_key? :bricks
   data.bricks.each do |brick|
-
     proxy "/bricks/#{brick.id}.svg", "/brick.svg",
       locals: { id: brick.id, label: brick.label, keystrokes: brick.keystrokes }, ignore: true
 
@@ -118,13 +117,11 @@ if data.has_key? :bricks
 end
 
 definition_list.each do |definition|
-  proxy "/definitions/#{definition[:chord]}.svg", "/definition.svg", locals: {
-    word: definition[:word],
-    bricks: definition[:bricks]
-  }, ignore: true
+  proxy "/definitions/#{definition[:chord]}.svg", "/definition.svg",
+    locals: { definition: definition }, ignore: true
 
   proxy "/definitions/#{definition[:chord]}.html", "/definition.html",
-    locals: { word: definition[:word], chord: definition[:chord] }, ignore: true
+    locals: { definition: definition }, ignore: true
 end
 
 set :rootpath, ""
