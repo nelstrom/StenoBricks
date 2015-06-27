@@ -5,5 +5,5 @@ title: Word page
 <h1 class="word-title"><%= word %></h1>
 
 <% definitions.each do |definition| %>
-  <img src="/definitions/<%= definition[:chord] %>.svg"/>
+  <img src="<%= path_to_svg(definition[:chord]) %>"/>
 <% end %>

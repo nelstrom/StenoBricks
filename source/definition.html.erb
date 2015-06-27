@@ -4,4 +4,4 @@ title: Definition page
 
 <h1 class="definition-title"><%= definition[:word] %></h1>
 
-<img src="/definitions/<%= definition[:chord] %>.svg"/>
+<img src="<%= path_to_svg(definition[:chord]) %>"/>

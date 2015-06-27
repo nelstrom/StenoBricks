@@ -4,7 +4,7 @@ title: Brick
 
 <h1 class="brick-title"><%= label %></h1>
 
-<img src="/bricks/<%= id %>.svg"/>
+<img src="<%= path_to_svg(id, 'bricks') %>"/>
 
 <% definitions = data.definitions.select { |defn| defn.bricks.include?(id) } %>
 

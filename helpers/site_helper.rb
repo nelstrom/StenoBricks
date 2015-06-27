@@ -11,4 +11,8 @@ module SiteHelper
     url_safe_word = CGI::escape(word)
     link_to word, "#{rootpath}/words/#{url_safe_word}/"
   end
+
+  def path_to_svg(filename, namespace="definitions")
+  "#{rootpath}/#{namespace}/#{filename}.svg"
+  end
 end
