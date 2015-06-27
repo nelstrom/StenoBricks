@@ -13,7 +13,7 @@ if data.has_key?(:bricks) && data.has_key?(:definitions)
     brickset.add(brick)
   end
 
-  definition_list = data.definitions.map do |definition|
+  definition_list = data.definitions.sort_by(&:word).map do |definition|
     {
       word: definition.word,
       chord: mapper.lookup(definition),

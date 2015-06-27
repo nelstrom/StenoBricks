@@ -11,3 +11,7 @@ body {
 .definition-title {
   text-align: center;
 }
+
+.input {
+  text-transform:uppercase;
+}

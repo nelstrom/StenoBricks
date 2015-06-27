@@ -4,7 +4,7 @@ module SiteHelper
   def link_to_definition(definition)
     # mapper and rootpath are set in config.rb
     chord = mapper.lookup(definition)
-    link_to definition.word, "#{rootpath}/definitions/#{chord}/"
+    link_to chord, "#{rootpath}/definitions/#{chord}/"
   end
 
   def link_to_word(word)

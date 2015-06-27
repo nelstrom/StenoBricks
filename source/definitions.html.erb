@@ -2,9 +2,4 @@
 title: Steno Definitions
 ---
 
-<ul class="definition-list">
-  <% data.definitions.sort_by(&:word).each do |definition| %>
-    <li><%= link_to_definition(definition) %></li>
-  <% end %>
-</ul>
-
+<%= partial('definitions-table', locals: {definitions: data.definitions.sort_by(&:word)}) %>

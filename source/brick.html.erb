@@ -11,9 +11,5 @@ title: Brick
 <% unless definitions.empty? %>
   <h2>Definitions that make use of this brick</h2>
 
-  <ul>
-    <% definitions.sort_by(&:word).each do |definition| %>
-      <li><%= link_to_definition(definition) %></li>
-    <% end %>
-  </ul>
+  <%= partial('definitions-table', locals: {definitions: definitions.sort_by(&:word)}) %>
 <% end %>
