@@ -109,11 +109,13 @@ end
 
 if data.has_key? :bricks
   data.bricks.each do |brick|
+    definitions = data.definitions.select { |defn| defn.bricks.include?(brick.id) }
+
     proxy "/bricks/#{brick.id}.svg", "/brick.svg",
-      locals: { id: brick.id, label: brick.label, keystrokes: brick.keystrokes }, ignore: true
+      locals: { brick: brick }, ignore: true
 
     proxy "/bricks/#{brick.id}.html", "/brick.html",
-      locals: { id: brick.id, label: brick.label, keystrokes: brick.keystrokes }, ignore: true
+      locals: { brick: brick, definitions: definitions}, ignore: true
   end
 end
 

@@ -4,4 +4,4 @@ title: Steno Bricks Diagram
 viewBox: "0 0 1350 500"
 ---
 
-xml << partial('brick', locals: {brick: Steno::Brick.new(label, keystrokes)})
+xml << partial('brick', locals: {brick: Steno::Brick.new(brick.label, brick.keystrokes)})
