@@ -102,7 +102,7 @@ describe BrickMapper do
 
   context 'definitions with no vowel (or star)' do
     it "converts 'about' to 'PW'" do
-      expect(mapper.lookup(about)).to eql('pw-')
+      expect(mapper.lookup(about)).to eql('pw')
     end
 
     it "converts 'the' to '-T'" do

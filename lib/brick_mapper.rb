@@ -22,7 +22,7 @@ class BrickMapper
       translate(keyNumbers, START),
       translate(keyNumbers, MIDDLE, '-'),
       translate(keyNumbers, FINISH),
-    ].join
+    ].join.sub(/-$/, '')
   end
 
   private
