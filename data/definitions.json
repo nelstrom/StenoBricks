@@ -2341,6 +2341,48 @@
     ]
   },
   {
+    "word": "earth",
+    "bricks": [
+      "short-e",
+      "end-r",
+      "end-th"
+    ]
+  },
+  {
+    "word": "hath",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-th"
+    ]
+  },
+  {
+    "word": "health",
+    "bricks": [
+      "start-h",
+      "short-e",
+      "end-l",
+      "end-th"
+    ]
+  },
+  {
+    "word": "worth",
+    "bricks": [
+      "start-w",
+      "short-o",
+      "end-r",
+      "end-th"
+    ]
+  },
+  {
+    "word": "path",
+    "bricks": [
+      "start-p",
+      "short-a",
+      "end-th"
+    ]
+  },
+  {
     "word": "$",
     "bricks": [
       "start-d",
