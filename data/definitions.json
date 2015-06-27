@@ -1,5 +1,27 @@
 [
   {
+    "word": "and",
+    "bricks": [
+      "short-a",
+      "end-n",
+      "end-d"
+    ]
+  },
+  {
+    "word": "and",
+    "bricks": [
+      "start-s",
+      "start-x"
+    ]
+  },
+  {
+    "word": "and",
+    "bricks": [
+      "start-s",
+      "start-d"
+    ]
+  },
+  {
     "word": "the",
     "bricks": [
       "end-t"
