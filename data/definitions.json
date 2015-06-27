@@ -748,6 +748,29 @@
     ]
   },
   {
+    "word": "was",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-z"
+    ]
+  },
+  {
+    "word": "was",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-s"
+    ]
+  },
+  {
+    "word": "was",
+    "bricks": [
+      "start-w",
+      "short-a"
+    ]
+  },
+  {
     "word": "web",
     "bricks": [
       "start-w",
