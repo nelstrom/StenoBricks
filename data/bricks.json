@@ -255,6 +255,21 @@
     "keystrokes": [8,9,12]
   },
   {
+    "id": "dipthong-aw",
+    "label": "AW",
+    "keystrokes": [8,12]
+  },
+  {
+    "id": "dipthong-ow",
+    "label": "OW",
+    "keystrokes": [9,12]
+  },
+  {
+    "id": "dipthong-oi",
+    "label": "OI",
+    "keystrokes": [9,11,12]
+  },
+  {
     "id": "end-th",
     "label": "TH",
     "keystrokes": [10,19]

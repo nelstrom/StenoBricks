@@ -2416,5 +2416,198 @@
       "start-h",
       "end-f"
     ]
+  },
+  {
+    "word": "soy",
+    "bricks":
+    [
+      "start-s",
+      "dipthong-oi"
+    ]
+  },
+  {
+    "word": "oil",
+    "bricks":
+    [
+      "dipthong-oi",
+      "end-l"
+    ]
+  },
+  {
+    "word": "coil",
+    "bricks":
+    [
+      "start-k",
+      "dipthong-oi",
+      "end-l"
+    ]
+  },
+  {
+    "word": "toil",
+    "bricks":
+    [
+      "start-t",
+      "dipthong-oi",
+      "end-l"
+    ]
+  },
+  {
+    "word": "soil",
+    "bricks":
+    [
+      "start-s",
+      "dipthong-oi",
+      "end-l"
+    ]
+  },
+  {
+    "word": "all",
+    "bricks":
+    [
+      "dipthong-aw",
+      "end-l"
+    ]
+  },
+  {
+    "word": "raw",
+    "bricks":
+    [
+      "start-r",
+      "dipthong-aw"
+    ]
+  },
+  {
+    "word": "awful",
+    "bricks": [
+      "dipthong-aw",
+      "end-f",
+      "end-l"
+    ]
+  },
+  {
+    "word": "call",
+    "bricks": [
+      "start-k",
+      "dipthong-aw",
+      "end-l"
+    ]
+  },
+  {
+    "word": "caught",
+    "bricks": [
+      "start-k",
+      "dipthong-aw",
+      "end-t"
+    ]
+  },
+  {
+    "word": "crawl",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "dipthong-aw",
+      "end-l"
+    ]
+  },
+  {
+    "word": "sprawl",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "dipthong-aw",
+      "end-l"
+    ]
+  },
+  {
+    "word": "out",
+    "bricks": [
+      "dipthong-ow",
+      "end-t"
+    ]
+  },
+  {
+    "word": "how",
+    "bricks": [
+      "start-h",
+      "dipthong-ow"
+    ]
+  },
+  {
+    "word": "howl",
+    "bricks": [
+      "start-h",
+      "dipthong-ow",
+      "end-l"
+    ]
+  },
+  {
+    "word": "house",
+    "bricks": [
+      "start-h",
+      "dipthong-ow",
+      "end-s"
+    ]
+  },
+  {
+    "word": "pout",
+    "bricks": [
+      "start-p",
+      "dipthong-ow",
+      "end-t"
+    ]
+  },
+  {
+    "word": "power",
+    "bricks": [
+      "start-p",
+      "dipthong-ow",
+      "end-r"
+    ]
+  },
+  {
+    "word": "prowl",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "dipthong-ow",
+      "end-l"
+    ]
+  },
+  {
+    "word": "tower",
+    "bricks": [
+      "start-t",
+      "dipthong-ow",
+      "end-r"
+    ]
+  },
+  {
+    "word": "spouse",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "dipthong-ow",
+      "end-s"
+    ]
+  },
+  {
+    "word": "sprout",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "dipthong-ow",
+      "end-t"
+    ]
+  },
+  {
+    "word": "scour",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "dipthong-ow",
+      "end-r"
+    ]
   }
 ]
