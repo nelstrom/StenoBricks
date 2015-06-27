@@ -1,5 +1,4 @@
 require 'pry'
-require 'cgi'
 require 'lib/steno'
 require 'lib/steno_brick_kit'
 
@@ -23,6 +22,7 @@ if data.has_key?(:bricks) && data.has_key?(:definitions)
   end
 
   definition_list.each do |definition|
+    next if definition[:word] == '[' || definition[:word] == ']'
     wordset[definition[:word]] ||= []
     wordset[definition[:word]] << definition
   end
@@ -126,8 +126,7 @@ definition_list.each do |definition|
 end
 
 wordset.each_pair do |word, definitions|
-  url_safe_word = CGI::escape(word)
-  proxy "/words/#{url_safe_word}.html", "/word.html",
+  proxy "/words/#{word}.html", "/word.html",
     locals: { word: word, definitions: definitions }, ignore: true
 end
 
