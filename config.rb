@@ -120,11 +120,13 @@ if data.has_key? :bricks
 end
 
 definition_list.each do |definition|
+  synonyms = data.definitions.select { |defn| defn.word == definition[:word] }
+
   proxy "/definitions/#{definition[:chord]}.svg", "/definition.svg",
     locals: { definition: definition }, ignore: true
 
   proxy "/definitions/#{definition[:chord]}.html", "/definition.html",
-    locals: { definition: definition }, ignore: true
+    locals: { definition: definition, synonyms: synonyms }, ignore: true
 end
 
 wordset.each_pair do |word, definitions|

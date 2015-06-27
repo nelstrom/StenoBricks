@@ -1,13 +1,17 @@
+<% active ||= {} %>
+
 <table>
   <tr>
     <th>input</th>
     <th>output</th>
   </tr>
+
   <% definitions.each do |definition| %>
-    <tr>
+    <% highlight = mapper.lookup(definition) == active[:chord] %>
+    <tr class="<%= highlight ? 'active' : '' %>">
       <td class="input"><%= link_to_definition(definition) %></td>
       <td class="output"><%= definition.word %></td>
     </tr>
   <% end %>
-</table>
 
+</table>

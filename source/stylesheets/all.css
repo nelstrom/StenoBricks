@@ -15,3 +15,7 @@ body {
 .input {
   text-transform:uppercase;
 }
+
+tr.active {
+  opacity: 0.33;
+}
