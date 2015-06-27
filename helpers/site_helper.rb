@@ -12,7 +12,11 @@ module SiteHelper
     link_to word, "#{rootpath}/words/#{url_safe_word}/"
   end
 
-  def path_to_svg(filename, namespace="definitions")
-  "#{rootpath}/#{namespace}/#{filename}.svg"
+  def path_to_svg(filename, namespace=nil)
+    [
+      rootpath,
+      namespace,
+      "#{filename}.svg"
+    ].compact.join("/")
   end
 end
