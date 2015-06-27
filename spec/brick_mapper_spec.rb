@@ -11,6 +11,11 @@ describe BrickMapper do
         keystrokes: [8]
       },
       {
+        id: "short-e",
+        letter: "E",
+        keystrokes: [11]
+      },
+      {
         id: "start-b",
         letter: "B",
         keystrokes: [4,5]
@@ -34,6 +39,11 @@ describe BrickMapper do
         id: "end-t",
         letter: "T",
         keystrokes: [19]
+      },
+      {
+        id: "end-th",
+        letter: "TH",
+        keystrokes: [10, 19]
       }
     ]
   end
@@ -58,6 +68,17 @@ describe BrickMapper do
         "start-b",
         "short-a",
         "end-r"
+      ]
+    }
+  end
+
+  let(:earth) do
+    {
+      word: "earth",
+      bricks: [
+        "short-e",
+        "end-r",
+        "end-th",
       ]
     }
   end
@@ -98,6 +119,10 @@ describe BrickMapper do
     it "converts 'bar' to pwar" do
       expect(mapper.lookup(bar)).to eql('pwar')
     end
+
+    it "converts 'earth' to *ert" do
+      expect(mapper.lookup(earth)).to eql('*ert')
+    end
   end
 
   context 'definitions with no vowel (or star)' do
@@ -117,11 +142,13 @@ describe BrickMapper do
   it "turns supplied bricks into a hash" do
     expect(mapper.brickset).to eql({
       "short-a" => [8],
+      "short-e" => [11],
       "start-b" => [4,5],
       "start-k" => [3],
       "end-r"   => [14],
       "end-n"   => [15, 16],
       "end-t"   => [19],
+      "end-th"  => [10, 19],
     })
   end
 end

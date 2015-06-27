@@ -41,7 +41,7 @@ class BrickMapper
   end
 
   def bricks_to_numbers(bricks)
-    bricks.map { |brick| brickset[brick] }.flatten
+    bricks.map { |brick| brickset[brick] }.flatten.sort
   end
 
 end
