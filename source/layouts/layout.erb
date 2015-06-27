@@ -7,10 +7,10 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <% if defined?(letter) %>
-      <title><%= current_page.data.title %>: <%= letter %></title>
-    <% elsif defined?(word) %>
-      <title><%= word %></title>
+    <% if defined?(brick) %>
+      <title><%= current_page.data.title %>: <%= brick.label %></title>
+    <% elsif defined?(definition) %>
+      <title><%= (definition[:chord]).upcase %>: <%= definition[:word] %></title>
     <% else %>
       <title><%= current_page.data.title %></title>
     <% end %>
