@@ -1,0 +1,11 @@
+---
+title: Steno Definitions
+---
+
+<ul class="word-list">
+  <% wordset.sort.each do |word, definitions| %>
+    <li><%= link_to_word(word) %></li>
+  <% end %>
+</ul>
+
+

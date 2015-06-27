@@ -1,4 +1,5 @@
 require 'pry'
+require 'cgi'
 require 'lib/steno'
 require 'lib/steno_brick_kit'
 
@@ -125,7 +126,8 @@ definition_list.each do |definition|
 end
 
 wordset.each_pair do |word, definitions|
-  proxy "/words/#{word}", "/word.html",
+  url_safe_word = CGI::escape(word)
+  proxy "/words/#{url_safe_word}.html", "/word.html",
     locals: { word: word, definitions: definitions }, ignore: true
 end
 
