@@ -2316,5 +2316,105 @@
       "end-l",
       "end-th"
     ]
+  },
+  {
+    "word": "$",
+    "bricks": [
+      "start-d",
+      "end-m"
+    ]
+  },
+  {
+    "word": "*",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "short-a",
+      "star",
+      "end-r"
+    ]
+  },
+  {
+    "word": "(",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "short-e",
+      "end-n"
+    ]
+  },
+  {
+    "word": ")",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "star",
+      "short-e",
+      "end-n"
+    ]
+  },
+  {
+    "word": "[",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "end-k",
+      "end-t"
+    ]
+  },
+  {
+    "word": "]",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "star",
+      "end-k",
+      "end-t"
+    ]
+  },
+  {
+    "word": "}",
+    "bricks": [
+      "start-f",
+      "start-r",
+      "star",
+      "end-k",
+      "end-t"
+    ]
+  },
+  {
+    "word": "{",
+    "bricks": [
+      "start-f",
+      "start-r",
+      "end-k",
+      "end-t"
+    ]
+  },
+  {
+    "word": "{^%}",
+    "bricks": [
+      "start-p",
+      "short-e",
+      "end-r",
+      "end-s"
+    ]
+  },
+  {
+    "word": "{!}",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "start-l",
+      "short-a",
+      "end-m"
+    ]
+  },
+  {
+    "word": "{?}",
+    "bricks": [
+      "start-h",
+      "end-f"
+    ]
   }
 ]

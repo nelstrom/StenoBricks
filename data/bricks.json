@@ -258,5 +258,10 @@
     "id": "end-th",
     "label": "TH",
     "keystrokes": [10,19]
+  },
+  {
+    "id": "star",
+    "label": "*",
+    "keystrokes": [10]
   }
 ]
