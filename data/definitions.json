@@ -2855,6 +2855,24 @@
     ]
   },
   {
+    "word": "waste",
+    "bricks": [
+      "start-w",
+      "long-a-with-ea",
+      "end-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "waist",
+    "bricks": [
+      "start-w",
+      "long-a",
+      "end-s",
+      "end-t"
+    ]
+  },
+  {
     "word": "bare",
     "bricks": [
       "start-b",
