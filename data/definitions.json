@@ -626,6 +626,29 @@
     ]
   },
   {
+    "word": "for",
+    "bricks": [
+      "start-f",
+      "end-r"
+    ]
+  },
+  {
+    "word": "for",
+    "bricks": [
+      "start-f",
+      "short-o",
+      "end-r"
+    ]
+  },
+  {
+    "word": "four",
+    "bricks": [
+      "start-f",
+      "dipthong-ow",
+      "end-r"
+    ]
+  },
+  {
     "word": "dam",
     "bricks": [
       "start-d",
