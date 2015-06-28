@@ -2760,5 +2760,18 @@
       "short-e",
       "end-r"
     ]
+  },
+  {
+    "word": "be",
+    "bricks": [
+      "end-b"
+    ]
+  },
+  {
+    "word": "bee",
+    "bricks": [
+      "start-b",
+      "long-e"
+    ]
   }
 ]
