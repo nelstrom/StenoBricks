@@ -2805,6 +2805,24 @@
     ]
   },
   {
+    "word": "brake",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "long-a",
+      "end-k"
+    ]
+  },
+  {
+    "word": "break",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "long-a-with-ea",
+      "end-k"
+    ]
+  },
+  {
     "word": "tale",
     "bricks": [
       "start-t",
