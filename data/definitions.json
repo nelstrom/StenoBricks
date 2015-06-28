@@ -2697,7 +2697,6 @@
       "end-r"
     ]
   },
-
   {
     "word": "to",
     "bricks": [
@@ -2730,6 +2729,36 @@
     "word": "eye",
     "bricks": [
       "long-i"
+    ]
+  },
+  {
+    "word": "there",
+    "bricks": [
+      "start-th",
+      "start-r"
+    ]
+  },
+  {
+    "word": "there",
+    "bricks": [
+      "start-th",
+      "end-r"
+    ]
+  },
+  {
+    "word": "their",
+    "bricks": [
+      "start-th",
+      "long-a",
+      "end-r"
+    ]
+  },
+  {
+    "word": "they're",
+    "bricks": [
+      "start-th",
+      "short-e",
+      "end-r"
     ]
   }
 ]

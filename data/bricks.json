@@ -165,6 +165,11 @@
     "keystrokes": [2]
   },
   {
+    "id": "start-th",
+    "label": "TH",
+    "keystrokes": [2,6]
+  },
+  {
     "id": "end-t",
     "label": "T",
     "keystrokes": [19]
