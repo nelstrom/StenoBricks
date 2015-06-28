@@ -2821,6 +2821,22 @@
     ]
   },
   {
+    "word": "sale",
+    "bricks": [
+      "start-s",
+      "long-a-with-ea",
+      "end-l"
+    ]
+  },
+  {
+    "word": "sail",
+    "bricks": [
+      "start-s",
+      "long-a",
+      "end-l"
+    ]
+  },
+  {
     "word": "bare",
     "bricks": [
       "start-b",
