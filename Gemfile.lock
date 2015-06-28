@@ -153,6 +153,7 @@ DEPENDENCIES
   middleman-gh-pages
   middleman-livereload (~> 3.1.0)
   pry
+  rake
   rspec
   tzinfo-data
   wdm (~> 0.1.0)
