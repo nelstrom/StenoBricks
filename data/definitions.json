@@ -2788,7 +2788,6 @@
       "long-i"
     ]
   },
-
   {
     "word": "pair",
     "bricks": [
@@ -2801,6 +2800,22 @@
     "word": "pear",
     "bricks": [
       "start-p",
+      "long-a-with-ea",
+      "end-r"
+    ]
+  },
+  {
+    "word": "bare",
+    "bricks": [
+      "start-b",
+      "long-a",
+      "end-r"
+    ]
+  },
+  {
+    "word": "bear",
+    "bricks": [
+      "start-b",
       "long-a-with-ea",
       "end-r"
     ]
