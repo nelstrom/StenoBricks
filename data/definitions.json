@@ -2851,5 +2851,19 @@
       "long-a-with-ea",
       "end-t"
     ]
+  },
+  {
+    "word": "ail",
+    "bricks": [
+      "long-a",
+      "end-l"
+    ]
+  },
+  {
+    "word": "ale",
+    "bricks": [
+      "long-a-with-ea",
+      "end-l"
+    ]
   }
 ]
