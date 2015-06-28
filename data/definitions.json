@@ -2899,5 +2899,55 @@
       "end-r",
       "end-s"
     ]
+  },
+  {
+    "word": "book",
+    "bricks": [
+      "start-b",
+      "long-oo",
+      "end-k"
+    ]
+  },
+  {
+    "word": "floor",
+    "bricks": [
+      "start-f",
+      "start-l",
+      "long-oo",
+      "end-r"
+    ]
+  },
+  {
+    "word": "hood",
+    "bricks": [
+      "start-h",
+      "long-oo",
+      "end-d"
+    ]
+  },
+  {
+    "word": "pool",
+    "bricks": [
+      "start-p",
+      "long-oo",
+      "end-l"
+    ]
+  },
+  {
+    "word": "soot",
+    "bricks": [
+      "start-s",
+      "long-oo",
+      "end-t"
+    ]
+  },
+  {
+    "word": "school",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "long-oo",
+      "end-l"
+    ]
   }
 ]
