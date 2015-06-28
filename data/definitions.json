@@ -3089,6 +3089,22 @@
     ]
   },
   {
+    "word": "sole",
+    "bricks": [
+      "start-s",
+      "long-o",
+      "end-l"
+    ]
+  },
+  {
+    "word": "soul",
+    "bricks": [
+      "start-s",
+      "dipthong-ow",
+      "end-l"
+    ]
+  },
+  {
     "word": "horse",
     "bricks": [
       "start-h",
