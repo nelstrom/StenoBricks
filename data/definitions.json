@@ -2837,6 +2837,24 @@
     ]
   },
   {
+    "word": "stare",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "long-a-with-ea",
+      "end-r"
+    ]
+  },
+  {
+    "word": "stair",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "long-a",
+      "end-r"
+    ]
+  },
+  {
     "word": "bare",
     "bricks": [
       "start-b",
