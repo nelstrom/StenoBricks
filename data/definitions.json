@@ -2218,6 +2218,23 @@
     ]
   },
   {
+    "word": "hole",
+    "bricks": [
+      "start-h",
+      "long-o",
+      "end-l"
+    ]
+  },
+  {
+    "word": "whole",
+    "bricks": [
+      "start-w",
+      "start-h",
+      "long-o",
+      "end-l"
+    ]
+  },
+  {
     "word": "pose",
     "bricks": [
       "start-p",
