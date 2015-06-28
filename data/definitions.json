@@ -3296,5 +3296,19 @@
       "long-e",
       "end-d"
     ]
+  },
+  {
+    "word": "in",
+    "bricks": [
+      "start-n"
+    ]
+  },
+  {
+    "word": "inn",
+    "bricks": [
+      "start-n",
+      "star",
+      "end-n"
+    ]
   }
 ]
