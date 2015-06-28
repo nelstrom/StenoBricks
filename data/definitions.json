@@ -610,6 +610,23 @@
     ]
   },
   {
+    "word": "dam",
+    "bricks": [
+      "start-d",
+      "short-a",
+      "end-m"
+    ]
+  },
+  {
+    "word": "damn",
+    "bricks": [
+      "start-d",
+      "short-a",
+      "star",
+      "end-m"
+    ]
+  },
+  {
     "word": "sell",
     "bricks": [
       "start-s",
