@@ -2969,6 +2969,22 @@
     ]
   },
   {
+    "word": "heal",
+    "bricks": [
+      "start-h",
+      "long-e-with-ea",
+      "end-l"
+    ]
+  },
+  {
+    "word": "heel",
+    "bricks": [
+      "start-h",
+      "long-e",
+      "end-l"
+    ]
+  },
+  {
     "word": "real",
     "bricks": [
       "start-r",
