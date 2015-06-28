@@ -2696,5 +2696,28 @@
       "dipthong-ow",
       "end-r"
     ]
+  },
+
+  {
+    "word": "to",
+    "bricks": [
+      "start-t",
+      "short-o"
+    ]
+  },
+  {
+    "word": "too",
+    "bricks": [
+      "start-t",
+      "long-oo"
+    ]
+  },
+  {
+    "word": "two",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "short-o"
+    ]
   }
 ]

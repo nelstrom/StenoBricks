@@ -250,6 +250,11 @@
     "keystrokes": [9,11]
   },
   {
+    "id": "long-oo",
+    "label": "OO",
+    "keystrokes": [8,9]
+  },
+  {
     "id": "long-u",
     "label": "EW",
     "keystrokes": [8,9,12]
