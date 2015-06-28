@@ -2969,6 +2969,22 @@
     ]
   },
   {
+    "word": "real",
+    "bricks": [
+      "start-r",
+      "long-e-with-ea",
+      "end-l"
+    ]
+  },
+  {
+    "word": "reel",
+    "bricks": [
+      "start-r",
+      "long-e",
+      "end-l"
+    ]
+  },
+  {
     "word": "read",
     "bricks": [
       "start-r",
