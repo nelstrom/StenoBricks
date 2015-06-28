@@ -2985,6 +2985,22 @@
     ]
   },
   {
+    "word": "hear",
+    "bricks": [
+      "start-h",
+      "long-e-with-ea",
+      "end-r"
+    ]
+  },
+  {
+    "word": "here",
+    "bricks": [
+      "start-h",
+      "long-e",
+      "end-r"
+    ]
+  },
+  {
     "word": "real",
     "bricks": [
       "start-r",
