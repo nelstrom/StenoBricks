@@ -2865,5 +2865,21 @@
       "long-a-with-ea",
       "end-l"
     ]
+  },
+  {
+    "word": "rode",
+    "bricks": [
+      "start-r",
+      "long-o",
+      "end-d"
+    ]
+  },
+  {
+    "word": "road",
+    "bricks": [
+      "start-r",
+      "long-o-with-oa",
+      "end-d"
+    ]
   }
 ]

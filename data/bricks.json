@@ -265,6 +265,11 @@
     "keystrokes": [9,11]
   },
   {
+    "id": "long-o-with-oa",
+    "label": "OH",
+    "keystrokes": [8,9]
+  },
+  {
     "id": "long-oo",
     "label": "OO",
     "keystrokes": [8,9]
