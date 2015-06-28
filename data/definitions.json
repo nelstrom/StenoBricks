@@ -2773,5 +2773,19 @@
       "start-b",
       "long-e"
     ]
+  },
+  {
+    "word": "by",
+    "bricks": [
+      "start-b",
+      "short-i"
+    ]
+  },
+  {
+    "word": "buy",
+    "bricks": [
+      "start-b",
+      "long-i"
+    ]
   }
 ]
