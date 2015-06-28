@@ -33,7 +33,7 @@ module Steno
 
     def initialize(label='[no]', keystrokes)
       @label = label
-      @keystrokes = keystrokes
+      @keystrokes = keystrokes.sort
     end
 
     def span
