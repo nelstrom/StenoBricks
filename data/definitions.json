@@ -130,6 +130,15 @@
     ]
   },
   {
+    "word": "knot",
+    "bricks": [
+      "start-n",
+      "star",
+      "short-o",
+      "end-t"
+    ]
+  },
+  {
     "word": "hub",
     "bricks": [
       "start-h",
