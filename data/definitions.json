@@ -602,6 +602,14 @@
     ]
   },
   {
+    "word": "cell",
+    "bricks": [
+      "start-c",
+      "short-e",
+      "end-l"
+    ]
+  },
+  {
     "word": "sell",
     "bricks": [
       "start-s",
