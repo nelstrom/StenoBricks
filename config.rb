@@ -112,12 +112,13 @@ end
 if data.has_key? :bricks
   data.bricks.each do |brick|
     definitions = data.definitions.select { |defn| defn.bricks.include?(brick.id) }
+    similar = (data.bricks - [brick]).select { |b| b.keystrokes == brick.keystrokes }
 
     proxy "/bricks/#{brick.id}.svg", "/brick.svg",
       locals: { brick: brick }, ignore: true
 
     proxy "/bricks/#{brick.id}.html", "/brick.html",
-      locals: { brick: brick, definitions: definitions}, ignore: true
+      locals: { brick: brick, definitions: definitions, similar: similar}, ignore: true
   end
 end
 
