@@ -3085,6 +3085,20 @@
     ]
   },
   {
+    "word": "sea",
+    "bricks": [
+      "start-s",
+      "long-e-with-ea"
+    ]
+  },
+  {
+    "word": "see",
+    "bricks": [
+      "start-s",
+      "long-e"
+    ]
+  },
+  {
     "word": "read",
     "bricks": [
       "start-r",
