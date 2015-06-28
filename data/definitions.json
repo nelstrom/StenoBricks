@@ -122,6 +122,20 @@
     ]
   },
   {
+    "word": "no",
+    "bricks": [
+      "start-n",
+      "short-o"
+    ]
+  },
+  {
+    "word": "know",
+    "bricks": [
+      "start-n",
+      "long-o"
+    ]
+  },
+  {
     "word": "not",
     "bricks": [
       "start-n",
