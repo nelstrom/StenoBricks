@@ -1,13 +1,15 @@
 require 'pry'
 require 'lib/steno'
 require 'lib/steno_brick_kit'
-
+require 'lib/homographer'
 require 'lib/brick_mapper'
+
 if data.has_key?(:bricks) && data.has_key?(:definitions)
   set :mapper, BrickMapper.new(data.bricks)
   set :brickset, Steno::BrickRegistry.new
   set :definition_list, []
   set :wordset, Hash.new
+  set :homograph_dictionary, Homographer.new(data.homographs).dictionary
 
   data.bricks.each do |brick|
     brickset.add(brick)
@@ -122,11 +124,19 @@ end
 definition_list.each do |definition|
   synonyms = data.definitions.select { |defn| defn.word == definition[:word] }
 
+  if homograph_words = homograph_dictionary[definition[:word]]
+    homographs = homograph_words.flat_map do |word|
+      data.definitions.select { |defn| defn.word == word }
+    end
+  else
+    homographs = []
+  end
+
   proxy "/definitions/#{definition[:chord]}.svg", "/definition.svg",
     locals: { definition: definition }, ignore: true
 
   proxy "/definitions/#{definition[:chord]}.html", "/definition.html",
-    locals: { definition: definition, synonyms: synonyms }, ignore: true
+    locals: { definition: definition, synonyms: synonyms, homographs: homographs }, ignore: true
 end
 
 wordset.each_pair do |word, definitions|
