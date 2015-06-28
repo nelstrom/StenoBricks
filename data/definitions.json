@@ -3001,6 +3001,22 @@
     ]
   },
   {
+    "word": "wear",
+    "bricks": [
+      "start-w",
+      "long-a-with-ea",
+      "end-r"
+    ]
+  },
+  {
+    "word": "ware",
+    "bricks": [
+      "start-w",
+      "long-a",
+      "end-r"
+    ]
+  },
+  {
     "word": "real",
     "bricks": [
       "start-r",
