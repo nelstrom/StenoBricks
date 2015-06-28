@@ -2805,6 +2805,22 @@
     ]
   },
   {
+    "word": "tale",
+    "bricks": [
+      "start-t",
+      "long-a-with-ea",
+      "end-l"
+    ]
+  },
+  {
+    "word": "tail",
+    "bricks": [
+      "start-t",
+      "long-a",
+      "end-l"
+    ]
+  },
+  {
     "word": "bare",
     "bricks": [
       "start-b",
