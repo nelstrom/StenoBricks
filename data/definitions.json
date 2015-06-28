@@ -3293,6 +3293,24 @@
     ]
   },
   {
+    "word": "plain",
+    "bricks": [
+      "start-p",
+      "start-l",
+      "long-a",
+      "end-n"
+    ]
+  },
+  {
+    "word": "plane",
+    "bricks": [
+      "start-p",
+      "start-l",
+      "long-a-with-ea",
+      "end-n"
+    ]
+  },
+  {
     "word": "where",
     "bricks": [
       "start-w",
