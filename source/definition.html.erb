@@ -6,6 +6,14 @@ title: Definition page
 
 <img src="<%= path_to_svg(definition[:chord], "definitions") %>"/>
 
+<% unless homographs.empty? %>
+  <h2>Homographs</h2>
+
+  <p>These words sound similar but are defined differently:</p>
+
+  <%= partial('definitions-table', locals: {definitions: homographs}) %>
+<% end %>
+
 <% if synonyms.length > 1 %>
   <h2>Synonyms</h2>
 
