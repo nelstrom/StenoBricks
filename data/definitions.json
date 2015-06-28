@@ -3015,6 +3015,30 @@
     ]
   },
   {
+    "word": "peace",
+    "bricks": [
+      "start-p",
+      "long-e-with-ea",
+      "end-s"
+    ]
+  },
+  {
+    "word": "piece",
+    "bricks": [
+      "start-p",
+      "long-e",
+      "end-s"
+    ]
+  },
+  {
+    "word": "peas",
+    "bricks": [
+      "start-p",
+      "long-e",
+      "end-z"
+    ]
+  },
+  {
     "word": "wear",
     "bricks": [
       "start-w",
