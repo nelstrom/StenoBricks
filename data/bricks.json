@@ -240,6 +240,11 @@
     "keystrokes": [8,11,12]
   },
   {
+    "id": "long-a-with-ea",
+    "label": "AY",
+    "keystrokes": [8,11]
+  },
+  {
     "id": "long-e",
     "label": "EE",
     "keystrokes": [8,9,11]

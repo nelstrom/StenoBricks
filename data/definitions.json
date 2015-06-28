@@ -2787,5 +2787,22 @@
       "start-b",
       "long-i"
     ]
+  },
+
+  {
+    "word": "pair",
+    "bricks": [
+      "start-p",
+      "long-a",
+      "end-r"
+    ]
+  },
+  {
+    "word": "pear",
+    "bricks": [
+      "start-p",
+      "long-a-with-ea",
+      "end-r"
+    ]
   }
 ]
