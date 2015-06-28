@@ -3001,6 +3001,20 @@
     ]
   },
   {
+    "word": "pea",
+    "bricks": [
+      "start-p",
+      "long-e-with-ea"
+    ]
+  },
+  {
+    "word": "pee",
+    "bricks": [
+      "start-p",
+      "long-e"
+    ]
+  },
+  {
     "word": "wear",
     "bricks": [
       "start-w",
