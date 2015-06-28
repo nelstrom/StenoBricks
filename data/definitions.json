@@ -2804,5 +2804,21 @@
       "long-a-with-ea",
       "end-r"
     ]
+  },
+  {
+    "word": "beet",
+    "bricks": [
+      "start-b",
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "beat",
+    "bricks": [
+      "start-b",
+      "long-e-with-ea",
+      "end-t"
+    ]
   }
 ]
