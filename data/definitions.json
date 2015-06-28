@@ -2949,5 +2949,23 @@
       "long-oo",
       "end-l"
     ]
+  },
+  {
+    "word": "wheel",
+    "bricks": [
+      "start-w",
+      "start-h",
+      "long-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "wheal",
+    "bricks": [
+      "start-w",
+      "start-h",
+      "long-e-with-ea",
+      "end-l"
+    ]
   }
 ]
