@@ -610,6 +610,22 @@
     ]
   },
   {
+    "word": "deer",
+    "bricks": [
+      "start-d",
+      "long-e",
+      "end-r"
+    ]
+  },
+  {
+    "word": "dear",
+    "bricks": [
+      "start-d",
+      "long-e-with-ea",
+      "end-r"
+    ]
+  },
+  {
     "word": "dam",
     "bricks": [
       "start-d",
