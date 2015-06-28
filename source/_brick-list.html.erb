@@ -1,0 +1,5 @@
+<ul class="brick-list">
+  <% bricks.each do |brick| %>
+    <li><%= link_to brick.id, "#{rootpath}/bricks/#{brick.id}/" %></li>
+  <% end %>
+</ul>

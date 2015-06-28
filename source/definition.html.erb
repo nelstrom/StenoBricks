@@ -6,6 +6,10 @@ title: Definition page
 
 <img src="<%= path_to_svg(definition[:chord], "definitions") %>"/>
 
+<h2>Bricks</h2>
+
+<%= partial('brick-list', locals: {bricks: definition[:bricks]}) %>
+
 <% unless homographs.empty? %>
   <h2>Homographs</h2>
 
