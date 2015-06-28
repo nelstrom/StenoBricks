@@ -2967,5 +2967,21 @@
       "long-e-with-ea",
       "end-l"
     ]
+  },
+  {
+    "word": "read",
+    "bricks": [
+      "start-r",
+      "long-e-with-ea",
+      "end-d"
+    ]
+  },
+  {
+    "word": "reed",
+    "bricks": [
+      "start-r",
+      "long-e",
+      "end-d"
+    ]
   }
 ]
