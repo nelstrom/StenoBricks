@@ -2719,5 +2719,17 @@
       "start-w",
       "short-o"
     ]
+  },
+  {
+    "word": "I",
+    "bricks": [
+      "short-i"
+    ]
+  },
+  {
+    "word": "eye",
+    "bricks": [
+      "long-i"
+    ]
   }
 ]
