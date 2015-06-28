@@ -3071,6 +3071,20 @@
     ]
   },
   {
+    "word": "tea",
+    "bricks": [
+      "start-t",
+      "long-e-with-ea"
+    ]
+  },
+  {
+    "word": "tee",
+    "bricks": [
+      "start-t",
+      "long-e"
+    ]
+  },
+  {
     "word": "read",
     "bricks": [
       "start-r",
