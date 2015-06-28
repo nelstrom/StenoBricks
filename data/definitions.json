@@ -3123,6 +3123,22 @@
     ]
   },
   {
+    "word": "where",
+    "bricks": [
+      "start-w",
+      "end-r"
+    ]
+  },
+  {
+    "word": "where",
+    "bricks": [
+      "start-w",
+      "start-h",
+      "short-e",
+      "end-r"
+    ]
+  },
+  {
     "word": "real",
     "bricks": [
       "start-r",
