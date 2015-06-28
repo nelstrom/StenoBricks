@@ -17,3 +17,5 @@ For each brick, provide examples (e.g. 'a' as in 'hat', 'bad'; 'A' as in 'hate',
 
 * `/cheatsheet/vowels` list of vowels: a, e, i, o, u, A, E, I, O, U, ae, oo, oi (classified: short, long, dipthong - with filters to show/hide each category)
 * `/cheatsheet/fingerspelling-alphabet` all letters: a, b, c, d, e, ..., x, y, z
+
+[![Build Status](https://travis-ci.org/nelstrom/StenoBricks.svg?branch=master)](https://travis-ci.org/nelstrom/StenoBricks)
