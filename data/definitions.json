@@ -2835,5 +2835,21 @@
       "long-e-with-ea",
       "end-t"
     ]
+  },
+  {
+    "word": "gait",
+    "bricks": [
+      "start-g",
+      "long-a",
+      "end-t"
+    ]
+  },
+  {
+    "word": "gate",
+    "bricks": [
+      "start-g",
+      "long-a-with-ea",
+      "end-t"
+    ]
   }
 ]
