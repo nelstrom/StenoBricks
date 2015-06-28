@@ -139,6 +139,18 @@ describe BrickMapper do
     end
   end
 
+  it "blows up when looking up a word defined with a non-existant brick" do
+    zen = {
+      word: "zen",
+      bricks: [
+        "start-z", # undefined brick
+        "short-e",
+        "end-n",
+      ]
+    }
+    expect{ mapper.lookup(zen) }.to raise_exception
+  end
+
   it "turns supplied bricks into a hash" do
     expect(mapper.brickset).to eql({
       "short-a" => [8],
