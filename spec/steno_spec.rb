@@ -3,12 +3,12 @@ require_relative '../lib/steno'
 
 module Steno
   describe 'Steno' do
-    let(:start_d) { Brick.new('d',   [2, 3]) }
-    let(:start_b) { Brick.new('b',   [4, 5]) }
-    let(:star)    { Brick.new('*',   [10]) }
-    let(:soft_e)  { Brick.new('e',   [11]) }
-    let(:end_th)  { Brick.new('th',  [10, 19]) }
-    let(:end_nch) { Brick.new('nch', [13, 14, 15, 16]) }
+    let(:start_d) { Brick.new('start-d', 'd',   [2, 3]) }
+    let(:start_b) { Brick.new('start-b', 'b',   [4, 5]) }
+    let(:star)    { Brick.new('star', '*',   [10]) }
+    let(:soft_e)  { Brick.new('soft-e', 'e',   [11]) }
+    let(:end_th)  { Brick.new('end-th', 'th',  [10, 19]) }
+    let(:end_nch) { Brick.new('end-nch', 'nch', [13, 14, 15, 16]) }
 
     describe Brick do
       context 'with one keystroke, 2 units wide' do
@@ -81,7 +81,7 @@ module Steno
     end
 
     describe FoundationBrick do
-      subject { FoundationBrick.new('th', [10, 19], soft_e) }
+      subject { FoundationBrick.new('end-th', 'th', [10, 19], soft_e) }
 
       it '#cover records the rightmost overlay brick' do
         expect(subject.cover).to eql(soft_e)
@@ -96,7 +96,7 @@ module Steno
       context 'a fresh BrickRegistry with nothing in it' do
         subject{ BrickRegistry.new }
         it '#add generates a Brick and returns it' do
-          brick = subject.add(label: 'b', keystrokes: [4, 5])
+          brick = subject.add(id: 'start-b', label: 'b', keystrokes: [4, 5])
           expect(brick).to eql(start_b)
         end
       end
@@ -146,7 +146,7 @@ module Steno
         end
 
         it '#foundation returns end_th brick' do
-          expect(subject.foundation).to eql([FoundationBrick.new('th', [10, 19], soft_e)])
+          expect(subject.foundation).to eql([FoundationBrick.new('end-th', 'th', [10, 19], soft_e)])
         end
 
         it '#overlay returns non-foundation bricks in reverse order' do

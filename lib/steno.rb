@@ -29,9 +29,10 @@ module Steno
 
   class Brick
 
-    attr_reader :keystrokes, :label
+    attr_reader :id, :keystrokes, :label
 
-    def initialize(label='[no]', keystrokes)
+    def initialize(id, label='[no]', keystrokes)
+      @id = id
       @label = label
       @keystrokes = keystrokes.sort
     end
@@ -82,8 +83,8 @@ module Steno
   class FoundationBrick < Brick
     attr_reader :cover
 
-    def initialize(label, keystrokes, cover)
-      super(label, keystrokes)
+    def initialize(id, label, keystrokes, cover)
+      super(id, label, keystrokes)
       @cover = cover
     end
 
@@ -106,7 +107,7 @@ module Steno
       @bricks = {}
     end
     def add(values)
-      @bricks[values[:id]] = Brick.new(values[:label], values[:keystrokes])
+      @bricks[values[:id]] = Brick.new(values[:id], values[:label], values[:keystrokes])
     end
     def lookup(id)
       @bricks.fetch(id)
@@ -131,7 +132,7 @@ module Steno
       bricks.reverse.each_cons(2) do |one,two|
         if one.span_key_set.intersect?(two.span_key_set)
           @overlay = @overlay - [one]
-          @foundation << FoundationBrick.new(one.label, one.keystrokes, two)
+          @foundation << FoundationBrick.new(one.id, one.label, one.keystrokes, two)
         end
       end
     end
