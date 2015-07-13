@@ -1,5 +1,6 @@
 require 'pry'
 require 'lib/steno'
+require 'lib/steno_keyboard'
 require 'lib/steno_brick_kit'
 require 'lib/homographer'
 require 'lib/brick_mapper'
