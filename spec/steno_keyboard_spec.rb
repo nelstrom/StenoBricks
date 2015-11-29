@@ -11,12 +11,12 @@ module Steno
 
     it '#filter with {shade:"light"} returns matching items' do
       params = { shade: 'light' }
-      expect(subject.filter(params).length).to eql(11)
+      expect(subject.filter(params).length).to eql(12)
     end
 
     it '#filter with {shade:"dark"} returns matching items' do
       params = { shade: 'dark' }
-      expect(subject.filter(params).length).to eql(12)
+      expect(subject.filter(params).length).to eql(11)
     end
 
     it '#filter allows multiple params' do

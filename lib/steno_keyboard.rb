@@ -10,7 +10,7 @@ module Steno
     7  => { :label => 'r', symbol: '#bottomRowPath',   side: 'left',  row: 'bottom', finger: 'index',   left: 8,  right:  9, shade: 'light', offset: 3 },
     8  => { :label => 'a', symbol: '#thumbFirstPath',  side: 'left',  row: '',       finger: 'thumb',   left: 9,  right: 10, shade: 'dark',  offset: 3.5 },
     9  => { :label => 'o', symbol: '#thumbSecondPath', side: 'left',  row: '',       finger: 'thumb',   left: 10, right: 11, shade: 'light', offset: 4.5 },
-    10 => { :label => '*', symbol: '#starKeyPath',     side: '',      row: '',       finger: '',        left: 11, right: 13, shade: 'dark',  offset: 4.5 },
+    10 => { :label => '*', symbol: '#starKeyPath',     side: '',      row: '',       finger: '',        left: 11, right: 13, shade: 'light', offset: 4.5 },
     11 => { :label => 'e', symbol: '#thumbFirstPath',  side: 'right', row: '',       finger: 'thumb',   left: 13, right: 14, shade: 'dark',  offset: 5.5 },
     12 => { :label => 'u', symbol: '#thumbSecondPath', side: 'right', row: '',       finger: 'thumb',   left: 14, right: 15, shade: 'light', offset: 6.5 },
     13 => { :label => 'f', symbol: '#topRowPath',      side: 'right', row: 'top',    finger: 'index',   left: 15, right: 16, shade: 'dark',  offset: 7 },

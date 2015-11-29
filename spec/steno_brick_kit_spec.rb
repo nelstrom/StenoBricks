@@ -12,7 +12,7 @@ module StenoBrickKit
 
     it 'starButton' do
       button = StenoBrickKit.starButton.first
-      expect(button[:shade]).to eql('dark')
+      expect(button[:shade]).to eql('light')
       expect(button[:symbol]).to eql('#starKeyPath')
       expect(button[:offset]).to eql(4.5)
     end
