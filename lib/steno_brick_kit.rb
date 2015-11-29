@@ -149,84 +149,55 @@ module StenoBrickKit
   end
 
   def self.thumbs
-    [
-      {
-        offset: 3.5,
-        fill: 'dark',
-        symbol: '#thumbFirstPath'
-      },
-      {
-        offset: 4.5,
-        fill: 'light',
-        symbol: '#thumbSecondPath'
-      },
-      {
-        offset: 5.5,
-        fill: 'dark',
-        symbol: '#thumbFirstPath'
-      },
-      {
-        offset: 6.5,
-        fill: 'light',
-        symbol: '#thumbSecondPath'
-      },
-    ]
+    Steno::KEY_INFORMATION.values_at(8, 9, 11, 12).map do |h|
+      h.tap do |hash|
+        hash[:fill] = hash[:shade]
+      end
+    end
   end
 
   def self.starButton
-    {
-      offset: 4.5,
-      fill: 'dark',
-      symbol: '#starKeyPath'
-    }
+    Steno::KEY_INFORMATION.fetch(10).tap do |hash|
+      hash[:fill] = hash[:shade]
+    end
   end
 
   def self.leftBottom
-    [0,1,2,3].map do |i|
-      {
-        offset: i,
-        fill: 'light',
-        symbol: '#bottomRowPath'
-      }
+    Steno::KEY_INFORMATION.values_at(1, 3, 5, 7).map do |h|
+      h.tap do |hash|
+        hash[:fill] = hash[:shade]
+      end
     end
   end
 
   def self.leftTop
-    [1,2,3].map do |i|
-      {
-        offset: i,
-        fill: 'dark',
-        symbol: '#topRowPath'
-      }
+    Steno::KEY_INFORMATION.values_at(2, 4, 6).map do |h|
+      h.tap do |hash|
+        hash[:fill] = hash[:shade]
+      end
     end
   end
 
   def self.rightBottom
-    [7,8,9,10,11].map do |i|
-      {
-        offset: i,
-        fill: 'light',
-        symbol: '#bottomRowPath'
-      }
+    Steno::KEY_INFORMATION.values_at(14, 16, 18, 20, 22).map do |h|
+      h.tap do |hash|
+        hash[:fill] = hash[:shade]
+      end
     end
   end
 
   def self.rightTop
-    [7,8,9,10,11].map do |i|
-      {
-        offset: i,
-        fill: 'dark',
-        symbol: '#topRowPath'
-      }
+    Steno::KEY_INFORMATION.values_at(13, 15, 17, 19, 21).map do |h|
+      h.tap do |hash|
+        hash[:fill] = hash[:shade]
+      end
     end
   end
 
   def self.numberButton
-    {
-      offset: -0.5,
-      fill: 'dark',
-      symbol: '#numberKeyPath'
-    }
+    Steno::KEY_INFORMATION.fetch(0).tap do |hash|
+      hash[:fill] = hash[:shade]
+    end
   end
 
   def self.buttons
