@@ -103,24 +103,24 @@ svg {
     <path d="M 5.0 100 L 745.0 100 C 750.0 110 750.0 140 745.0 150 L 5.0 150 C  0 140 0 110 5.0 100 z"/>
   </symbol>
   <g transform="translate(100)">
-    <use xlink:href="#thumbFirstPath" x="350.0" y="50" class="stroked lightFill"/>
-    <use xlink:href="#thumbSecondPath" x="450.0" y="50" class="stroked darkFill"/>
+    <use xlink:href="#thumbFirstPath" x="350.0" y="50" class="stroked darkFill"/>
+    <use xlink:href="#thumbSecondPath" x="450.0" y="50" class="stroked lightFill"/>
     <use xlink:href="#thumbFirstPath" x="550.0" y="50" class="stroked darkFill"/>
     <use xlink:href="#thumbSecondPath" x="650.0" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="0" y="50" class="stroked darkFill"/>
-    <use xlink:href="#bottomRowPath" x="100" y="50" class="stroked darkFill"/>
-    <use xlink:href="#bottomRowPath" x="200" y="50" class="stroked darkFill"/>
-    <use xlink:href="#bottomRowPath" x="300" y="50" class="stroked darkFill"/>
+    <use xlink:href="#bottomRowPath" x="0" y="50" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="100" y="50" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="200" y="50" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="300" y="50" class="stroked lightFill"/>
     <use xlink:href="#starKeyPath" x="450.0" y="50" class="stroked lightFill"/>
     <use xlink:href="#bottomRowPath" x="700" y="50" class="stroked lightFill"/>
     <use xlink:href="#bottomRowPath" x="800" y="50" class="stroked lightFill"/>
     <use xlink:href="#bottomRowPath" x="900" y="50" class="stroked lightFill"/>
     <use xlink:href="#bottomRowPath" x="1000" y="50" class="stroked lightFill"/>
     <use xlink:href="#bottomRowPath" x="1100" y="50" class="stroked lightFill"/>
-    <use xlink:href="#numberKeyPath" x="-50.0" y="50" class="stroked lightFill"/>
-    <use xlink:href="#topRowPath" x="100" y="50" class="stroked lightFill"/>
-    <use xlink:href="#topRowPath" x="200" y="50" class="stroked lightFill"/>
-    <use xlink:href="#topRowPath" x="300" y="50" class="stroked lightFill"/>
+    <use xlink:href="#numberKeyPath" x="-50.0" y="50" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="100" y="50" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="200" y="50" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="300" y="50" class="stroked darkFill"/>
     <use xlink:href="#topRowPath" x="700" y="50" class="stroked darkFill"/>
     <use xlink:href="#topRowPath" x="800" y="50" class="stroked darkFill"/>
     <use xlink:href="#topRowPath" x="900" y="50" class="stroked darkFill"/>
@@ -206,14 +206,14 @@ svg {
   </text>
 </g>
 <g>
-  <use xlink:href="#matcher-width-1" x="400" y="-40" class="stroked lightFill"/>
+  <use xlink:href="#matcher-width-1" x="400" y="-40" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="400" y="-90" class="stroked whiteFill"/>
   <text class="buttonLabel" x="425.0" y="42">
     <tspan>A</tspan>
   </text>
 </g>
 <g>
-  <use xlink:href="#matcher-width-1" x="350" y="-40" class="stroked darkFill"/>
+  <use xlink:href="#matcher-width-1" x="350" y="-40" class="stroked lightFill"/>
   <use xlink:href="#span-width-1" x="350" y="-90" class="stroked whiteFill"/>
   <text class="buttonLabel" x="375.0" y="42">
     <tspan>R</tspan>
