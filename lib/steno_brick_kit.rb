@@ -152,22 +152,22 @@ module StenoBrickKit
     [
       {
         offset: 3.5,
-        fill: 'light',
+        fill: 'dark',
         symbol: '#thumbFirstPath'
       },
       {
         offset: 4.5,
-        fill: 'dark',
+        fill: 'light',
         symbol: '#thumbSecondPath'
       },
       {
         offset: 5.5,
-        fill: 'light',
+        fill: 'dark',
         symbol: '#thumbFirstPath'
       },
       {
         offset: 6.5,
-        fill: 'dark',
+        fill: 'light',
         symbol: '#thumbSecondPath'
       },
     ]
@@ -176,7 +176,7 @@ module StenoBrickKit
   def self.starButton
     {
       offset: 4.5,
-      fill: 'light',
+      fill: 'dark',
       symbol: '#starKeyPath'
     }
   end
@@ -185,7 +185,7 @@ module StenoBrickKit
     [0,1,2,3].map do |i|
       {
         offset: i,
-        fill: 'dark',
+        fill: 'light',
         symbol: '#bottomRowPath'
       }
     end
@@ -195,7 +195,7 @@ module StenoBrickKit
     [1,2,3].map do |i|
       {
         offset: i,
-        fill: 'light',
+        fill: 'dark',
         symbol: '#topRowPath'
       }
     end
@@ -205,7 +205,7 @@ module StenoBrickKit
     [7,8,9,10,11].map do |i|
       {
         offset: i,
-        fill: 'dark',
+        fill: 'light',
         symbol: '#bottomRowPath'
       }
     end
@@ -215,7 +215,7 @@ module StenoBrickKit
     [7,8,9,10,11].map do |i|
       {
         offset: i,
-        fill: 'light',
+        fill: 'dark',
         symbol: '#topRowPath'
       }
     end
@@ -224,7 +224,7 @@ module StenoBrickKit
   def self.numberButton
     {
       offset: -0.5,
-      fill: 'light',
+      fill: 'dark',
       symbol: '#numberKeyPath'
     }
   end

@@ -18,7 +18,7 @@ module Steno
         end
         it 'returns matchers labelled dark/light' do
           expect(subject.matchers).to eql([
-            {start: 11, width: 2, shade: 'light'}
+            {start: 11, width: 2, shade: 'dark'}
           ])
         end
         it 'returns the text label' do
@@ -39,8 +39,8 @@ module Steno
         end
         it 'returns matchers labelled dark/light' do
           expect(subject.matchers).to eql([
-            {start: 11, width: 2, shade: 'light'},
-            {start: 21, width: 1, shade: 'light'},
+            {start: 11, width: 2, shade: 'dark'},
+            {start: 21, width: 1, shade: 'dark'},
           ])
         end
         it 'returns the text label' do
@@ -61,10 +61,10 @@ module Steno
 
         it 'returns matchers labelled dark/light' do
           expect(subject.matchers).to eql([
-            {start: 15, width: 1, shade: 'light'},
-            {start: 16, width: 1, shade: 'dark'},
-            {start: 17, width: 1, shade: 'light'},
-            {start: 18, width: 1, shade: 'dark'},
+            {start: 15, width: 1, shade: 'dark'},
+            {start: 16, width: 1, shade: 'light'},
+            {start: 17, width: 1, shade: 'dark'},
+            {start: 18, width: 1, shade: 'light'},
           ])
         end
 
