@@ -4,14 +4,14 @@ require_relative '../lib/steno_brick_kit'
 module StenoBrickKit
   describe 'Buttons' do
     it 'numberButton' do
-      button = StenoBrickKit.numberButton
+      button = StenoBrickKit.numberButton.first
       expect(button[:shade]).to eql('dark')
       expect(button[:symbol]).to eql('#numberKeyPath')
       expect(button[:offset]).to eql(-0.5)
     end
 
     it 'starButton' do
-      button = StenoBrickKit.starButton
+      button = StenoBrickKit.starButton.first
       expect(button[:shade]).to eql('dark')
       expect(button[:symbol]).to eql('#starKeyPath')
       expect(button[:offset]).to eql(4.5)

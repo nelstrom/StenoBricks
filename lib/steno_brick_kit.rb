@@ -11,6 +11,10 @@ module Dimensions
 end
 
 module StenoBrickKit
+  def self.keyboard
+    @keyboard ||= Steno::Keyboard.new
+  end
+
   def self.span_key_symbols
     1.upto(15).map do |width|
       {
@@ -149,31 +153,31 @@ module StenoBrickKit
   end
 
   def self.thumbs
-    Steno::KEY_INFORMATION.values_at(8, 9, 11, 12)
+    keyboard.filter(finger: 'thumb')
   end
 
   def self.starButton
-    Steno::KEY_INFORMATION.fetch(10)
+    keyboard.filter(label: '*')
   end
 
   def self.leftBottom
-    Steno::KEY_INFORMATION.values_at(1, 3, 5, 7)
+    keyboard.filter(side: 'left', row: 'bottom')
   end
 
   def self.leftTop
-    Steno::KEY_INFORMATION.values_at(2, 4, 6)
+    keyboard.filter(side: 'left', row: 'top')
   end
 
   def self.rightBottom
-    Steno::KEY_INFORMATION.values_at(14, 16, 18, 20, 22)
+    keyboard.filter(side: 'right', row: 'bottom')
   end
 
   def self.rightTop
-    Steno::KEY_INFORMATION.values_at(13, 15, 17, 19, 22)
+    keyboard.filter(side: 'right', row: 'top')
   end
 
   def self.numberButton
-    Steno::KEY_INFORMATION.fetch(0)
+    keyboard.filter(label: '#')
   end
 
   def self.buttons
