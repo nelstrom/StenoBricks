@@ -40,18 +40,18 @@ xml.svg({
         "xlink:href" => button[:symbol],
         :x => button[:offset] * Dimensions::HORIZONTAL_UNIT,
         :y => 50,
-        :class => "stroked #{button[:fill]}Fill"
+        :class => "stroked #{button[:shade]}Fill"
       )
     end
 
     StenoBrickKit::labels.each do |label|
       add = -25
-      if label[:width] == 2
+      if (label[:right] - label[:left]) == 2
         add = add + Dimensions::HORIZONTAL_UNIT/4
       end
 
-      xml.text(:class => 'buttonLabel', :y => 115, :x => (add + label[:xPosition] * Dimensions::HORIZONTAL_UNIT/2)) do
-        xml.tspan(label[:text])
+      xml.text(:class => 'buttonLabel', :y => 115, :x => (add + label[:left] * Dimensions::HORIZONTAL_UNIT/2)) do
+        xml.tspan(label[:label])
       end
     end
 
