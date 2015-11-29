@@ -40,7 +40,7 @@ xml.svg({
         "xlink:href" => button[:symbol],
         :x => button[:offset] * Dimensions::HORIZONTAL_UNIT,
         :y => 50,
-        :class => "stroked #{button[:fill]}Fill"
+        :class => "stroked #{button[:shade]}Fill"
       )
     end
 

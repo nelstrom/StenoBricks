@@ -149,55 +149,31 @@ module StenoBrickKit
   end
 
   def self.thumbs
-    Steno::KEY_INFORMATION.values_at(8, 9, 11, 12).map do |h|
-      h.tap do |hash|
-        hash[:fill] = hash[:shade]
-      end
-    end
+    Steno::KEY_INFORMATION.values_at(8, 9, 11, 12)
   end
 
   def self.starButton
-    Steno::KEY_INFORMATION.fetch(10).tap do |hash|
-      hash[:fill] = hash[:shade]
-    end
+    Steno::KEY_INFORMATION.fetch(10)
   end
 
   def self.leftBottom
-    Steno::KEY_INFORMATION.values_at(1, 3, 5, 7).map do |h|
-      h.tap do |hash|
-        hash[:fill] = hash[:shade]
-      end
-    end
+    Steno::KEY_INFORMATION.values_at(1, 3, 5, 7)
   end
 
   def self.leftTop
-    Steno::KEY_INFORMATION.values_at(2, 4, 6).map do |h|
-      h.tap do |hash|
-        hash[:fill] = hash[:shade]
-      end
-    end
+    Steno::KEY_INFORMATION.values_at(2, 4, 6)
   end
 
   def self.rightBottom
-    Steno::KEY_INFORMATION.values_at(14, 16, 18, 20, 22).map do |h|
-      h.tap do |hash|
-        hash[:fill] = hash[:shade]
-      end
-    end
+    Steno::KEY_INFORMATION.values_at(14, 16, 18, 20, 22)
   end
 
   def self.rightTop
-    Steno::KEY_INFORMATION.values_at(13, 15, 17, 19, 21).map do |h|
-      h.tap do |hash|
-        hash[:fill] = hash[:shade]
-      end
-    end
+    Steno::KEY_INFORMATION.values_at(13, 15, 17, 19, 22)
   end
 
   def self.numberButton
-    Steno::KEY_INFORMATION.fetch(0).tap do |hash|
-      hash[:fill] = hash[:shade]
-    end
+    Steno::KEY_INFORMATION.fetch(0)
   end
 
   def self.buttons
