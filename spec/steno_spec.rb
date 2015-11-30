@@ -154,5 +154,46 @@ module Steno
         end
       end
     end
+
+    describe Definition do
+      let(:flat_mono) { {
+        "word": "be",
+        "bricks": ["end-b"]
+      } }
+
+      let(:mono_stroke) { {
+        "word": "be",
+        "chords": [
+          { "bricks": ["end-b"] }
+        ]
+      } }
+
+      let(:two_stroke) { {
+        "word": "being",
+        "chords": [
+          { bricks: ["end-b"] },
+          { bricks: ["end-g"] }
+        ]
+      } }
+
+      it 'can accept "word" and "bricks" for constructor of a mono-stroke definition"' do
+        definition = Definition.new(flat_mono)
+        expect(definition.word).to eql('be')
+        expect(definition.chords.count).to eql(1)
+      end
+
+      it 'can accept "word" and "chords" for constructor of a mono-stroke definition"' do
+        definition = Definition.new(mono_stroke)
+        expect(definition.word).to eql('be')
+        expect(definition.chords.count).to eql(1)
+      end
+
+      it 'can accept "word" and "chords" for constructor of a two-stroke definition"' do
+        definition = Definition.new(two_stroke)
+        expect(definition.word).to eql('being')
+        expect(definition.chords.count).to eql(2)
+      end
+
+    end
   end
 end

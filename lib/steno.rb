@@ -1,4 +1,5 @@
 require 'set'
+require 'ostruct'
 require_relative './steno_keyboard'
 
 module Steno
@@ -110,6 +111,21 @@ module Steno
           @overlay = @overlay - [one]
           @foundation << FoundationBrick.new(one.id, one.label, one.keystrokes, two)
         end
+      end
+    end
+  end
+
+  class Definition
+    attr_reader :word, :chords
+
+    def initialize(params)
+      params = OpenStruct.new(params)
+      @word = params.word
+
+      if params.chords
+        @chords = params.chords
+      else
+        @chords = [params.bricks]
       end
     end
   end
