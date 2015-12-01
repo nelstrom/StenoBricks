@@ -134,8 +134,9 @@ module Steno
 
     def initialize(params, registry=BrickRegistry.new, mapper=nil)
       params = OpenStruct.new(params)
+      params.chords ||= []
       if params.bricks
-        params.chords = [{ bricks: params.bricks }]
+        params.chords << { bricks: params.bricks }
       end
 
       @word   = params.word
