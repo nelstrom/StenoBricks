@@ -119,6 +119,13 @@ if data.has_key? :bricks
   end
 end
 
+# Strange but true: the definition_list defined in this file is made available
+# to proxy pages, but for some reason it is not available to normal pages.
+# That's why we're doing this slightly awkward dance to make the
+# definition_list availble in the definitions.html page
+proxy "/definitions.html", "definition-list.html",
+  locals: { definitions: definition_list }, ignore: true
+
 definition_list.each do |definition|
   synonyms = data.definitions.select { |defn| defn.word == definition.word }
 
