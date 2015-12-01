@@ -228,6 +228,13 @@ module Steno
         expect(two_stroke.word).to eql('being')
         expect(two_stroke.chords.count).to eql(2)
       end
+
+      describe '#notation' do
+        it 'creates notation from it\'s constituent bricks' do
+          expect(mono_stroke.notation).to eql('-b')
+          expect(two_stroke.notation).to eql('-b/-g')
+        end
+      end
     end
   end
 end

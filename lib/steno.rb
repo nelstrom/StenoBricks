@@ -142,6 +142,10 @@ module Steno
         @chords = [Chord.new(params.bricks, registry, mapper)]
       end
     end
+
+    def notation
+      @chords.map(&:notation).join("/")
+    end
   end
 
 end
