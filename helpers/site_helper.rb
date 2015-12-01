@@ -1,10 +1,11 @@
 require 'cgi'
 
 module SiteHelper
+  # Note: rootpath is set in config.rb
+
   def link_to_definition(definition)
-    # mapper and rootpath are set in config.rb
-    chord = mapper.lookup(definition.bricks)
-    link_to chord, "#{rootpath}/definitions/#{chord}/"
+    notation = definition.notation
+    link_to notation, "#{rootpath}/definitions/#{notation}/"
   end
 
   def link_to_word(word)
