@@ -2872,6 +2872,13 @@
     ]
   },
   {
+    "word": "being",
+    "chords": [
+      { "bricks": [ "end-b" ] },
+      { "bricks": [ "end-g" ] }
+    ]
+  },
+  {
     "word": "bee",
     "bricks": [
       "start-b",
