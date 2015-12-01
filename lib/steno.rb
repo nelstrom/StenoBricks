@@ -134,13 +134,12 @@ module Steno
 
     def initialize(params, registry=BrickRegistry.new, mapper=nil)
       params = OpenStruct.new(params)
-      @word = params.word
-
-      if params.chords
-        @chords = params.chords.map { |chord| Chord.new(chord[:bricks], registry, mapper) }
-      else
-        @chords = [Chord.new(params.bricks, registry, mapper)]
+      if params.bricks
+        params.chords = [{ bricks: params.bricks }]
       end
+
+      @word   = params.word
+      @chords = params.chords.map { |chord| Chord.new(chord[:bricks], registry, mapper) }
     end
 
     def notation
