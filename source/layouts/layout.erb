@@ -10,7 +10,7 @@
     <% if defined?(brick) %>
       <title><%= current_page.data.title %>: <%= brick.label %></title>
     <% elsif defined?(definition) %>
-      <title><%= (definition[:chord]).upcase %>: <%= definition[:word] %></title>
+      <title><%= (definition.notation).upcase %>: <%= definition.word %></title>
     <% else %>
       <title><%= current_page.data.title %></title>
     <% end %>

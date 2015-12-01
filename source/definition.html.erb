@@ -2,13 +2,13 @@
 title: Definition page
 ---
 
-<h1 class="definition-title"><%= definition[:word] %></h1>
+<h1 class="definition-title"><%= definition.word %></h1>
 
-<img src="<%= path_to_svg(definition[:chord], "definitions") %>"/>
+<img src="<%= path_to_svg(definition.notation, "definitions") %>"/>
 
 <h2>Bricks</h2>
 
-<%= partial('brick-list', locals: {bricks: definition[:bricks]}) %>
+<%= partial('brick-list', locals: {bricks: definition.bricks}) %>
 
 <% unless homographs.empty? %>
   <h2>Homographs</h2>
@@ -21,7 +21,7 @@ title: Definition page
 <% if synonyms.length > 1 %>
   <h2>Synonyms</h2>
 
-  <p>We can produce the output "<%= definition[:word] %>" using any of these definitions:</p>
+  <p>We can produce the output "<%= definition.word %>" using any of these definitions:</p>
 
   <%= partial('definitions-table', locals: {definitions: synonyms, active: definition}) %>
 <% end %>

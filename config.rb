@@ -16,18 +16,14 @@ if data.has_key?(:bricks) && data.has_key?(:definitions)
     brickset.add(brick)
   end
 
-  definition_list = data.definitions.sort_by(&:word).map do |definition|
-    {
-      word: definition.word,
-      chord: mapper.lookup(definition.bricks),
-      bricks: definition.bricks.map { |name| brickset.lookup(name) }
-    }
+  definition_list = data.definitions.sort_by(&:word).map do |data|
+    Steno::Definition.new(data, brickset, mapper)
   end
 
   definition_list.each do |definition|
-    next if definition[:word] == '[' || definition[:word] == ']'
-    wordset[definition[:word]] ||= []
-    wordset[definition[:word]] << definition
+    next if definition.word == '[' || definition.word == ']'
+    wordset[definition.word] ||= []
+    wordset[definition.word] << definition
   end
 else
   abort "Cannot build site without data"
@@ -124,9 +120,9 @@ if data.has_key? :bricks
 end
 
 definition_list.each do |definition|
-  synonyms = data.definitions.select { |defn| defn.word == definition[:word] }
+  synonyms = data.definitions.select { |defn| defn.word == definition.word }
 
-  if homograph_words = homograph_dictionary[definition[:word]]
+  if homograph_words = homograph_dictionary[definition.word]
     homographs = homograph_words.flat_map do |word|
       data.definitions.select { |defn| defn.word == word }
     end
@@ -134,10 +130,10 @@ definition_list.each do |definition|
     homographs = []
   end
 
-  proxy "/definitions/#{definition[:chord]}.svg", "/definition.svg",
+  proxy "/definitions/#{definition.notation}.svg", "/definition.svg",
     locals: { definition: definition }, ignore: true
 
-  proxy "/definitions/#{definition[:chord]}.html", "/definition.html",
+  proxy "/definitions/#{definition.notation}.html", "/definition.html",
     locals: { definition: definition, synonyms: synonyms, homographs: homographs }, ignore: true
 end
 
