@@ -114,6 +114,20 @@ module Steno
     end
 
     describe Chord do
+      describe 'construction' do
+        let(:registry) { double("BrickRegistry") }
+        before do
+          allow(registry).to receive(:lookup).with('soft-e').and_return(soft_e)
+          allow(registry).to receive(:lookup).with('start-b').and_return(start_b)
+          allow(registry).to receive(:lookup).with('end-nch').and_return(end_nch)
+        end
+        it 'can be constructed with [Brick] list or [string_id] list with a registry' do
+          one = Chord.new(['start-b', 'soft-e', 'end-nch'], registry)
+          two = Chord.new([start_b, soft_e, end_nch])
+          expect(one).to eql(two)
+        end
+      end
+
       context "given bricks in wrong order" do
         subject{ Chord.new([soft_e, start_b, end_nch]) }
 

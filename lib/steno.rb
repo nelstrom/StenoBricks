@@ -96,9 +96,20 @@ module Steno
 
   class Chord
     attr_reader :bricks, :foundation, :overlay
-    def initialize(bricks)
+    def initialize(bricks, registry=BrickRegistry.new)
+      bricks = bricks.map { |b|
+        if b.class == Brick
+          b
+        else
+          registry.lookup(b)
+        end
+      }
       @bricks = bricks.sort_by { |b| b.keystrokes.last }
       detect_overlaps
+    end
+
+    def eql?(other)
+      @bricks.zip(other.bricks).all? { |mine, yours| mine == yours }
     end
 
     private
