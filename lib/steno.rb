@@ -145,6 +145,10 @@ module Steno
     def notation
       @chords.map(&:notation).join("/")
     end
+
+    def bricks
+      @chords.map(&:bricks).flatten.uniq
+    end
   end
 
 end

@@ -235,6 +235,13 @@ module Steno
           expect(two_stroke.notation).to eql('-b/-g')
         end
       end
+
+      describe '#bricks' do
+        it 'lists all bricks used by this definition' do
+          expect(mono_stroke.bricks).to eql([end_b])
+          expect(two_stroke.bricks).to eql([end_b, end_g])
+        end
+      end
     end
   end
 end
