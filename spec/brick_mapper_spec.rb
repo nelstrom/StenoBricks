@@ -113,29 +113,29 @@ describe BrickMapper do
 
   context 'definitions with a vowel (or star)' do
     it "converts 'car' to kar" do
-      expect(mapper.lookup(car)).to eql('kar')
+      expect(mapper.lookup(car[:bricks])).to eql('kar')
     end
 
     it "converts 'bar' to pwar" do
-      expect(mapper.lookup(bar)).to eql('pwar')
+      expect(mapper.lookup(bar[:bricks])).to eql('pwar')
     end
 
     it "converts 'earth' to *ert" do
-      expect(mapper.lookup(earth)).to eql('*ert')
+      expect(mapper.lookup(earth[:bricks])).to eql('*ert')
     end
   end
 
   context 'definitions with no vowel (or star)' do
     it "converts 'about' to 'PW'" do
-      expect(mapper.lookup(about)).to eql('pw')
+      expect(mapper.lookup(about[:bricks])).to eql('pw')
     end
 
     it "converts 'the' to '-T'" do
-      expect(mapper.lookup(the)).to eql('-t')
+      expect(mapper.lookup(the[:bricks])).to eql('-t')
     end
 
     it "converts 'been' to 'PW-PB'" do
-      expect(mapper.lookup(been)).to eql('pw-pb')
+      expect(mapper.lookup(been[:bricks])).to eql('pw-pb')
     end
   end
 

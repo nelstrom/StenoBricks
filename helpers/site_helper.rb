@@ -3,7 +3,7 @@ require 'cgi'
 module SiteHelper
   def link_to_definition(definition)
     # mapper and rootpath are set in config.rb
-    chord = mapper.lookup(definition)
+    chord = mapper.lookup(definition[:bricks])
     link_to chord, "#{rootpath}/definitions/#{chord}/"
   end
 

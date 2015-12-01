@@ -7,7 +7,7 @@
   </tr>
 
   <% definitions.each do |definition| %>
-    <% highlight = mapper.lookup(definition) == active[:chord] %>
+    <% highlight = mapper.lookup(definition[:bricks]) == active[:chord] %>
     <tr class="<%= highlight ? 'active' : '' %>">
       <td class="input"><%= link_to_definition(definition) %></td>
       <td class="output"><%= definition.word %></td>

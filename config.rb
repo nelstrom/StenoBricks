@@ -19,7 +19,7 @@ if data.has_key?(:bricks) && data.has_key?(:definitions)
   definition_list = data.definitions.sort_by(&:word).map do |definition|
     {
       word: definition.word,
-      chord: mapper.lookup(definition),
+      chord: mapper.lookup(definition.bricks),
       bricks: definition.bricks.map { |name| brickset.lookup(name) }
     }
   end
