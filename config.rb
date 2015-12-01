@@ -108,7 +108,7 @@ end
 
 if data.has_key? :bricks
   data.bricks.each do |brick|
-    definitions = data.definitions.select { |defn| defn.bricks.include?(brick.id) }
+    definitions = definition_list.select { |defn| defn.bricks.include?(brick.id) }
     similar = (data.bricks - [brick]).select { |b| b.keystrokes == brick.keystrokes }
 
     proxy "/bricks/#{brick.id}.svg", "/brick.svg",
