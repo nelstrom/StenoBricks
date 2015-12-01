@@ -114,8 +114,9 @@ module Steno
     end
 
     describe Chord do
+      let(:registry) { double("BrickRegistry") }
+      let(:mapper)   { double('BrickMapper') }
       describe 'construction' do
-        let(:registry) { double("BrickRegistry") }
         before do
           allow(registry).to receive(:lookup).with('soft-e').and_return(soft_e)
           allow(registry).to receive(:lookup).with('start-b').and_return(start_b)
@@ -125,6 +126,18 @@ module Steno
           one = Chord.new(['start-b', 'soft-e', 'end-nch'], registry)
           two = Chord.new([start_b, soft_e, end_nch])
           expect(one).to eql(two)
+        end
+      end
+
+      describe '#notation' do
+        subject(:bench) { Chord.new([start_b, soft_e, end_nch], registry, mapper) }
+        before do
+          allow(mapper).to receive(:lookup)
+            .with(['start-b', 'soft-e', 'end-nch'])
+            .and_return('pwefrpb')
+        end
+        it 'uses mapper to look up notation' do
+          expect(bench.notation).to eql('pwefrpb')
         end
       end
 

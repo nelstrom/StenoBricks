@@ -95,8 +95,8 @@ module Steno
   end
 
   class Chord
-    attr_reader :bricks, :foundation, :overlay
-    def initialize(bricks, registry=BrickRegistry.new)
+    attr_reader :bricks, :notation, :foundation, :overlay
+    def initialize(bricks, registry=BrickRegistry.new, mapper=nil)
       bricks = bricks.map { |b|
         if b.class == Brick
           b
@@ -106,6 +106,9 @@ module Steno
       }
       @bricks = bricks.sort_by { |b| b.keystrokes.last }
       detect_overlaps
+      if mapper
+        @notation = mapper.lookup(@bricks.map(&:id))
+      end
     end
 
     def eql?(other)
