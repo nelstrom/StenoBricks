@@ -127,7 +127,7 @@ proxy "/definitions.html", "definition-list.html",
   locals: { definitions: definition_list }, ignore: true
 
 definition_list.each do |definition|
-  synonyms = data.definitions.select { |defn| defn.word == definition.word }
+  synonyms = definition_list.select { |defn| defn.word == definition.word }
 
   if homograph_words = homograph_dictionary[definition.word]
     homographs = homograph_words.flat_map do |word|
