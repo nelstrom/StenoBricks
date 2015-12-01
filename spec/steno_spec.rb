@@ -3,10 +3,14 @@ require_relative '../lib/steno'
 
 module Steno
   describe 'Steno' do
+    let(:registry) { double("BrickRegistry") }
+    let(:mapper)   { double('BrickMapper') }
     let(:start_d) { Brick.new('start-d', 'd',   [2, 3]) }
     let(:start_b) { Brick.new('start-b', 'b',   [4, 5]) }
     let(:star)    { Brick.new('star', '*',   [10]) }
     let(:soft_e)  { Brick.new('soft-e', 'e',   [11]) }
+    let(:end_b)   { Brick.new('end-b', 'b',  [16]) }
+    let(:end_g)   { Brick.new('end-g', 'g',  [18]) }
     let(:end_th)  { Brick.new('end-th', 'th',  [10, 19]) }
     let(:end_nch) { Brick.new('end-nch', 'nch', [13, 14, 15, 16]) }
 
@@ -114,8 +118,6 @@ module Steno
     end
 
     describe Chord do
-      let(:registry) { double("BrickRegistry") }
-      let(:mapper)   { double('BrickMapper') }
       describe 'construction' do
         before do
           allow(registry).to receive(:lookup).with('soft-e').and_return(soft_e)
@@ -183,44 +185,49 @@ module Steno
     end
 
     describe Definition do
-      let(:flat_mono) { {
+      let(:flat_mono_constructor) { {
         "word": "be",
         "bricks": ["end-b"]
       } }
+      subject(:flat_mono) { Definition.new(flat_mono_constructor, registry, mapper) }
 
-      let(:mono_stroke) { {
+      let(:mono_stroke_constructor) { {
         "word": "be",
         "chords": [
           { "bricks": ["end-b"] }
         ]
       } }
+      subject(:mono_stroke) { Definition.new(mono_stroke_constructor, registry, mapper) }
 
-      let(:two_stroke) { {
+      let(:two_stroke_constructor) { {
         "word": "being",
         "chords": [
           { bricks: ["end-b"] },
           { bricks: ["end-g"] }
         ]
       } }
+      subject(:two_stroke) { Definition.new(two_stroke_constructor, registry, mapper) }
 
+      before do
+        allow(registry).to receive(:lookup).with('end-b').and_return(end_b)
+        allow(registry).to receive(:lookup).with('end-g').and_return(end_g)
+        allow(mapper).to receive(:lookup).with(['end-b']).and_return('-b')
+        allow(mapper).to receive(:lookup).with(['end-g']).and_return('-g')
+      end
       it 'can accept "word" and "bricks" for constructor of a mono-stroke definition"' do
-        definition = Definition.new(flat_mono)
-        expect(definition.word).to eql('be')
-        expect(definition.chords.count).to eql(1)
+        expect(flat_mono.word).to eql('be')
+        expect(flat_mono.chords.count).to eql(1)
       end
 
       it 'can accept "word" and "chords" for constructor of a mono-stroke definition"' do
-        definition = Definition.new(mono_stroke)
-        expect(definition.word).to eql('be')
-        expect(definition.chords.count).to eql(1)
+        expect(mono_stroke.word).to eql('be')
+        expect(mono_stroke.chords.count).to eql(1)
       end
 
       it 'can accept "word" and "chords" for constructor of a two-stroke definition"' do
-        definition = Definition.new(two_stroke)
-        expect(definition.word).to eql('being')
-        expect(definition.chords.count).to eql(2)
+        expect(two_stroke.word).to eql('being')
+        expect(two_stroke.chords.count).to eql(2)
       end
-
     end
   end
 end

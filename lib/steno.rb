@@ -132,14 +132,14 @@ module Steno
   class Definition
     attr_reader :word, :chords
 
-    def initialize(params)
+    def initialize(params, registry=BrickRegistry.new, mapper=nil)
       params = OpenStruct.new(params)
       @word = params.word
 
       if params.chords
-        @chords = params.chords
+        @chords = params.chords.map { |chord| Chord.new(chord[:bricks], registry, mapper) }
       else
-        @chords = [params.bricks]
+        @chords = [Chord.new(params.bricks, registry, mapper)]
       end
     end
   end
