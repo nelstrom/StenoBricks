@@ -60,7 +60,7 @@ xml.svg({
     end
   end
 
-  xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT})") do
+  xml.g(:transform => "translate(#{Dimensions::HORIZONTAL_UNIT} #{bounds.extra_height})") do
     StenoBrickKit::buttons.each do |button|
       xml.use(
         "xlink:href" => button[:symbol],

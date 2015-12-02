@@ -19,6 +19,10 @@ class DiagramBounds
   end
 
   def height
-    BASE_HEIGHT + CHORD_HEIGHT * (@chord_count-1)
+    BASE_HEIGHT + extra_height
+  end
+
+  def extra_height
+    CHORD_HEIGHT * (@chord_count-1)
   end
 end
