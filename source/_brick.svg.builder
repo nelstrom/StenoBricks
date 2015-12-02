@@ -1,4 +1,4 @@
-xml.g do
+xml.g(:class => 'chord-brick') do
   brick.matchers.each do |matcher|
     xml.use(
       "xlink:href" => "#matcher-width-#{matcher[:width]}",
