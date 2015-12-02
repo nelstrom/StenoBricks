@@ -3432,6 +3432,15 @@
     ]
   },
   {
+    "word": "Esperanto",
+    "chords": [
+      { "bricks": [ "short-e", "end-s" ] },
+      { "bricks": [ "start-p", "short-e" ] },
+      { "bricks": [ "start-r", "short-a", "end-n" ] },
+      { "bricks": [ "start-t", "short-o" ] }
+    ]
+  },
+  {
     "word": "yadda yadda yadda",
     "chords": [
       { "bricks": [ "start-y", "short-a" ] },
