@@ -34,6 +34,18 @@ xml.svg({
     )
   end
 
+  xml.symbol(:id => 'horizontal-rule') do
+    xml.path(:d => 'M0 0 H 10000')
+  end
+
+  (0..500).step(50).each do |ypos|
+    xml.use(
+      'xlink:href' => '#horizontal-rule',
+      :transform => "translate(0 #{ypos})",
+      :class => 'rule-line'
+    )
+  end
+
   StenoBrickKit::symbols.each do |s|
     xml.symbol(:id => s[:id]) do
       xml.path(:d => s[:points].map(&:strip).join(' '))
