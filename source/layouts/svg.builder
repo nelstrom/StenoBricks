@@ -28,7 +28,7 @@ xml.svg({
     xml.path(:d => 'M0 0 V 10000')
   end
 
-  (50..1300).step(50).each do |xpos|
+  (50..(bounds.width-50)).step(50).each do |xpos|
     xml.use(
       'xlink:href' => '#vertical-rule',
       :transform => "translate(#{xpos})",
@@ -40,7 +40,7 @@ xml.svg({
     xml.path(:d => 'M0 0 H 10000')
   end
 
-  (0..500).step(50).each do |ypos|
+  (0..bounds.height).step(50).each do |ypos|
     xml.use(
       'xlink:href' => '#horizontal-rule',
       :transform => "translate(0 #{ypos})",

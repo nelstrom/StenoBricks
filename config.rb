@@ -139,7 +139,7 @@ definition_list.each do |definition|
   end
 
   proxy "/definitions/#{definition.notation}.svg", "/definition.svg",
-    locals: { definition: definition, bounds: DiagramBounds.new }, ignore: true
+    locals: { definition: definition, bounds: DiagramBounds.new(definition) }, ignore: true
 
   proxy "/definitions/#{definition.notation}.html", "/definition.html",
     locals: { definition: definition, synonyms: synonyms, homographs: homographs }, ignore: true
