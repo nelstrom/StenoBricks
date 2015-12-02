@@ -3430,5 +3430,16 @@
       "star",
       "end-n"
     ]
+  },
+  {
+    "word": "yadda yadda yadda",
+    "chords": [
+      { "bricks": [ "start-y", "short-a" ] },
+      { "bricks": [ "start-d", "short-a" ] },
+      { "bricks": [ "start-y", "short-a" ] },
+      { "bricks": [ "start-d", "short-a" ] },
+      { "bricks": [ "start-y", "short-a" ] },
+      { "bricks": [ "start-d", "short-a" ] }
+    ]
   }
 ]
