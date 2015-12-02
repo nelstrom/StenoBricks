@@ -25,4 +25,8 @@ class DiagramBounds
   def extra_height
     CHORD_HEIGHT * (@chord_count-1)
   end
+
+  def offset_for_chord(index=0)
+    (index*CHORD_HEIGHT) - extra_height
+  end
 end

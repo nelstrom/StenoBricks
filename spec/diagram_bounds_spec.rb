@@ -16,6 +16,10 @@ describe DiagramBounds do
     it '#extra_height is 0' do
       expect(default.extra_height).to eql(0)
     end
+
+    it '#offset_for_chord is 0' do
+      expect(default.offset_for_chord).to eql(0)
+    end
   end
 
   context 'with a mono-stroke definition' do
@@ -26,6 +30,10 @@ describe DiagramBounds do
 
     it '#extra_height is 0' do
       expect(monostroke_bounds.extra_height).to eql(0)
+    end
+
+    it '#offset_for_chord is 0' do
+      expect(monostroke_bounds.offset_for_chord).to eql(0)
     end
   end
 
@@ -38,6 +46,11 @@ describe DiagramBounds do
     it '#extra_height is 100' do
       expect(twostroke_bounds.extra_height).to eql(100)
     end
+
+    it '#offset_for_chord is 0' do
+      expect(twostroke_bounds.offset_for_chord(0)).to eql(-100)
+      expect(twostroke_bounds.offset_for_chord(1)).to eql(0)
+    end
   end
 
   context 'with a five-stroke definition' do
@@ -48,6 +61,14 @@ describe DiagramBounds do
 
     it '#extra_height is 400' do
       expect(fivestroke_bounds.extra_height).to eql(400)
+    end
+
+    it '#offset_for_chord is 0' do
+      expect(fivestroke_bounds.offset_for_chord(0)).to eql(-400)
+      expect(fivestroke_bounds.offset_for_chord(1)).to eql(-300)
+      expect(fivestroke_bounds.offset_for_chord(2)).to eql(-200)
+      expect(fivestroke_bounds.offset_for_chord(3)).to eql(-100)
+      expect(fivestroke_bounds.offset_for_chord(4)).to eql(0)
     end
   end
 
