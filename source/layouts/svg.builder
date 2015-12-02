@@ -22,6 +22,18 @@ xml.svg({
 
   xml.title current_page.data.title || "Diagram"
 
+  xml.symbol(:id => 'vertical-rule') do
+    xml.path(:d => 'M0 0 V 10000')
+  end
+
+  (50..1300).step(50).each do |xpos|
+    xml.use(
+      'xlink:href' => '#vertical-rule',
+      :transform => "translate(#{xpos})",
+      :class => 'rule-line'
+    )
+  end
+
   StenoBrickKit::symbols.each do |s|
     xml.symbol(:id => s[:id]) do
       xml.path(:d => s[:points].map(&:strip).join(' '))
