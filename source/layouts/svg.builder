@@ -7,13 +7,15 @@ xml.declare! *[
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"
 ]
 
+bounds ||= DiagramBounds.new
+
 xml.svg({
   "xmlns"       => "http://www.w3.org/2000/svg",
   "xmlns:xlink" => "http://www.w3.org/1999/xlink",
   "xmlns:ev"    => "http://www.w3.org/2001/xml-events",
   "version"     => "1.1",
   "baseProfile" => "full",
-  "viewBox"     => (current_page.data.viewBox || "0 0 1000 1000"),
+  "viewBox"     => bounds.view_box,
 }) do
 
   xml.style :type => "text/css" do

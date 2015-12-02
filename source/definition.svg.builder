@@ -1,7 +1,6 @@
 ---
 layout: svg
 title: Steno Bricks Diagram
-viewBox: "0 0 1350 500"
 ---
 
 definition.chords.each do |chord|
