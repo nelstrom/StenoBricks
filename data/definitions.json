@@ -3441,6 +3441,15 @@
     ]
   },
   {
+    "word": "synergistic",
+    "chords": [
+      { "bricks": [ "start-s", "short-i", "end-n" ] },
+      { "bricks": [ "short-e", "end-r", "end-j" ] },
+      { "bricks": [ "short-i", "end-f-as-s", "end-t" ] },
+      { "bricks": [ "short-i", "end-k" ] }
+    ]
+  },
+  {
     "word": "yadda yadda yadda",
     "chords": [
       { "bricks": [ "start-y", "short-a" ] },
