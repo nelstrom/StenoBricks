@@ -1,4 +1,5 @@
 require 'set'
+require 'ostruct'
 require_relative './steno_keyboard'
 
 module Steno
@@ -94,10 +95,24 @@ module Steno
   end
 
   class Chord
-    attr_reader :bricks, :foundation, :overlay
-    def initialize(bricks)
+    attr_reader :bricks, :notation, :foundation, :overlay
+    def initialize(bricks, registry=BrickRegistry.new, mapper=nil)
+      bricks = bricks.map { |b|
+        if b.class == Brick
+          b
+        else
+          registry.lookup(b)
+        end
+      }
       @bricks = bricks.sort_by { |b| b.keystrokes.last }
       detect_overlaps
+      if mapper
+        @notation = mapper.lookup(@bricks.map(&:id))
+      end
+    end
+
+    def eql?(other)
+      @bricks.zip(other.bricks).all? { |mine, yours| mine == yours }
     end
 
     private
@@ -111,6 +126,29 @@ module Steno
           @foundation << FoundationBrick.new(one.id, one.label, one.keystrokes, two)
         end
       end
+    end
+  end
+
+  class Definition
+    attr_reader :word, :chords
+
+    def initialize(params, registry=BrickRegistry.new, mapper=nil)
+      params = OpenStruct.new(params)
+      params.chords ||= []
+      if params.bricks
+        params.chords << { bricks: params.bricks }
+      end
+
+      @word   = params.word
+      @chords = params.chords.map { |chord| Chord.new(chord[:bricks], registry, mapper) }
+    end
+
+    def notation
+      @chords.map(&:notation).join("/")
+    end
+
+    def bricks
+      @chords.map(&:bricks).flatten.uniq
     end
   end
 

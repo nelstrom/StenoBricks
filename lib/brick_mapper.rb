@@ -14,8 +14,8 @@ class BrickMapper
     end
   end
 
-  def lookup(definition)
-    bricks = definition.fetch("bricks", definition[:bricks])
+  def lookup(bricks)
+    bricks = bricks.map { |b| b.respond_to?(:id) ? b.id : b }
     keyNumbers = bricks_to_numbers(bricks)
 
     [
