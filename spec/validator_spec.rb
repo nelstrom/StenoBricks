@@ -23,14 +23,28 @@ describe Validator do
       "keystrokes" => [9]
     }
   }
+  let(:end_b) {
+    {
+      "id" => "end-b",
+      "label" => "B",
+      "keystrokes" => [16]
+    }
+  }
+  let(:end_g) {
+    {
+      "id" => "end-g",
+      "label" => "G",
+      "keystrokes" => [18]
+    }
+  }
 
-  let(:bricks) { [start_t, start_w, short_o] }
+  let(:bricks) { [start_t, start_w, short_o, end_b, end_g] }
   let(:definitions) {[]}
 
   subject { Validator.new('bricks' => bricks, 'definitions' => definitions) }
 
   it '#brick_ids' do
-    expect(subject.brick_ids).to eql(['start-t', 'start-w', 'short-o'])
+    expect(subject.brick_ids).to eql(['start-t', 'start-w', 'short-o', 'end-b', 'end-g'])
   end
 
   context 'when definitions use only bricks that have been defined' do
@@ -41,11 +55,18 @@ describe Validator do
           "start-t",
           "short-o"
         ]
+      },
+      {
+        "word" => "being",
+        "strokes" => [
+          { "bricks" => ["end-b"] },
+          { "bricks" => ["end-g"] }
+        ]
       }
     ]}
 
     it '#used_bricks returns the bricks used by definitions' do
-      expect(subject.used_bricks).to eql(['start-t', 'short-o'])
+      expect(subject.used_bricks).to eql(['start-t', 'short-o', 'end-b', 'end-g'])
     end
 
     it '#undefined_bricks returns []' do

@@ -9,7 +9,12 @@ class Validator
   end
 
   def used_bricks
-    @definitions.flat_map { |d| d['bricks'] }.uniq
+    @definitions.flat_map { |definition|
+      definition['strokes'] ||= [
+        { 'bricks' => definition['bricks'] }
+      ]
+      definition['strokes'].flat_map { |stroke| stroke['bricks'] }
+    }.compact.uniq
   end
 
   def undefined_bricks
