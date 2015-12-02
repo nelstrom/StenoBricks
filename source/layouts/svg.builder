@@ -63,7 +63,7 @@ xml.svg({
       xml.use(
         "xlink:href" => button[:symbol],
         :x => button[:offset] * Dimensions::HORIZONTAL_UNIT,
-        :y => 50,
+        :y => 100,
         :class => "stroked #{button[:shade]}Fill"
       )
     end
@@ -74,7 +74,7 @@ xml.svg({
         add = add + Dimensions::HORIZONTAL_UNIT/4
       end
 
-      xml.text(:class => 'buttonLabel', :y => 115, :x => (add + label[:left] * Dimensions::HORIZONTAL_UNIT/2)) do
+      xml.text(:class => 'buttonLabel', :y => 160, :x => (add + label[:left] * Dimensions::HORIZONTAL_UNIT/2)) do
         xml.tspan(label[:label])
       end
     end
