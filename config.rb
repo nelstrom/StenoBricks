@@ -131,7 +131,7 @@ definition_list.each do |definition|
 
   if homograph_words = homograph_dictionary[definition.word]
     homographs = homograph_words.flat_map do |word|
-      data.definitions.select { |defn| defn.word == word }
+      definition_list.select { |defn| defn.word == word }
     end
   else
     homographs = []
