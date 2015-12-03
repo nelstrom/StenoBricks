@@ -2,7 +2,12 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" version="1.1" baseProfile="full" viewBox="0 0 1350 500">
   <style type="text/css">
-    <![CDATA[.stroked {
+    <![CDATA[.rule-line {
+  stroke-width: 1;
+  stroke: #66CCFF;
+}
+
+.stroked {
   stroke-width: 1;
   stroke: #222;
 }
@@ -33,6 +38,49 @@ svg {
 ]]>
   </style>
   <title>Steno Bricks Diagram</title>
+  <symbol id="vertical-rule">
+    <path d="M0 0 V 10000"/>
+  </symbol>
+  <use xlink:href="#vertical-rule" transform="translate(50)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(100)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(150)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(200)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(250)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(300)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(350)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(400)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(450)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(500)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(550)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(600)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(650)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(700)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(750)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(800)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(850)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(900)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(950)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(1000)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(1050)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(1100)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(1150)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(1200)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(1250)" class="rule-line"/>
+  <use xlink:href="#vertical-rule" transform="translate(1300)" class="rule-line"/>
+  <symbol id="horizontal-rule">
+    <path d="M0 0 H 10000"/>
+  </symbol>
+  <use xlink:href="#horizontal-rule" transform="translate(0 0)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 50)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 100)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 150)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 200)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 250)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 300)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 350)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 400)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 450)" class="rule-line"/>
+  <use xlink:href="#horizontal-rule" transform="translate(0 500)" class="rule-line"/>
   <symbol id="topRowPath">
     <path d="M 0.0 100 C 0.0 80.0 50.0 80.0 50.0 100 L 100.0 100 L 100.0 150 C 100.0 210.0 0.0 210.0 0.0 150 z"/>
   </symbol>
@@ -102,121 +150,123 @@ svg {
   <symbol id="span-width-15">
     <path d="M 5.0 100 L 745.0 100 C 750.0 110 750.0 140 745.0 150 L 5.0 150 C  0 140 0 110 5.0 100 z"/>
   </symbol>
-  <g transform="translate(100)">
-    <use xlink:href="#thumbFirstPath" x="350.0" y="50" class="stroked darkFill"/>
-    <use xlink:href="#thumbSecondPath" x="450.0" y="50" class="stroked lightFill"/>
-    <use xlink:href="#thumbFirstPath" x="550.0" y="50" class="stroked darkFill"/>
-    <use xlink:href="#thumbSecondPath" x="650.0" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="0" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="100" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="200" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="300" y="50" class="stroked lightFill"/>
-    <use xlink:href="#starKeyPath" x="450.0" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="700" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="800" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="900" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="1000" y="50" class="stroked lightFill"/>
-    <use xlink:href="#bottomRowPath" x="1100" y="50" class="stroked lightFill"/>
-    <use xlink:href="#numberKeyPath" x="-50.0" y="50" class="stroked darkFill"/>
-    <use xlink:href="#topRowPath" x="100" y="50" class="stroked darkFill"/>
-    <use xlink:href="#topRowPath" x="200" y="50" class="stroked darkFill"/>
-    <use xlink:href="#topRowPath" x="300" y="50" class="stroked darkFill"/>
-    <use xlink:href="#topRowPath" x="700" y="50" class="stroked darkFill"/>
-    <use xlink:href="#topRowPath" x="800" y="50" class="stroked darkFill"/>
-    <use xlink:href="#topRowPath" x="900" y="50" class="stroked darkFill"/>
-    <use xlink:href="#topRowPath" x="1000" y="50" class="stroked darkFill"/>
-    <use xlink:href="#topRowPath" x="1100" y="50" class="stroked darkFill"/>
-    <text class="buttonLabel" y="115" x="0">
+  <g transform="translate(100 0)">
+    <use xlink:href="#thumbFirstPath" x="350.0" y="100" class="stroked darkFill"/>
+    <use xlink:href="#thumbSecondPath" x="450.0" y="100" class="stroked lightFill"/>
+    <use xlink:href="#thumbFirstPath" x="550.0" y="100" class="stroked darkFill"/>
+    <use xlink:href="#thumbSecondPath" x="650.0" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="0" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="100" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="200" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="300" y="100" class="stroked lightFill"/>
+    <use xlink:href="#starKeyPath" x="450.0" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="700" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="800" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="900" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="1000" y="100" class="stroked lightFill"/>
+    <use xlink:href="#bottomRowPath" x="1100" y="100" class="stroked lightFill"/>
+    <use xlink:href="#numberKeyPath" x="-50.0" y="100" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="100" y="100" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="200" y="100" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="300" y="100" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="700" y="100" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="800" y="100" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="900" y="100" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="1000" y="100" class="stroked darkFill"/>
+    <use xlink:href="#topRowPath" x="1100" y="100" class="stroked darkFill"/>
+    <text class="buttonLabel" y="160" x="0">
       <tspan>#</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="75">
+    <text class="buttonLabel" y="160" x="75">
       <tspan>s</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="125">
+    <text class="buttonLabel" y="160" x="125">
       <tspan>t</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="175">
+    <text class="buttonLabel" y="160" x="175">
       <tspan>k</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="225">
+    <text class="buttonLabel" y="160" x="225">
       <tspan>p</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="275">
+    <text class="buttonLabel" y="160" x="275">
       <tspan>w</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="325">
+    <text class="buttonLabel" y="160" x="325">
       <tspan>h</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="375">
+    <text class="buttonLabel" y="160" x="375">
       <tspan>r</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="425">
+    <text class="buttonLabel" y="160" x="425">
       <tspan>a</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="475">
+    <text class="buttonLabel" y="160" x="475">
       <tspan>o</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="550">
+    <text class="buttonLabel" y="160" x="550">
       <tspan>*</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="625">
+    <text class="buttonLabel" y="160" x="625">
       <tspan>e</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="675">
+    <text class="buttonLabel" y="160" x="675">
       <tspan>u</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="725">
+    <text class="buttonLabel" y="160" x="725">
       <tspan>f</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="775">
+    <text class="buttonLabel" y="160" x="775">
       <tspan>r</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="825">
+    <text class="buttonLabel" y="160" x="825">
       <tspan>p</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="875">
+    <text class="buttonLabel" y="160" x="875">
       <tspan>b</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="925">
+    <text class="buttonLabel" y="160" x="925">
       <tspan>l</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="975">
+    <text class="buttonLabel" y="160" x="975">
       <tspan>g</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="1025">
+    <text class="buttonLabel" y="160" x="1025">
       <tspan>t</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="1075">
+    <text class="buttonLabel" y="160" x="1075">
       <tspan>s</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="1125">
+    <text class="buttonLabel" y="160" x="1125">
       <tspan>d</tspan>
     </text>
-    <text class="buttonLabel" y="115" x="1175">
+    <text class="buttonLabel" y="160" x="1175">
       <tspan>z</tspan>
     </text>
-<g>
-  <use xlink:href="#matcher-width-1" x="1100" y="-40" class="stroked darkFill"/>
-  <use xlink:href="#span-width-1" x="1100" y="-90" class="stroked whiteFill"/>
-  <text class="buttonLabel" x="1125.0" y="42">
+<g class="definition-chord" transform="translate(0 0)">
+<g class="chord-brick">
+  <use xlink:href="#matcher-width-1" x="1100" y="0" class="stroked darkFill"/>
+  <use xlink:href="#span-width-1" x="1100" y="-50" class="stroked whiteFill"/>
+  <text class="buttonLabel" x="1125.0" y="85">
     <tspan>D</tspan>
   </text>
 </g>
-<g>
-  <use xlink:href="#matcher-width-1" x="400" y="-40" class="stroked darkFill"/>
-  <use xlink:href="#matcher-width-1" x="600" y="-40" class="stroked darkFill"/>
-  <use xlink:href="#matcher-width-1" x="650" y="-40" class="stroked lightFill"/>
-  <use xlink:href="#span-width-6" x="400" y="-90" class="stroked whiteFill"/>
-  <text class="buttonLabel" x="550.0" y="42">
+<g class="chord-brick">
+  <use xlink:href="#matcher-width-1" x="400" y="0" class="stroked darkFill"/>
+  <use xlink:href="#matcher-width-1" x="600" y="0" class="stroked darkFill"/>
+  <use xlink:href="#matcher-width-1" x="650" y="0" class="stroked lightFill"/>
+  <use xlink:href="#span-width-6" x="400" y="-50" class="stroked whiteFill"/>
+  <text class="buttonLabel" x="550.0" y="85">
     <tspan>AY</tspan>
   </text>
 </g>
-<g>
-  <use xlink:href="#matcher-width-1" x="350" y="-40" class="stroked lightFill"/>
-  <use xlink:href="#span-width-1" x="350" y="-90" class="stroked whiteFill"/>
-  <text class="buttonLabel" x="375.0" y="42">
+<g class="chord-brick">
+  <use xlink:href="#matcher-width-1" x="350" y="0" class="stroked lightFill"/>
+  <use xlink:href="#span-width-1" x="350" y="-50" class="stroked whiteFill"/>
+  <text class="buttonLabel" x="375.0" y="85">
     <tspan>R</tspan>
   </text>
+</g>
 </g>
   </g>
 </svg>
