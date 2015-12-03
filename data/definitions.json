@@ -3430,5 +3430,34 @@
       "star",
       "end-n"
     ]
+  },
+  {
+    "word": "Esperanto",
+    "chords": [
+      { "bricks": [ "short-e", "end-s" ] },
+      { "bricks": [ "start-p", "short-e" ] },
+      { "bricks": [ "start-r", "short-a", "end-n" ] },
+      { "bricks": [ "start-t", "short-o" ] }
+    ]
+  },
+  {
+    "word": "synergistic",
+    "chords": [
+      { "bricks": [ "start-s", "short-i", "end-n" ] },
+      { "bricks": [ "short-e", "end-r", "end-j" ] },
+      { "bricks": [ "short-i", "end-f-as-s", "end-t" ] },
+      { "bricks": [ "short-i", "end-k" ] }
+    ]
+  },
+  {
+    "word": "yadda yadda yadda",
+    "chords": [
+      { "bricks": [ "start-y", "short-a" ] },
+      { "bricks": [ "start-d", "short-a" ] },
+      { "bricks": [ "start-y", "short-a" ] },
+      { "bricks": [ "start-d", "short-a" ] },
+      { "bricks": [ "start-y", "short-a" ] },
+      { "bricks": [ "start-d", "short-a" ] }
+    ]
   }
 ]

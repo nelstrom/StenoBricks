@@ -4,6 +4,7 @@ require 'lib/steno_keyboard'
 require 'lib/steno_brick_kit'
 require 'lib/homographer'
 require 'lib/brick_mapper'
+require 'lib/diagram_bounds'
 
 if data.has_key?(:bricks) && data.has_key?(:definitions)
   set :mapper, BrickMapper.new(data.bricks)
@@ -112,7 +113,7 @@ if data.has_key? :bricks
     similar = (data.bricks - [brick]).select { |b| b.keystrokes == brick.keystrokes }
 
     proxy "/bricks/#{brick.id}.svg", "/brick.svg",
-      locals: { brick: brick }, ignore: true
+      locals: { brick: brick, bounds: DiagramBounds.new }, ignore: true
 
     proxy "/bricks/#{brick.id}.html", "/brick.html",
       locals: { brick: brick, definitions: definitions, similar: similar}, ignore: true
@@ -138,7 +139,7 @@ definition_list.each do |definition|
   end
 
   proxy "/definitions/#{definition.notation}.svg", "/definition.svg",
-    locals: { definition: definition }, ignore: true
+    locals: { definition: definition, bounds: DiagramBounds.new(definition) }, ignore: true
 
   proxy "/definitions/#{definition.notation}.html", "/definition.html",
     locals: { definition: definition, synonyms: synonyms, homographs: homographs }, ignore: true

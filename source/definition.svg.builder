@@ -1,17 +1,12 @@
 ---
 layout: svg
 title: Steno Bricks Diagram
-viewBox: "0 0 1350 500"
 ---
 
-definition.chords.each do |chord|
-
-  chord.foundation.each do |brick|
-    xml << partial('brick', locals: {brick: brick})
+definition.chords.each_with_index do |chord, index|
+  xml.g(:class => 'definition-chord', :transform => "translate(0 #{bounds.offset_for_chord(index)})") do
+    [chord.foundation, chord.overlay].flatten.each do |brick|
+      xml << partial('brick', locals: {brick: brick})
+    end
   end
-
-  chord.overlay.each do |brick|
-    xml << partial('brick', locals: {brick: brick})
-  end
-
 end
