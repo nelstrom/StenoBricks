@@ -24,6 +24,23 @@ xml.svg({
 
   xml.title current_page.data.title || "Diagram"
 
+  xml.symbol(:id => 'finger-column') do
+    xml.rect(
+      :x => 0,
+      :y => 0,
+      :width => Dimensions::HORIZONTAL_UNIT,
+      :height => bounds.height
+    )
+  end
+
+  (1..12).step(2).each do |index|
+    xml.use(
+      'xlink:href' => '#finger-column',
+      :transform => "translate(#{index * 100})",
+      :class => 'finger-column'
+    )
+  end
+
   xml.symbol(:id => 'vertical-rule') do
     xml.path(:d => 'M0 0 V 10000')
   end

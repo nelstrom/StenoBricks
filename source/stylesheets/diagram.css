@@ -3,6 +3,11 @@
   stroke: #66CCFF;
 }
 
+.finger-column {
+  fill: #66CCFF;
+  opacity: 0.1;
+}
+
 .stroked {
   stroke-width: 1;
   stroke: #222;
