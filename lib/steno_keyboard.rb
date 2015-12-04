@@ -1,6 +1,6 @@
 module Steno
   KEY_INFORMATION = {
-    0  => { :label => '#', symbol: '#numberKeyPath',   side: '',      row: '',       finger: '',        left: 0,  right:  2, shade: 'dark',  offset: -0.5 },
+    0  => { :label => '#', symbol: '#numberKeyPath',   side: '',      row: '',       finger: '',        left: 0,  right:  2, shade: 'dark',  offset: -1 },
     1  => { :label => 's', symbol: '#bottomRowPath',   side: 'left',  row: 'bottom', finger: 'pinky',   left: 2,  right:  3, shade: 'light', offset: 0 },
     2  => { :label => 't', symbol: '#topRowPath',      side: 'left',  row: 'top',    finger: 'ring',    left: 3,  right:  4, shade: 'dark',  offset: 1 },
     3  => { :label => 'k', symbol: '#bottomRowPath',   side: 'left',  row: 'bottom', finger: 'ring',    left: 4,  right:  5, shade: 'light', offset: 1 },
