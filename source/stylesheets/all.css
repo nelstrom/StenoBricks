@@ -5,6 +5,10 @@ body {
   font-family: sans-serif;
 }
 
+img {
+  border: 1px solid #66CCFF;
+}
+
 .word-title,
 .brick-title,
 .definition-title {
