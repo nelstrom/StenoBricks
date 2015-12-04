@@ -8,8 +8,8 @@ describe DiagramBounds do
 
   context 'default bounds' do
     subject(:default) { DiagramBounds.new }
-    it '#viewBox is "0 0 1350 500"' do
-      expect(default.view_box).to eql('0 0 1350 500')
+    it '#viewBox is "0 0 1400 500"' do
+      expect(default.view_box).to eql('0 0 1400 500')
     end
 
     it '#extra_height is 0' do
@@ -23,8 +23,8 @@ describe DiagramBounds do
 
   context 'with a mono-stroke definition' do
     subject(:monostroke_bounds) { DiagramBounds.new(monostroke_definition) }
-    it '#viewBox is "0 0 1350 500"' do
-      expect(monostroke_bounds.view_box).to eql('0 0 1350 500')
+    it '#viewBox is "0 0 1400 500"' do
+      expect(monostroke_bounds.view_box).to eql('0 0 1400 500')
     end
 
     it '#extra_height is 0' do
@@ -38,8 +38,8 @@ describe DiagramBounds do
 
   context 'with a five-stroke definition' do
     subject(:fivestroke_bounds) { DiagramBounds.new(fivestroke_definition) }
-    it '#viewBox is "0 0 1350 900"' do
-      expect(fivestroke_bounds.view_box).to eql('0 0 1350 900')
+    it '#viewBox is "0 0 1400 900"' do
+      expect(fivestroke_bounds.view_box).to eql('0 0 1400 900')
     end
 
     it '#extra_height is 400' do
