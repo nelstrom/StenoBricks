@@ -36,7 +36,7 @@ xml.svg({
   (1..12).step(2).each do |index|
     xml.use(
       'xlink:href' => '#finger-column',
-      :transform => "translate(#{index * 100})",
+      :transform => "translate(#{index * 100 + 50})",
       :class => 'finger-column'
     )
   end
