@@ -45,6 +45,12 @@ describe NotationMapper do
       end
     end
 
+    it 'blows up when provided with invalid notation' do
+      expect { NotationMapper.translate('X') }.to raise_exception("Can't parse notation: 'X'")
+      expect { NotationMapper.translate('UA') }.to raise_exception("Can't parse notation: 'UA'")
+      expect { NotationMapper.translate('-K') }.to raise_exception("Can't parse notation: '-K'")
+      expect { NotationMapper.translate('SSS') }.to raise_exception("Can't parse notation: 'SSS'")
+    end
   end
 end
 

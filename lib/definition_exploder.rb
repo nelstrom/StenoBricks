@@ -6,10 +6,16 @@ module NotationMapper
   def self.translate(notation)
     left, right = notation.downcase.split('-')
 
-    [
+    numerals = [
       lookup(left.to_s.chars),
       lookup(right.to_s.chars, 10)
     ].flatten
+
+    if numerals.length == notation.sub('-', '').length
+      return numerals
+    else
+      raise "Can't parse notation: '#{notation}'"
+    end
   end
 
   def self.lookup(characters, offset=0)
