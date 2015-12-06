@@ -6,12 +6,45 @@ describe NotationMapper do
     it 'converts "ST" to [1, 2]' do
       expect(NotationMapper.translate('ST')).to eql([1, 2])
     end
+
     it 'converts "-TS" to [19, 20]' do
       expect(NotationMapper.translate('-TS')).to eql([19, 20])
     end
+
     it 'converts "STTS" to [1, 2, 19, 20]' do
       expect(NotationMapper.translate('STTS')).to eql([1, 2, 19, 20])
     end
+
+    it 'converts "#STKPWHRAO*EUFRPBLGTSDZ" to [0, 1, 2, ..., 22]' do
+      expect(NotationMapper.translate('#STKPWHRAO*EUFRPBLGTSDZ')).to eql((0..22).to_a)
+    end
+
+    [
+      ['S', 1, 20],
+      ['T', 2, 19],
+      ['R', 7, 14],
+      ['P', 4, 15],
+    ].each do |letter, left, right|
+      it 'treats "#{letter}" and "-#{letter}" differently' do
+        expect(NotationMapper.translate("#{letter}")).to eql([left])
+        expect(NotationMapper.translate("-#{letter}")).to eql([right])
+      end
+    end
+
+    [
+      ['F', 13],
+      ['B', 16],
+      ['L', 17],
+      ['G', 18],
+      ['D', 21],
+      ['Z', 22],
+    ].each do |letter, index|
+      it 'treats "#{letter}" and "-#{letter}" the same' do
+        expect(NotationMapper.translate("#{letter}")).to eql([index])
+        expect(NotationMapper.translate("-#{letter}")).to eql([index])
+      end
+    end
+
   end
 end
 
