@@ -30,7 +30,7 @@ module StenoBrickKit
     it 'leftBottom' do
       button = StenoBrickKit.leftBottom.first
       expect(button[:shade]).to eql('light')
-      expect(button[:symbol]).to eql('#bottomRowPath')
+      expect(button[:symbol]).to eql('#doubleRowPath')
       expect(button[:offset]).to eql(0.5)
     end
 

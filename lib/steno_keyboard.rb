@@ -1,7 +1,7 @@
 module Steno
   KEY_INFORMATION = {
     0  => { :label => '#', symbol: '#numberKeyPath',   side: '',      row: '',       finger: '',        left: 0,  right:  2, shade: 'dark',  offset: -0.5 },
-    1  => { :label => 's', symbol: '#bottomRowPath',   side: 'left',  row: 'bottom', finger: 'pinky',   left: 3,  right:  4, shade: 'light', offset: 0.5 },
+    1  => { :label => 's', symbol: '#doubleRowPath',   side: 'left',  row: 'bottom', finger: 'pinky',   left: 2,  right:  4, shade: 'light', offset: 0.5 },
     2  => { :label => 't', symbol: '#topRowPath',      side: 'left',  row: 'top',    finger: 'ring',    left: 4,  right:  5, shade: 'dark',  offset: 1.5 },
     3  => { :label => 'k', symbol: '#bottomRowPath',   side: 'left',  row: 'bottom', finger: 'ring',    left: 5,  right:  6, shade: 'light', offset: 1.5 },
     4  => { :label => 'p', symbol: '#topRowPath',      side: 'left',  row: 'top',    finger: 'middle',  left: 6,  right:  7, shade: 'dark',  offset: 2.5 },
