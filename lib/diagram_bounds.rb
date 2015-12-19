@@ -1,5 +1,5 @@
 class DiagramBounds
-  BASE_WIDTH  = 1350
+  BASE_WIDTH  = 1400
   BASE_HEIGHT = 500
   CHORD_HEIGHT = 100
 
