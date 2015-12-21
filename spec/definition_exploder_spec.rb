@@ -54,6 +54,39 @@ describe NotationMapper do
   end
 end
 
+describe BrickSignatureMap do
+  let(:bricks) do
+    [
+      { "id": "short-e", "label": "E",   "keystrokes": [11] },
+      { "id": "short-u", "label": "U",   "keystrokes": [12] },
+      { "id": "short-i", "label": "I",   "keystrokes": [11,12] },
+      { "id": "end-f",   "label": "F",   "keystrokes": [13] },
+      { "id": "end-v",   "label": "V",   "keystrokes": [13] },
+      { "id": "end-rch", "label": "RCH", "keystrokes": [13,14,15,16] },
+      { "id": "end-nch", "label": "NCH", "keystrokes": [13,14,15,16] }
+    ]
+  end
+
+  subject(:signatures) { BrickSignatureMap.new(bricks) }
+
+  it 'returns only match for simple cases' do
+    expect(signatures.lookup([11]).map(&:id)).to eql(['short-e'])
+    expect(signatures.lookup([12]).map(&:id)).to eql(['short-u'])
+    expect(signatures.lookup([11, 12]).map(&:id)).to eql(['short-i'])
+  end
+
+  it 'returns multiple matches' do
+    results = signatures.lookup([13]).map(&:id)
+    expect(results).to include('end-f')
+    expect(results).to include('end-v')
+
+    results = signatures.lookup([13, 14, 15, 16]).map(&:id)
+    expect(results).to include('end-rch')
+    expect(results).to include('end-nch')
+  end
+
+end
+
 describe DefinitionExploder do
   let(:bricks) do
     [
@@ -96,6 +129,16 @@ describe DefinitionExploder do
         "id": "end-v",
         "label": "V",
         "keystrokes": [13]
+      },
+      {
+        "id": "end-rch",
+        "label": "RCH",
+        "keystrokes": [13,14,15,16]
+      },
+      {
+        "id": "end-nch",
+        "label": "NCH",
+        "keystrokes": [13,14,15,16]
       }
     ]
   end

@@ -31,6 +31,20 @@ module NotationMapper
 
 end
 
+class BrickSignatureMap
+  def initialize(bricks)
+    bricks = bricks.map { |b| OpenStruct.new(b) }
+    @dictionary = bricks.each_with_object({}) do |brick, hash|
+      hash[brick.keystrokes] ||= []
+      hash[brick.keystrokes] << brick
+    end
+  end
+
+  def lookup(signature)
+    @dictionary[signature]
+  end
+end
+
 class DefinitionExploder
   attr_reader :brickset
 
