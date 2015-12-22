@@ -189,9 +189,20 @@ describe Array do
 
     it 'has some results for array.size => 2' do
       result = ['a', 'b'].groupings.to_a
-      expect(result.size).to eql(2)
       expect(result).to include([['a', 'b']])
       expect(result).to include([['a'], ['b']])
+      expect(result).not_to include([['b'], ['a']])
+      expect(result.size).to eql(2)
+    end
+
+    it 'has some results for array.size => 3' do
+      result = ['a', 'b', 'c'].groupings.to_a
+      expect(result).to include([['a', 'b', 'c']])
+      expect(result).to include([['a', 'b'], ['c']])
+      expect(result).to include([['a', 'c'], ['b']])
+      expect(result).to include([['a'], ['b', 'c']])
+      expect(result).to_not include([['b', 'c'], ['a']])
+      expect(result.size).to eql(4)
     end
   end
 end

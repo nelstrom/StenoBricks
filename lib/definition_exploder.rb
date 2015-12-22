@@ -72,8 +72,17 @@ end
 
 class Array
   def groupings
-    size.downto(1).map { |s|
-      combination(s).to_a
+    size.downto(1).flat_map { |s|
+      combination(s).to_a.map { |c|
+        remainder = self - c
+        if remainder.empty?
+          [c]
+        else
+          if c.first < remainder.first
+            [c, remainder]
+          end
+        end
+      }.compact
     }
   end
 end
