@@ -49,8 +49,23 @@ class DefinitionExploder
   attr_reader :brickset
 
   def initialize(bricks)
-    @brickset = bricks.each_with_object({}) do |brick, hash|
-      hash[brick[:id]] = brick[:keystrokes]
+    @signatures = BrickSignatureMap.new(bricks)
+  end
+
+  def explode(notation)
+    matches = []
+    signature = NotationMapper.translate(notation)
+    portions = signature.size.downto(1).map { |s| signature.combination(s).entries }
+    break_from_portion = false
+    portions.each do |portion|
+      portion.each do |combination|
+        if match = @signatures.lookup(combination)
+          matches << match
+          break_from_portion = true
+        end
+      end
+      break if break_from_portion
     end
+    matches
   end
 end

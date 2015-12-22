@@ -96,9 +96,19 @@ describe DefinitionExploder do
         "keystrokes": [1]
       },
       {
+        "id": "start-n",
+        "label": "N",
+        "keystrokes": [2, 4, 6]
+      },
+      {
         "id": "short-a",
         "label": "A",
         "keystrokes": [8]
+      },
+      {
+        "id": "short-o",
+        "label": "O",
+        "keystrokes": [9]
       },
       {
         "id": "long-a",
@@ -143,17 +153,32 @@ describe DefinitionExploder do
     ]
   end
 
+  let(:e_notation) { 'E' }
   let(:i_notation) { 'EU' }
   let(:save_notation) { 'SAF' }
   let(:safe_notation) { 'SAEUF' }
+  let(:lurch_notation) { 'HRUFRPB' }
+  let(:no_notation) { 'TPHO' }
 
-  # it 'works like this' do
-  #   exploder = DefinitionExploder.new(bricks)
-  #   possibilities = exploder.explode(i_notation).map{ |p| p["id"] }
-  #   expect(possibilities).to eql([
-  #     ["short-i"],
-  #     ["short-e", "short-u"],
-  #   ])
-  # end
+  subject(:exploder) { DefinitionExploder.new(bricks) }
+
+  it 'works like this' do
+    expect(exploder.explode(i_notation)).to eql([
+      [OpenStruct.new({id: 'short-i', label: 'I', keystrokes: [11, 12]})]
+    ])
+
+    expect(exploder.explode(e_notation)).to eql([
+      [OpenStruct.new({id: 'short-e', label: 'E', keystrokes: [11]})]
+    ])
+
+    expect(exploder.explode(no_notation)).to eql([
+      [
+        OpenStruct.new({id: 'start-n', label: 'N', keystrokes: [2,4,6]}),
+        OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
+      ]
+    ])
+  end
 
 end
+
+
