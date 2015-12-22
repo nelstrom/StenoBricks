@@ -69,3 +69,11 @@ class DefinitionExploder
     matches
   end
 end
+
+class Array
+  def groupings
+    size.downto(1).map { |s|
+      combination(s).to_a
+    }
+  end
+end
