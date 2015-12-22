@@ -73,16 +73,19 @@ end
 class Array
   def groupings
     size.downto(1).flat_map { |s|
-      combination(s).to_a.map { |c|
+      combination(s).to_a.inject([]) { |list, c|
         remainder = self - c
         if remainder.empty?
-          [c]
+          list << [c]
         else
           if c.first < remainder.first
-            [c, remainder]
+            remainder.groupings.flat_map { |g|
+              list << [c] + g
+            }
           end
         end
-      }.compact
+        list
+      }
     }
   end
 end

@@ -202,7 +202,23 @@ describe Array do
       expect(result).to include([['a', 'c'], ['b']])
       expect(result).to include([['a'], ['b', 'c']])
       expect(result).to_not include([['b', 'c'], ['a']])
-      expect(result.size).to eql(4)
+      expect(result).to include([['a'], ['b'], ['c']])
+      expect(result.size).to eql(5)
+    end
+
+    it 'has some results for array.size => 4' do
+      result = ['a', 'b', 'c', 'd'].groupings.to_a
+      expect(result).to include([['a', 'b', 'c', 'd']])
+      expect(result).to include([['a', 'b', 'c'], ['d']])
+      expect(result).to include([['a', 'b', 'd'], ['c']])
+      expect(result).to include([['a', 'c', 'd'], ['b']])
+      expect(result).to include([["a", "b"], ["c", "d"]])
+      expect(result).to include([["a", "b"], ["c"], ["d"]])
+      expect(result).to include([["a", "c"], ["b", "d"]])
+      expect(result).to include([["a", "c"], ["b"], ["d"]])
+      expect(result).to include([["a", "d"], ["b", "c"]])
+      expect(result).to include([["a", "d"], ["b"], ["c"]])
+      expect(result).to include([["a"], ["b", "c", "d"]])
     end
   end
 end
