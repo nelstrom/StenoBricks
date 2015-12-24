@@ -1,5 +1,3 @@
-require 'pry'
-
 module NotationMapper
   KEY_LABELS = %w(# s t k p w h r a o * e u f r p b l g t s d z)
   #               0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2
@@ -57,14 +55,13 @@ class DefinitionExploder
   def explode(notation)
     matches = []
     signature = NotationMapper.translate(notation)
-    signature.groupings.each do |grouping|
-      grouping.each do |combination|
-        if match = @signatures.lookup(combination)
-          matches << match
-        end
+    signature.groupings.each do |combination|
+      matching_bricks = combination.map { |c| @signatures.lookup(c) }
+      unless matching_bricks.any? { |i| i.nil? }
+        matches << Mux.zip(matching_bricks)
       end
     end
-    matches.take(1)
+    matches
   end
 end
 

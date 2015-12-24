@@ -163,20 +163,20 @@ describe DefinitionExploder do
   subject(:exploder) { DefinitionExploder.new(bricks) }
 
   it 'works like this' do
-    expect(exploder.explode(i_notation)).to eql([
+    expect(exploder.explode(i_notation).first).to eql([
       [OpenStruct.new({id: 'short-i', label: 'I', keystrokes: [11, 12]})]
     ])
 
-    expect(exploder.explode(e_notation)).to eql([
+    expect(exploder.explode(e_notation).first).to eql([
       [OpenStruct.new({id: 'short-e', label: 'E', keystrokes: [11]})]
     ])
 
-    # expect(exploder.explode(no_notation)).to eql([
-    #   [
-    #     OpenStruct.new({id: 'start-n', label: 'N', keystrokes: [2,4,6]}),
-    #     OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
-    #   ]
-    # ])
+    expect(exploder.explode(no_notation).first).to eql([
+      [
+        OpenStruct.new({id: 'start-n', label: 'N', keystrokes: [2,4,6]}),
+        OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
+      ]
+    ])
   end
 
 end
