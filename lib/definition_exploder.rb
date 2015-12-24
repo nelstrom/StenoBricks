@@ -70,6 +70,14 @@ class DefinitionExploder
   end
 end
 
+module Mux
+  def self.zip(input)
+    target_size = input.map(&:size).inject(1, :*)
+    filled = input.map { |i| i.cycle(target_size / i.size).to_a }
+    filled.first.zip(*filled.drop(1)).uniq
+  end
+end
+
 class Array
   def groupings
     size.downto(1).flat_map { |s|

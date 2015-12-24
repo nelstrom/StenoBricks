@@ -181,6 +181,35 @@ describe DefinitionExploder do
 
 end
 
+describe Mux do
+  describe '#zip' do
+    let(:one) { ['a'] }
+    let(:two) { ['m', 'n'] }
+    let(:three) { ['x', 'y', 'z'] }
+
+    it 'combines 1 and 2 element lists' do
+      result = Mux.zip([one, two])
+      expect(result).to include(['a', 'm'])
+      expect(result).to include(['a', 'n'])
+    end
+
+    it 'combines 1, 2 and 3 element lists' do
+      result = Mux.zip([one, two, three])
+      expect(result).to include(['a', 'm', 'x'])
+      expect(result).to include(['a', 'm', 'y'])
+      expect(result).to include(['a', 'm', 'z'])
+      expect(result).to include(['a', 'n', 'x'])
+      expect(result).to include(['a', 'n', 'y'])
+      expect(result).to include(['a', 'n', 'z'])
+    end
+
+    it 'combines 2, 2 and 3 element lists' do
+      result = Mux.zip([two, two, three])
+      expect(result.size).to eql(6)
+    end
+  end
+end
+
 describe Array do
   describe '#groupings' do
     it 'has one result for array.size => 1' do
