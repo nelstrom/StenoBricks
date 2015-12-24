@@ -1,3 +1,5 @@
+require 'pry'
+
 module NotationMapper
   KEY_LABELS = %w(# s t k p w h r a o * e u f r p b l g t s d z)
   #               0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2
@@ -55,18 +57,14 @@ class DefinitionExploder
   def explode(notation)
     matches = []
     signature = NotationMapper.translate(notation)
-    portions = signature.size.downto(1).map { |s| signature.combination(s).entries }
-    break_from_portion = false
-    portions.each do |portion|
-      portion.each do |combination|
+    signature.groupings.each do |grouping|
+      grouping.each do |combination|
         if match = @signatures.lookup(combination)
           matches << match
-          break_from_portion = true
         end
       end
-      break if break_from_portion
     end
-    matches
+    matches.take(1)
   end
 end
 
