@@ -103,6 +103,7 @@ describe DefinitionExploder do
       { id: 'start-t', label: 'T', keystrokes: [2] },
       { id: 'start-p', label: 'P', keystrokes: [4] },
       { id: 'start-h', label: 'H', keystrokes: [6] },
+      { id: 'start-l', label: 'L', keystrokes: [6,7] },
       {
         "id": "short-a",
         "label": "A",
@@ -212,6 +213,22 @@ describe DefinitionExploder do
       OpenStruct.new({id: 'start-s', label: 'S', keystrokes: [1]}),
       OpenStruct.new({id: "short-a", label: "A", keystrokes: [8]}),
       OpenStruct.new({id: 'end-v',   label: 'V', keystrokes: [13]}),
+    ])
+  end
+
+  it 'returns multiple matches for "HRUFRPB" notation' do
+    result = exploder.explode(lurch_notation)
+
+    expect(result).to include([
+      OpenStruct.new({id: 'start-l', label: 'L',   keystrokes: [6, 7]}),
+      OpenStruct.new({id: "short-u", label: 'U',   keystrokes: [12]}),
+      OpenStruct.new({id: 'end-rch', label: 'RCH', keystrokes: [13,14,15,16]}),
+    ])
+
+    expect(result).to include([
+      OpenStruct.new({id: 'start-l', label: 'L',   keystrokes: [6, 7]}),
+      OpenStruct.new({id: "short-u", label: 'U',   keystrokes: [12]}),
+      OpenStruct.new({id: 'end-nch', label: 'NCH', keystrokes: [13,14,15,16]}),
     ])
   end
 
