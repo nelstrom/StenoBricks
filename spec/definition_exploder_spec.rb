@@ -213,6 +213,12 @@ describe Mux do
     let(:two) { ['m', 'n'] }
     let(:three) { ['x', 'y', 'z'] }
 
+    it 'given a single array, nests it as the single item in an outer array' do
+      expect(Mux.zip(one)).to eql([one])
+      expect(Mux.zip(two)).to eql([two])
+      expect(Mux.zip(three)).to eql([three])
+    end
+
     it 'combines 1 and 2 element lists' do
       result = Mux.zip([one, two])
       expect(result).to include(['a', 'm'])
