@@ -100,6 +100,9 @@ describe DefinitionExploder do
         "label": "N",
         "keystrokes": [2, 4, 6]
       },
+      { id: 'start-t', label: 'T', keystrokes: [2] },
+      { id: 'start-p', label: 'P', keystrokes: [4] },
+      { id: 'start-h', label: 'H', keystrokes: [6] },
       {
         "id": "short-a",
         "label": "A",
@@ -162,18 +165,41 @@ describe DefinitionExploder do
 
   subject(:exploder) { DefinitionExploder.new(bricks) }
 
-  it 'works like this' do
-    expect(exploder.explode(i_notation).first).to eql([
-      [OpenStruct.new({id: 'short-i', label: 'I', keystrokes: [11, 12]})]
-    ])
-
+  it 'returns a single match for "E" notation' do
     expect(exploder.explode(e_notation).first).to eql([
       [OpenStruct.new({id: 'short-e', label: 'E', keystrokes: [11]})]
     ])
+  end
 
-    expect(exploder.explode(no_notation).first).to eql([
+  it 'returns dual matches for "EU" notation' do
+    result = exploder.explode(i_notation)
+
+    expect(result.first).to eql([
+      [OpenStruct.new({id: 'short-i', label: 'I', keystrokes: [11, 12]})]
+    ])
+
+    expect(result).to include([
+      [
+        OpenStruct.new({id: 'short-e', label: 'E', keystrokes: [11]}),
+        OpenStruct.new({id: 'short-u', label: 'U', keystrokes: [12]}),
+      ]
+    ])
+  end
+
+  it 'returns multiple matches for "TPHO" notation' do
+    result = exploder.explode(no_notation)
+    expect(result.first).to eql([
       [
         OpenStruct.new({id: 'start-n', label: 'N', keystrokes: [2,4,6]}),
+        OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
+      ]
+    ])
+
+    expect(result).to include([
+      [
+        OpenStruct.new({id: 'start-t', label: 'T', keystrokes: [2]}),
+        OpenStruct.new({id: 'start-p', label: 'P', keystrokes: [4]}),
+        OpenStruct.new({id: 'start-h', label: 'H', keystrokes: [6]}),
         OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
       ]
     ])
