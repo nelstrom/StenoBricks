@@ -167,7 +167,7 @@ describe DefinitionExploder do
 
   it 'returns a single match for "E" notation' do
     expect(exploder.explode(e_notation).first).to eql([
-      [OpenStruct.new({id: 'short-e', label: 'E', keystrokes: [11]})]
+      OpenStruct.new({id: 'short-e', label: 'E', keystrokes: [11]})
     ])
   end
 
@@ -175,33 +175,43 @@ describe DefinitionExploder do
     result = exploder.explode(i_notation)
 
     expect(result.first).to eql([
-      [OpenStruct.new({id: 'short-i', label: 'I', keystrokes: [11, 12]})]
+      OpenStruct.new({id: 'short-i', label: 'I', keystrokes: [11, 12]})
     ])
 
     expect(result).to include([
-      [
-        OpenStruct.new({id: 'short-e', label: 'E', keystrokes: [11]}),
-        OpenStruct.new({id: 'short-u', label: 'U', keystrokes: [12]}),
-      ]
+      OpenStruct.new({id: 'short-e', label: 'E', keystrokes: [11]}),
+      OpenStruct.new({id: 'short-u', label: 'U', keystrokes: [12]}),
     ])
   end
 
   it 'returns multiple matches for "TPHO" notation' do
     result = exploder.explode(no_notation)
     expect(result.first).to eql([
-      [
-        OpenStruct.new({id: 'start-n', label: 'N', keystrokes: [2,4,6]}),
-        OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
-      ]
+      OpenStruct.new({id: 'start-n', label: 'N', keystrokes: [2,4,6]}),
+      OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
     ])
 
     expect(result).to include([
-      [
-        OpenStruct.new({id: 'start-t', label: 'T', keystrokes: [2]}),
-        OpenStruct.new({id: 'start-p', label: 'P', keystrokes: [4]}),
-        OpenStruct.new({id: 'start-h', label: 'H', keystrokes: [6]}),
-        OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
-      ]
+      OpenStruct.new({id: 'start-t', label: 'T', keystrokes: [2]}),
+      OpenStruct.new({id: 'start-p', label: 'P', keystrokes: [4]}),
+      OpenStruct.new({id: 'start-h', label: 'H', keystrokes: [6]}),
+      OpenStruct.new({id: "short-o", label: "O", keystrokes: [9]})
+    ])
+  end
+
+  it 'returns multiple matches for "SAF" notation' do
+    result = exploder.explode(save_notation)
+
+    expect(result).to include([
+      OpenStruct.new({id: 'start-s', label: 'S', keystrokes: [1]}),
+      OpenStruct.new({id: "short-a", label: "A", keystrokes: [8]}),
+      OpenStruct.new({id: 'end-f',   label: 'F', keystrokes: [13]}),
+    ])
+
+    expect(result).to include([
+      OpenStruct.new({id: 'start-s', label: 'S', keystrokes: [1]}),
+      OpenStruct.new({id: "short-a", label: "A", keystrokes: [8]}),
+      OpenStruct.new({id: 'end-v',   label: 'V', keystrokes: [13]}),
     ])
   end
 

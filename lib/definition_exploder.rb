@@ -58,7 +58,7 @@ class DefinitionExploder
     signature.groupings.each do |combination|
       matching_bricks = combination.map { |c| @signatures.lookup(c) }
       unless matching_bricks.any? { |i| i.nil? }
-        matches << Mux.zip(matching_bricks)
+        matches += Mux.zip(matching_bricks)
       end
     end
     matches
