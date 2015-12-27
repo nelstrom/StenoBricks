@@ -1643,6 +1643,24 @@
     ]
   },
   {
+    "word": "lift",
+    "bricks": [
+      "start-l",
+      "short-i",
+      "end-f",
+      "end-t"
+    ]
+  },
+  {
+    "word": "list",
+    "bricks": [
+      "start-l",
+      "star",
+      "short-i",
+      "end-s"
+    ]
+  },
+  {
     "word": "lurch",
     "bricks": [
       "start-l",
