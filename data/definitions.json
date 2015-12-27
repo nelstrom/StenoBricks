@@ -1651,6 +1651,22 @@
     ]
   },
   {
+    "word": "lunch",
+    "chords": [
+      {"bricks": ["start-l", "short-u", "end-n"]},
+      {"bricks": ["end-ch"]}
+    ]
+  },
+  {
+    "word": "lunch",
+    "bricks": [
+      "start-l",
+      "short-u",
+      "end-n",
+      "end-s"
+    ]
+  },
+  {
     "word": "lynch",
     "bricks": [
       "start-l",

@@ -240,6 +240,11 @@
     "keystrokes": [3,6]
   },
   {
+    "id": "end-ch",
+    "label": "CH",
+    "keystrokes": [10,13,15]
+  },
+  {
     "id": "long-a",
     "label": "AY",
     "keystrokes": [8,11,12]
