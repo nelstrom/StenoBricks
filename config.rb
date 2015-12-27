@@ -142,7 +142,7 @@ definition_list.each do |definition|
     locals: { definition: definition, bounds: DiagramBounds.new(definition) }, ignore: true
 
   proxy "/definitions/#{definition.notation}.html", "/definition.html",
-    locals: { definition: definition, synonyms: synonyms, homographs: homographs }, ignore: true
+    locals: { definition: definition, synonyms: synonyms, homographs: homographs, collisions: definition.collisions }, ignore: true
 end
 
 wordset.each_pair do |word, definitions|

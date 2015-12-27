@@ -1643,11 +1643,47 @@
     ]
   },
   {
+    "word": "lift",
+    "collisions": ["list"],
+    "bricks": [
+      "start-l",
+      "short-i",
+      "end-f",
+      "end-t"
+    ]
+  },
+  {
+    "word": "list",
+    "bricks": [
+      "start-l",
+      "star",
+      "short-i",
+      "end-s"
+    ]
+  },
+  {
     "word": "lurch",
+    "collisions": ["lunch"],
     "bricks": [
       "start-l",
       "short-u",
       "end-rch"
+    ]
+  },
+  {
+    "word": "lunch",
+    "chords": [
+      {"bricks": ["start-l", "short-u", "end-n"]},
+      {"bricks": ["end-ch"]}
+    ]
+  },
+  {
+    "word": "lunch",
+    "bricks": [
+      "start-l",
+      "short-u",
+      "end-n",
+      "end-s"
     ]
   },
   {

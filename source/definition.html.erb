@@ -25,3 +25,18 @@ title: Definition page
 
   <%= partial('definitions-table', locals: {definitions: synonyms, active: definition}) %>
 <% end %>
+
+<% unless collisions.empty? %>
+  <h2>Collisions</h2>
+
+  <p>
+    The <%= definition.notation.upcase %> stroke produces the word "<%= definition.word %>".
+    If you look at it another way, this stroke could have produced this/these word(s):
+  </p>
+
+  <ul class="word-list">
+    <% collisions.sort.each do |word| %>
+      <li><%= link_to_word(word) %></li>
+    <% end %>
+  </ul>
+<% end %>
