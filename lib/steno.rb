@@ -130,15 +130,17 @@ module Steno
   end
 
   class Definition
-    attr_reader :word, :chords
+    attr_reader :word, :chords, :collisions
 
     def initialize(params, registry=BrickRegistry.new, mapper=nil)
       params = OpenStruct.new(params)
       params.chords ||= []
+      params.collisions ||= []
       if params.bricks
         params.chords << { bricks: params.bricks }
       end
 
+      @collisions = params.collisions
       @word   = params.word
       @chords = params.chords.map { |chord| Chord.new(chord[:bricks], registry, mapper) }
     end
