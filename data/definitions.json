@@ -1,10 +1,107 @@
 [
   {
-    "word": "and",
+    "word": "$",
     "bricks": [
+      "start-d",
+      "end-m"
+    ]
+  },
+  {
+    "word": "(",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "short-e",
+      "end-n"
+    ]
+  },
+  {
+    "word": ")",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "star",
+      "short-e",
+      "end-n"
+    ]
+  },
+  {
+    "word": "*",
+    "bricks": [
+      "start-s",
+      "start-t",
       "short-a",
-      "end-n",
-      "end-d"
+      "star",
+      "end-r"
+    ]
+  },
+  {
+    "word": "[",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "end-k",
+      "end-t"
+    ]
+  },
+  {
+    "word": "]",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "star",
+      "end-k",
+      "end-t"
+    ]
+  },
+  {
+    "word": "able",
+    "bricks": [
+      "long-a",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "about",
+    "bricks": [
+      "start-b"
+    ]
+  },
+  {
+    "word": "ace",
+    "bricks": [
+      "long-a",
+      "end-s"
+    ]
+  },
+  {
+    "word": "aids",
+    "bricks": [
+      "long-a",
+      "end-d",
+      "end-z"
+    ]
+  },
+  {
+    "word": "ail",
+    "bricks": [
+      "long-a",
+      "end-l"
+    ]
+  },
+  {
+    "word": "ale",
+    "bricks": [
+      "long-a-with-ea",
+      "end-l"
+    ]
+  },
+  {
+    "word": "all",
+    "bricks": [
+      "dipthong-aw",
+      "end-l"
     ]
   },
   {
@@ -22,15 +119,50 @@
     ]
   },
   {
-    "word": "the",
+    "word": "and",
     "bricks": [
+      "short-a",
+      "end-n",
+      "end-d"
+    ]
+  },
+  {
+    "word": "ape",
+    "bricks": [
+      "long-a",
+      "end-p"
+    ]
+  },
+  {
+    "word": "arch",
+    "bricks": [
+      "short-a",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "ate",
+    "bricks": [
+      "long-a",
       "end-t"
     ]
   },
   {
-    "word": "about",
+    "word": "averages",
     "bricks": [
-      "start-b"
+      "short-a",
+      "end-v",
+      "end-r",
+      "end-g",
+      "end-s"
+    ]
+  },
+  {
+    "word": "awful",
+    "bricks": [
+      "dipthong-aw",
+      "end-f",
+      "end-l"
     ]
   },
   {
@@ -42,154 +174,129 @@
     ]
   },
   {
-    "word": "half",
+    "word": "bare",
     "bricks": [
-      "start-h",
-      "short-a",
-      "end-f"
-    ]
-  },
-  {
-    "word": "hag",
-    "bricks": [
-      "start-h",
-      "short-a",
-      "end-g"
-    ]
-  },
-  {
-    "word": "has",
-    "bricks": [
-      "start-h",
-      "short-a",
-      "end-z"
-    ]
-  },
-  {
-    "word": "hat",
-    "bricks": [
-      "start-h",
-      "short-a",
-      "end-t"
-    ]
-  },
-  {
-    "word": "had",
-    "bricks": [
-      "start-h",
-      "short-a",
-      "end-d"
-    ]
-  },
-  {
-    "word": "head",
-    "bricks": [
-      "start-h",
-      "short-e",
-      "end-d"
-    ]
-  },
-  {
-    "word": "hell",
-    "bricks": [
-      "start-h",
-      "short-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "her",
-    "bricks": [
-      "start-h",
-      "short-e",
+      "start-b",
+      "long-a",
       "end-r"
     ]
   },
   {
-    "word": "hog",
+    "word": "be",
     "bricks": [
-      "start-h",
-      "short-o",
-      "end-g"
-    ]
-  },
-  {
-    "word": "hop",
-    "bricks": [
-      "start-h",
-      "short-o",
-      "end-p"
-    ]
-  },
-  {
-    "word": "no",
-    "bricks": [
-      "start-n",
-      "short-o"
-    ]
-  },
-  {
-    "word": "know",
-    "bricks": [
-      "start-n",
-      "long-o"
-    ]
-  },
-  {
-    "word": "not",
-    "bricks": [
-      "start-n",
-      "short-o",
-      "end-t"
-    ]
-  },
-  {
-    "word": "knot",
-    "bricks": [
-      "start-n",
-      "star",
-      "short-o",
-      "end-t"
-    ]
-  },
-  {
-    "word": "hub",
-    "bricks": [
-      "start-h",
-      "short-u",
       "end-b"
     ]
   },
   {
-    "word": "huff",
+    "word": "bear",
     "bricks": [
-      "start-h",
-      "short-u",
-      "end-f"
+      "start-b",
+      "long-a-with-ea",
+      "end-r"
     ]
   },
   {
-    "word": "hug",
+    "word": "beat",
     "bricks": [
-      "start-h",
-      "short-u",
-      "end-g"
-    ]
-  },
-  {
-    "word": "hull",
-    "bricks": [
-      "start-h",
-      "short-u",
-      "end-l"
-    ]
-  },
-  {
-    "word": "hut",
-    "bricks": [
-      "start-h",
-      "short-u",
+      "start-b",
+      "long-e-with-ea",
       "end-t"
+    ]
+  },
+  {
+    "word": "bee",
+    "bricks": [
+      "start-b",
+      "long-e"
+    ]
+  },
+  {
+    "word": "beet",
+    "bricks": [
+      "start-b",
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "being",
+    "chords": [
+      {
+        "bricks": [
+          "end-b"
+        ]
+      },
+      {
+        "bricks": [
+          "end-g"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "birch",
+    "bricks": [
+      "start-b",
+      "short-i",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "book",
+    "bricks": [
+      "start-b",
+      "long-oo",
+      "end-k"
+    ]
+  },
+  {
+    "word": "brake",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "long-a",
+      "end-k"
+    ]
+  },
+  {
+    "word": "branch",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "short-a",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "break",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "long-a-with-ea",
+      "end-k"
+    ]
+  },
+  {
+    "word": "brunch",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "short-u",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "buy",
+    "bricks": [
+      "start-b",
+      "long-i"
+    ]
+  },
+  {
+    "word": "by",
+    "bricks": [
+      "start-b",
+      "short-i"
     ]
   },
   {
@@ -209,6 +316,14 @@
     ]
   },
   {
+    "word": "call",
+    "bricks": [
+      "start-k",
+      "dipthong-aw",
+      "end-l"
+    ]
+  },
+  {
     "word": "cap",
     "bricks": [
       "start-k",
@@ -225,6 +340,15 @@
     ]
   },
   {
+    "word": "castle",
+    "bricks": [
+      "start-k",
+      "short-a",
+      "end-f-as-s",
+      "end-l"
+    ]
+  },
+  {
     "word": "cat",
     "bricks": [
       "start-k",
@@ -233,11 +357,52 @@
     ]
   },
   {
-    "word": "keg",
+    "word": "caught",
     "bricks": [
       "start-k",
+      "dipthong-aw",
+      "end-t"
+    ]
+  },
+  {
+    "word": "cease",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-s"
+    ]
+  },
+  {
+    "word": "cell",
+    "bricks": [
+      "start-c",
       "short-e",
-      "end-g"
+      "end-l"
+    ]
+  },
+  {
+    "word": "church",
+    "bricks": [
+      "start-ch",
+      "short-u",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "clench",
+    "bricks": [
+      "start-k",
+      "start-l",
+      "short-e",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "coat",
+    "bricks": [
+      "start-k",
+      "long-o",
+      "end-t"
     ]
   },
   {
@@ -245,6 +410,14 @@
     "bricks": [
       "start-k",
       "short-o",
+      "end-d"
+    ]
+  },
+  {
+    "word": "code",
+    "bricks": [
+      "start-k",
+      "long-o",
       "end-d"
     ]
   },
@@ -257,10 +430,26 @@
     ]
   },
   {
+    "word": "coil",
+    "bricks": [
+      "start-k",
+      "dipthong-oi",
+      "end-l"
+    ]
+  },
+  {
     "word": "cop",
     "bricks": [
       "start-k",
       "short-o",
+      "end-p"
+    ]
+  },
+  {
+    "word": "cope",
+    "bricks": [
+      "start-k",
+      "long-o",
       "end-p"
     ]
   },
@@ -273,6 +462,17 @@
     ]
   },
   {
+    "word": "corrupted",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-u",
+      "end-p",
+      "end-t",
+      "suffix-ed"
+    ]
+  },
+  {
     "word": "cot",
     "bricks": [
       "start-k",
@@ -281,10 +481,121 @@
     ]
   },
   {
+    "word": "course",
+    "bricks": [
+      "start-k",
+      "short-o",
+      "end-r",
+      "end-s"
+    ]
+  },
+  {
+    "word": "cover",
+    "bricks": [
+      "start-k",
+      "short-o",
+      "end-v",
+      "end-r"
+    ]
+  },
+  {
+    "word": "crawl",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "dipthong-aw",
+      "end-l"
+    ]
+  },
+  {
+    "word": "credit",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-e",
+      "end-t",
+      "end-d"
+    ],
+    "inversions": [
+      "end-t",
+      "end-d"
+    ]
+  },
+  {
+    "word": "crew",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-u"
+    ]
+  },
+  {
+    "word": "crossed",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-o",
+      "end-f-as-s",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "crow",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-o"
+    ]
+  },
+  {
+    "word": "crude",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-u",
+      "end-d"
+    ]
+  },
+  {
+    "word": "cruel",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-u",
+      "end-l"
+    ]
+  },
+  {
+    "word": "cruise",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "long-u",
+      "end-s"
+    ]
+  },
+  {
+    "word": "crunch",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-u",
+      "end-nch"
+    ]
+  },
+  {
     "word": "cub",
     "bricks": [
       "start-k",
       "short-u",
+      "end-b"
+    ]
+  },
+  {
+    "word": "cube",
+    "bricks": [
+      "start-k",
+      "long-u",
       "end-b"
     ]
   },
@@ -321,6 +632,14 @@
     ]
   },
   {
+    "word": "cure",
+    "bricks": [
+      "start-k",
+      "long-u",
+      "end-r"
+    ]
+  },
+  {
     "word": "cuss",
     "bricks": [
       "start-k",
@@ -337,11 +656,773 @@
     ]
   },
   {
+    "word": "cute",
+    "bricks": [
+      "start-k",
+      "long-u",
+      "end-t"
+    ]
+  },
+  {
+    "word": "dam",
+    "bricks": [
+      "start-d",
+      "short-a",
+      "end-m"
+    ]
+  },
+  {
+    "word": "damn",
+    "bricks": [
+      "start-d",
+      "short-a",
+      "star",
+      "end-m"
+    ]
+  },
+  {
+    "word": "dear",
+    "bricks": [
+      "start-d",
+      "long-e-with-ea",
+      "end-r"
+    ]
+  },
+  {
+    "word": "death",
+    "bricks": [
+      "start-d",
+      "short-e",
+      "end-th"
+    ]
+  },
+  {
+    "word": "deer",
+    "bricks": [
+      "start-d",
+      "long-e",
+      "end-r"
+    ]
+  },
+  {
+    "word": "drench",
+    "bricks": [
+      "start-d",
+      "start-r",
+      "short-e",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "drive",
+    "bricks": [
+      "start-d",
+      "start-r",
+      "long-i",
+      "end-v"
+    ]
+  },
+  {
+    "word": "ear",
+    "bricks": [
+      "long-e",
+      "end-r"
+    ]
+  },
+  {
+    "word": "earth",
+    "bricks": [
+      "short-e",
+      "end-r",
+      "end-th"
+    ]
+  },
+  {
+    "word": "eat",
+    "bricks": [
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "edit",
+    "bricks": [
+      "short-e",
+      "end-t",
+      "end-d"
+    ],
+    "inversions": [
+      "end-t",
+      "end-d"
+    ]
+  },
+  {
+    "word": "eel",
+    "bricks": [
+      "long-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "effort",
+    "bricks": [
+      "short-e",
+      "end-f",
+      "end-r",
+      "end-t"
+    ]
+  },
+  {
+    "word": "elves",
+    "bricks": [
+      "short-e",
+      "end-v",
+      "end-l",
+      "end-s"
+    ],
+    "inversions": [
+      "end-v",
+      "end-l"
+    ]
+  },
+  {
+    "word": "Esperanto",
+    "chords": [
+      {
+        "bricks": [
+          "short-e",
+          "end-s"
+        ]
+      },
+      {
+        "bricks": [
+          "start-p",
+          "short-e"
+        ]
+      },
+      {
+        "bricks": [
+          "start-r",
+          "short-a",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "start-t",
+          "short-o"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "evil",
+    "bricks": [
+      "long-e",
+      "end-v",
+      "end-l"
+    ]
+  },
+  {
+    "word": "eye",
+    "bricks": [
+      "long-i"
+    ]
+  },
+  {
+    "word": "finch",
+    "bricks": [
+      "start-f",
+      "short-i",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "floor",
+    "bricks": [
+      "start-f",
+      "start-l",
+      "long-oo",
+      "end-r"
+    ]
+  },
+  {
+    "word": "for",
+    "bricks": [
+      "start-f",
+      "end-r"
+    ]
+  },
+  {
+    "word": "for",
+    "bricks": [
+      "start-f",
+      "short-o",
+      "end-r"
+    ]
+  },
+  {
+    "word": "four",
+    "bricks": [
+      "start-f",
+      "dipthong-ow",
+      "end-r"
+    ]
+  },
+  {
+    "word": "gait",
+    "bricks": [
+      "start-g",
+      "long-a",
+      "end-t"
+    ]
+  },
+  {
+    "word": "gate",
+    "bricks": [
+      "start-g",
+      "long-a-with-ea",
+      "end-t"
+    ]
+  },
+  {
+    "word": "had",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-d"
+    ]
+  },
+  {
+    "word": "hag",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-g"
+    ]
+  },
+  {
+    "word": "half",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-f"
+    ]
+  },
+  {
+    "word": "has",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-z"
+    ]
+  },
+  {
+    "word": "hat",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-t"
+    ]
+  },
+  {
+    "word": "hath",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-th"
+    ]
+  },
+  {
+    "word": "head",
+    "bricks": [
+      "start-h",
+      "short-e",
+      "end-d"
+    ]
+  },
+  {
+    "word": "heal",
+    "bricks": [
+      "start-h",
+      "long-e-with-ea",
+      "end-l"
+    ]
+  },
+  {
+    "word": "health",
+    "bricks": [
+      "start-h",
+      "short-e",
+      "end-l",
+      "end-th"
+    ]
+  },
+  {
+    "word": "heap",
+    "bricks": [
+      "start-h",
+      "long-e",
+      "end-p"
+    ]
+  },
+  {
+    "word": "hear",
+    "bricks": [
+      "start-h",
+      "long-e-with-ea",
+      "end-r"
+    ]
+  },
+  {
+    "word": "heat",
+    "bricks": [
+      "start-h",
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "heel",
+    "bricks": [
+      "start-h",
+      "long-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "height",
+    "bricks": [
+      "start-h",
+      "long-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "hell",
+    "bricks": [
+      "start-h",
+      "short-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "her",
+    "bricks": [
+      "start-h",
+      "short-e",
+      "end-r"
+    ]
+  },
+  {
+    "word": "here",
+    "bricks": [
+      "start-h",
+      "long-e",
+      "end-r"
+    ]
+  },
+  {
+    "word": "hid",
+    "bricks": [
+      "start-h",
+      "short-i",
+      "end-d"
+    ]
+  },
+  {
+    "word": "hit",
+    "bricks": [
+      "start-h",
+      "short-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "hoarse",
+    "bricks": [
+      "start-h",
+      "long-o-with-oa",
+      "end-r",
+      "end-s"
+    ]
+  },
+  {
+    "word": "hog",
+    "bricks": [
+      "start-h",
+      "short-o",
+      "end-g"
+    ]
+  },
+  {
+    "word": "hole",
+    "bricks": [
+      "start-h",
+      "long-o",
+      "end-l"
+    ]
+  },
+  {
+    "word": "hood",
+    "bricks": [
+      "start-h",
+      "long-oo",
+      "end-d"
+    ]
+  },
+  {
+    "word": "hop",
+    "bricks": [
+      "start-h",
+      "short-o",
+      "end-p"
+    ]
+  },
+  {
+    "word": "hope",
+    "bricks": [
+      "start-h",
+      "long-o",
+      "end-p"
+    ]
+  },
+  {
+    "word": "horrible",
+    "bricks": [
+      "start-h",
+      "short-o",
+      "end-r",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "horse",
+    "bricks": [
+      "start-h",
+      "short-o",
+      "end-r",
+      "end-s"
+    ]
+  },
+  {
+    "word": "host",
+    "bricks": [
+      "start-h",
+      "long-o",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "house",
+    "bricks": [
+      "start-h",
+      "dipthong-ow",
+      "end-s"
+    ]
+  },
+  {
+    "word": "hover",
+    "bricks": [
+      "start-h",
+      "short-o",
+      "end-v",
+      "end-r"
+    ]
+  },
+  {
+    "word": "how",
+    "bricks": [
+      "start-h",
+      "dipthong-ow"
+    ]
+  },
+  {
+    "word": "howl",
+    "bricks": [
+      "start-h",
+      "dipthong-ow",
+      "end-l"
+    ]
+  },
+  {
+    "word": "hub",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-b"
+    ]
+  },
+  {
+    "word": "huff",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-f"
+    ]
+  },
+  {
+    "word": "hug",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-g"
+    ]
+  },
+  {
+    "word": "hull",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-l"
+    ]
+  },
+  {
+    "word": "hunch",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "hut",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-t"
+    ]
+  },
+  {
+    "word": "I",
+    "bricks": [
+      "short-i"
+    ]
+  },
+  {
+    "word": "I'll",
+    "bricks": [
+      "long-i",
+      "end-l"
+    ]
+  },
+  {
+    "word": "ice",
+    "bricks": [
+      "long-i",
+      "end-s"
+    ]
+  },
+  {
+    "word": "in",
+    "bricks": [
+      "start-n"
+    ]
+  },
+  {
+    "word": "inn",
+    "bricks": [
+      "start-n",
+      "star",
+      "end-n"
+    ]
+  },
+  {
+    "word": "ire",
+    "bricks": [
+      "long-i",
+      "end-r"
+    ]
+  },
+  {
+    "word": "keg",
+    "bricks": [
+      "start-k",
+      "short-e",
+      "end-g"
+    ]
+  },
+  {
+    "word": "kite",
+    "bricks": [
+      "start-k",
+      "long-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "knot",
+    "bricks": [
+      "start-n",
+      "star",
+      "short-o",
+      "end-t"
+    ]
+  },
+  {
+    "word": "know",
+    "bricks": [
+      "start-n",
+      "long-o"
+    ]
+  },
+  {
+    "word": "lift",
+    "collisions": [
+      "list"
+    ],
+    "bricks": [
+      "start-l",
+      "short-i",
+      "end-f",
+      "end-t"
+    ]
+  },
+  {
+    "word": "list",
+    "bricks": [
+      "start-l",
+      "star",
+      "short-i",
+      "end-s"
+    ]
+  },
+  {
+    "word": "lunch",
+    "bricks": [
+      "start-l",
+      "short-u",
+      "end-n",
+      "end-s"
+    ]
+  },
+  {
+    "word": "lunch",
+    "chords": [
+      {
+        "bricks": [
+          "start-l",
+          "short-u",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "end-ch"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "lurch",
+    "collisions": [
+      "lunch"
+    ],
+    "bricks": [
+      "start-l",
+      "short-u",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "lynch",
+    "bricks": [
+      "start-l",
+      "short-i",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "march",
+    "bricks": [
+      "start-m",
+      "short-a",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "no",
+    "bricks": [
+      "start-n",
+      "short-o"
+    ]
+  },
+  {
+    "word": "not",
+    "bricks": [
+      "start-n",
+      "short-o",
+      "end-t"
+    ]
+  },
+  {
+    "word": "oat",
+    "bricks": [
+      "long-o",
+      "end-t"
+    ]
+  },
+  {
+    "word": "ode",
+    "bricks": [
+      "long-o",
+      "end-d"
+    ]
+  },
+  {
+    "word": "oil",
+    "bricks": [
+      "dipthong-oi",
+      "end-l"
+    ]
+  },
+  {
+    "word": "out",
+    "bricks": [
+      "dipthong-ow",
+      "end-t"
+    ]
+  },
+  {
+    "word": "over",
+    "bricks": [
+      "long-o",
+      "end-v",
+      "end-r"
+    ]
+  },
+  {
+    "word": "pace",
+    "bricks": [
+      "start-p",
+      "long-a",
+      "end-s"
+    ]
+  },
+  {
     "word": "pad",
     "bricks": [
       "start-p",
       "short-a",
       "end-d"
+    ]
+  },
+  {
+    "word": "paid",
+    "bricks": [
+      "start-p",
+      "long-a",
+      "end-d"
+    ]
+  },
+  {
+    "word": "pair",
+    "bricks": [
+      "start-p",
+      "long-a",
+      "end-r"
     ]
   },
   {
@@ -361,11 +1442,90 @@
     ]
   },
   {
+    "word": "passed",
+    "bricks": [
+      "start-p",
+      "short-a",
+      "end-f-as-s",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "past",
+    "bricks": [
+      "start-p",
+      "short-a",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
     "word": "pat",
     "bricks": [
       "start-p",
       "short-a",
       "end-t"
+    ]
+  },
+  {
+    "word": "path",
+    "bricks": [
+      "start-p",
+      "short-a",
+      "end-th"
+    ]
+  },
+  {
+    "word": "pay",
+    "bricks": [
+      "start-p",
+      "long-a"
+    ]
+  },
+  {
+    "word": "pea",
+    "bricks": [
+      "start-p",
+      "long-e-with-ea"
+    ]
+  },
+  {
+    "word": "peace",
+    "bricks": [
+      "start-p",
+      "long-e-with-ea",
+      "end-s"
+    ]
+  },
+  {
+    "word": "pear",
+    "bricks": [
+      "start-p",
+      "long-a-with-ea",
+      "end-r"
+    ]
+  },
+  {
+    "word": "peas",
+    "bricks": [
+      "start-p",
+      "long-e",
+      "end-z"
+    ]
+  },
+  {
+    "word": "pee",
+    "bricks": [
+      "start-p",
+      "long-e"
+    ]
+  },
+  {
+    "word": "peer",
+    "bricks": [
+      "start-p",
+      "long-e",
+      "end-r"
     ]
   },
   {
@@ -393,11 +1553,61 @@
     ]
   },
   {
+    "word": "piece",
+    "bricks": [
+      "start-p",
+      "long-e",
+      "end-s"
+    ]
+  },
+  {
+    "word": "pig",
+    "bricks": [
+      "start-p",
+      "short-i",
+      "end-g"
+    ]
+  },
+  {
+    "word": "pipe",
+    "bricks": [
+      "start-p",
+      "long-i",
+      "end-p"
+    ]
+  },
+  {
+    "word": "plain",
+    "bricks": [
+      "start-p",
+      "start-l",
+      "long-a",
+      "end-n"
+    ]
+  },
+  {
+    "word": "plane",
+    "bricks": [
+      "start-p",
+      "start-l",
+      "long-a-with-ea",
+      "end-n"
+    ]
+  },
+  {
     "word": "pod",
     "bricks": [
       "start-p",
       "short-o",
       "end-d"
+    ]
+  },
+  {
+    "word": "pole",
+    "bricks": [
+      "start-p",
+      "long-o",
+      "end-l"
     ]
   },
   {
@@ -409,11 +1619,50 @@
     ]
   },
   {
-    "word": "pour",
+    "word": "pool",
+    "bricks": [
+      "start-p",
+      "long-oo",
+      "end-l"
+    ]
+  },
+  {
+    "word": "porch",
     "bricks": [
       "start-p",
       "short-o",
-      "end-r"
+      "end-rch"
+    ]
+  },
+  {
+    "word": "portal",
+    "bricks": [
+      "start-p",
+      "short-o",
+      "end-r",
+      "end-l",
+      "end-t"
+    ],
+    "inversions": [
+      "end-l",
+      "end-t"
+    ]
+  },
+  {
+    "word": "pose",
+    "bricks": [
+      "start-p",
+      "long-o",
+      "end-s"
+    ]
+  },
+  {
+    "word": "post",
+    "bricks": [
+      "start-p",
+      "long-o",
+      "end-f-as-s",
+      "end-t"
     ]
   },
   {
@@ -422,6 +1671,114 @@
       "start-p",
       "short-o",
       "end-t"
+    ]
+  },
+  {
+    "word": "pour",
+    "bricks": [
+      "start-p",
+      "short-o",
+      "end-r"
+    ]
+  },
+  {
+    "word": "pout",
+    "bricks": [
+      "start-p",
+      "dipthong-ow",
+      "end-t"
+    ]
+  },
+  {
+    "word": "power",
+    "bricks": [
+      "start-p",
+      "dipthong-ow",
+      "end-r"
+    ]
+  },
+  {
+    "word": "praise",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-a",
+      "end-z"
+    ]
+  },
+  {
+    "word": "pressed",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "short-e",
+      "end-f-as-s",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "pride",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-i",
+      "end-d"
+    ]
+  },
+  {
+    "word": "priest",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-e",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "prize",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-i",
+      "end-z"
+    ]
+  },
+  {
+    "word": "prose",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-o",
+      "end-s"
+    ]
+  },
+  {
+    "word": "Proust",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-u",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "prowl",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "dipthong-ow",
+      "end-l"
+    ]
+  },
+  {
+    "word": "prude",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-u",
+      "end-d"
     ]
   },
   {
@@ -465,6 +1822,14 @@
     ]
   },
   {
+    "word": "pure",
+    "bricks": [
+      "start-p",
+      "long-u",
+      "end-r"
+    ]
+  },
+  {
     "word": "pus",
     "bricks": [
       "start-p",
@@ -481,11 +1846,68 @@
     ]
   },
   {
+    "word": "quench",
+    "bricks": [
+      "start-q",
+      "short-e",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "rabble",
+    "bricks": [
+      "start-r",
+      "short-a",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "race",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-s"
+    ]
+  },
+  {
     "word": "rag",
     "bricks": [
       "start-r",
       "short-a",
       "end-g"
+    ]
+  },
+  {
+    "word": "raid",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-d"
+    ]
+  },
+  {
+    "word": "rail",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-l"
+    ]
+  },
+  {
+    "word": "raise",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-z"
+    ]
+  },
+  {
+    "word": "ranch",
+    "bricks": [
+      "start-r",
+      "short-a",
+      "end-nch"
     ]
   },
   {
@@ -505,6 +1927,46 @@
     ]
   },
   {
+    "word": "rate",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-t"
+    ]
+  },
+  {
+    "word": "raw",
+    "bricks": [
+      "start-r",
+      "dipthong-aw"
+    ]
+  },
+  {
+    "word": "read",
+    "bricks": [
+      "start-r",
+      "long-e-with-ea",
+      "end-d"
+    ]
+  },
+  {
+    "word": "real",
+    "bricks": [
+      "start-r",
+      "long-e-with-ea",
+      "end-l"
+    ]
+  },
+  {
+    "word": "rebel",
+    "bricks": [
+      "start-r",
+      "short-e",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
     "word": "red",
     "bricks": [
       "start-r",
@@ -513,10 +1975,135 @@
     ]
   },
   {
+    "word": "reed",
+    "bricks": [
+      "start-r",
+      "long-e",
+      "end-d"
+    ]
+  },
+  {
+    "word": "reel",
+    "bricks": [
+      "start-r",
+      "long-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "refer",
+    "bricks": [
+      "start-r",
+      "short-e",
+      "end-f",
+      "end-r"
+    ]
+  },
+  {
+    "word": "rid",
+    "bricks": [
+      "start-r",
+      "short-i",
+      "end-d"
+    ]
+  },
+  {
+    "word": "rifle",
+    "bricks": [
+      "start-r",
+      "long-i",
+      "end-f",
+      "end-l"
+    ]
+  },
+  {
+    "word": "rift",
+    "bricks": [
+      "start-r",
+      "short-i",
+      "end-f",
+      "end-t"
+    ]
+  },
+  {
+    "word": "rig",
+    "bricks": [
+      "start-r",
+      "short-i",
+      "end-g"
+    ]
+  },
+  {
+    "word": "right",
+    "bricks": [
+      "start-r",
+      "long-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "ripe",
+    "bricks": [
+      "start-r",
+      "long-i",
+      "end-p"
+    ]
+  },
+  {
+    "word": "river",
+    "bricks": [
+      "start-r",
+      "short-i",
+      "end-v",
+      "end-r"
+    ]
+  },
+  {
+    "word": "road",
+    "bricks": [
+      "start-r",
+      "long-o-with-oa",
+      "end-d"
+    ]
+  },
+  {
+    "word": "roar",
+    "bricks": [
+      "start-r",
+      "short-o",
+      "end-r"
+    ]
+  },
+  {
+    "word": "roar",
+    "bricks": [
+      "start-r",
+      "long-o",
+      "end-r"
+    ]
+  },
+  {
     "word": "rob",
     "bricks": [
       "start-r",
       "short-o",
+      "end-b"
+    ]
+  },
+  {
+    "word": "robbed",
+    "bricks": [
+      "start-r",
+      "short-o",
+      "end-b",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "robe",
+    "bricks": [
+      "start-r",
+      "long-o",
       "end-b"
     ]
   },
@@ -529,6 +2116,14 @@
     ]
   },
   {
+    "word": "rode",
+    "bricks": [
+      "start-r",
+      "long-o",
+      "end-d"
+    ]
+  },
+  {
     "word": "roll",
     "bricks": [
       "start-r",
@@ -537,11 +2132,19 @@
     ]
   },
   {
-    "word": "roar",
+    "word": "root",
     "bricks": [
       "start-r",
-      "short-o",
-      "end-r"
+      "long-oo",
+      "end-t"
+    ]
+  },
+  {
+    "word": "rope",
+    "bricks": [
+      "start-r",
+      "long-o",
+      "end-p"
     ]
   },
   {
@@ -553,14 +2156,6 @@
     ]
   },
   {
-    "word": "rub",
-    "bricks": [
-      "start-r",
-      "short-u",
-      "end-b"
-    ]
-  },
-  {
     "word": "rough",
     "bricks": [
       "start-r",
@@ -569,11 +2164,79 @@
     ]
   },
   {
+    "word": "route",
+    "bricks": [
+      "start-r",
+      "long-u",
+      "end-t"
+    ]
+  },
+  {
+    "word": "rove",
+    "bricks": [
+      "start-r",
+      "long-o",
+      "end-v"
+    ]
+  },
+  {
+    "word": "rub",
+    "bricks": [
+      "start-r",
+      "short-u",
+      "end-b"
+    ]
+  },
+  {
+    "word": "rubbed",
+    "bricks": [
+      "start-r",
+      "short-u",
+      "end-b",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "rubble",
+    "bricks": [
+      "start-r",
+      "short-u",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "rude",
+    "bricks": [
+      "start-r",
+      "long-u",
+      "end-d"
+    ]
+  },
+  {
+    "word": "ruffled",
+    "bricks": [
+      "start-r",
+      "short-u",
+      "end-f",
+      "end-l",
+      "suffix-ed"
+    ]
+  },
+  {
     "word": "rug",
     "bricks": [
       "start-r",
       "short-u",
       "end-g"
+    ]
+  },
+  {
+    "word": "rule",
+    "bricks": [
+      "start-r",
+      "long-u",
+      "end-l"
     ]
   },
   {
@@ -601,6 +2264,22 @@
     ]
   },
   {
+    "word": "sail",
+    "bricks": [
+      "start-s",
+      "long-a",
+      "end-l"
+    ]
+  },
+  {
+    "word": "sale",
+    "bricks": [
+      "start-s",
+      "long-a-with-ea",
+      "end-l"
+    ]
+  },
+  {
     "word": "sap",
     "bricks": [
       "start-s",
@@ -625,732 +2304,11 @@
     ]
   },
   {
-    "word": "cell",
-    "bricks": [
-      "start-c",
-      "short-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "deer",
-    "bricks": [
-      "start-d",
-      "long-e",
-      "end-r"
-    ]
-  },
-  {
-    "word": "dear",
-    "bricks": [
-      "start-d",
-      "long-e-with-ea",
-      "end-r"
-    ]
-  },
-  {
-    "word": "for",
-    "bricks": [
-      "start-f",
-      "end-r"
-    ]
-  },
-  {
-    "word": "for",
-    "bricks": [
-      "start-f",
-      "short-o",
-      "end-r"
-    ]
-  },
-  {
-    "word": "four",
-    "bricks": [
-      "start-f",
-      "dipthong-ow",
-      "end-r"
-    ]
-  },
-  {
-    "word": "dam",
-    "bricks": [
-      "start-d",
-      "short-a",
-      "end-m"
-    ]
-  },
-  {
-    "word": "damn",
-    "bricks": [
-      "start-d",
-      "short-a",
-      "star",
-      "end-m"
-    ]
-  },
-  {
-    "word": "sell",
-    "bricks": [
-      "start-s",
-      "short-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "set",
-    "bricks": [
-      "start-s",
-      "short-e",
-      "end-t"
-    ]
-  },
-  {
     "word": "says",
     "bricks": [
       "start-s",
       "short-e",
       "end-z"
-    ]
-  },
-  {
-    "word": "sob",
-    "bricks": [
-      "start-s",
-      "short-o",
-      "end-b"
-    ]
-  },
-  {
-    "word": "sop",
-    "bricks": [
-      "start-s",
-      "short-o",
-      "end-p"
-    ]
-  },
-  {
-    "word": "tab",
-    "bricks": [
-      "start-t",
-      "short-a",
-      "end-b"
-    ]
-  },
-  {
-    "word": "tad",
-    "bricks": [
-      "start-t",
-      "short-a",
-      "end-d"
-    ]
-  },
-  {
-    "word": "tag",
-    "bricks": [
-      "start-t",
-      "short-a",
-      "end-g"
-    ]
-  },
-  {
-    "word": "tap",
-    "bricks": [
-      "start-t",
-      "short-a",
-      "end-p"
-    ]
-  },
-  {
-    "word": "tar",
-    "bricks": [
-      "start-t",
-      "short-a",
-      "end-r"
-    ]
-  },
-  {
-    "word": "tell",
-    "bricks": [
-      "start-t",
-      "short-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "toll",
-    "bricks": [
-      "start-t",
-      "short-o",
-      "end-l"
-    ]
-  },
-  {
-    "word": "top",
-    "bricks": [
-      "start-t",
-      "short-o",
-      "end-p"
-    ]
-  },
-  {
-    "word": "tour",
-    "bricks": [
-      "start-t",
-      "short-o",
-      "end-r"
-    ]
-  },
-  {
-    "word": "tub",
-    "bricks": [
-      "start-t",
-      "short-u",
-      "end-b"
-    ]
-  },
-  {
-    "word": "tough",
-    "bricks": [
-      "start-t",
-      "short-u",
-      "end-f"
-    ]
-  },
-  {
-    "word": "tug",
-    "bricks": [
-      "start-t",
-      "short-u",
-      "end-g"
-    ]
-  },
-  {
-    "word": "wad",
-    "bricks": [
-      "start-w",
-      "short-a",
-      "end-d"
-    ]
-  },
-  {
-    "word": "wag",
-    "bricks": [
-      "start-w",
-      "short-a",
-      "end-g"
-    ]
-  },
-  {
-    "word": "war",
-    "bricks": [
-      "start-w",
-      "short-a",
-      "end-r"
-    ]
-  },
-  {
-    "word": "was",
-    "bricks": [
-      "start-w",
-      "short-u",
-      "end-z"
-    ]
-  },
-  {
-    "word": "was",
-    "bricks": [
-      "start-w",
-      "short-a",
-      "end-z"
-    ]
-  },
-  {
-    "word": "was",
-    "bricks": [
-      "start-w",
-      "short-a",
-      "end-s"
-    ]
-  },
-  {
-    "word": "was",
-    "bricks": [
-      "start-w",
-      "short-a"
-    ]
-  },
-  {
-    "word": "web",
-    "bricks": [
-      "start-w",
-      "short-e",
-      "end-b"
-    ]
-  },
-  {
-    "word": "wed",
-    "bricks": [
-      "start-w",
-      "short-e",
-      "end-d"
-    ]
-  },
-  {
-    "word": "well",
-    "bricks": [
-      "start-w",
-      "short-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "wet",
-    "bricks": [
-      "start-w",
-      "short-e",
-      "end-t"
-    ]
-  },
-  {
-    "word": "wore",
-    "bricks": [
-      "start-w",
-      "short-o",
-      "end-r"
-    ]
-  },
-  {
-    "word": "course",
-    "bricks": [
-      "start-k",
-      "short-o",
-      "end-r",
-      "end-s"
-    ]
-  },
-  {
-    "word": "cover",
-    "bricks": [
-      "start-k",
-      "short-o",
-      "end-v",
-      "end-r"
-    ]
-  },
-  {
-    "word": "hover",
-    "bricks": [
-      "start-h",
-      "short-o",
-      "end-v",
-      "end-r"
-    ]
-  },
-  {
-    "word": "rabble",
-    "bricks": [
-      "start-r",
-      "short-a",
-      "end-b",
-      "end-l"
-    ]
-  },
-  {
-    "word": "refer",
-    "bricks": [
-      "start-r",
-      "short-e",
-      "end-f",
-      "end-r"
-    ]
-  },
-  {
-    "word": "rebel",
-    "bricks": [
-      "start-r",
-      "short-e",
-      "end-b",
-      "end-l"
-    ]
-  },
-  {
-    "word": "robbed",
-    "bricks": [
-      "start-r",
-      "short-o",
-      "end-b",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "rubbed",
-    "bricks": [
-      "start-r",
-      "short-u",
-      "end-b",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "rubble",
-    "bricks": [
-      "start-r",
-      "short-u",
-      "end-b",
-      "end-l"
-    ]
-  },
-  {
-    "word": "straps",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "start-r",
-      "short-a",
-      "end-p",
-      "end-s"
-    ]
-  },
-  {
-    "word": "strapped",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "start-r",
-      "short-a",
-      "end-p",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "trouble",
-    "bricks": [
-      "start-t",
-      "start-r",
-      "short-u",
-      "end-b",
-      "end-l"
-    ]
-  },
-  {
-    "word": "troubles",
-    "bricks": [
-      "start-t",
-      "start-r",
-      "short-u",
-      "end-b",
-      "end-l",
-      "end-s"
-    ]
-  },
-  {
-    "word": "waft",
-    "bricks": [
-      "start-w",
-      "short-a",
-      "end-f",
-      "end-t"
-    ]
-  },
-  {
-    "word": "webbed",
-    "bricks": [
-      "start-w",
-      "short-e",
-      "end-b",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "still",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "short-i",
-      "end-l"
-    ]
-  },
-  {
-    "word": "rig",
-    "bricks": [
-      "start-r",
-      "short-i",
-      "end-g"
-    ]
-  },
-  {
-    "word": "hit",
-    "bricks": [
-      "start-h",
-      "short-i",
-      "end-t"
-    ]
-  },
-  {
-    "word": "sip",
-    "bricks": [
-      "start-s",
-      "short-i",
-      "end-p"
-    ]
-  },
-  {
-    "word": "sir",
-    "bricks": [
-      "start-s",
-      "short-i",
-      "end-r"
-    ]
-  },
-  {
-    "word": "skirt",
-    "bricks": [
-      "start-s",
-      "start-k",
-      "short-i",
-      "end-r",
-      "end-t"
-    ]
-  },
-  {
-    "word": "syrup",
-    "bricks": [
-      "start-s",
-      "short-i",
-      "end-r",
-      "end-p"
-    ]
-  },
-  {
-    "word": "tryst",
-    "bricks": [
-      "start-t",
-      "start-r",
-      "short-i",
-      "end-s",
-      "end-t"
-    ]
-  },
-  {
-    "word": "pig",
-    "bricks": [
-      "start-p",
-      "short-i",
-      "end-g"
-    ]
-  },
-  {
-    "word": "rift",
-    "bricks": [
-      "start-r",
-      "short-i",
-      "end-f",
-      "end-t"
-    ]
-  },
-  {
-    "word": "scribble",
-    "bricks": [
-      "start-s",
-      "start-k",
-      "start-r",
-      "short-i",
-      "end-b",
-      "end-l"
-    ]
-  },
-  {
-    "word": "rid",
-    "bricks": [
-      "start-r",
-      "short-i",
-      "end-d"
-    ]
-  },
-  {
-    "word": "river",
-    "bricks": [
-      "start-r",
-      "short-i",
-      "end-v",
-      "end-r"
-    ]
-  },
-  {
-    "word": "hid",
-    "bricks": [
-      "start-h",
-      "short-i",
-      "end-d"
-    ]
-  },
-  {
-    "word": "wilt",
-    "bricks": [
-      "start-w",
-      "short-i",
-      "end-l",
-      "end-t"
-    ]
-  },
-  {
-    "word": "wig",
-    "bricks": [
-      "start-w",
-      "short-i",
-      "end-g"
-    ]
-  },
-  {
-    "word": "wit",
-    "bricks": [
-      "start-w",
-      "short-i",
-      "end-t"
-    ]
-  },
-  {
-    "word": "spill",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "short-i",
-      "end-l"
-    ]
-  },
-  {
-    "word": "past",
-    "bricks": [
-      "start-p",
-      "short-a",
-      "end-f-as-s",
-      "end-t"
-    ]
-  },
-  {
-    "word": "castle",
-    "bricks": [
-      "start-k",
-      "short-a",
-      "end-f-as-s",
-      "end-l"
-    ]
-  },
-  {
-    "word": "stressed",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "start-r",
-      "short-e",
-      "end-f-as-s",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "pressed",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "short-e",
-      "end-f-as-s",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "passed",
-    "bricks": [
-      "start-p",
-      "short-a",
-      "end-f-as-s",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "test",
-    "bricks": [
-      "start-t",
-      "short-e",
-      "end-f-as-s",
-      "end-t"
-    ]
-  },
-  {
-    "word": "tussle",
-    "bricks": [
-      "start-t",
-      "short-u",
-      "end-f-as-s",
-      "end-l"
-    ]
-  },
-  {
-    "word": "crossed",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "short-o",
-      "end-f-as-s",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "several",
-    "bricks": [
-      "start-s",
-      "short-e",
-      "end-v",
-      "end-r",
-      "end-l"
-    ]
-  },
-  {
-    "word": "suppress",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "start-r",
-      "short-e",
-      "end-s"
-    ]
-  },
-  {
-    "word": "averages",
-    "bricks": [
-      "short-a",
-      "end-v",
-      "end-r",
-      "end-g",
-      "end-s"
-    ]
-  },
-  {
-    "word": "tablet",
-    "bricks": [
-      "start-t",
-      "short-a",
-      "end-b",
-      "end-l",
-      "end-t"
-    ]
-  },
-  {
-    "word": "tepid",
-    "bricks": [
-      "start-t",
-      "short-e",
-      "end-p",
-      "end-d"
-    ]
-  },
-  {
-    "word": "superb",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "short-e",
-      "end-r",
-      "end-b"
     ]
   },
   {
@@ -1376,6 +2334,352 @@
     ]
   },
   {
+    "word": "school",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "long-oo",
+      "end-l"
+    ]
+  },
+  {
+    "word": "scour",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "dipthong-ow",
+      "end-r"
+    ]
+  },
+  {
+    "word": "scribble",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "start-r",
+      "short-i",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "word": "scuffled",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "short-u",
+      "end-f",
+      "end-l",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "sea",
+    "bricks": [
+      "start-s",
+      "long-e-with-ea"
+    ]
+  },
+  {
+    "word": "seat",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "secrete",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "start-r",
+      "long-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "see",
+    "bricks": [
+      "start-s",
+      "long-e"
+    ]
+  },
+  {
+    "word": "seed",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-d"
+    ]
+  },
+  {
+    "word": "seize",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-z"
+    ]
+  },
+  {
+    "word": "sell",
+    "bricks": [
+      "start-s",
+      "short-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "set",
+    "bricks": [
+      "start-s",
+      "short-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "several",
+    "bricks": [
+      "start-s",
+      "short-e",
+      "end-v",
+      "end-r",
+      "end-l"
+    ]
+  },
+  {
+    "word": "sip",
+    "bricks": [
+      "start-s",
+      "short-i",
+      "end-p"
+    ]
+  },
+  {
+    "word": "sir",
+    "bricks": [
+      "start-s",
+      "short-i",
+      "end-r"
+    ]
+  },
+  {
+    "word": "skew",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "long-u"
+    ]
+  },
+  {
+    "word": "skirt",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "short-i",
+      "end-r",
+      "end-t"
+    ]
+  },
+  {
+    "word": "soar",
+    "bricks": [
+      "start-s",
+      "long-o-with-oa",
+      "end-r"
+    ]
+  },
+  {
+    "word": "sob",
+    "bricks": [
+      "start-s",
+      "short-o",
+      "end-b"
+    ]
+  },
+  {
+    "word": "soil",
+    "bricks": [
+      "start-s",
+      "dipthong-oi",
+      "end-l"
+    ]
+  },
+  {
+    "word": "sold",
+    "bricks": [
+      "start-s",
+      "long-o",
+      "end-l",
+      "end-d"
+    ]
+  },
+  {
+    "word": "sole",
+    "bricks": [
+      "start-s",
+      "long-o",
+      "end-l"
+    ]
+  },
+  {
+    "word": "soot",
+    "bricks": [
+      "start-s",
+      "long-oo",
+      "end-t"
+    ]
+  },
+  {
+    "word": "sop",
+    "bricks": [
+      "start-s",
+      "short-o",
+      "end-p"
+    ]
+  },
+  {
+    "word": "sore",
+    "bricks": [
+      "start-s",
+      "short-o",
+      "end-r"
+    ]
+  },
+  {
+    "word": "sore",
+    "bricks": [
+      "start-s",
+      "long-o",
+      "end-r"
+    ]
+  },
+  {
+    "word": "soul",
+    "bricks": [
+      "start-s",
+      "dipthong-ow",
+      "end-l"
+    ]
+  },
+  {
+    "word": "soy",
+    "bricks": [
+      "start-s",
+      "dipthong-oi"
+    ]
+  },
+  {
+    "word": "spew",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "long-u"
+    ]
+  },
+  {
+    "word": "spill",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "short-i",
+      "end-l"
+    ]
+  },
+  {
+    "word": "spite",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "long-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "spore",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "long-o",
+      "end-r"
+    ]
+  },
+  {
+    "word": "spotted",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "short-o",
+      "end-t",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "spouse",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "dipthong-ow",
+      "end-s"
+    ]
+  },
+  {
+    "word": "sprawl",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "dipthong-aw",
+      "end-l"
+    ]
+  },
+  {
+    "word": "spray",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "long-a"
+    ]
+  },
+  {
+    "word": "sprout",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "dipthong-ow",
+      "end-t"
+    ]
+  },
+  {
+    "word": "stair",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "long-a",
+      "end-r"
+    ]
+  },
+  {
+    "word": "starch",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "short-a",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "stare",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "long-a-with-ea",
+      "end-r"
+    ]
+  },
+  {
     "word": "starlet",
     "bricks": [
       "start-s",
@@ -1398,199 +2702,6 @@
     ]
   },
   {
-    "word": "ruffled",
-    "bricks": [
-      "start-r",
-      "short-u",
-      "end-f",
-      "end-l",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "scuffled",
-    "bricks": [
-      "start-s",
-      "start-k",
-      "short-u",
-      "end-f",
-      "end-l",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "corrupted",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "short-u",
-      "end-p",
-      "end-t",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "spotted",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "short-o",
-      "end-t",
-      "suffix-ed"
-    ]
-  },
-  {
-    "word": "horrible",
-    "bricks": [
-      "start-h",
-      "short-o",
-      "end-r",
-      "end-b",
-      "end-l"
-    ]
-  },
-  {
-    "word": "effort",
-    "bricks": [
-      "short-e",
-      "end-f",
-      "end-r",
-      "end-t"
-    ]
-  },
-  {
-    "word": "edit",
-    "bricks": [
-      "short-e",
-      "end-t",
-      "end-d"
-    ],
-    "inversions": [
-      "end-t",
-      "end-d"
-    ]
-  },
-  {
-    "word": "elves",
-    "bricks": [
-      "short-e",
-      "end-v",
-      "end-l",
-      "end-s"
-    ],
-    "inversions": [
-      "end-v",
-      "end-l"
-    ]
-  },
-  {
-    "word": "twelve",
-    "bricks": [
-      "start-t",
-      "start-w",
-      "short-e",
-      "end-v",
-      "end-l"
-    ],
-    "inversions": [
-      "end-v",
-      "end-l"
-    ]
-  },
-  {
-    "word": "credit",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "short-e",
-      "end-t",
-      "end-d"
-    ],
-    "inversions": [
-      "end-t",
-      "end-d"
-    ]
-  },
-  {
-    "word": "portal",
-    "bricks": [
-      "start-p",
-      "short-o",
-      "end-r",
-      "end-l",
-      "end-t"
-    ],
-    "inversions": [
-      "end-l",
-      "end-t"
-    ]
-  },
-  {
-    "word": "arch",
-    "bricks": [
-      "short-a",
-      "end-rch"
-    ]
-  },
-  {
-    "word": "ranch",
-    "bricks": [
-      "start-r",
-      "short-a",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "hunch",
-    "bricks": [
-      "start-h",
-      "short-u",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "porch",
-    "bricks": [
-      "start-p",
-      "short-o",
-      "end-rch"
-    ]
-  },
-  {
-    "word": "crunch",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "short-u",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "quench",
-    "bricks": [
-      "start-q",
-      "short-e",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "torch",
-    "bricks": [
-      "start-t",
-      "short-o",
-      "end-rch"
-    ]
-  },
-  {
-    "word": "trench",
-    "bricks": [
-      "start-t",
-      "start-r",
-      "short-e",
-      "end-nch"
-    ]
-  },
-  {
     "word": "stench",
     "bricks": [
       "start-s",
@@ -1600,232 +2711,164 @@
     ]
   },
   {
-    "word": "starch",
+    "word": "still",
     "bricks": [
       "start-s",
       "start-t",
-      "short-a",
-      "end-rch"
-    ]
-  },
-  {
-    "word": "finch",
-    "bricks": [
-      "start-f",
       "short-i",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "clench",
-    "bricks": [
-      "start-k",
-      "start-l",
-      "short-e",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "branch",
-    "bricks": [
-      "start-b",
-      "start-r",
-      "short-a",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "march",
-    "bricks": [
-      "start-m",
-      "short-a",
-      "end-rch"
-    ]
-  },
-  {
-    "word": "lift",
-    "collisions": ["list"],
-    "bricks": [
-      "start-l",
-      "short-i",
-      "end-f",
-      "end-t"
-    ]
-  },
-  {
-    "word": "list",
-    "bricks": [
-      "start-l",
-      "star",
-      "short-i",
-      "end-s"
-    ]
-  },
-  {
-    "word": "lurch",
-    "collisions": ["lunch"],
-    "bricks": [
-      "start-l",
-      "short-u",
-      "end-rch"
-    ]
-  },
-  {
-    "word": "lunch",
-    "chords": [
-      {"bricks": ["start-l", "short-u", "end-n"]},
-      {"bricks": ["end-ch"]}
-    ]
-  },
-  {
-    "word": "lunch",
-    "bricks": [
-      "start-l",
-      "short-u",
-      "end-n",
-      "end-s"
-    ]
-  },
-  {
-    "word": "lynch",
-    "bricks": [
-      "start-l",
-      "short-i",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "birch",
-    "bricks": [
-      "start-b",
-      "short-i",
-      "end-rch"
-    ]
-  },
-  {
-    "word": "brunch",
-    "bricks": [
-      "start-b",
-      "start-r",
-      "short-u",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "church",
-    "bricks": [
-      "start-ch",
-      "short-u",
-      "end-rch"
-    ]
-  },
-  {
-    "word": "drench",
-    "bricks": [
-      "start-d",
-      "start-r",
-      "short-e",
-      "end-nch"
-    ]
-  },
-  {
-    "word": "aids",
-    "bricks": [
-      "long-a",
-      "end-d",
-      "end-z"
-    ]
-  },
-  {
-    "word": "ace",
-    "bricks": [
-      "long-a",
-      "end-s"
-    ]
-  },
-  {
-    "word": "ate",
-    "bricks": [
-      "long-a",
-      "end-t"
-    ]
-  },
-  {
-    "word": "able",
-    "bricks": [
-      "long-a",
-      "end-b",
       "end-l"
     ]
   },
   {
-    "word": "ape",
+    "word": "strapped",
     "bricks": [
-      "long-a",
+      "start-s",
+      "start-t",
+      "start-r",
+      "short-a",
+      "end-p",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "straps",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "start-r",
+      "short-a",
+      "end-p",
+      "end-s"
+    ]
+  },
+  {
+    "word": "stressed",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "start-r",
+      "short-e",
+      "end-f-as-s",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "superb",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "short-e",
+      "end-r",
+      "end-b"
+    ]
+  },
+  {
+    "word": "suppress",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "short-e",
+      "end-s"
+    ]
+  },
+  {
+    "word": "synergistic",
+    "chords": [
+      {
+        "bricks": [
+          "start-s",
+          "short-i",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "short-e",
+          "end-r",
+          "end-j"
+        ]
+      },
+      {
+        "bricks": [
+          "short-i",
+          "end-f-as-s",
+          "end-t"
+        ]
+      },
+      {
+        "bricks": [
+          "short-i",
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "word": "syrup",
+    "bricks": [
+      "start-s",
+      "short-i",
+      "end-r",
       "end-p"
     ]
   },
   {
-    "word": "raid",
+    "word": "tab",
     "bricks": [
-      "start-r",
-      "long-a",
+      "start-t",
+      "short-a",
+      "end-b"
+    ]
+  },
+  {
+    "word": "tablet",
+    "bricks": [
+      "start-t",
+      "short-a",
+      "end-b",
+      "end-l",
+      "end-t"
+    ]
+  },
+  {
+    "word": "tad",
+    "bricks": [
+      "start-t",
+      "short-a",
       "end-d"
     ]
   },
   {
-    "word": "raise",
+    "word": "tag",
     "bricks": [
-      "start-r",
-      "long-a",
-      "end-z"
+      "start-t",
+      "short-a",
+      "end-g"
     ]
   },
   {
-    "word": "rail",
+    "word": "tail",
     "bricks": [
-      "start-r",
+      "start-t",
       "long-a",
       "end-l"
     ]
   },
   {
-    "word": "rate",
+    "word": "tale",
     "bricks": [
-      "start-r",
-      "long-a",
-      "end-t"
+      "start-t",
+      "long-a-with-ea",
+      "end-l"
     ]
   },
   {
-    "word": "race",
+    "word": "tap",
     "bricks": [
-      "start-r",
-      "long-a",
-      "end-s"
-    ]
-  },
-  {
-    "word": "pay",
-    "bricks": [
-      "start-p",
-      "long-a"
-    ]
-  },
-  {
-    "word": "paid",
-    "bricks": [
-      "start-p",
-      "long-a",
-      "end-d"
-    ]
-  },
-  {
-    "word": "pace",
-    "bricks": [
-      "start-p",
-      "long-a",
-      "end-s"
+      "start-t",
+      "short-a",
+      "end-p"
     ]
   },
   {
@@ -1837,500 +2880,102 @@
     ]
   },
   {
-    "word": "spray",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "start-r",
-      "long-a"
-    ]
-  },
-  {
-    "word": "praise",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "long-a",
-      "end-z"
-    ]
-  },
-  {
-    "word": "weaver",
-    "bricks": [
-      "start-w",
-      "long-e",
-      "end-v",
-      "end-r"
-    ]
-  },
-  {
-    "word": "trees",
+    "word": "tar",
     "bricks": [
       "start-t",
-      "start-r",
-      "long-e",
-      "end-s"
-    ]
-  },
-  {
-    "word": "eel",
-    "bricks": [
-      "long-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "eat",
-    "bricks": [
-      "long-e",
-      "end-t"
-    ]
-  },
-  {
-    "word": "evil",
-    "bricks": [
-      "long-e",
-      "end-v",
-      "end-l"
-    ]
-  },
-  {
-    "word": "ear",
-    "bricks": [
-      "long-e",
+      "short-a",
       "end-r"
     ]
   },
   {
-    "word": "heat",
-    "bricks": [
-      "start-h",
-      "long-e",
-      "end-t"
-    ]
-  },
-  {
-    "word": "heap",
-    "bricks": [
-      "start-h",
-      "long-e",
-      "end-p"
-    ]
-  },
-  {
-    "word": "wield",
-    "bricks": [
-      "start-w",
-      "long-e",
-      "end-l",
-      "end-d"
-    ]
-  },
-  {
-    "word": "weird",
-    "bricks": [
-      "start-w",
-      "long-e",
-      "end-r",
-      "end-d"
-    ]
-  },
-  {
-    "word": "peer",
-    "bricks": [
-      "start-p",
-      "long-e",
-      "end-r"
-    ]
-  },
-  {
-    "word": "priest",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "long-e",
-      "end-f-as-s",
-      "end-t"
-    ]
-  },
-  {
-    "word": "tree",
+    "word": "tea",
     "bricks": [
       "start-t",
-      "start-r",
+      "long-e-with-ea"
+    ]
+  },
+  {
+    "word": "tee",
+    "bricks": [
+      "start-t",
       "long-e"
     ]
   },
   {
-    "word": "tweeze",
+    "word": "tell",
     "bricks": [
       "start-t",
-      "start-w",
-      "long-e",
-      "end-z"
-    ]
-  },
-  {
-    "word": "tweed",
-    "bricks": [
-      "start-t",
-      "start-w",
-      "long-e",
-      "end-d"
-    ]
-  },
-  {
-    "word": "seat",
-    "bricks": [
-      "start-s",
-      "long-e",
-      "end-t"
-    ]
-  },
-  {
-    "word": "cease",
-    "bricks": [
-      "start-s",
-      "long-e",
-      "end-s"
-    ]
-  },
-  {
-    "word": "seed",
-    "bricks": [
-      "start-s",
-      "long-e",
-      "end-d"
-    ]
-  },
-  {
-    "word": "seize",
-    "bricks": [
-      "start-s",
-      "long-e",
-      "end-z"
-    ]
-  },
-  {
-    "word": "secrete",
-    "bricks": [
-      "start-s",
-      "start-k",
-      "start-r",
-      "long-e",
-      "end-t"
-    ]
-  },
-  {
-    "word": "ire",
-    "bricks": [
-      "long-i",
-      "end-r"
-    ]
-  },
-  {
-    "word": "I'll",
-    "bricks": [
-      "long-i",
+      "short-e",
       "end-l"
     ]
   },
   {
-    "word": "ice",
-    "bricks": [
-      "long-i",
-      "end-s"
-    ]
-  },
-  {
-    "word": "rifle",
-    "bricks": [
-      "start-r",
-      "long-i",
-      "end-f",
-      "end-l"
-    ]
-  },
-  {
-    "word": "ripe",
-    "bricks": [
-      "start-r",
-      "long-i",
-      "end-p"
-    ]
-  },
-  {
-    "word": "right",
-    "bricks": [
-      "start-r",
-      "long-i",
-      "end-t"
-    ]
-  },
-  {
-    "word": "height",
-    "bricks": [
-      "start-h",
-      "long-i",
-      "end-t"
-    ]
-  },
-  {
-    "word": "wild",
-    "bricks": [
-      "start-w",
-      "long-i",
-      "end-l",
-      "end-d"
-    ]
-  },
-  {
-    "word": "pipe",
-    "bricks": [
-      "start-p",
-      "long-i",
-      "end-p"
-    ]
-  },
-  {
-    "word": "pride",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "long-i",
-      "end-d"
-    ]
-  },
-  {
-    "word": "prize",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "long-i",
-      "end-z"
-    ]
-  },
-  {
-    "word": "kite",
-    "bricks": [
-      "start-k",
-      "long-i",
-      "end-t"
-    ]
-  },
-  {
-    "word": "type",
+    "word": "tepid",
     "bricks": [
       "start-t",
-      "long-i",
-      "end-p"
+      "short-e",
+      "end-p",
+      "end-d"
     ]
   },
   {
-    "word": "spite",
+    "word": "test",
     "bricks": [
-      "start-s",
-      "start-p",
-      "long-i",
-      "end-t"
-    ]
-  },
-  {
-    "word": "drive",
-    "bricks": [
-      "start-d",
-      "start-r",
-      "long-i",
-      "end-v"
-    ]
-  },
-  {
-    "word": "hope",
-    "bricks": [
-      "start-h",
-      "long-o",
-      "end-p"
-    ]
-  },
-  {
-    "word": "spore",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "long-o",
-      "end-r"
-    ]
-  },
-  {
-    "word": "post",
-    "bricks": [
-      "start-p",
-      "long-o",
+      "start-t",
+      "short-e",
       "end-f-as-s",
       "end-t"
     ]
   },
   {
-    "word": "sold",
+    "word": "the",
     "bricks": [
-      "start-s",
-      "long-o",
-      "end-l",
-      "end-d"
-    ]
-  },
-  {
-    "word": "prose",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "long-o",
-      "end-s"
-    ]
-  },
-  {
-    "word": "ode",
-    "bricks": [
-      "long-o",
-      "end-d"
-    ]
-  },
-  {
-    "word": "oat",
-    "bricks": [
-      "long-o",
       "end-t"
     ]
   },
   {
-    "word": "over",
+    "word": "their",
     "bricks": [
-      "long-o",
-      "end-v",
+      "start-th",
+      "long-a",
       "end-r"
     ]
   },
   {
-    "word": "robe",
+    "word": "there",
     "bricks": [
-      "start-r",
-      "long-o",
-      "end-b"
+      "start-th",
+      "start-r"
     ]
   },
   {
-    "word": "roar",
+    "word": "there",
     "bricks": [
-      "start-r",
-      "long-o",
+      "start-th",
       "end-r"
     ]
   },
   {
-    "word": "rope",
+    "word": "they're",
     "bricks": [
-      "start-r",
-      "long-o",
-      "end-p"
+      "start-th",
+      "short-e",
+      "end-r"
     ]
   },
   {
-    "word": "rove",
+    "word": "to",
     "bricks": [
-      "start-r",
-      "long-o",
-      "end-v"
+      "start-t",
+      "short-o"
     ]
   },
   {
-    "word": "host",
+    "word": "toil",
     "bricks": [
-      "start-h",
-      "long-o",
-      "end-f-as-s",
-      "end-t"
-    ]
-  },
-  {
-    "word": "wove",
-    "bricks": [
-      "start-w",
-      "long-o",
-      "end-v"
-    ]
-  },
-  {
-    "word": "wrote",
-    "bricks": [
-      "start-w",
-      "start-r",
-      "long-o",
-      "end-t"
-    ]
-  },
-  {
-    "word": "pole",
-    "bricks": [
-      "start-p",
-      "long-o",
+      "start-t",
+      "dipthong-oi",
       "end-l"
-    ]
-  },
-  {
-    "word": "hole",
-    "bricks": [
-      "start-h",
-      "long-o",
-      "end-l"
-    ]
-  },
-  {
-    "word": "whole",
-    "bricks": [
-      "start-w",
-      "start-h",
-      "long-o",
-      "end-l"
-    ]
-  },
-  {
-    "word": "pose",
-    "bricks": [
-      "start-p",
-      "long-o",
-      "end-s"
-    ]
-  },
-  {
-    "word": "cope",
-    "bricks": [
-      "start-k",
-      "long-o",
-      "end-p"
-    ]
-  },
-  {
-    "word": "coat",
-    "bricks": [
-      "start-k",
-      "long-o",
-      "end-t"
-    ]
-  },
-  {
-    "word": "code",
-    "bricks": [
-      "start-k",
-      "long-o",
-      "end-d"
-    ]
-  },
-  {
-    "word": "crow",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "long-o"
     ]
   },
   {
@@ -2343,111 +2988,104 @@
     ]
   },
   {
-    "word": "cube",
+    "word": "toll",
     "bricks": [
-      "start-k",
-      "long-u",
-      "end-b"
-    ]
-  },
-  {
-    "word": "use",
-    "bricks": [
-      "long-u",
-      "end-z"
-    ]
-  },
-  {
-    "word": "rude",
-    "bricks": [
-      "start-r",
-      "long-u",
-      "end-d"
-    ]
-  },
-  {
-    "word": "rule",
-    "bricks": [
-      "start-r",
-      "long-u",
+      "start-t",
+      "short-o",
       "end-l"
     ]
   },
   {
-    "word": "pure",
+    "word": "too",
     "bricks": [
-      "start-p",
-      "long-u",
+      "start-t",
+      "long-oo"
+    ]
+  },
+  {
+    "word": "top",
+    "bricks": [
+      "start-t",
+      "short-o",
+      "end-p"
+    ]
+  },
+  {
+    "word": "torch",
+    "bricks": [
+      "start-t",
+      "short-o",
+      "end-rch"
+    ]
+  },
+  {
+    "word": "tough",
+    "bricks": [
+      "start-t",
+      "short-u",
+      "end-f"
+    ]
+  },
+  {
+    "word": "tour",
+    "bricks": [
+      "start-t",
+      "short-o",
       "end-r"
     ]
   },
   {
-    "word": "prude",
+    "word": "tower",
     "bricks": [
-      "start-p",
-      "start-r",
-      "long-u",
-      "end-d"
-    ]
-  },
-  {
-    "word": "Proust",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "long-u",
-      "end-f-as-s",
-      "end-t"
-    ]
-  },
-  {
-    "word": "cure",
-    "bricks": [
-      "start-k",
-      "long-u",
+      "start-t",
+      "dipthong-ow",
       "end-r"
     ]
   },
   {
-    "word": "cute",
+    "word": "tree",
     "bricks": [
-      "start-k",
-      "long-u",
-      "end-t"
+      "start-t",
+      "start-r",
+      "long-e"
     ]
   },
   {
-    "word": "crew",
+    "word": "trees",
     "bricks": [
-      "start-k",
+      "start-t",
       "start-r",
-      "long-u"
+      "long-e",
+      "end-s"
     ]
   },
   {
-    "word": "cruel",
+    "word": "trench",
     "bricks": [
-      "start-k",
+      "start-t",
       "start-r",
-      "long-u",
+      "short-e",
+      "end-nch"
+    ]
+  },
+  {
+    "word": "trouble",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "short-u",
+      "end-b",
       "end-l"
     ]
   },
   {
-    "word": "crude",
+    "word": "troubles",
     "bricks": [
-      "start-k",
+      "start-t",
       "start-r",
-      "long-u",
-      "end-d"
-    ]
-  },
-  {
-    "word": "cruise",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "long-u",
+      "short-u",
+      "end-b",
+      "end-l",
       "end-s"
     ]
   },
@@ -2470,27 +3108,191 @@
     ]
   },
   {
-    "word": "spew",
+    "word": "tryst",
     "bricks": [
-      "start-s",
-      "start-p",
-      "long-u"
+      "start-t",
+      "start-r",
+      "short-i",
+      "end-s",
+      "end-t"
     ]
   },
   {
-    "word": "skew",
+    "word": "tub",
     "bricks": [
-      "start-s",
-      "start-k",
-      "long-u"
+      "start-t",
+      "short-u",
+      "end-b"
     ]
   },
   {
-    "word": "death",
+    "word": "tug",
     "bricks": [
-      "start-d",
+      "start-t",
+      "short-u",
+      "end-g"
+    ]
+  },
+  {
+    "word": "tussle",
+    "bricks": [
+      "start-t",
+      "short-u",
+      "end-f-as-s",
+      "end-l"
+    ]
+  },
+  {
+    "word": "tweed",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "long-e",
+      "end-d"
+    ]
+  },
+  {
+    "word": "tweeze",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "long-e",
+      "end-z"
+    ]
+  },
+  {
+    "word": "twelve",
+    "bricks": [
+      "start-t",
+      "start-w",
       "short-e",
-      "end-th"
+      "end-v",
+      "end-l"
+    ],
+    "inversions": [
+      "end-v",
+      "end-l"
+    ]
+  },
+  {
+    "word": "two",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "short-o"
+    ]
+  },
+  {
+    "word": "type",
+    "bricks": [
+      "start-t",
+      "long-i",
+      "end-p"
+    ]
+  },
+  {
+    "word": "use",
+    "bricks": [
+      "long-u",
+      "end-z"
+    ]
+  },
+  {
+    "word": "wad",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-d"
+    ]
+  },
+  {
+    "word": "waft",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-f",
+      "end-t"
+    ]
+  },
+  {
+    "word": "wag",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-g"
+    ]
+  },
+  {
+    "word": "waist",
+    "bricks": [
+      "start-w",
+      "long-a",
+      "end-s",
+      "end-t"
+    ]
+  },
+  {
+    "word": "wait",
+    "bricks": [
+      "start-w",
+      "long-a",
+      "end-t"
+    ]
+  },
+  {
+    "word": "war",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-r"
+    ]
+  },
+  {
+    "word": "ware",
+    "bricks": [
+      "start-w",
+      "long-a",
+      "end-r"
+    ]
+  },
+  {
+    "word": "was",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-s"
+    ]
+  },
+  {
+    "word": "was",
+    "bricks": [
+      "start-w",
+      "short-u",
+      "end-z"
+    ]
+  },
+  {
+    "word": "was",
+    "bricks": [
+      "start-w",
+      "short-a"
+    ]
+  },
+  {
+    "word": "was",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-z"
+    ]
+  },
+  {
+    "word": "waste",
+    "bricks": [
+      "start-w",
+      "long-a-with-ea",
+      "end-s",
+      "end-t"
     ]
   },
   {
@@ -2503,28 +3305,172 @@
     ]
   },
   {
-    "word": "earth",
+    "word": "wear",
     "bricks": [
+      "start-w",
+      "long-a-with-ea",
+      "end-r"
+    ]
+  },
+  {
+    "word": "weaver",
+    "bricks": [
+      "start-w",
+      "long-e",
+      "end-v",
+      "end-r"
+    ]
+  },
+  {
+    "word": "web",
+    "bricks": [
+      "start-w",
       "short-e",
+      "end-b"
+    ]
+  },
+  {
+    "word": "webbed",
+    "bricks": [
+      "start-w",
+      "short-e",
+      "end-b",
+      "suffix-ed"
+    ]
+  },
+  {
+    "word": "wed",
+    "bricks": [
+      "start-w",
+      "short-e",
+      "end-d"
+    ]
+  },
+  {
+    "word": "weight",
+    "bricks": [
+      "start-w",
+      "long-a-with-ea",
+      "end-t"
+    ]
+  },
+  {
+    "word": "weird",
+    "bricks": [
+      "start-w",
+      "long-e",
       "end-r",
-      "end-th"
+      "end-d"
     ]
   },
   {
-    "word": "hath",
+    "word": "well",
     "bricks": [
+      "start-w",
+      "short-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "wet",
+    "bricks": [
+      "start-w",
+      "short-e",
+      "end-t"
+    ]
+  },
+  {
+    "word": "wheal",
+    "bricks": [
+      "start-w",
       "start-h",
-      "short-a",
-      "end-th"
+      "long-e-with-ea",
+      "end-l"
     ]
   },
   {
-    "word": "health",
+    "word": "wheel",
     "bricks": [
+      "start-w",
+      "start-h",
+      "long-e",
+      "end-l"
+    ]
+  },
+  {
+    "word": "where",
+    "bricks": [
+      "start-w",
       "start-h",
       "short-e",
+      "end-r"
+    ]
+  },
+  {
+    "word": "where",
+    "bricks": [
+      "start-w",
+      "end-r"
+    ]
+  },
+  {
+    "word": "whole",
+    "bricks": [
+      "start-w",
+      "start-h",
+      "long-o",
+      "end-l"
+    ]
+  },
+  {
+    "word": "wield",
+    "bricks": [
+      "start-w",
+      "long-e",
       "end-l",
-      "end-th"
+      "end-d"
+    ]
+  },
+  {
+    "word": "wig",
+    "bricks": [
+      "start-w",
+      "short-i",
+      "end-g"
+    ]
+  },
+  {
+    "word": "wild",
+    "bricks": [
+      "start-w",
+      "long-i",
+      "end-l",
+      "end-d"
+    ]
+  },
+  {
+    "word": "wilt",
+    "bricks": [
+      "start-w",
+      "short-i",
+      "end-l",
+      "end-t"
+    ]
+  },
+  {
+    "word": "wit",
+    "bricks": [
+      "start-w",
+      "short-i",
+      "end-t"
+    ]
+  },
+  {
+    "word": "wore",
+    "bricks": [
+      "start-w",
+      "short-o",
+      "end-r"
     ]
   },
   {
@@ -2537,76 +3483,61 @@
     ]
   },
   {
-    "word": "path",
+    "word": "wove",
     "bricks": [
-      "start-p",
-      "short-a",
-      "end-th"
+      "start-w",
+      "long-o",
+      "end-v"
     ]
   },
   {
-    "word": "$",
+    "word": "wrote",
     "bricks": [
-      "start-d",
-      "end-m"
-    ]
-  },
-  {
-    "word": "*",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "short-a",
-      "star",
-      "end-r"
-    ]
-  },
-  {
-    "word": "(",
-    "bricks": [
-      "start-p",
+      "start-w",
       "start-r",
-      "short-e",
-      "end-n"
-    ]
-  },
-  {
-    "word": ")",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "star",
-      "short-e",
-      "end-n"
-    ]
-  },
-  {
-    "word": "[",
-    "bricks": [
-      "start-b",
-      "start-r",
-      "end-k",
+      "long-o",
       "end-t"
     ]
   },
   {
-    "word": "]",
-    "bricks": [
-      "start-b",
-      "start-r",
-      "star",
-      "end-k",
-      "end-t"
-    ]
-  },
-  {
-    "word": "}",
-    "bricks": [
-      "start-f",
-      "start-r",
-      "star",
-      "end-k",
-      "end-t"
+    "word": "yadda yadda yadda",
+    "chords": [
+      {
+        "bricks": [
+          "start-y",
+          "short-a"
+        ]
+      },
+      {
+        "bricks": [
+          "start-d",
+          "short-a"
+        ]
+      },
+      {
+        "bricks": [
+          "start-y",
+          "short-a"
+        ]
+      },
+      {
+        "bricks": [
+          "start-d",
+          "short-a"
+        ]
+      },
+      {
+        "bricks": [
+          "start-y",
+          "short-a"
+        ]
+      },
+      {
+        "bricks": [
+          "start-d",
+          "short-a"
+        ]
+      }
     ]
   },
   {
@@ -2616,15 +3547,6 @@
       "start-r",
       "end-k",
       "end-t"
-    ]
-  },
-  {
-    "word": "{^%}",
-    "bricks": [
-      "start-p",
-      "short-e",
-      "end-r",
-      "end-s"
     ]
   },
   {
@@ -2645,855 +3567,22 @@
     ]
   },
   {
-    "word": "soy",
-    "bricks":
-    [
-      "start-s",
-      "dipthong-oi"
-    ]
-  },
-  {
-    "word": "oil",
-    "bricks":
-    [
-      "dipthong-oi",
-      "end-l"
-    ]
-  },
-  {
-    "word": "coil",
-    "bricks":
-    [
-      "start-k",
-      "dipthong-oi",
-      "end-l"
-    ]
-  },
-  {
-    "word": "toil",
-    "bricks":
-    [
-      "start-t",
-      "dipthong-oi",
-      "end-l"
-    ]
-  },
-  {
-    "word": "soil",
-    "bricks":
-    [
-      "start-s",
-      "dipthong-oi",
-      "end-l"
-    ]
-  },
-  {
-    "word": "all",
-    "bricks":
-    [
-      "dipthong-aw",
-      "end-l"
-    ]
-  },
-  {
-    "word": "raw",
-    "bricks":
-    [
-      "start-r",
-      "dipthong-aw"
-    ]
-  },
-  {
-    "word": "awful",
-    "bricks": [
-      "dipthong-aw",
-      "end-f",
-      "end-l"
-    ]
-  },
-  {
-    "word": "call",
-    "bricks": [
-      "start-k",
-      "dipthong-aw",
-      "end-l"
-    ]
-  },
-  {
-    "word": "caught",
-    "bricks": [
-      "start-k",
-      "dipthong-aw",
-      "end-t"
-    ]
-  },
-  {
-    "word": "crawl",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "dipthong-aw",
-      "end-l"
-    ]
-  },
-  {
-    "word": "sprawl",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "start-r",
-      "dipthong-aw",
-      "end-l"
-    ]
-  },
-  {
-    "word": "out",
-    "bricks": [
-      "dipthong-ow",
-      "end-t"
-    ]
-  },
-  {
-    "word": "how",
-    "bricks": [
-      "start-h",
-      "dipthong-ow"
-    ]
-  },
-  {
-    "word": "howl",
-    "bricks": [
-      "start-h",
-      "dipthong-ow",
-      "end-l"
-    ]
-  },
-  {
-    "word": "house",
-    "bricks": [
-      "start-h",
-      "dipthong-ow",
-      "end-s"
-    ]
-  },
-  {
-    "word": "pout",
+    "word": "{^%}",
     "bricks": [
       "start-p",
-      "dipthong-ow",
-      "end-t"
-    ]
-  },
-  {
-    "word": "power",
-    "bricks": [
-      "start-p",
-      "dipthong-ow",
-      "end-r"
-    ]
-  },
-  {
-    "word": "prowl",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "dipthong-ow",
-      "end-l"
-    ]
-  },
-  {
-    "word": "tower",
-    "bricks": [
-      "start-t",
-      "dipthong-ow",
-      "end-r"
-    ]
-  },
-  {
-    "word": "spouse",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "dipthong-ow",
-      "end-s"
-    ]
-  },
-  {
-    "word": "sprout",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "start-r",
-      "dipthong-ow",
-      "end-t"
-    ]
-  },
-  {
-    "word": "scour",
-    "bricks": [
-      "start-s",
-      "start-k",
-      "dipthong-ow",
-      "end-r"
-    ]
-  },
-  {
-    "word": "to",
-    "bricks": [
-      "start-t",
-      "short-o"
-    ]
-  },
-  {
-    "word": "too",
-    "bricks": [
-      "start-t",
-      "long-oo"
-    ]
-  },
-  {
-    "word": "two",
-    "bricks": [
-      "start-t",
-      "start-w",
-      "short-o"
-    ]
-  },
-  {
-    "word": "I",
-    "bricks": [
-      "short-i"
-    ]
-  },
-  {
-    "word": "eye",
-    "bricks": [
-      "long-i"
-    ]
-  },
-  {
-    "word": "there",
-    "bricks": [
-      "start-th",
-      "start-r"
-    ]
-  },
-  {
-    "word": "there",
-    "bricks": [
-      "start-th",
-      "end-r"
-    ]
-  },
-  {
-    "word": "their",
-    "bricks": [
-      "start-th",
-      "long-a",
-      "end-r"
-    ]
-  },
-  {
-    "word": "they're",
-    "bricks": [
-      "start-th",
       "short-e",
-      "end-r"
-    ]
-  },
-  {
-    "word": "be",
-    "bricks": [
-      "end-b"
-    ]
-  },
-  {
-    "word": "being",
-    "chords": [
-      { "bricks": [ "end-b" ] },
-      { "bricks": [ "end-g" ] }
-    ]
-  },
-  {
-    "word": "bee",
-    "bricks": [
-      "start-b",
-      "long-e"
-    ]
-  },
-  {
-    "word": "by",
-    "bricks": [
-      "start-b",
-      "short-i"
-    ]
-  },
-  {
-    "word": "buy",
-    "bricks": [
-      "start-b",
-      "long-i"
-    ]
-  },
-  {
-    "word": "pair",
-    "bricks": [
-      "start-p",
-      "long-a",
-      "end-r"
-    ]
-  },
-  {
-    "word": "pear",
-    "bricks": [
-      "start-p",
-      "long-a-with-ea",
-      "end-r"
-    ]
-  },
-  {
-    "word": "brake",
-    "bricks": [
-      "start-b",
-      "start-r",
-      "long-a",
-      "end-k"
-    ]
-  },
-  {
-    "word": "break",
-    "bricks": [
-      "start-b",
-      "start-r",
-      "long-a-with-ea",
-      "end-k"
-    ]
-  },
-  {
-    "word": "tale",
-    "bricks": [
-      "start-t",
-      "long-a-with-ea",
-      "end-l"
-    ]
-  },
-  {
-    "word": "tail",
-    "bricks": [
-      "start-t",
-      "long-a",
-      "end-l"
-    ]
-  },
-  {
-    "word": "sale",
-    "bricks": [
-      "start-s",
-      "long-a-with-ea",
-      "end-l"
-    ]
-  },
-  {
-    "word": "sail",
-    "bricks": [
-      "start-s",
-      "long-a",
-      "end-l"
-    ]
-  },
-  {
-    "word": "stare",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "long-a-with-ea",
-      "end-r"
-    ]
-  },
-  {
-    "word": "stair",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "long-a",
-      "end-r"
-    ]
-  },
-  {
-    "word": "weight",
-    "bricks": [
-      "start-w",
-      "long-a-with-ea",
-      "end-t"
-    ]
-  },
-  {
-    "word": "wait",
-    "bricks": [
-      "start-w",
-      "long-a",
-      "end-t"
-    ]
-  },
-  {
-    "word": "waste",
-    "bricks": [
-      "start-w",
-      "long-a-with-ea",
-      "end-s",
-      "end-t"
-    ]
-  },
-  {
-    "word": "waist",
-    "bricks": [
-      "start-w",
-      "long-a",
-      "end-s",
-      "end-t"
-    ]
-  },
-  {
-    "word": "bare",
-    "bricks": [
-      "start-b",
-      "long-a",
-      "end-r"
-    ]
-  },
-  {
-    "word": "bear",
-    "bricks": [
-      "start-b",
-      "long-a-with-ea",
-      "end-r"
-    ]
-  },
-  {
-    "word": "beet",
-    "bricks": [
-      "start-b",
-      "long-e",
-      "end-t"
-    ]
-  },
-  {
-    "word": "beat",
-    "bricks": [
-      "start-b",
-      "long-e-with-ea",
-      "end-t"
-    ]
-  },
-  {
-    "word": "gait",
-    "bricks": [
-      "start-g",
-      "long-a",
-      "end-t"
-    ]
-  },
-  {
-    "word": "gate",
-    "bricks": [
-      "start-g",
-      "long-a-with-ea",
-      "end-t"
-    ]
-  },
-  {
-    "word": "ail",
-    "bricks": [
-      "long-a",
-      "end-l"
-    ]
-  },
-  {
-    "word": "ale",
-    "bricks": [
-      "long-a-with-ea",
-      "end-l"
-    ]
-  },
-  {
-    "word": "rode",
-    "bricks": [
-      "start-r",
-      "long-o",
-      "end-d"
-    ]
-  },
-  {
-    "word": "road",
-    "bricks": [
-      "start-r",
-      "long-o-with-oa",
-      "end-d"
-    ]
-  },
-  {
-    "word": "sole",
-    "bricks": [
-      "start-s",
-      "long-o",
-      "end-l"
-    ]
-  },
-  {
-    "word": "soul",
-    "bricks": [
-      "start-s",
-      "dipthong-ow",
-      "end-l"
-    ]
-  },
-  {
-    "word": "sore",
-    "bricks": [
-      "start-s",
-      "short-o",
-      "end-r"
-    ]
-  },
-  {
-    "word": "sore",
-    "bricks": [
-      "start-s",
-      "long-o",
-      "end-r"
-    ]
-  },
-  {
-    "word": "soar",
-    "bricks": [
-      "start-s",
-      "long-o-with-oa",
-      "end-r"
-    ]
-  },
-  {
-    "word": "horse",
-    "bricks": [
-      "start-h",
-      "short-o",
       "end-r",
       "end-s"
     ]
   },
   {
-    "word": "hoarse",
-    "bricks": [
-      "start-h",
-      "long-o-with-oa",
-      "end-r",
-      "end-s"
-    ]
-  },
-  {
-    "word": "book",
-    "bricks": [
-      "start-b",
-      "long-oo",
-      "end-k"
-    ]
-  },
-  {
-    "word": "floor",
+    "word": "}",
     "bricks": [
       "start-f",
-      "start-l",
-      "long-oo",
-      "end-r"
-    ]
-  },
-  {
-    "word": "hood",
-    "bricks": [
-      "start-h",
-      "long-oo",
-      "end-d"
-    ]
-  },
-  {
-    "word": "pool",
-    "bricks": [
-      "start-p",
-      "long-oo",
-      "end-l"
-    ]
-  },
-  {
-    "word": "soot",
-    "bricks": [
-      "start-s",
-      "long-oo",
-      "end-t"
-    ]
-  },
-  {
-    "word": "root",
-    "bricks": [
       "start-r",
-      "long-oo",
-      "end-t"
-    ]
-  },
-  {
-    "word": "route",
-    "bricks": [
-      "start-r",
-      "long-u",
-      "end-t"
-    ]
-  },
-  {
-    "word": "school",
-    "bricks": [
-      "start-s",
-      "start-k",
-      "long-oo",
-      "end-l"
-    ]
-  },
-  {
-    "word": "wheel",
-    "bricks": [
-      "start-w",
-      "start-h",
-      "long-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "wheal",
-    "bricks": [
-      "start-w",
-      "start-h",
-      "long-e-with-ea",
-      "end-l"
-    ]
-  },
-  {
-    "word": "heal",
-    "bricks": [
-      "start-h",
-      "long-e-with-ea",
-      "end-l"
-    ]
-  },
-  {
-    "word": "heel",
-    "bricks": [
-      "start-h",
-      "long-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "hear",
-    "bricks": [
-      "start-h",
-      "long-e-with-ea",
-      "end-r"
-    ]
-  },
-  {
-    "word": "here",
-    "bricks": [
-      "start-h",
-      "long-e",
-      "end-r"
-    ]
-  },
-  {
-    "word": "pea",
-    "bricks": [
-      "start-p",
-      "long-e-with-ea"
-    ]
-  },
-  {
-    "word": "pee",
-    "bricks": [
-      "start-p",
-      "long-e"
-    ]
-  },
-  {
-    "word": "peace",
-    "bricks": [
-      "start-p",
-      "long-e-with-ea",
-      "end-s"
-    ]
-  },
-  {
-    "word": "piece",
-    "bricks": [
-      "start-p",
-      "long-e",
-      "end-s"
-    ]
-  },
-  {
-    "word": "peas",
-    "bricks": [
-      "start-p",
-      "long-e",
-      "end-z"
-    ]
-  },
-  {
-    "word": "wear",
-    "bricks": [
-      "start-w",
-      "long-a-with-ea",
-      "end-r"
-    ]
-  },
-  {
-    "word": "ware",
-    "bricks": [
-      "start-w",
-      "long-a",
-      "end-r"
-    ]
-  },
-  {
-    "word": "plain",
-    "bricks": [
-      "start-p",
-      "start-l",
-      "long-a",
-      "end-n"
-    ]
-  },
-  {
-    "word": "plane",
-    "bricks": [
-      "start-p",
-      "start-l",
-      "long-a-with-ea",
-      "end-n"
-    ]
-  },
-  {
-    "word": "where",
-    "bricks": [
-      "start-w",
-      "end-r"
-    ]
-  },
-  {
-    "word": "where",
-    "bricks": [
-      "start-w",
-      "start-h",
-      "short-e",
-      "end-r"
-    ]
-  },
-  {
-    "word": "real",
-    "bricks": [
-      "start-r",
-      "long-e-with-ea",
-      "end-l"
-    ]
-  },
-  {
-    "word": "reel",
-    "bricks": [
-      "start-r",
-      "long-e",
-      "end-l"
-    ]
-  },
-  {
-    "word": "tea",
-    "bricks": [
-      "start-t",
-      "long-e-with-ea"
-    ]
-  },
-  {
-    "word": "tee",
-    "bricks": [
-      "start-t",
-      "long-e"
-    ]
-  },
-  {
-    "word": "sea",
-    "bricks": [
-      "start-s",
-      "long-e-with-ea"
-    ]
-  },
-  {
-    "word": "see",
-    "bricks": [
-      "start-s",
-      "long-e"
-    ]
-  },
-  {
-    "word": "read",
-    "bricks": [
-      "start-r",
-      "long-e-with-ea",
-      "end-d"
-    ]
-  },
-  {
-    "word": "reed",
-    "bricks": [
-      "start-r",
-      "long-e",
-      "end-d"
-    ]
-  },
-  {
-    "word": "in",
-    "bricks": [
-      "start-n"
-    ]
-  },
-  {
-    "word": "inn",
-    "bricks": [
-      "start-n",
       "star",
-      "end-n"
-    ]
-  },
-  {
-    "word": "Esperanto",
-    "chords": [
-      { "bricks": [ "short-e", "end-s" ] },
-      { "bricks": [ "start-p", "short-e" ] },
-      { "bricks": [ "start-r", "short-a", "end-n" ] },
-      { "bricks": [ "start-t", "short-o" ] }
-    ]
-  },
-  {
-    "word": "synergistic",
-    "chords": [
-      { "bricks": [ "start-s", "short-i", "end-n" ] },
-      { "bricks": [ "short-e", "end-r", "end-j" ] },
-      { "bricks": [ "short-i", "end-f-as-s", "end-t" ] },
-      { "bricks": [ "short-i", "end-k" ] }
-    ]
-  },
-  {
-    "word": "yadda yadda yadda",
-    "chords": [
-      { "bricks": [ "start-y", "short-a" ] },
-      { "bricks": [ "start-d", "short-a" ] },
-      { "bricks": [ "start-y", "short-a" ] },
-      { "bricks": [ "start-d", "short-a" ] },
-      { "bricks": [ "start-y", "short-a" ] },
-      { "bricks": [ "start-d", "short-a" ] }
+      "end-k",
+      "end-t"
     ]
   }
 ]
