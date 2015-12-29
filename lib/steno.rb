@@ -116,6 +116,10 @@ module Steno
       @bricks.zip(other.bricks).all? { |mine, yours| mine == yours }
     end
 
+    def to_h
+      { bricks: bricks.map(&:id) }
+    end
+
     private
 
     def detect_overlaps
@@ -155,6 +159,14 @@ module Steno
 
     def bricks
       @chords.map(&:bricks).flatten.uniq
+    end
+
+    def to_h
+      {
+        word: word,
+        notation: notation.upcase,
+        chords: chords.map(&:to_h)
+      }
     end
   end
 
