@@ -84,7 +84,8 @@ module Steno
       @bricks = {}
     end
     def add(values)
-      @bricks[values[:id]] = Brick.new(values[:id], values[:label], values[:keystrokes])
+      params = OpenStruct.new(values)
+      @bricks[params.id] = Brick.new(params.id, params.label, params.keystrokes)
     end
     def lookup(id)
       @bricks.fetch(id)
@@ -142,7 +143,10 @@ module Steno
 
       @collisions = params.collisions
       @word   = params.word
-      @chords = params.chords.map { |chord| Chord.new(chord[:bricks], registry, mapper) }
+      @chords = params.chords.map { |chord|
+        params = OpenStruct.new(chord)
+        Chord.new(params.bricks, registry, mapper)
+      }
     end
 
     def notation
