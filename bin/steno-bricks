@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+require 'thor'
+require_relative '../lib/steno'
+require 'json'
+
+class StenoBricks < Thor
+
+  desc "sort --filepath definitions.json", "Sort the specified .json file containing definitions"
+  option :filepath, default: 'data/definitions.json'
+  def sort
+    definitions = JSON.load(File.read(options.filepath))
+    definitions = definitions.sort_by { |d| d["word"].downcase }
+    File.write(options.filepath, JSON.pretty_generate(definitions))
+  end
+
+end
+
+StenoBricks.start(ARGV)
