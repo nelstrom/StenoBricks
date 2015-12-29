@@ -155,6 +155,7 @@ DEPENDENCIES
   pry
   rake
   rspec
+  thor
   tzinfo-data
   wdm (~> 0.1.0)
 
