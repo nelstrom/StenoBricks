@@ -242,6 +242,28 @@ module Steno
           expect(two_stroke.bricks).to eql([end_b, end_g])
         end
       end
+
+      describe '#to_h' do
+        it 'returns a standardized hash' do
+          expect(mono_stroke.to_h).to eql({
+            "word": "be",
+            "notation": "-B",
+            "chords": [
+              {
+                "bricks": ["end-b"]
+              }
+            ]
+          })
+          expect(two_stroke.to_h).to eql({
+            "word": "being",
+            "notation": "-B/-G",
+            "chords": [
+              { "bricks": ["end-b"] },
+              { "bricks": ["end-g"] }
+            ]
+          })
+        end
+      end
     end
   end
 end

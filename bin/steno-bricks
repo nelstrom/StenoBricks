@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'thor'
 require_relative '../lib/steno'
+require_relative '../lib/brick_mapper'
 require 'json'
 
 class StenoBricks < Thor
@@ -10,6 +11,22 @@ class StenoBricks < Thor
   def sort
     definitions = JSON.load(File.read(options.filepath))
     definitions = definitions.sort_by { |d| d["word"].downcase }
+    File.write(options.filepath, JSON.pretty_generate(definitions))
+  end
+
+  desc "normalize --filepath definitions.json", "Sort the specified .json file containing definitions"
+  option :filepath, default: 'data/definitions.json'
+  option :bricks, default: 'data/bricks.json'
+  def normalize
+    bricks = JSON.load(File.read(options.bricks))
+    mapper = BrickMapper.new(bricks)
+    brickset = Steno::BrickRegistry.new
+    bricks.each do |brick|
+      brickset.add(brick)
+    end
+    definitions = JSON.load(File.read(options.filepath)).map { |definition|
+      Steno::Definition.new(definition, brickset, mapper).to_h
+    }
     File.write(options.filepath, JSON.pretty_generate(definitions))
   end
 

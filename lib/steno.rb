@@ -84,7 +84,8 @@ module Steno
       @bricks = {}
     end
     def add(values)
-      @bricks[values[:id]] = Brick.new(values[:id], values[:label], values[:keystrokes])
+      params = OpenStruct.new(values)
+      @bricks[params.id] = Brick.new(params.id, params.label, params.keystrokes)
     end
     def lookup(id)
       @bricks.fetch(id)
@@ -115,6 +116,10 @@ module Steno
       @bricks.zip(other.bricks).all? { |mine, yours| mine == yours }
     end
 
+    def to_h
+      { bricks: bricks.map(&:id) }
+    end
+
     private
 
     def detect_overlaps
@@ -142,7 +147,10 @@ module Steno
 
       @collisions = params.collisions
       @word   = params.word
-      @chords = params.chords.map { |chord| Chord.new(chord[:bricks], registry, mapper) }
+      @chords = params.chords.map { |chord|
+        params = OpenStruct.new(chord)
+        Chord.new(params.bricks, registry, mapper)
+      }
     end
 
     def notation
@@ -151,6 +159,14 @@ module Steno
 
     def bricks
       @chords.map(&:bricks).flatten.uniq
+    end
+
+    def to_h
+      {
+        word: word,
+        notation: notation.upcase,
+        chords: chords.map(&:to_h)
+      }
     end
   end
 

@@ -1,3 +1,5 @@
+require 'ostruct'
+
 class BrickMapper
   START  = (0..7).to_a
   MIDDLE = (8..12).to_a
@@ -10,7 +12,8 @@ class BrickMapper
 
   def initialize(bricks)
     @brickset = bricks.each_with_object({}) do |brick, hash|
-      hash[brick[:id]] = brick[:keystrokes]
+      params = OpenStruct.new(brick)
+      hash[params.id] = params.keystrokes
     end
   end
 
