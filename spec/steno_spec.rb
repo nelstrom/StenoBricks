@@ -128,7 +128,7 @@ module Steno
       end
     end
 
-    describe Chord do
+    describe Stroke do
       describe 'construction' do
         before do
           allow(registry).to receive(:lookup).with('soft-e').and_return(soft_e)
@@ -136,14 +136,14 @@ module Steno
           allow(registry).to receive(:lookup).with('end-nch').and_return(end_nch)
         end
         it 'can be constructed with [Brick] list or [string_id] list with a registry' do
-          one = Chord.new(['start-b', 'soft-e', 'end-nch'], registry)
-          two = Chord.new([start_b, soft_e, end_nch])
+          one = Stroke.new(['start-b', 'soft-e', 'end-nch'], registry)
+          two = Stroke.new([start_b, soft_e, end_nch])
           expect(one).to eql(two)
         end
       end
 
       describe '#notation' do
-        subject(:bench) { Chord.new([start_b, soft_e, end_nch], registry, mapper) }
+        subject(:bench) { Stroke.new([start_b, soft_e, end_nch], registry, mapper) }
         before do
           allow(mapper).to receive(:lookup)
             .with(['start-b', 'soft-e', 'end-nch'])
@@ -155,7 +155,7 @@ module Steno
       end
 
       context "given bricks in wrong order" do
-        subject{ Chord.new([soft_e, start_b, end_nch]) }
+        subject{ Stroke.new([soft_e, start_b, end_nch]) }
 
         it '#bricks returns bricks with correct order' do
           expect(subject.bricks).to eql([start_b, soft_e, end_nch])
@@ -163,7 +163,7 @@ module Steno
       end
 
       context "with bricks that don't overlap" do
-        subject{ Chord.new([start_b, soft_e, end_nch]) }
+        subject{ Stroke.new([start_b, soft_e, end_nch]) }
 
         it '#bricks returns a list of bricks' do
           expect(subject.bricks).to eql([start_b, soft_e, end_nch])
@@ -179,7 +179,7 @@ module Steno
       end
 
       context "with bricks that do overlap" do
-        subject{ Chord.new([start_d, soft_e, end_th]) }
+        subject{ Stroke.new([start_d, soft_e, end_th]) }
 
         it '#bricks returns a list of bricks' do
           expect(subject.bricks).to eql([start_d, soft_e, end_th])
@@ -205,7 +205,7 @@ module Steno
       let(:mono_stroke_constructor) { {
         "word": "be",
         "collisions": ["bee"],
-        "chords": [
+        "strokes": [
           { "bricks": ["end-b"] }
         ]
       } }
@@ -213,7 +213,7 @@ module Steno
 
       let(:two_stroke_constructor) { {
         "word": "being",
-        "chords": [
+        "strokes": [
           { bricks: ["end-b"] },
           { bricks: ["end-g"] }
         ]
@@ -228,17 +228,17 @@ module Steno
       end
       it 'can accept "word" and "bricks" for constructor of a mono-stroke definition"' do
         expect(flat_mono.word).to eql('be')
-        expect(flat_mono.chords.count).to eql(1)
+        expect(flat_mono.strokes.count).to eql(1)
       end
 
-      it 'can accept "word" and "chords" for constructor of a mono-stroke definition"' do
+      it 'can accept "word" and "strokes" for constructor of a mono-stroke definition"' do
         expect(mono_stroke.word).to eql('be')
-        expect(mono_stroke.chords.count).to eql(1)
+        expect(mono_stroke.strokes.count).to eql(1)
       end
 
-      it 'can accept "word" and "chords" for constructor of a two-stroke definition"' do
+      it 'can accept "word" and "strokes" for constructor of a two-stroke definition"' do
         expect(two_stroke.word).to eql('being')
-        expect(two_stroke.chords.count).to eql(2)
+        expect(two_stroke.strokes.count).to eql(2)
       end
 
       describe '#notation' do
@@ -261,7 +261,7 @@ module Steno
             "word": "be",
             "notation": "-B",
             "collisions": ["bee"],
-            "chords": [
+            "strokes": [
               {
                 "bricks": ["end-b"]
               }
@@ -270,7 +270,7 @@ module Steno
           expect(two_stroke.to_h).to eql({
             "word": "being",
             "notation": "-B/-G",
-            "chords": [
+            "strokes": [
               { "bricks": ["end-b"] },
               { "bricks": ["end-g"] }
             ]

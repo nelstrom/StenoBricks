@@ -1,12 +1,12 @@
 class DiagramBounds
   BASE_WIDTH  = 1400
   BASE_HEIGHT = 500
-  CHORD_HEIGHT = 100
+  STROKE_HEIGHT = 100
 
   def initialize(definition=nil)
-    @chord_count = 1
+    @stroke_count = 1
     if definition
-      @chord_count = definition.chords.count
+      @stroke_count = definition.strokes.count
     end
   end
 
@@ -23,10 +23,10 @@ class DiagramBounds
   end
 
   def extra_height
-    CHORD_HEIGHT * (@chord_count-1)
+    STROKE_HEIGHT * (@stroke_count-1)
   end
 
-  def offset_for_chord(index=0)
-    (index*CHORD_HEIGHT) - extra_height
+  def offset_for_stroke(index=0)
+    (index*STROKE_HEIGHT) - extra_height
   end
 end

@@ -3,8 +3,8 @@ require_relative '../lib/diagram_bounds'
 
 describe DiagramBounds do
 
-  let(:monostroke_definition) { double("Mono", chords: Array.new(1)) }
-  let(:fivestroke_definition) { double("Mono", chords: Array.new(5)) }
+  let(:monostroke_definition) { double("Mono", strokes: Array.new(1)) }
+  let(:fivestroke_definition) { double("Mono", strokes: Array.new(5)) }
 
   context 'default bounds' do
     subject(:default) { DiagramBounds.new }
@@ -16,8 +16,8 @@ describe DiagramBounds do
       expect(default.extra_height).to eql(0)
     end
 
-    it '#offset_for_chord is 0' do
-      expect(default.offset_for_chord).to eql(0)
+    it '#offset_for_stroke is 0' do
+      expect(default.offset_for_stroke).to eql(0)
     end
   end
 
@@ -31,8 +31,8 @@ describe DiagramBounds do
       expect(monostroke_bounds.extra_height).to eql(0)
     end
 
-    it '#offset_for_chord is 0' do
-      expect(monostroke_bounds.offset_for_chord).to eql(0)
+    it '#offset_for_stroke is 0' do
+      expect(monostroke_bounds.offset_for_stroke).to eql(0)
     end
   end
 
@@ -46,12 +46,12 @@ describe DiagramBounds do
       expect(fivestroke_bounds.extra_height).to eql(400)
     end
 
-    it '#offset_for_chord is 0' do
-      expect(fivestroke_bounds.offset_for_chord(0)).to eql(-400)
-      expect(fivestroke_bounds.offset_for_chord(1)).to eql(-300)
-      expect(fivestroke_bounds.offset_for_chord(2)).to eql(-200)
-      expect(fivestroke_bounds.offset_for_chord(3)).to eql(-100)
-      expect(fivestroke_bounds.offset_for_chord(4)).to eql(0)
+    it '#offset_for_stroke is 0' do
+      expect(fivestroke_bounds.offset_for_stroke(0)).to eql(-400)
+      expect(fivestroke_bounds.offset_for_stroke(1)).to eql(-300)
+      expect(fivestroke_bounds.offset_for_stroke(2)).to eql(-200)
+      expect(fivestroke_bounds.offset_for_stroke(3)).to eql(-100)
+      expect(fivestroke_bounds.offset_for_stroke(4)).to eql(0)
     end
   end
 
