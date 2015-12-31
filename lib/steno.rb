@@ -84,8 +84,7 @@ module Steno
       @bricks = {}
     end
     def add(values)
-      params = OpenStruct.new(values)
-      @bricks[params.id] = Brick.new(params.id, params.label, params.keystrokes)
+      @bricks[values['id']] = Brick.new(values['id'], values['label'], values['keystrokes'])
     end
     def lookup(id)
       @bricks.fetch(id)
