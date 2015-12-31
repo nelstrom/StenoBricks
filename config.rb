@@ -13,7 +13,7 @@ if data.has_key?(:bricks) && data.has_key?(:definitions)
   set :wordset, Hash.new
   set :homograph_dictionary, Homographer.new(data.homographs).dictionary
 
-  definition_list = data.definitions.sort_by(&:word).map do |data|
+  definition_list = data.definitions.map do |data|
     Steno::Definition.new(data, brickset, mapper)
   end
 
