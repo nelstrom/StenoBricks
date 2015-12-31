@@ -80,11 +80,12 @@ module Steno
   end
 
   class BrickRegistry
-    def initialize
+    def initialize(bricks=[])
       @bricks = {}
+      bricks.each { |brick| add(brick) }
     end
-    def add(values)
-      @bricks[values['id']] = Brick.new(values['id'], values['label'], values['keystrokes'])
+    def add(brick)
+      @bricks[brick['id']] = Brick.new(*brick.values_at('id', 'label', 'keystrokes'))
     end
     def lookup(id)
       @bricks.fetch(id)

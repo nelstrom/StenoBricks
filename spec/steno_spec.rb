@@ -106,10 +106,9 @@ module Steno
       end
 
       context 'a BrickRegistry containing some bricks' do
-        subject{ BrickRegistry.new }
-        before do
-          subject.add('id' => 'start-b', 'label' => 'b', 'keystrokes' => [4, 5])
-        end
+        subject{ BrickRegistry.new([
+          { 'id' => 'start-b', 'label' => 'b', 'keystrokes' => [4, 5] }
+        ]) }
         it '#lookup finds things by id' do
           brick = subject.lookup("start-b")
           expect(brick).to eql(start_b)
