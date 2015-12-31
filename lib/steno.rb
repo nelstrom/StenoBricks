@@ -4,6 +4,14 @@ require_relative './steno_keyboard'
 
 module Steno
 
+  def self.Brick(*args)
+    case args.first
+    when Brick then args.first
+    when Hash then Brick.new(*args.first.values_at('id', 'label', 'keystrokes'))
+    else Brick.new(*args)
+    end
+  end
+
   class Brick
 
     attr_reader :id, :keystrokes, :label
@@ -85,7 +93,7 @@ module Steno
       bricks.each { |brick| add(brick) }
     end
     def add(brick)
-      @bricks[brick['id']] = Brick.new(*brick.values_at('id', 'label', 'keystrokes'))
+      @bricks[brick['id']] = Steno::Brick(brick)
     end
     def lookup(id)
       @bricks.fetch(id)

@@ -14,6 +14,18 @@ module Steno
     let(:end_th)  { Brick.new('end-th', 'th',  [10, 19]) }
     let(:end_nch) { Brick.new('end-nch', 'nch', [13, 14, 15, 16]) }
 
+    describe '#Brick' do
+      it 'returns Brick instances unchanged' do
+        expect(Steno::Brick(start_d)).to eql(start_d)
+      end
+      it 'instantiates a Brick from Hash values' do
+        expect(Steno::Brick({'id' => 'start-d', 'label' => 'd', 'keystrokes' => [2, 3]})).to eql(start_d)
+      end
+      it 'instantiates a Brick from individual arguments' do
+        expect(Steno::Brick('start-d', 'd', [2, 3])).to eql(start_d)
+      end
+    end
+
     describe Brick do
       context 'with one keystroke, 2 units wide' do
         subject { star }
