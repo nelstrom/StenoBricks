@@ -8,14 +8,10 @@ require 'lib/diagram_bounds'
 
 if data.has_key?(:bricks) && data.has_key?(:definitions)
   set :mapper, BrickMapper.new(data.bricks)
-  set :brickset, Steno::BrickRegistry.new
+  set :brickset, Steno::BrickRegistry.new(data.bricks)
   set :definition_list, []
   set :wordset, Hash.new
   set :homograph_dictionary, Homographer.new(data.homographs).dictionary
-
-  data.bricks.each do |brick|
-    brickset.add(brick)
-  end
 
   definition_list = data.definitions.sort_by(&:word).map do |data|
     Steno::Definition.new(data, brickset, mapper)
