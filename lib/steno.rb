@@ -162,10 +162,11 @@ module Steno
     end
 
     def to_h
-      {
-        word: word,
-        notation: notation.upcase,
-        chords: chords.map(&:to_h)
+      Hash.new.tap { |h|
+        h[:word]       = word
+        h[:notation]   = notation.upcase
+        h[:chords]     = chords.map(&:to_h)
+        h[:collisions] = collisions unless collisions.empty?
       }
     end
   end
