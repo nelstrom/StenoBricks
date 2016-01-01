@@ -197,13 +197,13 @@ module Steno
 
     describe Definition do
       let(:flat_mono_constructor) { {
-        "word": "be",
+        "output": "be",
         "bricks": ["end-b"]
       } }
       subject(:flat_mono) { Definition.new(flat_mono_constructor, registry, mapper) }
 
       let(:mono_stroke_constructor) { {
-        "word": "be",
+        "output": "be",
         "collisions": ["bee"],
         "strokes": [
           { "bricks": ["end-b"] }
@@ -212,7 +212,7 @@ module Steno
       subject(:mono_stroke) { Definition.new(mono_stroke_constructor, registry, mapper) }
 
       let(:two_stroke_constructor) { {
-        "word": "being",
+        "output": "being",
         "strokes": [
           { bricks: ["end-b"] },
           { bricks: ["end-g"] }
@@ -226,18 +226,18 @@ module Steno
         allow(mapper).to receive(:lookup).with(['end-b']).and_return('-b')
         allow(mapper).to receive(:lookup).with(['end-g']).and_return('-g')
       end
-      it 'can accept "word" and "bricks" for constructor of a mono-stroke definition"' do
-        expect(flat_mono.word).to eql('be')
+      it 'can accept "output" and "bricks" for constructor of a mono-stroke definition"' do
+        expect(flat_mono.output).to eql('be')
         expect(flat_mono.strokes.count).to eql(1)
       end
 
-      it 'can accept "word" and "strokes" for constructor of a mono-stroke definition"' do
-        expect(mono_stroke.word).to eql('be')
+      it 'can accept "output" and "strokes" for constructor of a mono-stroke definition"' do
+        expect(mono_stroke.output).to eql('be')
         expect(mono_stroke.strokes.count).to eql(1)
       end
 
-      it 'can accept "word" and "strokes" for constructor of a two-stroke definition"' do
-        expect(two_stroke.word).to eql('being')
+      it 'can accept "output" and "strokes" for constructor of a two-stroke definition"' do
+        expect(two_stroke.output).to eql('being')
         expect(two_stroke.strokes.count).to eql(2)
       end
 
@@ -245,6 +245,11 @@ module Steno
         it 'creates notation from it\'s constituent bricks' do
           expect(mono_stroke.notation).to eql('-b')
           expect(two_stroke.notation).to eql('-b/-g')
+        end
+
+        it 'comes with #input alias' do
+          expect(mono_stroke.notation).to eql(mono_stroke.input)
+          expect(two_stroke.notation).to eql(two_stroke.input)
         end
       end
 
@@ -258,8 +263,8 @@ module Steno
       describe '#to_h' do
         it 'returns a standardized hash' do
           expect(mono_stroke.to_h).to eql({
-            "word": "be",
-            "notation": "-B",
+            "output": "be",
+            "input": "-B",
             "collisions": ["bee"],
             "strokes": [
               {
@@ -268,8 +273,8 @@ module Steno
             ]
           })
           expect(two_stroke.to_h).to eql({
-            "word": "being",
-            "notation": "-B/-G",
+            "output": "being",
+            "input": "-B/-G",
             "strokes": [
               { "bricks": ["end-b"] },
               { "bricks": ["end-g"] }

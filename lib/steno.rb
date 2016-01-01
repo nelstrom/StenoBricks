@@ -143,7 +143,7 @@ module Steno
   end
 
   class Definition
-    attr_reader :word, :strokes, :collisions
+    attr_reader :output, :strokes, :collisions
 
     def initialize(params, registry=BrickRegistry.new, mapper=nil)
       params = OpenStruct.new(params)
@@ -154,7 +154,7 @@ module Steno
       end
 
       @collisions = params.collisions
-      @word   = params.word
+      @output   = params.output
       @strokes = params.strokes.map { |stroke|
         params = OpenStruct.new(stroke)
         Stroke.new(params.bricks, registry, mapper)
@@ -164,6 +164,7 @@ module Steno
     def notation
       @strokes.map(&:notation).join("/")
     end
+    alias_method :input, :notation
 
     def bricks
       @strokes.map(&:bricks).flatten.uniq
@@ -171,8 +172,8 @@ module Steno
 
     def to_h
       Hash.new.tap { |h|
-        h[:word]       = word
-        h[:notation]   = notation.upcase
+        h[:output]     = output
+        h[:input]      = input.upcase
         h[:strokes]    = strokes.map(&:to_h)
         h[:collisions] = collisions unless collisions.empty?
       }

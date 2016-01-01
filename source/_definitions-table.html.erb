@@ -10,7 +10,7 @@
     <% highlight = definition.notation == active.notation %>
     <tr class="<%= highlight ? 'active' : '' %>">
       <td class="input"><%= link_to_definition(definition) %></td>
-      <td class="output"><%= definition.word %></td>
+      <td class="output"><%= definition.output %></td>
     </tr>
   <% end %>
 

@@ -9,7 +9,7 @@ title: Brick
 <% unless definitions.empty? %>
   <h2>Definitions that make use of this brick</h2>
 
-  <%= partial('definitions-table', locals: {definitions: definitions.sort_by(&:word)}) %>
+  <%= partial('definitions-table', locals: {definitions: definitions.sort_by(&:output)}) %>
 <% end %>
 
 <% unless similar.empty? %>
