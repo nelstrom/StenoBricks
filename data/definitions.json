@@ -2011,6 +2011,7 @@
   {
     "word": "lift",
     "notation": "HREUFT",
+    "collisions": ["list"],
     "chords": [
       {
         "bricks": [
@@ -2071,6 +2072,7 @@
   {
     "word": "lurch",
     "notation": "HRUFRPB",
+    "collisions": ["lunch"],
     "chords": [
       {
         "bricks": [

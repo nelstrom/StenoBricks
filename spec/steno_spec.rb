@@ -193,6 +193,7 @@ module Steno
 
       let(:mono_stroke_constructor) { {
         "word": "be",
+        "collisions": ["bee"],
         "chords": [
           { "bricks": ["end-b"] }
         ]
@@ -248,6 +249,7 @@ module Steno
           expect(mono_stroke.to_h).to eql({
             "word": "be",
             "notation": "-B",
+            "collisions": ["bee"],
             "chords": [
               {
                 "bricks": ["end-b"]
