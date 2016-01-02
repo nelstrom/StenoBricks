@@ -32,3 +32,26 @@ For example, `-F` may produce the 'F' sound, the 'V' sound, or the 'S' sound, me
 Similarly, `-FRPB` may produce the 'NCH' sound or the 'RCH' sound, so that cluster of keystrokes can produce two different bricks.
 
 You can [browse our collection of bricks][bricks]. For each brick, we illustrate how it looks on a StenoBrick diagram and list some example definitions that use the brick.
+
+### What's a Definition?
+
+A Definition translates steno keystrokes (input), into words, phrases, punctuation, and commands (output).
+Plover Steno theory is made up out of thousands of definitions, which are collected together to form [a dictionary in JSON format][dictionary].
+
+You can also [browse our collection of definitions][definitions].
+For each definition, we illustrate how it looks on a StenoBrick diagram and list each of the bricks used to form that definition.
+
+*Synonyms* are definitions that use different strokes to produce the same output.
+Where appropriate, we list any synonyms for a definition.
+For example, see [the definition for `APBD`][and], which lists `SKP` and `STK` as synonyms.
+
+*Homographs* are words that sound alike, such as "there", "their", and "they're".
+Where appropriate, we list any homographs for a definition.
+For example, see [the definition for `THAEUR`][their].
+
+
+[bricks]: <%= "#{rootpath}/bricks" %>
+[definitions]: <%= "#{rootpath}/definitions" %>
+[and]: <%= "#{rootpath}/definitions/apbd/" %>
+[their]: <%= "#{rootpath}/definitions/thaeur/" %>
+[dictionary]: https://raw.githubusercontent.com/openstenoproject/plover/master/plover/assets/main.json
