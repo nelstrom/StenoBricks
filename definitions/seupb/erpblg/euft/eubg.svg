@@ -267,8 +267,8 @@ svg {
     <text class="buttonLabel" y="160" x="1225">
       <tspan>z</tspan>
     </text>
-<g class="definition-chord" transform="translate(0 -300)">
-<g class="chord-brick">
+<g class="definition-stroke" transform="translate(0 -300)">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="850" y="0" class="stroked darkFill"/>
   <use xlink:href="#matcher-width-1" x="900" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-2" x="850" y="-50" class="stroked whiteFill"/>
@@ -276,7 +276,7 @@ svg {
     <tspan>N</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="650" y="0" class="stroked darkFill"/>
   <use xlink:href="#matcher-width-1" x="700" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-2" x="650" y="-50" class="stroked whiteFill"/>
@@ -284,7 +284,7 @@ svg {
     <tspan>I</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-2" x="50" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-2" x="50" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="100.0" y="85">
@@ -292,8 +292,8 @@ svg {
   </text>
 </g>
 </g>
-<g class="definition-chord" transform="translate(0 -200)">
-<g class="chord-brick">
+<g class="definition-stroke" transform="translate(0 -200)">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="850" y="0" class="stroked darkFill"/>
   <use xlink:href="#matcher-width-1" x="900" y="0" class="stroked lightFill"/>
   <use xlink:href="#matcher-width-1" x="950" y="0" class="stroked darkFill"/>
@@ -303,14 +303,14 @@ svg {
     <tspan>J</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="800" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-1" x="800" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="825.0" y="85">
     <tspan>R</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="650" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="650" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="675.0" y="85">
@@ -318,22 +318,22 @@ svg {
   </text>
 </g>
 </g>
-<g class="definition-chord" transform="translate(0 -100)">
-<g class="chord-brick">
+<g class="definition-stroke" transform="translate(0 -100)">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="1050" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="1050" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="1075.0" y="85">
     <tspan>T</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="750" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="750" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="775.0" y="85">
     <tspan>S</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="650" y="0" class="stroked darkFill"/>
   <use xlink:href="#matcher-width-1" x="700" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-2" x="650" y="-50" class="stroked whiteFill"/>
@@ -342,8 +342,8 @@ svg {
   </text>
 </g>
 </g>
-<g class="definition-chord" transform="translate(0 0)">
-<g class="chord-brick">
+<g class="definition-stroke" transform="translate(0 0)">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="900" y="0" class="stroked lightFill"/>
   <use xlink:href="#matcher-width-1" x="1000" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-3" x="900" y="-50" class="stroked whiteFill"/>
@@ -351,7 +351,7 @@ svg {
     <tspan>K</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="650" y="0" class="stroked darkFill"/>
   <use xlink:href="#matcher-width-1" x="700" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-2" x="650" y="-50" class="stroked whiteFill"/>

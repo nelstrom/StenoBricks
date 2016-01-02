@@ -261,15 +261,15 @@ svg {
     <text class="buttonLabel" y="160" x="1225">
       <tspan>z</tspan>
     </text>
-<g class="definition-chord" transform="translate(0 0)">
-<g class="chord-brick">
+<g class="definition-stroke" transform="translate(0 0)">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="1150" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="1150" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="1175.0" y="85">
     <tspan>D</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="450" y="0" class="stroked darkFill"/>
   <use xlink:href="#matcher-width-1" x="500" y="0" class="stroked lightFill"/>
   <use xlink:href="#matcher-width-1" x="650" y="0" class="stroked darkFill"/>
@@ -278,14 +278,14 @@ svg {
     <tspan>EE</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="300" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-1" x="300" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="325.0" y="85">
     <tspan>W</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="150" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="150" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="175.0" y="85">

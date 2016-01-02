@@ -261,36 +261,36 @@ svg {
     <text class="buttonLabel" y="160" x="1225">
       <tspan>z</tspan>
     </text>
-<g class="definition-chord" transform="translate(0 0)">
-<g class="chord-brick">
+<g class="definition-stroke" transform="translate(0 0)">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="1100" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-1" x="1100" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="1125.0" y="85">
     <tspan>S</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="1000" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-1" x="1000" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="1025.0" y="85">
     <tspan>G</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="800" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-1" x="800" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="825.0" y="85">
     <tspan>R</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="750" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="750" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="775.0" y="85">
     <tspan>V</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="450" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="450" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="475.0" y="85">

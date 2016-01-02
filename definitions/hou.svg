@@ -261,8 +261,8 @@ svg {
     <text class="buttonLabel" y="160" x="1225">
       <tspan>z</tspan>
     </text>
-<g class="definition-chord" transform="translate(0 0)">
-<g class="chord-brick">
+<g class="definition-stroke" transform="translate(0 0)">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="500" y="0" class="stroked lightFill"/>
   <use xlink:href="#matcher-width-1" x="700" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-5" x="500" y="-50" class="stroked whiteFill"/>
@@ -270,7 +270,7 @@ svg {
     <tspan>OW</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="350" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="350" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="375.0" y="85">

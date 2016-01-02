@@ -261,15 +261,15 @@ svg {
     <text class="buttonLabel" y="160" x="1225">
       <tspan>z</tspan>
     </text>
-<g class="definition-chord" transform="translate(0 0)">
-<g class="chord-brick">
+<g class="definition-stroke" transform="translate(0 0)">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="1050" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="1050" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="1075.0" y="85">
     <tspan>T</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="450" y="0" class="stroked darkFill"/>
   <use xlink:href="#matcher-width-1" x="500" y="0" class="stroked lightFill"/>
   <use xlink:href="#matcher-width-1" x="650" y="0" class="stroked darkFill"/>
@@ -279,7 +279,7 @@ svg {
     <tspan>AYE</tspan>
   </text>
 </g>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="400" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-1" x="400" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="425.0" y="85">

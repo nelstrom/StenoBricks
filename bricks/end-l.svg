@@ -261,7 +261,7 @@ svg {
     <text class="buttonLabel" y="160" x="1225">
       <tspan>z</tspan>
     </text>
-<g class="chord-brick">
+<g class="stroke-brick">
   <use xlink:href="#matcher-width-1" x="950" y="0" class="stroked darkFill"/>
   <use xlink:href="#span-width-1" x="950" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="975.0" y="85">
