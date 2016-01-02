@@ -19,7 +19,11 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div class="row">
+      <div class="large-12 columns">
+        <%= yield %>
+      </div>
+    </div>
 
     <%= javascript_include_tag 'vendor/jquery.min', 'vendor/what-input.min', 'foundation.min', 'app' %>
   </body>
