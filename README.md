@@ -5,7 +5,7 @@ For each stroke, the Brick Chart shows how individual keypresses map to the phon
 
 ## Indexing Plover's dictionary
 
-* bricks - the chords that make up letters, letter-clusters, prefixes, suffixes, etc.
+* bricks - the strokes that make up letters, letter-clusters, prefixes, suffixes, etc.
 * definitions - one or more strokes that produce a word
 * cheat sheets - a list of bricks that are grouped by some theme
 * words - for each word, provide a list of definitions that produce that word
