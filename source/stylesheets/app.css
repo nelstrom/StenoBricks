@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body {
+  text-align: left;
+  font-family: sans-serif;
+}
+
+img {
+  border: 1px solid #66CCFF;
+}
+
+.word-title,
+.brick-title,
+.definition-title {
+  text-align: center;
+}
+
+.input {
+  text-transform:uppercase;
+}
+
+tr.active {
+  opacity: 0.33;
+}

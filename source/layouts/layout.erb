@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- Use title if it's in the page YAML frontmatter -->
     <% if defined?(brick) %>
       <title><%= current_page.data.title %>: <%= brick.label %></title>
@@ -14,11 +14,13 @@
     <% else %>
       <title><%= current_page.data.title %></title>
     <% end %>
-    
-    <%= stylesheet_link_tag "normalize", "all", "diagram" %>
+
+    <%= stylesheet_link_tag "foundation", "app" %>
   </head>
-  
+
   <body class="<%= page_classes %>">
     <%= yield %>
+
+    <%= javascript_include_tag 'vendor/jquery.min', 'vendor/what-input.min', 'foundation.min', 'app' %>
   </body>
 </html>
