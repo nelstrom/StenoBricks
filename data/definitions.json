@@ -183,18 +183,6 @@
   },
   {
     "output": "and",
-    "input": "STK",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "and",
     "input": "APBD",
     "strokes": [
       {
@@ -202,6 +190,18 @@
           "short-a",
           "end-n",
           "end-d"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "and",
+    "input": "STK",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-d"
         ]
       }
     ]
@@ -369,6 +369,19 @@
       },
       {
         "bricks": [
+          "end-g"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "big",
+    "input": "PWEUG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-i",
           "end-g"
         ]
       }
@@ -2011,7 +2024,9 @@
   {
     "output": "lift",
     "input": "HREUFT",
-    "collisions": ["list"],
+    "collisions": [
+      "list"
+    ],
     "strokes": [
       {
         "bricks": [
@@ -2072,7 +2087,9 @@
   {
     "output": "lurch",
     "input": "HRUFRPB",
-    "collisions": ["lunch"],
+    "collisions": [
+      "lunch"
+    ],
     "strokes": [
       {
         "bricks": [
@@ -2690,6 +2707,63 @@
           "start-r",
           "long-a",
           "end-z"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "present",
+    "input": "PRES/EPBT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "start-r",
+          "short-e",
+          "end-s"
+        ]
+      },
+      {
+        "bricks": [
+          "short-e",
+          "end-n",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "present",
+    "input": "PRES/EPBT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "start-r",
+          "short-e",
+          "end-z"
+        ]
+      },
+      {
+        "bricks": [
+          "short-e",
+          "end-n",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "present",
+    "input": "PREPBT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "start-r",
+          "short-e",
+          "end-n",
+          "end-t"
         ]
       }
     ]
