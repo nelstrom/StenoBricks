@@ -60,7 +60,7 @@ A StenoBricks diagram is made up of two parts: the lower section represents the 
 
 #### Keyboard diagram
 
-Here's what the lower section looks like:
+The lower section looks like this:
 
 <img src="<%= path_to_svg('diagram') %>"/>
 
@@ -129,3 +129,67 @@ The columns representing pinky, middle finger and thumb are shaded for both left
 </table>
 
 If your right hand has only one pinky, then you'll just have to use it to stretch for the `D` and `Z` keys.
+
+##### Star key
+
+TODO
+
+##### Number key
+
+TODO
+
+#### Strokes diagram
+
+In each of the following diagrams, the bottom half shows the keyboard, while the top half shows the strokes that form a definition.
+
+Here's a definition for the word 'hug':
+
+<img src="<%= path_to_svg('hug', 'definitions') %>"/>
+
+The 'H' brick is a single keystroke by the left index finger.
+The 'U' brick is a single keystroke by the right thumb.
+The 'G' brick is a single keystroke by the right ring finger.
+This example is straightforward enough: each brick corresponds to one letter of the word 'hug'.
+
+The graphic representing a brick consists of two parts: the label and one or more matchers.
+The label is the large white rounded rectangle shape.
+The matchers are the light or dark arches underneath the label.
+These matchers always align with the keys on the keyboard that need to be pressed in order to produce a given brick.
+The 'H' brick has a single black matcher, which lines up with the `H` key.
+The 'G' brick has a single white matcher, which lines up with the `G` key.
+Black matchers correspond to the top row of keys for the fingers, while white matchers correspond to the bottom row of keys.
+
+Here's a definition for the word 'big':
+
+<img src="<%= path_to_svg('pweug', 'definitions') %>"/>
+
+Once again, this three letter word is composed from three bricks, but this time it requires five simultaneous keystrokes.
+The 'B' brick is formed by pressing both the `P` and `W` keys with the left middle finger.
+The 'I' brick is formed by pressing both the `E` and `U` keys with the right thumb.
+As before, the 'G' brick is a single keystroke by the right ring finger.
+
+As you see, some bricks are formed from a chord of several keystrokes, while other bricks are made from just a single keystroke.
+The bricks formed from a single keystroke tend to be more common, while the bricks formed from longer chords occur less frequently.
+
+Here's a definition for the word 'finch':
+
+<img src="<%= path_to_svg('tpeufrpb', 'definitions') %>"/>
+
+The 'F' brick is formed by the left hand pressing the `T` key with the ring finger and the `P` key with the middle finger.
+Notice how this brick spans two columns, which indicates that two adjacent fingers take part in producing this brick.
+By contrast, the 'I' brick also requires two keystrokes, but it's contained within a single column so it can be produced by a single finger.
+
+The 'NCH' brick is formed by pressing four keys simultaneously: `F` and `R` with the right index finger, as well as `P` and `B` with the right middle finger.
+
+All of the definitions that we've looked at so far were made up of three bricks.
+It doesn't have to be that way.
+A definition can be made up of as many bricks as you like.
+For example, this definition for the word 'scribble' is made from six bricks:
+
+<img src="<%= path_to_svg('skreubl', 'definitions') %>"/>
+
+A definition can also be made up of more than one stroke. For example, this definition for the word 'present' consists of two separate strokes:
+
+<img src="<%= path_to_svg('pres/epbt', 'definitions') %>"/>
+
+The first stroke outlines the first half of the word ('pres'), and the second stroke completes it ('ent').
