@@ -14,6 +14,18 @@ module Steno
     let(:end_th)  { Brick.new('end-th', 'th',  [10, 19]) }
     let(:end_nch) { Brick.new('end-nch', 'nch', [13, 14, 15, 16]) }
 
+    describe '#Brick' do
+      it 'returns Brick instances unchanged' do
+        expect(Steno::Brick(start_d)).to eql(start_d)
+      end
+      it 'instantiates a Brick from Hash values' do
+        expect(Steno::Brick({'id' => 'start-d', 'label' => 'd', 'keystrokes' => [2, 3]})).to eql(start_d)
+      end
+      it 'instantiates a Brick from individual arguments' do
+        expect(Steno::Brick('start-d', 'd', [2, 3])).to eql(start_d)
+      end
+    end
+
     describe Brick do
       context 'with one keystroke, 2 units wide' do
         subject { star }
@@ -100,16 +112,15 @@ module Steno
       context 'a fresh BrickRegistry with nothing in it' do
         subject{ BrickRegistry.new }
         it '#add generates a Brick and returns it' do
-          brick = subject.add(id: 'start-b', label: 'b', keystrokes: [4, 5])
+          brick = subject.add('id' => 'start-b', 'label' => 'b', 'keystrokes' => [4, 5])
           expect(brick).to eql(start_b)
         end
       end
 
       context 'a BrickRegistry containing some bricks' do
-        subject{ BrickRegistry.new }
-        before do
-          subject.add(id: 'start-b', label: 'b', keystrokes: [4, 5])
-        end
+        subject{ BrickRegistry.new([
+          { 'id' => 'start-b', 'label' => 'b', 'keystrokes' => [4, 5] }
+        ]) }
         it '#lookup finds things by id' do
           brick = subject.lookup("start-b")
           expect(brick).to eql(start_b)
@@ -117,7 +128,7 @@ module Steno
       end
     end
 
-    describe Chord do
+    describe Stroke do
       describe 'construction' do
         before do
           allow(registry).to receive(:lookup).with('soft-e').and_return(soft_e)
@@ -125,14 +136,14 @@ module Steno
           allow(registry).to receive(:lookup).with('end-nch').and_return(end_nch)
         end
         it 'can be constructed with [Brick] list or [string_id] list with a registry' do
-          one = Chord.new(['start-b', 'soft-e', 'end-nch'], registry)
-          two = Chord.new([start_b, soft_e, end_nch])
+          one = Stroke.new(['start-b', 'soft-e', 'end-nch'], registry)
+          two = Stroke.new([start_b, soft_e, end_nch])
           expect(one).to eql(two)
         end
       end
 
       describe '#notation' do
-        subject(:bench) { Chord.new([start_b, soft_e, end_nch], registry, mapper) }
+        subject(:bench) { Stroke.new([start_b, soft_e, end_nch], registry, mapper) }
         before do
           allow(mapper).to receive(:lookup)
             .with(['start-b', 'soft-e', 'end-nch'])
@@ -144,7 +155,7 @@ module Steno
       end
 
       context "given bricks in wrong order" do
-        subject{ Chord.new([soft_e, start_b, end_nch]) }
+        subject{ Stroke.new([soft_e, start_b, end_nch]) }
 
         it '#bricks returns bricks with correct order' do
           expect(subject.bricks).to eql([start_b, soft_e, end_nch])
@@ -152,7 +163,7 @@ module Steno
       end
 
       context "with bricks that don't overlap" do
-        subject{ Chord.new([start_b, soft_e, end_nch]) }
+        subject{ Stroke.new([start_b, soft_e, end_nch]) }
 
         it '#bricks returns a list of bricks' do
           expect(subject.bricks).to eql([start_b, soft_e, end_nch])
@@ -168,7 +179,7 @@ module Steno
       end
 
       context "with bricks that do overlap" do
-        subject{ Chord.new([start_d, soft_e, end_th]) }
+        subject{ Stroke.new([start_d, soft_e, end_th]) }
 
         it '#bricks returns a list of bricks' do
           expect(subject.bricks).to eql([start_d, soft_e, end_th])
@@ -186,23 +197,23 @@ module Steno
 
     describe Definition do
       let(:flat_mono_constructor) { {
-        "word": "be",
+        "output": "be",
         "bricks": ["end-b"]
       } }
       subject(:flat_mono) { Definition.new(flat_mono_constructor, registry, mapper) }
 
       let(:mono_stroke_constructor) { {
-        "word": "be",
+        "output": "be",
         "collisions": ["bee"],
-        "chords": [
+        "strokes": [
           { "bricks": ["end-b"] }
         ]
       } }
       subject(:mono_stroke) { Definition.new(mono_stroke_constructor, registry, mapper) }
 
       let(:two_stroke_constructor) { {
-        "word": "being",
-        "chords": [
+        "output": "being",
+        "strokes": [
           { bricks: ["end-b"] },
           { bricks: ["end-g"] }
         ]
@@ -215,25 +226,30 @@ module Steno
         allow(mapper).to receive(:lookup).with(['end-b']).and_return('-b')
         allow(mapper).to receive(:lookup).with(['end-g']).and_return('-g')
       end
-      it 'can accept "word" and "bricks" for constructor of a mono-stroke definition"' do
-        expect(flat_mono.word).to eql('be')
-        expect(flat_mono.chords.count).to eql(1)
+      it 'can accept "output" and "bricks" for constructor of a mono-stroke definition"' do
+        expect(flat_mono.output).to eql('be')
+        expect(flat_mono.strokes.count).to eql(1)
       end
 
-      it 'can accept "word" and "chords" for constructor of a mono-stroke definition"' do
-        expect(mono_stroke.word).to eql('be')
-        expect(mono_stroke.chords.count).to eql(1)
+      it 'can accept "output" and "strokes" for constructor of a mono-stroke definition"' do
+        expect(mono_stroke.output).to eql('be')
+        expect(mono_stroke.strokes.count).to eql(1)
       end
 
-      it 'can accept "word" and "chords" for constructor of a two-stroke definition"' do
-        expect(two_stroke.word).to eql('being')
-        expect(two_stroke.chords.count).to eql(2)
+      it 'can accept "output" and "strokes" for constructor of a two-stroke definition"' do
+        expect(two_stroke.output).to eql('being')
+        expect(two_stroke.strokes.count).to eql(2)
       end
 
       describe '#notation' do
         it 'creates notation from it\'s constituent bricks' do
           expect(mono_stroke.notation).to eql('-b')
           expect(two_stroke.notation).to eql('-b/-g')
+        end
+
+        it 'comes with #input alias' do
+          expect(mono_stroke.notation).to eql(mono_stroke.input)
+          expect(two_stroke.notation).to eql(two_stroke.input)
         end
       end
 
@@ -247,19 +263,19 @@ module Steno
       describe '#to_h' do
         it 'returns a standardized hash' do
           expect(mono_stroke.to_h).to eql({
-            "word": "be",
-            "notation": "-B",
+            "output": "be",
+            "input": "-B",
             "collisions": ["bee"],
-            "chords": [
+            "strokes": [
               {
                 "bricks": ["end-b"]
               }
             ]
           })
           expect(two_stroke.to_h).to eql({
-            "word": "being",
-            "notation": "-B/-G",
-            "chords": [
+            "output": "being",
+            "input": "-B/-G",
+            "strokes": [
               { "bricks": ["end-b"] },
               { "bricks": ["end-g"] }
             ]

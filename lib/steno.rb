@@ -4,6 +4,14 @@ require_relative './steno_keyboard'
 
 module Steno
 
+  def self.Brick(*args)
+    case args.first
+    when Brick then args.first
+    when Hash then Brick.new(*args.first.values_at('id', 'label', 'keystrokes'))
+    else Brick.new(*args)
+    end
+  end
+
   class Brick
 
     attr_reader :id, :keystrokes, :label
@@ -80,12 +88,12 @@ module Steno
   end
 
   class BrickRegistry
-    def initialize
+    def initialize(bricks=[])
       @bricks = {}
+      bricks.each { |brick| add(brick) }
     end
-    def add(values)
-      params = OpenStruct.new(values)
-      @bricks[params.id] = Brick.new(params.id, params.label, params.keystrokes)
+    def add(brick)
+      @bricks[brick['id']] = Steno::Brick(brick)
     end
     def lookup(id)
       @bricks.fetch(id)
@@ -95,7 +103,7 @@ module Steno
     end
   end
 
-  class Chord
+  class Stroke
     attr_reader :bricks, :notation, :foundation, :overlay
     def initialize(bricks, registry=BrickRegistry.new, mapper=nil)
       bricks = bricks.map { |b|
@@ -135,37 +143,38 @@ module Steno
   end
 
   class Definition
-    attr_reader :word, :chords, :collisions
+    attr_reader :output, :strokes, :collisions
 
     def initialize(params, registry=BrickRegistry.new, mapper=nil)
       params = OpenStruct.new(params)
-      params.chords ||= []
+      params.strokes ||= []
       params.collisions ||= []
       if params.bricks
-        params.chords << { bricks: params.bricks }
+        params.strokes << { bricks: params.bricks }
       end
 
       @collisions = params.collisions
-      @word   = params.word
-      @chords = params.chords.map { |chord|
-        params = OpenStruct.new(chord)
-        Chord.new(params.bricks, registry, mapper)
+      @output   = params.output
+      @strokes = params.strokes.map { |stroke|
+        params = OpenStruct.new(stroke)
+        Stroke.new(params.bricks, registry, mapper)
       }
     end
 
     def notation
-      @chords.map(&:notation).join("/")
+      @strokes.map(&:notation).join("/")
     end
+    alias_method :input, :notation
 
     def bricks
-      @chords.map(&:bricks).flatten.uniq
+      @strokes.map(&:bricks).flatten.uniq
     end
 
     def to_h
       Hash.new.tap { |h|
-        h[:word]       = word
-        h[:notation]   = notation.upcase
-        h[:chords]     = chords.map(&:to_h)
+        h[:output]     = output
+        h[:input]      = input.upcase
+        h[:strokes]    = strokes.map(&:to_h)
         h[:collisions] = collisions unless collisions.empty?
       }
     end

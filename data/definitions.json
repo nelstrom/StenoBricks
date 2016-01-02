@@ -1,8 +1,8 @@
 [
   {
-    "word": "$",
-    "notation": "TK-PL",
-    "chords": [
+    "output": "$",
+    "input": "TK-PL",
+    "strokes": [
       {
         "bricks": [
           "start-d",
@@ -12,9 +12,9 @@
     ]
   },
   {
-    "word": "(",
-    "notation": "PREPB",
-    "chords": [
+    "output": "(",
+    "input": "PREPB",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -26,9 +26,9 @@
     ]
   },
   {
-    "word": ")",
-    "notation": "PR*EPB",
-    "chords": [
+    "output": ")",
+    "input": "PR*EPB",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -41,9 +41,9 @@
     ]
   },
   {
-    "word": "*",
-    "notation": "STA*R",
-    "chords": [
+    "output": "*",
+    "input": "STA*R",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -56,9 +56,9 @@
     ]
   },
   {
-    "word": "[",
-    "notation": "PWR-BGT",
-    "chords": [
+    "output": "[",
+    "input": "PWR-BGT",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -70,9 +70,9 @@
     ]
   },
   {
-    "word": "]",
-    "notation": "PWR*BGT",
-    "chords": [
+    "output": "]",
+    "input": "PWR*BGT",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -85,9 +85,9 @@
     ]
   },
   {
-    "word": "able",
-    "notation": "AEUBL",
-    "chords": [
+    "output": "able",
+    "input": "AEUBL",
+    "strokes": [
       {
         "bricks": [
           "long-a",
@@ -98,9 +98,9 @@
     ]
   },
   {
-    "word": "about",
-    "notation": "PW",
-    "chords": [
+    "output": "about",
+    "input": "PW",
+    "strokes": [
       {
         "bricks": [
           "start-b"
@@ -109,9 +109,9 @@
     ]
   },
   {
-    "word": "ace",
-    "notation": "AEUS",
-    "chords": [
+    "output": "ace",
+    "input": "AEUS",
+    "strokes": [
       {
         "bricks": [
           "long-a",
@@ -121,9 +121,9 @@
     ]
   },
   {
-    "word": "aids",
-    "notation": "AEUDZ",
-    "chords": [
+    "output": "aids",
+    "input": "AEUDZ",
+    "strokes": [
       {
         "bricks": [
           "long-a",
@@ -134,9 +134,9 @@
     ]
   },
   {
-    "word": "ail",
-    "notation": "AEUL",
-    "chords": [
+    "output": "ail",
+    "input": "AEUL",
+    "strokes": [
       {
         "bricks": [
           "long-a",
@@ -146,9 +146,9 @@
     ]
   },
   {
-    "word": "ale",
-    "notation": "AEL",
-    "chords": [
+    "output": "ale",
+    "input": "AEL",
+    "strokes": [
       {
         "bricks": [
           "long-a-with-ea",
@@ -158,9 +158,9 @@
     ]
   },
   {
-    "word": "all",
-    "notation": "AUL",
-    "chords": [
+    "output": "all",
+    "input": "AUL",
+    "strokes": [
       {
         "bricks": [
           "dipthong-aw",
@@ -170,9 +170,9 @@
     ]
   },
   {
-    "word": "and",
-    "notation": "SKP",
-    "chords": [
+    "output": "and",
+    "input": "SKP",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -182,9 +182,9 @@
     ]
   },
   {
-    "word": "and",
-    "notation": "STK",
-    "chords": [
+    "output": "and",
+    "input": "STK",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -194,9 +194,9 @@
     ]
   },
   {
-    "word": "and",
-    "notation": "APBD",
-    "chords": [
+    "output": "and",
+    "input": "APBD",
+    "strokes": [
       {
         "bricks": [
           "short-a",
@@ -207,9 +207,9 @@
     ]
   },
   {
-    "word": "ape",
-    "notation": "AEUP",
-    "chords": [
+    "output": "ape",
+    "input": "AEUP",
+    "strokes": [
       {
         "bricks": [
           "long-a",
@@ -219,9 +219,9 @@
     ]
   },
   {
-    "word": "arch",
-    "notation": "AFRPB",
-    "chords": [
+    "output": "arch",
+    "input": "AFRPB",
+    "strokes": [
       {
         "bricks": [
           "short-a",
@@ -231,9 +231,9 @@
     ]
   },
   {
-    "word": "ate",
-    "notation": "AEUT",
-    "chords": [
+    "output": "ate",
+    "input": "AEUT",
+    "strokes": [
       {
         "bricks": [
           "long-a",
@@ -243,9 +243,9 @@
     ]
   },
   {
-    "word": "averages",
-    "notation": "AFRGS",
-    "chords": [
+    "output": "averages",
+    "input": "AFRGS",
+    "strokes": [
       {
         "bricks": [
           "short-a",
@@ -258,9 +258,9 @@
     ]
   },
   {
-    "word": "awful",
-    "notation": "AUFL",
-    "chords": [
+    "output": "awful",
+    "input": "AUFL",
+    "strokes": [
       {
         "bricks": [
           "dipthong-aw",
@@ -271,9 +271,9 @@
     ]
   },
   {
-    "word": "bar",
-    "notation": "PWAR",
-    "chords": [
+    "output": "bar",
+    "input": "PWAR",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -284,9 +284,9 @@
     ]
   },
   {
-    "word": "bare",
-    "notation": "PWAEUR",
-    "chords": [
+    "output": "bare",
+    "input": "PWAEUR",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -297,9 +297,9 @@
     ]
   },
   {
-    "word": "be",
-    "notation": "-B",
-    "chords": [
+    "output": "be",
+    "input": "-B",
+    "strokes": [
       {
         "bricks": [
           "end-b"
@@ -308,9 +308,9 @@
     ]
   },
   {
-    "word": "bear",
-    "notation": "PWAER",
-    "chords": [
+    "output": "bear",
+    "input": "PWAER",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -321,9 +321,9 @@
     ]
   },
   {
-    "word": "beat",
-    "notation": "PWAET",
-    "chords": [
+    "output": "beat",
+    "input": "PWAET",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -334,9 +334,9 @@
     ]
   },
   {
-    "word": "bee",
-    "notation": "PWAOE",
-    "chords": [
+    "output": "bee",
+    "input": "PWAOE",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -346,9 +346,9 @@
     ]
   },
   {
-    "word": "beet",
-    "notation": "PWAOET",
-    "chords": [
+    "output": "beet",
+    "input": "PWAOET",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -359,9 +359,9 @@
     ]
   },
   {
-    "word": "being",
-    "notation": "-B/-G",
-    "chords": [
+    "output": "being",
+    "input": "-B/-G",
+    "strokes": [
       {
         "bricks": [
           "end-b"
@@ -375,9 +375,9 @@
     ]
   },
   {
-    "word": "birch",
-    "notation": "PWEUFRPB",
-    "chords": [
+    "output": "birch",
+    "input": "PWEUFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -388,9 +388,9 @@
     ]
   },
   {
-    "word": "book",
-    "notation": "PWAOBG",
-    "chords": [
+    "output": "book",
+    "input": "PWAOBG",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -401,9 +401,9 @@
     ]
   },
   {
-    "word": "brake",
-    "notation": "PWRAEUBG",
-    "chords": [
+    "output": "brake",
+    "input": "PWRAEUBG",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -415,9 +415,9 @@
     ]
   },
   {
-    "word": "branch",
-    "notation": "PWRAFRPB",
-    "chords": [
+    "output": "branch",
+    "input": "PWRAFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -429,9 +429,9 @@
     ]
   },
   {
-    "word": "break",
-    "notation": "PWRAEBG",
-    "chords": [
+    "output": "break",
+    "input": "PWRAEBG",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -443,9 +443,9 @@
     ]
   },
   {
-    "word": "brunch",
-    "notation": "PWRUFRPB",
-    "chords": [
+    "output": "brunch",
+    "input": "PWRUFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -457,9 +457,9 @@
     ]
   },
   {
-    "word": "buy",
-    "notation": "PWAOEU",
-    "chords": [
+    "output": "buy",
+    "input": "PWAOEU",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -469,9 +469,9 @@
     ]
   },
   {
-    "word": "by",
-    "notation": "PWEU",
-    "chords": [
+    "output": "by",
+    "input": "PWEU",
+    "strokes": [
       {
         "bricks": [
           "start-b",
@@ -481,9 +481,9 @@
     ]
   },
   {
-    "word": "cab",
-    "notation": "KAB",
-    "chords": [
+    "output": "cab",
+    "input": "KAB",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -494,9 +494,9 @@
     ]
   },
   {
-    "word": "cad",
-    "notation": "KAD",
-    "chords": [
+    "output": "cad",
+    "input": "KAD",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -507,9 +507,9 @@
     ]
   },
   {
-    "word": "call",
-    "notation": "KAUL",
-    "chords": [
+    "output": "call",
+    "input": "KAUL",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -520,9 +520,9 @@
     ]
   },
   {
-    "word": "cap",
-    "notation": "KAP",
-    "chords": [
+    "output": "cap",
+    "input": "KAP",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -533,9 +533,9 @@
     ]
   },
   {
-    "word": "car",
-    "notation": "KAR",
-    "chords": [
+    "output": "car",
+    "input": "KAR",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -546,9 +546,9 @@
     ]
   },
   {
-    "word": "castle",
-    "notation": "KAFL",
-    "chords": [
+    "output": "castle",
+    "input": "KAFL",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -560,9 +560,9 @@
     ]
   },
   {
-    "word": "cat",
-    "notation": "KAT",
-    "chords": [
+    "output": "cat",
+    "input": "KAT",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -573,9 +573,9 @@
     ]
   },
   {
-    "word": "caught",
-    "notation": "KAUT",
-    "chords": [
+    "output": "caught",
+    "input": "KAUT",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -586,9 +586,9 @@
     ]
   },
   {
-    "word": "cease",
-    "notation": "SAOES",
-    "chords": [
+    "output": "cease",
+    "input": "SAOES",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -599,9 +599,9 @@
     ]
   },
   {
-    "word": "cell",
-    "notation": "KREL",
-    "chords": [
+    "output": "cell",
+    "input": "KREL",
+    "strokes": [
       {
         "bricks": [
           "start-c",
@@ -612,9 +612,9 @@
     ]
   },
   {
-    "word": "church",
-    "notation": "KHUFRPB",
-    "chords": [
+    "output": "church",
+    "input": "KHUFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-ch",
@@ -625,9 +625,9 @@
     ]
   },
   {
-    "word": "clench",
-    "notation": "KHREFRPB",
-    "chords": [
+    "output": "clench",
+    "input": "KHREFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -639,9 +639,9 @@
     ]
   },
   {
-    "word": "coat",
-    "notation": "KOET",
-    "chords": [
+    "output": "coat",
+    "input": "KOET",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -652,9 +652,9 @@
     ]
   },
   {
-    "word": "cod",
-    "notation": "KOD",
-    "chords": [
+    "output": "cod",
+    "input": "KOD",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -665,9 +665,9 @@
     ]
   },
   {
-    "word": "code",
-    "notation": "KOED",
-    "chords": [
+    "output": "code",
+    "input": "KOED",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -678,9 +678,9 @@
     ]
   },
   {
-    "word": "cog",
-    "notation": "KOG",
-    "chords": [
+    "output": "cog",
+    "input": "KOG",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -691,9 +691,9 @@
     ]
   },
   {
-    "word": "coil",
-    "notation": "KOEUL",
-    "chords": [
+    "output": "coil",
+    "input": "KOEUL",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -704,9 +704,9 @@
     ]
   },
   {
-    "word": "cop",
-    "notation": "KOP",
-    "chords": [
+    "output": "cop",
+    "input": "KOP",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -717,9 +717,9 @@
     ]
   },
   {
-    "word": "cope",
-    "notation": "KOEP",
-    "chords": [
+    "output": "cope",
+    "input": "KOEP",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -730,9 +730,9 @@
     ]
   },
   {
-    "word": "core",
-    "notation": "KOR",
-    "chords": [
+    "output": "core",
+    "input": "KOR",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -743,9 +743,9 @@
     ]
   },
   {
-    "word": "corrupted",
-    "notation": "KRUPTD",
-    "chords": [
+    "output": "corrupted",
+    "input": "KRUPTD",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -759,9 +759,9 @@
     ]
   },
   {
-    "word": "cot",
-    "notation": "KOT",
-    "chords": [
+    "output": "cot",
+    "input": "KOT",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -772,9 +772,9 @@
     ]
   },
   {
-    "word": "course",
-    "notation": "KORS",
-    "chords": [
+    "output": "course",
+    "input": "KORS",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -786,9 +786,9 @@
     ]
   },
   {
-    "word": "cover",
-    "notation": "KOFR",
-    "chords": [
+    "output": "cover",
+    "input": "KOFR",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -800,9 +800,9 @@
     ]
   },
   {
-    "word": "crawl",
-    "notation": "KRAUL",
-    "chords": [
+    "output": "crawl",
+    "input": "KRAUL",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -814,9 +814,9 @@
     ]
   },
   {
-    "word": "credit",
-    "notation": "KRETD",
-    "chords": [
+    "output": "credit",
+    "input": "KRETD",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -829,9 +829,9 @@
     ]
   },
   {
-    "word": "crew",
-    "notation": "KRAOU",
-    "chords": [
+    "output": "crew",
+    "input": "KRAOU",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -842,9 +842,9 @@
     ]
   },
   {
-    "word": "crossed",
-    "notation": "KROFD",
-    "chords": [
+    "output": "crossed",
+    "input": "KROFD",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -857,9 +857,9 @@
     ]
   },
   {
-    "word": "crow",
-    "notation": "KROE",
-    "chords": [
+    "output": "crow",
+    "input": "KROE",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -870,9 +870,9 @@
     ]
   },
   {
-    "word": "crude",
-    "notation": "KRAOUD",
-    "chords": [
+    "output": "crude",
+    "input": "KRAOUD",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -884,9 +884,9 @@
     ]
   },
   {
-    "word": "cruel",
-    "notation": "KRAOUL",
-    "chords": [
+    "output": "cruel",
+    "input": "KRAOUL",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -898,9 +898,9 @@
     ]
   },
   {
-    "word": "cruise",
-    "notation": "KRAOUS",
-    "chords": [
+    "output": "cruise",
+    "input": "KRAOUS",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -912,9 +912,9 @@
     ]
   },
   {
-    "word": "crunch",
-    "notation": "KRUFRPB",
-    "chords": [
+    "output": "crunch",
+    "input": "KRUFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -926,9 +926,9 @@
     ]
   },
   {
-    "word": "cub",
-    "notation": "KUB",
-    "chords": [
+    "output": "cub",
+    "input": "KUB",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -939,9 +939,9 @@
     ]
   },
   {
-    "word": "cube",
-    "notation": "KAOUB",
-    "chords": [
+    "output": "cube",
+    "input": "KAOUB",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -952,9 +952,9 @@
     ]
   },
   {
-    "word": "cuff",
-    "notation": "KUF",
-    "chords": [
+    "output": "cuff",
+    "input": "KUF",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -965,9 +965,9 @@
     ]
   },
   {
-    "word": "cull",
-    "notation": "KUL",
-    "chords": [
+    "output": "cull",
+    "input": "KUL",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -978,9 +978,9 @@
     ]
   },
   {
-    "word": "cup",
-    "notation": "KUP",
-    "chords": [
+    "output": "cup",
+    "input": "KUP",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -991,9 +991,9 @@
     ]
   },
   {
-    "word": "cur",
-    "notation": "KUR",
-    "chords": [
+    "output": "cur",
+    "input": "KUR",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -1004,9 +1004,9 @@
     ]
   },
   {
-    "word": "cure",
-    "notation": "KAOUR",
-    "chords": [
+    "output": "cure",
+    "input": "KAOUR",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -1017,9 +1017,9 @@
     ]
   },
   {
-    "word": "cuss",
-    "notation": "KUS",
-    "chords": [
+    "output": "cuss",
+    "input": "KUS",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -1030,9 +1030,9 @@
     ]
   },
   {
-    "word": "cut",
-    "notation": "KUT",
-    "chords": [
+    "output": "cut",
+    "input": "KUT",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -1043,9 +1043,9 @@
     ]
   },
   {
-    "word": "cute",
-    "notation": "KAOUT",
-    "chords": [
+    "output": "cute",
+    "input": "KAOUT",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -1056,9 +1056,9 @@
     ]
   },
   {
-    "word": "dam",
-    "notation": "TKAPL",
-    "chords": [
+    "output": "dam",
+    "input": "TKAPL",
+    "strokes": [
       {
         "bricks": [
           "start-d",
@@ -1069,9 +1069,9 @@
     ]
   },
   {
-    "word": "damn",
-    "notation": "TKA*PL",
-    "chords": [
+    "output": "damn",
+    "input": "TKA*PL",
+    "strokes": [
       {
         "bricks": [
           "start-d",
@@ -1083,9 +1083,9 @@
     ]
   },
   {
-    "word": "dear",
-    "notation": "TKAER",
-    "chords": [
+    "output": "dear",
+    "input": "TKAER",
+    "strokes": [
       {
         "bricks": [
           "start-d",
@@ -1096,9 +1096,9 @@
     ]
   },
   {
-    "word": "death",
-    "notation": "TK*ET",
-    "chords": [
+    "output": "death",
+    "input": "TK*ET",
+    "strokes": [
       {
         "bricks": [
           "start-d",
@@ -1109,9 +1109,9 @@
     ]
   },
   {
-    "word": "deer",
-    "notation": "TKAOER",
-    "chords": [
+    "output": "deer",
+    "input": "TKAOER",
+    "strokes": [
       {
         "bricks": [
           "start-d",
@@ -1122,9 +1122,9 @@
     ]
   },
   {
-    "word": "drench",
-    "notation": "TKREFRPB",
-    "chords": [
+    "output": "drench",
+    "input": "TKREFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-d",
@@ -1136,9 +1136,9 @@
     ]
   },
   {
-    "word": "drive",
-    "notation": "TKRAOEUF",
-    "chords": [
+    "output": "drive",
+    "input": "TKRAOEUF",
+    "strokes": [
       {
         "bricks": [
           "start-d",
@@ -1150,9 +1150,9 @@
     ]
   },
   {
-    "word": "ear",
-    "notation": "AOER",
-    "chords": [
+    "output": "ear",
+    "input": "AOER",
+    "strokes": [
       {
         "bricks": [
           "long-e",
@@ -1162,9 +1162,9 @@
     ]
   },
   {
-    "word": "earth",
-    "notation": "*ERT",
-    "chords": [
+    "output": "earth",
+    "input": "*ERT",
+    "strokes": [
       {
         "bricks": [
           "short-e",
@@ -1175,9 +1175,9 @@
     ]
   },
   {
-    "word": "eat",
-    "notation": "AOET",
-    "chords": [
+    "output": "eat",
+    "input": "AOET",
+    "strokes": [
       {
         "bricks": [
           "long-e",
@@ -1187,9 +1187,9 @@
     ]
   },
   {
-    "word": "edit",
-    "notation": "ETD",
-    "chords": [
+    "output": "edit",
+    "input": "ETD",
+    "strokes": [
       {
         "bricks": [
           "short-e",
@@ -1200,9 +1200,9 @@
     ]
   },
   {
-    "word": "eel",
-    "notation": "AOEL",
-    "chords": [
+    "output": "eel",
+    "input": "AOEL",
+    "strokes": [
       {
         "bricks": [
           "long-e",
@@ -1212,9 +1212,9 @@
     ]
   },
   {
-    "word": "effort",
-    "notation": "EFRT",
-    "chords": [
+    "output": "effort",
+    "input": "EFRT",
+    "strokes": [
       {
         "bricks": [
           "short-e",
@@ -1226,9 +1226,9 @@
     ]
   },
   {
-    "word": "elves",
-    "notation": "EFLS",
-    "chords": [
+    "output": "elves",
+    "input": "EFLS",
+    "strokes": [
       {
         "bricks": [
           "short-e",
@@ -1240,9 +1240,9 @@
     ]
   },
   {
-    "word": "Esperanto",
-    "notation": "ES/PE/RAPB/TO",
-    "chords": [
+    "output": "Esperanto",
+    "input": "ES/PE/RAPB/TO",
+    "strokes": [
       {
         "bricks": [
           "short-e",
@@ -1271,9 +1271,9 @@
     ]
   },
   {
-    "word": "evil",
-    "notation": "AOEFL",
-    "chords": [
+    "output": "evil",
+    "input": "AOEFL",
+    "strokes": [
       {
         "bricks": [
           "long-e",
@@ -1284,9 +1284,9 @@
     ]
   },
   {
-    "word": "eye",
-    "notation": "AOEU",
-    "chords": [
+    "output": "eye",
+    "input": "AOEU",
+    "strokes": [
       {
         "bricks": [
           "long-i"
@@ -1295,9 +1295,9 @@
     ]
   },
   {
-    "word": "finch",
-    "notation": "TPEUFRPB",
-    "chords": [
+    "output": "finch",
+    "input": "TPEUFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-f",
@@ -1308,9 +1308,9 @@
     ]
   },
   {
-    "word": "floor",
-    "notation": "TPHRAOR",
-    "chords": [
+    "output": "floor",
+    "input": "TPHRAOR",
+    "strokes": [
       {
         "bricks": [
           "start-f",
@@ -1322,9 +1322,9 @@
     ]
   },
   {
-    "word": "for",
-    "notation": "TP-R",
-    "chords": [
+    "output": "for",
+    "input": "TP-R",
+    "strokes": [
       {
         "bricks": [
           "start-f",
@@ -1334,9 +1334,9 @@
     ]
   },
   {
-    "word": "for",
-    "notation": "TPOR",
-    "chords": [
+    "output": "for",
+    "input": "TPOR",
+    "strokes": [
       {
         "bricks": [
           "start-f",
@@ -1347,9 +1347,9 @@
     ]
   },
   {
-    "word": "four",
-    "notation": "TPOUR",
-    "chords": [
+    "output": "four",
+    "input": "TPOUR",
+    "strokes": [
       {
         "bricks": [
           "start-f",
@@ -1360,9 +1360,9 @@
     ]
   },
   {
-    "word": "gait",
-    "notation": "TKPWAEUT",
-    "chords": [
+    "output": "gait",
+    "input": "TKPWAEUT",
+    "strokes": [
       {
         "bricks": [
           "start-g",
@@ -1373,9 +1373,9 @@
     ]
   },
   {
-    "word": "gate",
-    "notation": "TKPWAET",
-    "chords": [
+    "output": "gate",
+    "input": "TKPWAET",
+    "strokes": [
       {
         "bricks": [
           "start-g",
@@ -1386,9 +1386,9 @@
     ]
   },
   {
-    "word": "had",
-    "notation": "HAD",
-    "chords": [
+    "output": "had",
+    "input": "HAD",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1399,9 +1399,9 @@
     ]
   },
   {
-    "word": "hag",
-    "notation": "HAG",
-    "chords": [
+    "output": "hag",
+    "input": "HAG",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1412,9 +1412,9 @@
     ]
   },
   {
-    "word": "half",
-    "notation": "HAF",
-    "chords": [
+    "output": "half",
+    "input": "HAF",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1425,9 +1425,9 @@
     ]
   },
   {
-    "word": "has",
-    "notation": "HAZ",
-    "chords": [
+    "output": "has",
+    "input": "HAZ",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1438,9 +1438,9 @@
     ]
   },
   {
-    "word": "hat",
-    "notation": "HAT",
-    "chords": [
+    "output": "hat",
+    "input": "HAT",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1451,9 +1451,9 @@
     ]
   },
   {
-    "word": "hath",
-    "notation": "HA*T",
-    "chords": [
+    "output": "hath",
+    "input": "HA*T",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1464,9 +1464,9 @@
     ]
   },
   {
-    "word": "head",
-    "notation": "HED",
-    "chords": [
+    "output": "head",
+    "input": "HED",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1477,9 +1477,9 @@
     ]
   },
   {
-    "word": "heal",
-    "notation": "HAEL",
-    "chords": [
+    "output": "heal",
+    "input": "HAEL",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1490,9 +1490,9 @@
     ]
   },
   {
-    "word": "health",
-    "notation": "H*ELT",
-    "chords": [
+    "output": "health",
+    "input": "H*ELT",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1504,9 +1504,9 @@
     ]
   },
   {
-    "word": "heap",
-    "notation": "HAOEP",
-    "chords": [
+    "output": "heap",
+    "input": "HAOEP",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1517,9 +1517,9 @@
     ]
   },
   {
-    "word": "hear",
-    "notation": "HAER",
-    "chords": [
+    "output": "hear",
+    "input": "HAER",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1530,9 +1530,9 @@
     ]
   },
   {
-    "word": "heat",
-    "notation": "HAOET",
-    "chords": [
+    "output": "heat",
+    "input": "HAOET",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1543,9 +1543,9 @@
     ]
   },
   {
-    "word": "heel",
-    "notation": "HAOEL",
-    "chords": [
+    "output": "heel",
+    "input": "HAOEL",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1556,9 +1556,9 @@
     ]
   },
   {
-    "word": "height",
-    "notation": "HAOEUT",
-    "chords": [
+    "output": "height",
+    "input": "HAOEUT",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1569,9 +1569,9 @@
     ]
   },
   {
-    "word": "hell",
-    "notation": "HEL",
-    "chords": [
+    "output": "hell",
+    "input": "HEL",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1582,9 +1582,9 @@
     ]
   },
   {
-    "word": "her",
-    "notation": "HER",
-    "chords": [
+    "output": "her",
+    "input": "HER",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1595,9 +1595,9 @@
     ]
   },
   {
-    "word": "here",
-    "notation": "HAOER",
-    "chords": [
+    "output": "here",
+    "input": "HAOER",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1608,9 +1608,9 @@
     ]
   },
   {
-    "word": "hid",
-    "notation": "HEUD",
-    "chords": [
+    "output": "hid",
+    "input": "HEUD",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1621,9 +1621,9 @@
     ]
   },
   {
-    "word": "hit",
-    "notation": "HEUT",
-    "chords": [
+    "output": "hit",
+    "input": "HEUT",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1634,9 +1634,9 @@
     ]
   },
   {
-    "word": "hoarse",
-    "notation": "HAORS",
-    "chords": [
+    "output": "hoarse",
+    "input": "HAORS",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1648,9 +1648,9 @@
     ]
   },
   {
-    "word": "hog",
-    "notation": "HOG",
-    "chords": [
+    "output": "hog",
+    "input": "HOG",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1661,9 +1661,9 @@
     ]
   },
   {
-    "word": "hole",
-    "notation": "HOEL",
-    "chords": [
+    "output": "hole",
+    "input": "HOEL",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1674,9 +1674,9 @@
     ]
   },
   {
-    "word": "hood",
-    "notation": "HAOD",
-    "chords": [
+    "output": "hood",
+    "input": "HAOD",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1687,9 +1687,9 @@
     ]
   },
   {
-    "word": "hop",
-    "notation": "HOP",
-    "chords": [
+    "output": "hop",
+    "input": "HOP",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1700,9 +1700,9 @@
     ]
   },
   {
-    "word": "hope",
-    "notation": "HOEP",
-    "chords": [
+    "output": "hope",
+    "input": "HOEP",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1713,9 +1713,9 @@
     ]
   },
   {
-    "word": "horrible",
-    "notation": "HORBL",
-    "chords": [
+    "output": "horrible",
+    "input": "HORBL",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1728,9 +1728,9 @@
     ]
   },
   {
-    "word": "horse",
-    "notation": "HORS",
-    "chords": [
+    "output": "horse",
+    "input": "HORS",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1742,9 +1742,9 @@
     ]
   },
   {
-    "word": "host",
-    "notation": "HOEFT",
-    "chords": [
+    "output": "host",
+    "input": "HOEFT",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1756,9 +1756,9 @@
     ]
   },
   {
-    "word": "house",
-    "notation": "HOUS",
-    "chords": [
+    "output": "house",
+    "input": "HOUS",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1769,9 +1769,9 @@
     ]
   },
   {
-    "word": "hover",
-    "notation": "HOFR",
-    "chords": [
+    "output": "hover",
+    "input": "HOFR",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1783,9 +1783,9 @@
     ]
   },
   {
-    "word": "how",
-    "notation": "HOU",
-    "chords": [
+    "output": "how",
+    "input": "HOU",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1795,9 +1795,9 @@
     ]
   },
   {
-    "word": "howl",
-    "notation": "HOUL",
-    "chords": [
+    "output": "howl",
+    "input": "HOUL",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1808,9 +1808,9 @@
     ]
   },
   {
-    "word": "hub",
-    "notation": "HUB",
-    "chords": [
+    "output": "hub",
+    "input": "HUB",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1821,9 +1821,9 @@
     ]
   },
   {
-    "word": "huff",
-    "notation": "HUF",
-    "chords": [
+    "output": "huff",
+    "input": "HUF",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1834,9 +1834,9 @@
     ]
   },
   {
-    "word": "hug",
-    "notation": "HUG",
-    "chords": [
+    "output": "hug",
+    "input": "HUG",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1847,9 +1847,9 @@
     ]
   },
   {
-    "word": "hull",
-    "notation": "HUL",
-    "chords": [
+    "output": "hull",
+    "input": "HUL",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1860,9 +1860,9 @@
     ]
   },
   {
-    "word": "hunch",
-    "notation": "HUFRPB",
-    "chords": [
+    "output": "hunch",
+    "input": "HUFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1873,9 +1873,9 @@
     ]
   },
   {
-    "word": "hut",
-    "notation": "HUT",
-    "chords": [
+    "output": "hut",
+    "input": "HUT",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -1886,9 +1886,9 @@
     ]
   },
   {
-    "word": "I",
-    "notation": "EU",
-    "chords": [
+    "output": "I",
+    "input": "EU",
+    "strokes": [
       {
         "bricks": [
           "short-i"
@@ -1897,9 +1897,9 @@
     ]
   },
   {
-    "word": "I'll",
-    "notation": "AOEUL",
-    "chords": [
+    "output": "I'll",
+    "input": "AOEUL",
+    "strokes": [
       {
         "bricks": [
           "long-i",
@@ -1909,9 +1909,9 @@
     ]
   },
   {
-    "word": "ice",
-    "notation": "AOEUS",
-    "chords": [
+    "output": "ice",
+    "input": "AOEUS",
+    "strokes": [
       {
         "bricks": [
           "long-i",
@@ -1921,9 +1921,9 @@
     ]
   },
   {
-    "word": "in",
-    "notation": "TPH",
-    "chords": [
+    "output": "in",
+    "input": "TPH",
+    "strokes": [
       {
         "bricks": [
           "start-n"
@@ -1932,9 +1932,9 @@
     ]
   },
   {
-    "word": "inn",
-    "notation": "TPH*PB",
-    "chords": [
+    "output": "inn",
+    "input": "TPH*PB",
+    "strokes": [
       {
         "bricks": [
           "start-n",
@@ -1945,9 +1945,9 @@
     ]
   },
   {
-    "word": "ire",
-    "notation": "AOEUR",
-    "chords": [
+    "output": "ire",
+    "input": "AOEUR",
+    "strokes": [
       {
         "bricks": [
           "long-i",
@@ -1957,9 +1957,9 @@
     ]
   },
   {
-    "word": "keg",
-    "notation": "KEG",
-    "chords": [
+    "output": "keg",
+    "input": "KEG",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -1970,9 +1970,9 @@
     ]
   },
   {
-    "word": "kite",
-    "notation": "KAOEUT",
-    "chords": [
+    "output": "kite",
+    "input": "KAOEUT",
+    "strokes": [
       {
         "bricks": [
           "start-k",
@@ -1983,9 +1983,9 @@
     ]
   },
   {
-    "word": "knot",
-    "notation": "TPHO*T",
-    "chords": [
+    "output": "knot",
+    "input": "TPHO*T",
+    "strokes": [
       {
         "bricks": [
           "start-n",
@@ -1997,9 +1997,9 @@
     ]
   },
   {
-    "word": "know",
-    "notation": "TPHOE",
-    "chords": [
+    "output": "know",
+    "input": "TPHOE",
+    "strokes": [
       {
         "bricks": [
           "start-n",
@@ -2009,10 +2009,10 @@
     ]
   },
   {
-    "word": "lift",
-    "notation": "HREUFT",
+    "output": "lift",
+    "input": "HREUFT",
     "collisions": ["list"],
-    "chords": [
+    "strokes": [
       {
         "bricks": [
           "start-l",
@@ -2024,9 +2024,9 @@
     ]
   },
   {
-    "word": "list",
-    "notation": "HR*EUS",
-    "chords": [
+    "output": "list",
+    "input": "HR*EUS",
+    "strokes": [
       {
         "bricks": [
           "start-l",
@@ -2038,9 +2038,9 @@
     ]
   },
   {
-    "word": "lunch",
-    "notation": "HRUPBS",
-    "chords": [
+    "output": "lunch",
+    "input": "HRUPBS",
+    "strokes": [
       {
         "bricks": [
           "start-l",
@@ -2052,9 +2052,9 @@
     ]
   },
   {
-    "word": "lunch",
-    "notation": "HRUPB/*FP",
-    "chords": [
+    "output": "lunch",
+    "input": "HRUPB/*FP",
+    "strokes": [
       {
         "bricks": [
           "start-l",
@@ -2070,10 +2070,10 @@
     ]
   },
   {
-    "word": "lurch",
-    "notation": "HRUFRPB",
+    "output": "lurch",
+    "input": "HRUFRPB",
     "collisions": ["lunch"],
-    "chords": [
+    "strokes": [
       {
         "bricks": [
           "start-l",
@@ -2084,9 +2084,9 @@
     ]
   },
   {
-    "word": "lynch",
-    "notation": "HREUFRPB",
-    "chords": [
+    "output": "lynch",
+    "input": "HREUFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-l",
@@ -2097,9 +2097,9 @@
     ]
   },
   {
-    "word": "march",
-    "notation": "PHAFRPB",
-    "chords": [
+    "output": "march",
+    "input": "PHAFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-m",
@@ -2110,9 +2110,9 @@
     ]
   },
   {
-    "word": "no",
-    "notation": "TPHO",
-    "chords": [
+    "output": "no",
+    "input": "TPHO",
+    "strokes": [
       {
         "bricks": [
           "start-n",
@@ -2122,9 +2122,9 @@
     ]
   },
   {
-    "word": "not",
-    "notation": "TPHOT",
-    "chords": [
+    "output": "not",
+    "input": "TPHOT",
+    "strokes": [
       {
         "bricks": [
           "start-n",
@@ -2135,9 +2135,9 @@
     ]
   },
   {
-    "word": "oat",
-    "notation": "OET",
-    "chords": [
+    "output": "oat",
+    "input": "OET",
+    "strokes": [
       {
         "bricks": [
           "long-o",
@@ -2147,9 +2147,9 @@
     ]
   },
   {
-    "word": "ode",
-    "notation": "OED",
-    "chords": [
+    "output": "ode",
+    "input": "OED",
+    "strokes": [
       {
         "bricks": [
           "long-o",
@@ -2159,9 +2159,9 @@
     ]
   },
   {
-    "word": "oil",
-    "notation": "OEUL",
-    "chords": [
+    "output": "oil",
+    "input": "OEUL",
+    "strokes": [
       {
         "bricks": [
           "dipthong-oi",
@@ -2171,9 +2171,9 @@
     ]
   },
   {
-    "word": "out",
-    "notation": "OUT",
-    "chords": [
+    "output": "out",
+    "input": "OUT",
+    "strokes": [
       {
         "bricks": [
           "dipthong-ow",
@@ -2183,9 +2183,9 @@
     ]
   },
   {
-    "word": "over",
-    "notation": "OEFR",
-    "chords": [
+    "output": "over",
+    "input": "OEFR",
+    "strokes": [
       {
         "bricks": [
           "long-o",
@@ -2196,9 +2196,9 @@
     ]
   },
   {
-    "word": "pace",
-    "notation": "PAEUS",
-    "chords": [
+    "output": "pace",
+    "input": "PAEUS",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2209,9 +2209,9 @@
     ]
   },
   {
-    "word": "pad",
-    "notation": "PAD",
-    "chords": [
+    "output": "pad",
+    "input": "PAD",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2222,9 +2222,9 @@
     ]
   },
   {
-    "word": "paid",
-    "notation": "PAEUD",
-    "chords": [
+    "output": "paid",
+    "input": "PAEUD",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2235,9 +2235,9 @@
     ]
   },
   {
-    "word": "pair",
-    "notation": "PAEUR",
-    "chords": [
+    "output": "pair",
+    "input": "PAEUR",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2248,9 +2248,9 @@
     ]
   },
   {
-    "word": "pal",
-    "notation": "PAL",
-    "chords": [
+    "output": "pal",
+    "input": "PAL",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2261,9 +2261,9 @@
     ]
   },
   {
-    "word": "pass",
-    "notation": "PAS",
-    "chords": [
+    "output": "pass",
+    "input": "PAS",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2274,9 +2274,9 @@
     ]
   },
   {
-    "word": "passed",
-    "notation": "PAFD",
-    "chords": [
+    "output": "passed",
+    "input": "PAFD",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2288,9 +2288,9 @@
     ]
   },
   {
-    "word": "past",
-    "notation": "PAFT",
-    "chords": [
+    "output": "past",
+    "input": "PAFT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2302,9 +2302,9 @@
     ]
   },
   {
-    "word": "pat",
-    "notation": "PAT",
-    "chords": [
+    "output": "pat",
+    "input": "PAT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2315,9 +2315,9 @@
     ]
   },
   {
-    "word": "path",
-    "notation": "PA*T",
-    "chords": [
+    "output": "path",
+    "input": "PA*T",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2328,9 +2328,9 @@
     ]
   },
   {
-    "word": "pay",
-    "notation": "PAEU",
-    "chords": [
+    "output": "pay",
+    "input": "PAEU",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2340,9 +2340,9 @@
     ]
   },
   {
-    "word": "pea",
-    "notation": "PAE",
-    "chords": [
+    "output": "pea",
+    "input": "PAE",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2352,9 +2352,9 @@
     ]
   },
   {
-    "word": "peace",
-    "notation": "PAES",
-    "chords": [
+    "output": "peace",
+    "input": "PAES",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2365,9 +2365,9 @@
     ]
   },
   {
-    "word": "pear",
-    "notation": "PAER",
-    "chords": [
+    "output": "pear",
+    "input": "PAER",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2378,9 +2378,9 @@
     ]
   },
   {
-    "word": "peas",
-    "notation": "PAOEZ",
-    "chords": [
+    "output": "peas",
+    "input": "PAOEZ",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2391,9 +2391,9 @@
     ]
   },
   {
-    "word": "pee",
-    "notation": "PAOE",
-    "chords": [
+    "output": "pee",
+    "input": "PAOE",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2403,9 +2403,9 @@
     ]
   },
   {
-    "word": "peer",
-    "notation": "PAOER",
-    "chords": [
+    "output": "peer",
+    "input": "PAOER",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2416,9 +2416,9 @@
     ]
   },
   {
-    "word": "peg",
-    "notation": "PEG",
-    "chords": [
+    "output": "peg",
+    "input": "PEG",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2429,9 +2429,9 @@
     ]
   },
   {
-    "word": "pep",
-    "notation": "PEP",
-    "chords": [
+    "output": "pep",
+    "input": "PEP",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2442,9 +2442,9 @@
     ]
   },
   {
-    "word": "pet",
-    "notation": "PET",
-    "chords": [
+    "output": "pet",
+    "input": "PET",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2455,9 +2455,9 @@
     ]
   },
   {
-    "word": "piece",
-    "notation": "PAOES",
-    "chords": [
+    "output": "piece",
+    "input": "PAOES",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2468,9 +2468,9 @@
     ]
   },
   {
-    "word": "pig",
-    "notation": "PEUG",
-    "chords": [
+    "output": "pig",
+    "input": "PEUG",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2481,9 +2481,9 @@
     ]
   },
   {
-    "word": "pipe",
-    "notation": "PAOEUP",
-    "chords": [
+    "output": "pipe",
+    "input": "PAOEUP",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2494,9 +2494,9 @@
     ]
   },
   {
-    "word": "plain",
-    "notation": "PHRAEUPB",
-    "chords": [
+    "output": "plain",
+    "input": "PHRAEUPB",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2508,9 +2508,9 @@
     ]
   },
   {
-    "word": "plane",
-    "notation": "PHRAEPB",
-    "chords": [
+    "output": "plane",
+    "input": "PHRAEPB",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2522,9 +2522,9 @@
     ]
   },
   {
-    "word": "pod",
-    "notation": "POD",
-    "chords": [
+    "output": "pod",
+    "input": "POD",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2535,9 +2535,9 @@
     ]
   },
   {
-    "word": "pole",
-    "notation": "POEL",
-    "chords": [
+    "output": "pole",
+    "input": "POEL",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2548,9 +2548,9 @@
     ]
   },
   {
-    "word": "poll",
-    "notation": "POL",
-    "chords": [
+    "output": "poll",
+    "input": "POL",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2561,9 +2561,9 @@
     ]
   },
   {
-    "word": "pool",
-    "notation": "PAOL",
-    "chords": [
+    "output": "pool",
+    "input": "PAOL",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2574,9 +2574,9 @@
     ]
   },
   {
-    "word": "porch",
-    "notation": "POFRPB",
-    "chords": [
+    "output": "porch",
+    "input": "POFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2587,9 +2587,9 @@
     ]
   },
   {
-    "word": "portal",
-    "notation": "PORLT",
-    "chords": [
+    "output": "portal",
+    "input": "PORLT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2602,9 +2602,9 @@
     ]
   },
   {
-    "word": "pose",
-    "notation": "POES",
-    "chords": [
+    "output": "pose",
+    "input": "POES",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2615,9 +2615,9 @@
     ]
   },
   {
-    "word": "post",
-    "notation": "POEFT",
-    "chords": [
+    "output": "post",
+    "input": "POEFT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2629,9 +2629,9 @@
     ]
   },
   {
-    "word": "pot",
-    "notation": "POT",
-    "chords": [
+    "output": "pot",
+    "input": "POT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2642,9 +2642,9 @@
     ]
   },
   {
-    "word": "pour",
-    "notation": "POR",
-    "chords": [
+    "output": "pour",
+    "input": "POR",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2655,9 +2655,9 @@
     ]
   },
   {
-    "word": "pout",
-    "notation": "POUT",
-    "chords": [
+    "output": "pout",
+    "input": "POUT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2668,9 +2668,9 @@
     ]
   },
   {
-    "word": "power",
-    "notation": "POUR",
-    "chords": [
+    "output": "power",
+    "input": "POUR",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2681,9 +2681,9 @@
     ]
   },
   {
-    "word": "praise",
-    "notation": "PRAEUZ",
-    "chords": [
+    "output": "praise",
+    "input": "PRAEUZ",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2695,9 +2695,9 @@
     ]
   },
   {
-    "word": "pressed",
-    "notation": "PREFD",
-    "chords": [
+    "output": "pressed",
+    "input": "PREFD",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2710,9 +2710,9 @@
     ]
   },
   {
-    "word": "pride",
-    "notation": "PRAOEUD",
-    "chords": [
+    "output": "pride",
+    "input": "PRAOEUD",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2724,9 +2724,9 @@
     ]
   },
   {
-    "word": "priest",
-    "notation": "PRAOEFT",
-    "chords": [
+    "output": "priest",
+    "input": "PRAOEFT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2739,9 +2739,9 @@
     ]
   },
   {
-    "word": "prize",
-    "notation": "PRAOEUZ",
-    "chords": [
+    "output": "prize",
+    "input": "PRAOEUZ",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2753,9 +2753,9 @@
     ]
   },
   {
-    "word": "prose",
-    "notation": "PROES",
-    "chords": [
+    "output": "prose",
+    "input": "PROES",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2767,9 +2767,9 @@
     ]
   },
   {
-    "word": "Proust",
-    "notation": "PRAOUFT",
-    "chords": [
+    "output": "Proust",
+    "input": "PRAOUFT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2782,9 +2782,9 @@
     ]
   },
   {
-    "word": "prowl",
-    "notation": "PROUL",
-    "chords": [
+    "output": "prowl",
+    "input": "PROUL",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2796,9 +2796,9 @@
     ]
   },
   {
-    "word": "prude",
-    "notation": "PRAOUD",
-    "chords": [
+    "output": "prude",
+    "input": "PRAOUD",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2810,9 +2810,9 @@
     ]
   },
   {
-    "word": "pub",
-    "notation": "PUB",
-    "chords": [
+    "output": "pub",
+    "input": "PUB",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2823,9 +2823,9 @@
     ]
   },
   {
-    "word": "puff",
-    "notation": "PUF",
-    "chords": [
+    "output": "puff",
+    "input": "PUF",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2836,9 +2836,9 @@
     ]
   },
   {
-    "word": "pug",
-    "notation": "PUG",
-    "chords": [
+    "output": "pug",
+    "input": "PUG",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2849,9 +2849,9 @@
     ]
   },
   {
-    "word": "pull",
-    "notation": "PUL",
-    "chords": [
+    "output": "pull",
+    "input": "PUL",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2862,9 +2862,9 @@
     ]
   },
   {
-    "word": "pup",
-    "notation": "PUP",
-    "chords": [
+    "output": "pup",
+    "input": "PUP",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2875,9 +2875,9 @@
     ]
   },
   {
-    "word": "pure",
-    "notation": "PAOUR",
-    "chords": [
+    "output": "pure",
+    "input": "PAOUR",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2888,9 +2888,9 @@
     ]
   },
   {
-    "word": "pus",
-    "notation": "PUS",
-    "chords": [
+    "output": "pus",
+    "input": "PUS",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2901,9 +2901,9 @@
     ]
   },
   {
-    "word": "put",
-    "notation": "PUT",
-    "chords": [
+    "output": "put",
+    "input": "PUT",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -2914,9 +2914,9 @@
     ]
   },
   {
-    "word": "quench",
-    "notation": "KWEFRPB",
-    "chords": [
+    "output": "quench",
+    "input": "KWEFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-q",
@@ -2927,9 +2927,9 @@
     ]
   },
   {
-    "word": "rabble",
-    "notation": "RABL",
-    "chords": [
+    "output": "rabble",
+    "input": "RABL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -2941,9 +2941,9 @@
     ]
   },
   {
-    "word": "race",
-    "notation": "RAEUS",
-    "chords": [
+    "output": "race",
+    "input": "RAEUS",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -2954,9 +2954,9 @@
     ]
   },
   {
-    "word": "rag",
-    "notation": "RAG",
-    "chords": [
+    "output": "rag",
+    "input": "RAG",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -2967,9 +2967,9 @@
     ]
   },
   {
-    "word": "raid",
-    "notation": "RAEUD",
-    "chords": [
+    "output": "raid",
+    "input": "RAEUD",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -2980,9 +2980,9 @@
     ]
   },
   {
-    "word": "rail",
-    "notation": "RAEUL",
-    "chords": [
+    "output": "rail",
+    "input": "RAEUL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -2993,9 +2993,9 @@
     ]
   },
   {
-    "word": "raise",
-    "notation": "RAEUZ",
-    "chords": [
+    "output": "raise",
+    "input": "RAEUZ",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3006,9 +3006,9 @@
     ]
   },
   {
-    "word": "ranch",
-    "notation": "RAFRPB",
-    "chords": [
+    "output": "ranch",
+    "input": "RAFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3019,9 +3019,9 @@
     ]
   },
   {
-    "word": "rap",
-    "notation": "RAP",
-    "chords": [
+    "output": "rap",
+    "input": "RAP",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3032,9 +3032,9 @@
     ]
   },
   {
-    "word": "rat",
-    "notation": "RAT",
-    "chords": [
+    "output": "rat",
+    "input": "RAT",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3045,9 +3045,9 @@
     ]
   },
   {
-    "word": "rate",
-    "notation": "RAEUT",
-    "chords": [
+    "output": "rate",
+    "input": "RAEUT",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3058,9 +3058,9 @@
     ]
   },
   {
-    "word": "raw",
-    "notation": "RAU",
-    "chords": [
+    "output": "raw",
+    "input": "RAU",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3070,9 +3070,9 @@
     ]
   },
   {
-    "word": "read",
-    "notation": "RAED",
-    "chords": [
+    "output": "read",
+    "input": "RAED",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3083,9 +3083,9 @@
     ]
   },
   {
-    "word": "real",
-    "notation": "RAEL",
-    "chords": [
+    "output": "real",
+    "input": "RAEL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3096,9 +3096,9 @@
     ]
   },
   {
-    "word": "rebel",
-    "notation": "REBL",
-    "chords": [
+    "output": "rebel",
+    "input": "REBL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3110,9 +3110,9 @@
     ]
   },
   {
-    "word": "red",
-    "notation": "RED",
-    "chords": [
+    "output": "red",
+    "input": "RED",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3123,9 +3123,9 @@
     ]
   },
   {
-    "word": "reed",
-    "notation": "RAOED",
-    "chords": [
+    "output": "reed",
+    "input": "RAOED",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3136,9 +3136,9 @@
     ]
   },
   {
-    "word": "reel",
-    "notation": "RAOEL",
-    "chords": [
+    "output": "reel",
+    "input": "RAOEL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3149,9 +3149,9 @@
     ]
   },
   {
-    "word": "refer",
-    "notation": "REFR",
-    "chords": [
+    "output": "refer",
+    "input": "REFR",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3163,9 +3163,9 @@
     ]
   },
   {
-    "word": "rid",
-    "notation": "REUD",
-    "chords": [
+    "output": "rid",
+    "input": "REUD",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3176,9 +3176,9 @@
     ]
   },
   {
-    "word": "rifle",
-    "notation": "RAOEUFL",
-    "chords": [
+    "output": "rifle",
+    "input": "RAOEUFL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3190,9 +3190,9 @@
     ]
   },
   {
-    "word": "rift",
-    "notation": "REUFT",
-    "chords": [
+    "output": "rift",
+    "input": "REUFT",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3204,9 +3204,9 @@
     ]
   },
   {
-    "word": "rig",
-    "notation": "REUG",
-    "chords": [
+    "output": "rig",
+    "input": "REUG",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3217,9 +3217,9 @@
     ]
   },
   {
-    "word": "right",
-    "notation": "RAOEUT",
-    "chords": [
+    "output": "right",
+    "input": "RAOEUT",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3230,9 +3230,9 @@
     ]
   },
   {
-    "word": "ripe",
-    "notation": "RAOEUP",
-    "chords": [
+    "output": "ripe",
+    "input": "RAOEUP",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3243,9 +3243,9 @@
     ]
   },
   {
-    "word": "river",
-    "notation": "REUFR",
-    "chords": [
+    "output": "river",
+    "input": "REUFR",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3257,9 +3257,9 @@
     ]
   },
   {
-    "word": "road",
-    "notation": "RAOD",
-    "chords": [
+    "output": "road",
+    "input": "RAOD",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3270,9 +3270,9 @@
     ]
   },
   {
-    "word": "roar",
-    "notation": "ROR",
-    "chords": [
+    "output": "roar",
+    "input": "ROR",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3283,9 +3283,9 @@
     ]
   },
   {
-    "word": "roar",
-    "notation": "ROER",
-    "chords": [
+    "output": "roar",
+    "input": "ROER",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3296,9 +3296,9 @@
     ]
   },
   {
-    "word": "rob",
-    "notation": "ROB",
-    "chords": [
+    "output": "rob",
+    "input": "ROB",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3309,9 +3309,9 @@
     ]
   },
   {
-    "word": "robbed",
-    "notation": "ROBD",
-    "chords": [
+    "output": "robbed",
+    "input": "ROBD",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3323,9 +3323,9 @@
     ]
   },
   {
-    "word": "robe",
-    "notation": "ROEB",
-    "chords": [
+    "output": "robe",
+    "input": "ROEB",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3336,9 +3336,9 @@
     ]
   },
   {
-    "word": "rod",
-    "notation": "ROD",
-    "chords": [
+    "output": "rod",
+    "input": "ROD",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3349,9 +3349,9 @@
     ]
   },
   {
-    "word": "rode",
-    "notation": "ROED",
-    "chords": [
+    "output": "rode",
+    "input": "ROED",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3362,9 +3362,9 @@
     ]
   },
   {
-    "word": "roll",
-    "notation": "ROL",
-    "chords": [
+    "output": "roll",
+    "input": "ROL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3375,9 +3375,9 @@
     ]
   },
   {
-    "word": "root",
-    "notation": "RAOT",
-    "chords": [
+    "output": "root",
+    "input": "RAOT",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3388,9 +3388,9 @@
     ]
   },
   {
-    "word": "rope",
-    "notation": "ROEP",
-    "chords": [
+    "output": "rope",
+    "input": "ROEP",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3401,9 +3401,9 @@
     ]
   },
   {
-    "word": "rot",
-    "notation": "ROT",
-    "chords": [
+    "output": "rot",
+    "input": "ROT",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3414,9 +3414,9 @@
     ]
   },
   {
-    "word": "rough",
-    "notation": "RUF",
-    "chords": [
+    "output": "rough",
+    "input": "RUF",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3427,9 +3427,9 @@
     ]
   },
   {
-    "word": "route",
-    "notation": "RAOUT",
-    "chords": [
+    "output": "route",
+    "input": "RAOUT",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3440,9 +3440,9 @@
     ]
   },
   {
-    "word": "rove",
-    "notation": "ROEF",
-    "chords": [
+    "output": "rove",
+    "input": "ROEF",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3453,9 +3453,9 @@
     ]
   },
   {
-    "word": "rub",
-    "notation": "RUB",
-    "chords": [
+    "output": "rub",
+    "input": "RUB",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3466,9 +3466,9 @@
     ]
   },
   {
-    "word": "rubbed",
-    "notation": "RUBD",
-    "chords": [
+    "output": "rubbed",
+    "input": "RUBD",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3480,9 +3480,9 @@
     ]
   },
   {
-    "word": "rubble",
-    "notation": "RUBL",
-    "chords": [
+    "output": "rubble",
+    "input": "RUBL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3494,9 +3494,9 @@
     ]
   },
   {
-    "word": "rude",
-    "notation": "RAOUD",
-    "chords": [
+    "output": "rude",
+    "input": "RAOUD",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3507,9 +3507,9 @@
     ]
   },
   {
-    "word": "ruffled",
-    "notation": "RUFLD",
-    "chords": [
+    "output": "ruffled",
+    "input": "RUFLD",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3522,9 +3522,9 @@
     ]
   },
   {
-    "word": "rug",
-    "notation": "RUG",
-    "chords": [
+    "output": "rug",
+    "input": "RUG",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3535,9 +3535,9 @@
     ]
   },
   {
-    "word": "rule",
-    "notation": "RAOUL",
-    "chords": [
+    "output": "rule",
+    "input": "RAOUL",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3548,9 +3548,9 @@
     ]
   },
   {
-    "word": "rut",
-    "notation": "RUT",
-    "chords": [
+    "output": "rut",
+    "input": "RUT",
+    "strokes": [
       {
         "bricks": [
           "start-r",
@@ -3561,9 +3561,9 @@
     ]
   },
   {
-    "word": "sad",
-    "notation": "SAD",
-    "chords": [
+    "output": "sad",
+    "input": "SAD",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3574,9 +3574,9 @@
     ]
   },
   {
-    "word": "sag",
-    "notation": "SAG",
-    "chords": [
+    "output": "sag",
+    "input": "SAG",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3587,9 +3587,9 @@
     ]
   },
   {
-    "word": "sail",
-    "notation": "SAEUL",
-    "chords": [
+    "output": "sail",
+    "input": "SAEUL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3600,9 +3600,9 @@
     ]
   },
   {
-    "word": "sale",
-    "notation": "SAEL",
-    "chords": [
+    "output": "sale",
+    "input": "SAEL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3613,9 +3613,9 @@
     ]
   },
   {
-    "word": "sap",
-    "notation": "SAP",
-    "chords": [
+    "output": "sap",
+    "input": "SAP",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3626,9 +3626,9 @@
     ]
   },
   {
-    "word": "sass",
-    "notation": "SAS",
-    "chords": [
+    "output": "sass",
+    "input": "SAS",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3639,9 +3639,9 @@
     ]
   },
   {
-    "word": "sat",
-    "notation": "SAT",
-    "chords": [
+    "output": "sat",
+    "input": "SAT",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3652,9 +3652,9 @@
     ]
   },
   {
-    "word": "says",
-    "notation": "SEZ",
-    "chords": [
+    "output": "says",
+    "input": "SEZ",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3665,9 +3665,9 @@
     ]
   },
   {
-    "word": "scaffold",
-    "notation": "SKAFLD",
-    "chords": [
+    "output": "scaffold",
+    "input": "SKAFLD",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3681,9 +3681,9 @@
     ]
   },
   {
-    "word": "scarlet",
-    "notation": "SKARLT",
-    "chords": [
+    "output": "scarlet",
+    "input": "SKARLT",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3697,9 +3697,9 @@
     ]
   },
   {
-    "word": "school",
-    "notation": "SKAOL",
-    "chords": [
+    "output": "school",
+    "input": "SKAOL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3711,9 +3711,9 @@
     ]
   },
   {
-    "word": "scour",
-    "notation": "SKOUR",
-    "chords": [
+    "output": "scour",
+    "input": "SKOUR",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3725,9 +3725,9 @@
     ]
   },
   {
-    "word": "scribble",
-    "notation": "SKREUBL",
-    "chords": [
+    "output": "scribble",
+    "input": "SKREUBL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3741,9 +3741,9 @@
     ]
   },
   {
-    "word": "scuffled",
-    "notation": "SKUFLD",
-    "chords": [
+    "output": "scuffled",
+    "input": "SKUFLD",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3757,9 +3757,9 @@
     ]
   },
   {
-    "word": "sea",
-    "notation": "SAE",
-    "chords": [
+    "output": "sea",
+    "input": "SAE",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3769,9 +3769,9 @@
     ]
   },
   {
-    "word": "seat",
-    "notation": "SAOET",
-    "chords": [
+    "output": "seat",
+    "input": "SAOET",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3782,9 +3782,9 @@
     ]
   },
   {
-    "word": "secrete",
-    "notation": "SKRAOET",
-    "chords": [
+    "output": "secrete",
+    "input": "SKRAOET",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3797,9 +3797,9 @@
     ]
   },
   {
-    "word": "see",
-    "notation": "SAOE",
-    "chords": [
+    "output": "see",
+    "input": "SAOE",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3809,9 +3809,9 @@
     ]
   },
   {
-    "word": "seed",
-    "notation": "SAOED",
-    "chords": [
+    "output": "seed",
+    "input": "SAOED",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3822,9 +3822,9 @@
     ]
   },
   {
-    "word": "seize",
-    "notation": "SAOEZ",
-    "chords": [
+    "output": "seize",
+    "input": "SAOEZ",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3835,9 +3835,9 @@
     ]
   },
   {
-    "word": "sell",
-    "notation": "SEL",
-    "chords": [
+    "output": "sell",
+    "input": "SEL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3848,9 +3848,9 @@
     ]
   },
   {
-    "word": "set",
-    "notation": "SET",
-    "chords": [
+    "output": "set",
+    "input": "SET",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3861,9 +3861,9 @@
     ]
   },
   {
-    "word": "several",
-    "notation": "SEFRL",
-    "chords": [
+    "output": "several",
+    "input": "SEFRL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3876,9 +3876,9 @@
     ]
   },
   {
-    "word": "sip",
-    "notation": "SEUP",
-    "chords": [
+    "output": "sip",
+    "input": "SEUP",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3889,9 +3889,9 @@
     ]
   },
   {
-    "word": "sir",
-    "notation": "SEUR",
-    "chords": [
+    "output": "sir",
+    "input": "SEUR",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3902,9 +3902,9 @@
     ]
   },
   {
-    "word": "skew",
-    "notation": "SKAOU",
-    "chords": [
+    "output": "skew",
+    "input": "SKAOU",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3915,9 +3915,9 @@
     ]
   },
   {
-    "word": "skirt",
-    "notation": "SKEURT",
-    "chords": [
+    "output": "skirt",
+    "input": "SKEURT",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3930,9 +3930,9 @@
     ]
   },
   {
-    "word": "soar",
-    "notation": "SAOR",
-    "chords": [
+    "output": "soar",
+    "input": "SAOR",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3943,9 +3943,9 @@
     ]
   },
   {
-    "word": "sob",
-    "notation": "SOB",
-    "chords": [
+    "output": "sob",
+    "input": "SOB",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3956,9 +3956,9 @@
     ]
   },
   {
-    "word": "soil",
-    "notation": "SOEUL",
-    "chords": [
+    "output": "soil",
+    "input": "SOEUL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3969,9 +3969,9 @@
     ]
   },
   {
-    "word": "sold",
-    "notation": "SOELD",
-    "chords": [
+    "output": "sold",
+    "input": "SOELD",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3983,9 +3983,9 @@
     ]
   },
   {
-    "word": "sole",
-    "notation": "SOEL",
-    "chords": [
+    "output": "sole",
+    "input": "SOEL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -3996,9 +3996,9 @@
     ]
   },
   {
-    "word": "soot",
-    "notation": "SAOT",
-    "chords": [
+    "output": "soot",
+    "input": "SAOT",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4009,9 +4009,9 @@
     ]
   },
   {
-    "word": "sop",
-    "notation": "SOP",
-    "chords": [
+    "output": "sop",
+    "input": "SOP",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4022,9 +4022,9 @@
     ]
   },
   {
-    "word": "sore",
-    "notation": "SOR",
-    "chords": [
+    "output": "sore",
+    "input": "SOR",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4035,9 +4035,9 @@
     ]
   },
   {
-    "word": "sore",
-    "notation": "SOER",
-    "chords": [
+    "output": "sore",
+    "input": "SOER",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4048,9 +4048,9 @@
     ]
   },
   {
-    "word": "soul",
-    "notation": "SOUL",
-    "chords": [
+    "output": "soul",
+    "input": "SOUL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4061,9 +4061,9 @@
     ]
   },
   {
-    "word": "soy",
-    "notation": "SOEU",
-    "chords": [
+    "output": "soy",
+    "input": "SOEU",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4073,9 +4073,9 @@
     ]
   },
   {
-    "word": "spew",
-    "notation": "SPAOU",
-    "chords": [
+    "output": "spew",
+    "input": "SPAOU",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4086,9 +4086,9 @@
     ]
   },
   {
-    "word": "spill",
-    "notation": "SPEUL",
-    "chords": [
+    "output": "spill",
+    "input": "SPEUL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4100,9 +4100,9 @@
     ]
   },
   {
-    "word": "spite",
-    "notation": "SPAOEUT",
-    "chords": [
+    "output": "spite",
+    "input": "SPAOEUT",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4114,9 +4114,9 @@
     ]
   },
   {
-    "word": "spore",
-    "notation": "SPOER",
-    "chords": [
+    "output": "spore",
+    "input": "SPOER",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4128,9 +4128,9 @@
     ]
   },
   {
-    "word": "spotted",
-    "notation": "SPOTD",
-    "chords": [
+    "output": "spotted",
+    "input": "SPOTD",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4143,9 +4143,9 @@
     ]
   },
   {
-    "word": "spouse",
-    "notation": "SPOUS",
-    "chords": [
+    "output": "spouse",
+    "input": "SPOUS",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4157,9 +4157,9 @@
     ]
   },
   {
-    "word": "sprawl",
-    "notation": "SPRAUL",
-    "chords": [
+    "output": "sprawl",
+    "input": "SPRAUL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4172,9 +4172,9 @@
     ]
   },
   {
-    "word": "spray",
-    "notation": "SPRAEU",
-    "chords": [
+    "output": "spray",
+    "input": "SPRAEU",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4186,9 +4186,9 @@
     ]
   },
   {
-    "word": "sprout",
-    "notation": "SPROUT",
-    "chords": [
+    "output": "sprout",
+    "input": "SPROUT",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4201,9 +4201,9 @@
     ]
   },
   {
-    "word": "stair",
-    "notation": "STAEUR",
-    "chords": [
+    "output": "stair",
+    "input": "STAEUR",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4215,9 +4215,9 @@
     ]
   },
   {
-    "word": "starch",
-    "notation": "STAFRPB",
-    "chords": [
+    "output": "starch",
+    "input": "STAFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4229,9 +4229,9 @@
     ]
   },
   {
-    "word": "stare",
-    "notation": "STAER",
-    "chords": [
+    "output": "stare",
+    "input": "STAER",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4243,9 +4243,9 @@
     ]
   },
   {
-    "word": "starlet",
-    "notation": "STARLT",
-    "chords": [
+    "output": "starlet",
+    "input": "STARLT",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4259,9 +4259,9 @@
     ]
   },
   {
-    "word": "started",
-    "notation": "STARTD",
-    "chords": [
+    "output": "started",
+    "input": "STARTD",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4275,9 +4275,9 @@
     ]
   },
   {
-    "word": "stench",
-    "notation": "STEFRPB",
-    "chords": [
+    "output": "stench",
+    "input": "STEFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4289,9 +4289,9 @@
     ]
   },
   {
-    "word": "still",
-    "notation": "STEUL",
-    "chords": [
+    "output": "still",
+    "input": "STEUL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4303,9 +4303,9 @@
     ]
   },
   {
-    "word": "strapped",
-    "notation": "STRAPD",
-    "chords": [
+    "output": "strapped",
+    "input": "STRAPD",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4319,9 +4319,9 @@
     ]
   },
   {
-    "word": "straps",
-    "notation": "STRAPS",
-    "chords": [
+    "output": "straps",
+    "input": "STRAPS",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4335,9 +4335,9 @@
     ]
   },
   {
-    "word": "stressed",
-    "notation": "STREFD",
-    "chords": [
+    "output": "stressed",
+    "input": "STREFD",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4351,9 +4351,9 @@
     ]
   },
   {
-    "word": "superb",
-    "notation": "SPERB",
-    "chords": [
+    "output": "superb",
+    "input": "SPERB",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4366,9 +4366,9 @@
     ]
   },
   {
-    "word": "suppress",
-    "notation": "SPRES",
-    "chords": [
+    "output": "suppress",
+    "input": "SPRES",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4381,9 +4381,9 @@
     ]
   },
   {
-    "word": "synergistic",
-    "notation": "SEUPB/ERPBLG/EUFT/EUBG",
-    "chords": [
+    "output": "synergistic",
+    "input": "SEUPB/ERPBLG/EUFT/EUBG",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4414,9 +4414,9 @@
     ]
   },
   {
-    "word": "syrup",
-    "notation": "SEURP",
-    "chords": [
+    "output": "syrup",
+    "input": "SEURP",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -4428,9 +4428,9 @@
     ]
   },
   {
-    "word": "tab",
-    "notation": "TAB",
-    "chords": [
+    "output": "tab",
+    "input": "TAB",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4441,9 +4441,9 @@
     ]
   },
   {
-    "word": "tablet",
-    "notation": "TABLT",
-    "chords": [
+    "output": "tablet",
+    "input": "TABLT",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4456,9 +4456,9 @@
     ]
   },
   {
-    "word": "tad",
-    "notation": "TAD",
-    "chords": [
+    "output": "tad",
+    "input": "TAD",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4469,9 +4469,9 @@
     ]
   },
   {
-    "word": "tag",
-    "notation": "TAG",
-    "chords": [
+    "output": "tag",
+    "input": "TAG",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4482,9 +4482,9 @@
     ]
   },
   {
-    "word": "tail",
-    "notation": "TAEUL",
-    "chords": [
+    "output": "tail",
+    "input": "TAEUL",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4495,9 +4495,9 @@
     ]
   },
   {
-    "word": "tale",
-    "notation": "TAEL",
-    "chords": [
+    "output": "tale",
+    "input": "TAEL",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4508,9 +4508,9 @@
     ]
   },
   {
-    "word": "tap",
-    "notation": "TAP",
-    "chords": [
+    "output": "tap",
+    "input": "TAP",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4521,9 +4521,9 @@
     ]
   },
   {
-    "word": "tape",
-    "notation": "TAEUP",
-    "chords": [
+    "output": "tape",
+    "input": "TAEUP",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4534,9 +4534,9 @@
     ]
   },
   {
-    "word": "tar",
-    "notation": "TAR",
-    "chords": [
+    "output": "tar",
+    "input": "TAR",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4547,9 +4547,9 @@
     ]
   },
   {
-    "word": "tea",
-    "notation": "TAE",
-    "chords": [
+    "output": "tea",
+    "input": "TAE",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4559,9 +4559,9 @@
     ]
   },
   {
-    "word": "tee",
-    "notation": "TAOE",
-    "chords": [
+    "output": "tee",
+    "input": "TAOE",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4571,9 +4571,9 @@
     ]
   },
   {
-    "word": "tell",
-    "notation": "TEL",
-    "chords": [
+    "output": "tell",
+    "input": "TEL",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4584,9 +4584,9 @@
     ]
   },
   {
-    "word": "tepid",
-    "notation": "TEPD",
-    "chords": [
+    "output": "tepid",
+    "input": "TEPD",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4598,9 +4598,9 @@
     ]
   },
   {
-    "word": "test",
-    "notation": "TEFT",
-    "chords": [
+    "output": "test",
+    "input": "TEFT",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4612,9 +4612,9 @@
     ]
   },
   {
-    "word": "the",
-    "notation": "-T",
-    "chords": [
+    "output": "the",
+    "input": "-T",
+    "strokes": [
       {
         "bricks": [
           "end-t"
@@ -4623,9 +4623,9 @@
     ]
   },
   {
-    "word": "their",
-    "notation": "THAEUR",
-    "chords": [
+    "output": "their",
+    "input": "THAEUR",
+    "strokes": [
       {
         "bricks": [
           "start-th",
@@ -4636,9 +4636,9 @@
     ]
   },
   {
-    "word": "there",
-    "notation": "THR",
-    "chords": [
+    "output": "there",
+    "input": "THR",
+    "strokes": [
       {
         "bricks": [
           "start-th",
@@ -4648,9 +4648,9 @@
     ]
   },
   {
-    "word": "there",
-    "notation": "TH-R",
-    "chords": [
+    "output": "there",
+    "input": "TH-R",
+    "strokes": [
       {
         "bricks": [
           "start-th",
@@ -4660,9 +4660,9 @@
     ]
   },
   {
-    "word": "they're",
-    "notation": "THER",
-    "chords": [
+    "output": "they're",
+    "input": "THER",
+    "strokes": [
       {
         "bricks": [
           "start-th",
@@ -4673,9 +4673,9 @@
     ]
   },
   {
-    "word": "to",
-    "notation": "TO",
-    "chords": [
+    "output": "to",
+    "input": "TO",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4685,9 +4685,9 @@
     ]
   },
   {
-    "word": "toil",
-    "notation": "TOEUL",
-    "chords": [
+    "output": "toil",
+    "input": "TOEUL",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4698,9 +4698,9 @@
     ]
   },
   {
-    "word": "told",
-    "notation": "TOELD",
-    "chords": [
+    "output": "told",
+    "input": "TOELD",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4712,9 +4712,9 @@
     ]
   },
   {
-    "word": "toll",
-    "notation": "TOL",
-    "chords": [
+    "output": "toll",
+    "input": "TOL",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4725,9 +4725,9 @@
     ]
   },
   {
-    "word": "too",
-    "notation": "TAO",
-    "chords": [
+    "output": "too",
+    "input": "TAO",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4737,9 +4737,9 @@
     ]
   },
   {
-    "word": "top",
-    "notation": "TOP",
-    "chords": [
+    "output": "top",
+    "input": "TOP",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4750,9 +4750,9 @@
     ]
   },
   {
-    "word": "torch",
-    "notation": "TOFRPB",
-    "chords": [
+    "output": "torch",
+    "input": "TOFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4763,9 +4763,9 @@
     ]
   },
   {
-    "word": "tough",
-    "notation": "TUF",
-    "chords": [
+    "output": "tough",
+    "input": "TUF",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4776,9 +4776,9 @@
     ]
   },
   {
-    "word": "tour",
-    "notation": "TOR",
-    "chords": [
+    "output": "tour",
+    "input": "TOR",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4789,9 +4789,9 @@
     ]
   },
   {
-    "word": "tower",
-    "notation": "TOUR",
-    "chords": [
+    "output": "tower",
+    "input": "TOUR",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4802,9 +4802,9 @@
     ]
   },
   {
-    "word": "tree",
-    "notation": "TRAOE",
-    "chords": [
+    "output": "tree",
+    "input": "TRAOE",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4815,9 +4815,9 @@
     ]
   },
   {
-    "word": "trees",
-    "notation": "TRAOES",
-    "chords": [
+    "output": "trees",
+    "input": "TRAOES",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4829,9 +4829,9 @@
     ]
   },
   {
-    "word": "trench",
-    "notation": "TREFRPB",
-    "chords": [
+    "output": "trench",
+    "input": "TREFRPB",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4843,9 +4843,9 @@
     ]
   },
   {
-    "word": "trouble",
-    "notation": "TRUBL",
-    "chords": [
+    "output": "trouble",
+    "input": "TRUBL",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4858,9 +4858,9 @@
     ]
   },
   {
-    "word": "troubles",
-    "notation": "TRUBLS",
-    "chords": [
+    "output": "troubles",
+    "input": "TRUBLS",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4874,9 +4874,9 @@
     ]
   },
   {
-    "word": "truce",
-    "notation": "TRAOUS",
-    "chords": [
+    "output": "truce",
+    "input": "TRAOUS",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4888,9 +4888,9 @@
     ]
   },
   {
-    "word": "truth",
-    "notation": "TRAOUT",
-    "chords": [
+    "output": "truth",
+    "input": "TRAOUT",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4902,9 +4902,9 @@
     ]
   },
   {
-    "word": "tryst",
-    "notation": "TREUTS",
-    "chords": [
+    "output": "tryst",
+    "input": "TREUTS",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4917,9 +4917,9 @@
     ]
   },
   {
-    "word": "tub",
-    "notation": "TUB",
-    "chords": [
+    "output": "tub",
+    "input": "TUB",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4930,9 +4930,9 @@
     ]
   },
   {
-    "word": "tug",
-    "notation": "TUG",
-    "chords": [
+    "output": "tug",
+    "input": "TUG",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4943,9 +4943,9 @@
     ]
   },
   {
-    "word": "tussle",
-    "notation": "TUFL",
-    "chords": [
+    "output": "tussle",
+    "input": "TUFL",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4957,9 +4957,9 @@
     ]
   },
   {
-    "word": "tweed",
-    "notation": "TWAOED",
-    "chords": [
+    "output": "tweed",
+    "input": "TWAOED",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4971,9 +4971,9 @@
     ]
   },
   {
-    "word": "tweeze",
-    "notation": "TWAOEZ",
-    "chords": [
+    "output": "tweeze",
+    "input": "TWAOEZ",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -4985,9 +4985,9 @@
     ]
   },
   {
-    "word": "twelve",
-    "notation": "TWEFL",
-    "chords": [
+    "output": "twelve",
+    "input": "TWEFL",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -5000,9 +5000,9 @@
     ]
   },
   {
-    "word": "two",
-    "notation": "TWO",
-    "chords": [
+    "output": "two",
+    "input": "TWO",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -5013,9 +5013,9 @@
     ]
   },
   {
-    "word": "type",
-    "notation": "TAOEUP",
-    "chords": [
+    "output": "type",
+    "input": "TAOEUP",
+    "strokes": [
       {
         "bricks": [
           "start-t",
@@ -5026,9 +5026,9 @@
     ]
   },
   {
-    "word": "use",
-    "notation": "AOUZ",
-    "chords": [
+    "output": "use",
+    "input": "AOUZ",
+    "strokes": [
       {
         "bricks": [
           "long-u",
@@ -5038,9 +5038,9 @@
     ]
   },
   {
-    "word": "wad",
-    "notation": "WAD",
-    "chords": [
+    "output": "wad",
+    "input": "WAD",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5051,9 +5051,9 @@
     ]
   },
   {
-    "word": "waft",
-    "notation": "WAFT",
-    "chords": [
+    "output": "waft",
+    "input": "WAFT",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5065,9 +5065,9 @@
     ]
   },
   {
-    "word": "wag",
-    "notation": "WAG",
-    "chords": [
+    "output": "wag",
+    "input": "WAG",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5078,9 +5078,9 @@
     ]
   },
   {
-    "word": "waist",
-    "notation": "WAEUTS",
-    "chords": [
+    "output": "waist",
+    "input": "WAEUTS",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5092,9 +5092,9 @@
     ]
   },
   {
-    "word": "wait",
-    "notation": "WAEUT",
-    "chords": [
+    "output": "wait",
+    "input": "WAEUT",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5105,9 +5105,9 @@
     ]
   },
   {
-    "word": "war",
-    "notation": "WAR",
-    "chords": [
+    "output": "war",
+    "input": "WAR",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5118,9 +5118,9 @@
     ]
   },
   {
-    "word": "ware",
-    "notation": "WAEUR",
-    "chords": [
+    "output": "ware",
+    "input": "WAEUR",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5131,9 +5131,9 @@
     ]
   },
   {
-    "word": "was",
-    "notation": "WAS",
-    "chords": [
+    "output": "was",
+    "input": "WAS",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5144,9 +5144,9 @@
     ]
   },
   {
-    "word": "was",
-    "notation": "WUZ",
-    "chords": [
+    "output": "was",
+    "input": "WUZ",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5157,9 +5157,9 @@
     ]
   },
   {
-    "word": "was",
-    "notation": "WA",
-    "chords": [
+    "output": "was",
+    "input": "WA",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5169,9 +5169,9 @@
     ]
   },
   {
-    "word": "was",
-    "notation": "WAZ",
-    "chords": [
+    "output": "was",
+    "input": "WAZ",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5182,9 +5182,9 @@
     ]
   },
   {
-    "word": "waste",
-    "notation": "WAETS",
-    "chords": [
+    "output": "waste",
+    "input": "WAETS",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5196,9 +5196,9 @@
     ]
   },
   {
-    "word": "wealth",
-    "notation": "W*ELT",
-    "chords": [
+    "output": "wealth",
+    "input": "W*ELT",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5210,9 +5210,9 @@
     ]
   },
   {
-    "word": "wear",
-    "notation": "WAER",
-    "chords": [
+    "output": "wear",
+    "input": "WAER",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5223,9 +5223,9 @@
     ]
   },
   {
-    "word": "weaver",
-    "notation": "WAOEFR",
-    "chords": [
+    "output": "weaver",
+    "input": "WAOEFR",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5237,9 +5237,9 @@
     ]
   },
   {
-    "word": "web",
-    "notation": "WEB",
-    "chords": [
+    "output": "web",
+    "input": "WEB",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5250,9 +5250,9 @@
     ]
   },
   {
-    "word": "webbed",
-    "notation": "WEBD",
-    "chords": [
+    "output": "webbed",
+    "input": "WEBD",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5264,9 +5264,9 @@
     ]
   },
   {
-    "word": "wed",
-    "notation": "WED",
-    "chords": [
+    "output": "wed",
+    "input": "WED",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5277,9 +5277,9 @@
     ]
   },
   {
-    "word": "weight",
-    "notation": "WAET",
-    "chords": [
+    "output": "weight",
+    "input": "WAET",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5290,9 +5290,9 @@
     ]
   },
   {
-    "word": "weird",
-    "notation": "WAOERD",
-    "chords": [
+    "output": "weird",
+    "input": "WAOERD",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5304,9 +5304,9 @@
     ]
   },
   {
-    "word": "well",
-    "notation": "WEL",
-    "chords": [
+    "output": "well",
+    "input": "WEL",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5317,9 +5317,9 @@
     ]
   },
   {
-    "word": "wet",
-    "notation": "WET",
-    "chords": [
+    "output": "wet",
+    "input": "WET",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5330,9 +5330,9 @@
     ]
   },
   {
-    "word": "wheal",
-    "notation": "WHAEL",
-    "chords": [
+    "output": "wheal",
+    "input": "WHAEL",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5344,9 +5344,9 @@
     ]
   },
   {
-    "word": "wheel",
-    "notation": "WHAOEL",
-    "chords": [
+    "output": "wheel",
+    "input": "WHAOEL",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5358,9 +5358,9 @@
     ]
   },
   {
-    "word": "where",
-    "notation": "WHER",
-    "chords": [
+    "output": "where",
+    "input": "WHER",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5372,9 +5372,9 @@
     ]
   },
   {
-    "word": "where",
-    "notation": "W-R",
-    "chords": [
+    "output": "where",
+    "input": "W-R",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5384,9 +5384,9 @@
     ]
   },
   {
-    "word": "whole",
-    "notation": "WHOEL",
-    "chords": [
+    "output": "whole",
+    "input": "WHOEL",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5398,9 +5398,9 @@
     ]
   },
   {
-    "word": "wield",
-    "notation": "WAOELD",
-    "chords": [
+    "output": "wield",
+    "input": "WAOELD",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5412,9 +5412,9 @@
     ]
   },
   {
-    "word": "wig",
-    "notation": "WEUG",
-    "chords": [
+    "output": "wig",
+    "input": "WEUG",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5425,9 +5425,9 @@
     ]
   },
   {
-    "word": "wild",
-    "notation": "WAOEULD",
-    "chords": [
+    "output": "wild",
+    "input": "WAOEULD",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5439,9 +5439,9 @@
     ]
   },
   {
-    "word": "wilt",
-    "notation": "WEULT",
-    "chords": [
+    "output": "wilt",
+    "input": "WEULT",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5453,9 +5453,9 @@
     ]
   },
   {
-    "word": "wit",
-    "notation": "WEUT",
-    "chords": [
+    "output": "wit",
+    "input": "WEUT",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5466,9 +5466,9 @@
     ]
   },
   {
-    "word": "wore",
-    "notation": "WOR",
-    "chords": [
+    "output": "wore",
+    "input": "WOR",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5479,9 +5479,9 @@
     ]
   },
   {
-    "word": "worth",
-    "notation": "WO*RT",
-    "chords": [
+    "output": "worth",
+    "input": "WO*RT",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5493,9 +5493,9 @@
     ]
   },
   {
-    "word": "wove",
-    "notation": "WOEF",
-    "chords": [
+    "output": "wove",
+    "input": "WOEF",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5506,9 +5506,9 @@
     ]
   },
   {
-    "word": "wrote",
-    "notation": "WROET",
-    "chords": [
+    "output": "wrote",
+    "input": "WROET",
+    "strokes": [
       {
         "bricks": [
           "start-w",
@@ -5520,9 +5520,9 @@
     ]
   },
   {
-    "word": "yadda yadda yadda",
-    "notation": "KWRA/TKA/KWRA/TKA/KWRA/TKA",
-    "chords": [
+    "output": "yadda yadda yadda",
+    "input": "KWRA/TKA/KWRA/TKA/KWRA/TKA",
+    "strokes": [
       {
         "bricks": [
           "start-y",
@@ -5562,9 +5562,9 @@
     ]
   },
   {
-    "word": "{",
-    "notation": "TPR-BGT",
-    "chords": [
+    "output": "{",
+    "input": "TPR-BGT",
+    "strokes": [
       {
         "bricks": [
           "start-f",
@@ -5576,9 +5576,9 @@
     ]
   },
   {
-    "word": "{!}",
-    "notation": "SKHRAPL",
-    "chords": [
+    "output": "{!}",
+    "input": "SKHRAPL",
+    "strokes": [
       {
         "bricks": [
           "start-s",
@@ -5591,9 +5591,9 @@
     ]
   },
   {
-    "word": "{?}",
-    "notation": "H-F",
-    "chords": [
+    "output": "{?}",
+    "input": "H-F",
+    "strokes": [
       {
         "bricks": [
           "start-h",
@@ -5603,9 +5603,9 @@
     ]
   },
   {
-    "word": "{^%}",
-    "notation": "PERS",
-    "chords": [
+    "output": "{^%}",
+    "input": "PERS",
+    "strokes": [
       {
         "bricks": [
           "start-p",
@@ -5617,9 +5617,9 @@
     ]
   },
   {
-    "word": "}",
-    "notation": "TPR*BGT",
-    "chords": [
+    "output": "}",
+    "input": "TPR*BGT",
+    "strokes": [
       {
         "bricks": [
           "start-f",

@@ -10,7 +10,7 @@ class StenoBricks < Thor
   option :filepath, default: 'data/definitions.json'
   def sort
     definitions = JSON.load(File.read(options.filepath))
-    definitions = definitions.sort_by { |d| d["word"].downcase }
+    definitions = definitions.sort_by { |d| d["output"].downcase }
     File.write(options.filepath, JSON.pretty_generate(definitions))
   end
 

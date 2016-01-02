@@ -8,23 +8,19 @@ require 'lib/diagram_bounds'
 
 if data.has_key?(:bricks) && data.has_key?(:definitions)
   set :mapper, BrickMapper.new(data.bricks)
-  set :brickset, Steno::BrickRegistry.new
+  set :brickset, Steno::BrickRegistry.new(data.bricks)
   set :definition_list, []
   set :wordset, Hash.new
   set :homograph_dictionary, Homographer.new(data.homographs).dictionary
 
-  data.bricks.each do |brick|
-    brickset.add(brick)
-  end
-
-  definition_list = data.definitions.sort_by(&:word).map do |data|
+  definition_list = data.definitions.map do |data|
     Steno::Definition.new(data, brickset, mapper)
   end
 
   definition_list.each do |definition|
-    next if definition.word == '[' || definition.word == ']'
-    wordset[definition.word] ||= []
-    wordset[definition.word] << definition
+    next if definition.output == '[' || definition.output == ']'
+    wordset[definition.output] ||= []
+    wordset[definition.output] << definition
   end
 else
   abort "Cannot build site without data"
@@ -128,11 +124,11 @@ proxy "/definitions.html", "definition-list.html",
   locals: { definitions: definition_list }, ignore: true
 
 definition_list.each do |definition|
-  synonyms = definition_list.select { |defn| defn.word == definition.word }
+  synonyms = definition_list.select { |defn| defn.output == definition.output }
 
-  if homograph_words = homograph_dictionary[definition.word]
-    homographs = homograph_words.flat_map do |word|
-      definition_list.select { |defn| defn.word == word }
+  if homograph_words = homograph_dictionary[definition.output]
+    homographs = homograph_words.flat_map do |output|
+      definition_list.select { |defn| defn.output == output }
     end
   else
     homographs = []
