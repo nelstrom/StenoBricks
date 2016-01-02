@@ -2,8 +2,6 @@
 title: Steno Bricks
 ---
 
-<img src="<%= path_to_svg('diagram') %>"/>
-
 ## What's this?
 
 **StenoBricks** is a project by [Drew Neil][] that aims to visualize how Plover Steno theory works.
@@ -55,3 +53,79 @@ For example, see [the definition for `THAEUR`][their].
 [and]: <%= "#{rootpath}/definitions/apbd/" %>
 [their]: <%= "#{rootpath}/definitions/thaeur/" %>
 [dictionary]: https://raw.githubusercontent.com/openstenoproject/plover/master/plover/assets/main.json
+
+### How to read StenoBricks diagrams
+
+A StenoBricks diagram is made up of two parts: the lower section represents the Steno keyboard, while the upper section represents the strokes that form a definition.
+
+#### Keyboard diagram
+
+Here's what the lower section looks like:
+
+<img src="<%= path_to_svg('diagram') %>"/>
+
+The keyboard graphic used in these diagrams is based on the physical form of a Steno keyboard with some adjustments.
+The keys are shaded dark or light in alternation (a bit like a piano keyboard).
+Each key is labelled with a letter above, following Steno Order.
+(Two special keys are labelled with a symbol instead: `#` being the *number key*, and `*` being the *star key*. These special keys don't follow the same rules as the others, so we'll discuss them later.)
+
+The diagram is divided into columns, with the background color alternating between white and shaded.
+Each column corresponds to one finger or thumb.
+The columns representing pinky, middle finger and thumb are shaded for both left and right hands.
+
+<table>
+<tr>
+<th>Digit</th>
+<th>Keys</th>
+</tr>
+<tr>
+<td>Left Pinky</td>
+<td><code>S</code></td>
+</tr>
+<tr>
+<td>Left Ring</td>
+<td><code>T</code> + <code>K</code></td>
+</tr>
+<tr>
+<td>Left Middle</td>
+<td><code>P</code> + <code>W</code></td>
+</tr>
+<tr>
+<td>Left Index</td>
+<td><code>H</code> + <code>R</code></td>
+</tr>
+<tr>
+<td>Left Thumb</td>
+<td><code>A</code> + <code>O</code></td>
+</tr>
+<tr>
+<td>Left/Right Index</td>
+<td><code>&#42;</code></td>
+</tr>
+<tr>
+<td>Right Thumb</td>
+<td><code>E</code> + <code>U</code></td>
+</tr>
+<tr>
+<td>Right Index</td>
+<td><code>F</code> + <code>R</code></td>
+</tr>
+<tr>
+<td>Right Middle</td>
+<td><code>P</code> + <code>B</code></td>
+</tr>
+<tr>
+<td>Right Ring</td>
+<td><code>L</code> + <code>G</code></td>
+</tr>
+<tr>
+<td>Right Pinky</td>
+<td><code>T</code> + <code>S</code></td>
+</tr>
+<tr>
+<td>Right Second Pinky</td>
+<td><code>D</code> + <code>Z</code></td>
+</tr>
+</table>
+
+If your right hand has only one pinky, then you'll just have to use it to stretch for the `D` and `Z` keys.
