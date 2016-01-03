@@ -68,32 +68,35 @@ module Steno
   class FoundationBrick < Brick
     attr_reader :cover
 
-    def initialize(id, label, keystrokes, cover, side=:right)
+    def initialize(id, label, keystrokes, cover)
       super(id, label, keystrokes)
-      @side = side
       @cover = cover
     end
 
     def is_foundation?
       true
     end
+  end
 
+  class FoundationBrickLeft < FoundationBrick
     def label_span
-      if @side == :right
-        first = cover.span[:start] + cover.span[:width]
-        last  = KEY_INFORMATION[keystrokes.last][:right]
-        {
-          start: first,
-          width: (last - first)
-        }
-      else
-        first = KEY_INFORMATION[keystrokes.first][:left]
-        last  = cover.span[:start]
-        {
-          start: first,
-          width: (last - first)
-        }
-      end
+      first = KEY_INFORMATION[keystrokes.first][:left]
+      last  = cover.span[:start]
+      {
+        start: first,
+        width: (last - first)
+      }
+    end
+  end
+
+  class FoundationBrickRight < FoundationBrick
+    def label_span
+      first = cover.span[:start] + cover.span[:width]
+      last  = KEY_INFORMATION[keystrokes.last][:right]
+      {
+        start: first,
+        width: (last - first)
+      }
     end
   end
 
@@ -154,14 +157,14 @@ module Steno
       right.reverse.each_cons(2) do |one,two|
         if one.span_key_set.intersect?(two.span_key_set)
           @overlay = @overlay - [one]
-          @foundation << FoundationBrick.new(one.id, one.label, one.keystrokes, two)
+          @foundation << FoundationBrickRight.new(one.id, one.label, one.keystrokes, two)
         end
       end
 
       left.each_cons(2) do |one,two|
         if one.span_key_set.intersect?(two.span_key_set)
           @overlay = @overlay - [one]
-          @foundation << FoundationBrick.new(one.id, one.label, one.keystrokes, two, :left)
+          @foundation << FoundationBrickLeft.new(one.id, one.label, one.keystrokes, two)
         end
       end
     end

@@ -98,29 +98,27 @@ module Steno
 
     end
 
-    describe FoundationBrick do
-      context 'on the left side of the keyboard' do
-        subject(:start_z) { FoundationBrick.new('start-z', 'z', [1, 10], soft_a, :left) }
+    describe FoundationBrickLeft do
+      subject(:start_z) { FoundationBrickLeft.new('start-z', 'z', [1, 10], soft_a) }
 
-        it '#cover records the leftmost overlay brick' do
-          expect(start_z.cover).to eql(soft_a)
-        end
-
-        it '#midpoint is adjusted to accommodate the cover brick' do
-          expect(start_z.midpoint).to eql(6.0)
-        end
+      it '#cover records the leftmost overlay brick' do
+        expect(start_z.cover).to eql(soft_a)
       end
 
-      context 'on the right side of the keyboard' do
-        subject(:end_th)  { FoundationBrick.new('end-th', 'th', [10, 19], soft_e) }
+      it '#midpoint is adjusted to accommodate the cover brick' do
+        expect(start_z.midpoint).to eql(6.0)
+      end
+    end
 
-        it '#cover records the rightmost overlay brick' do
-          expect(end_th.cover).to eql(soft_e)
-        end
+    describe FoundationBrickRight do
+      subject(:end_th)  { FoundationBrickRight.new('end-th', 'th', [10, 19], soft_e) }
 
-        it '#midpoint is adjusted to accommodate the cover brick' do
-          expect(end_th.midpoint).to eql(19.0)
-        end
+      it '#cover records the rightmost overlay brick' do
+        expect(end_th.cover).to eql(soft_e)
+      end
+
+      it '#midpoint is adjusted to accommodate the cover brick' do
+        expect(end_th.midpoint).to eql(19.0)
       end
     end
 
@@ -218,7 +216,7 @@ module Steno
         end
 
         it '#foundation returns start_z brick' do
-          expect(subject.foundation).to eql([FoundationBrick.new('start-z', 'z', [1, 10], soft_a, :left)])
+          expect(subject.foundation).to eql([FoundationBrick.new('start-z', 'z', [1, 10], soft_a)])
         end
 
         it '#overlay returns non-foundation bricks in reverse order' do
