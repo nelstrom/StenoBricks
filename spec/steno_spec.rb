@@ -5,9 +5,11 @@ module Steno
   describe 'Steno' do
     let(:registry) { double("BrickRegistry") }
     let(:mapper)   { double('BrickMapper') }
+    let(:start_z) { Brick.new('start-z', 'z',   [1, 10]) }
     let(:start_d) { Brick.new('start-d', 'd',   [2, 3]) }
     let(:start_b) { Brick.new('start-b', 'b',   [4, 5]) }
     let(:star)    { Brick.new('star', '*',   [10]) }
+    let(:soft_a)  { Brick.new('soft-a', 'a',   [8]) }
     let(:soft_e)  { Brick.new('soft-e', 'e',   [11]) }
     let(:end_b)   { Brick.new('end-b', 'b',  [16]) }
     let(:end_g)   { Brick.new('end-g', 'g',  [18]) }
@@ -97,14 +99,28 @@ module Steno
     end
 
     describe FoundationBrick do
-      subject { FoundationBrick.new('end-th', 'th', [10, 19], soft_e) }
+      context 'on the left side of the keyboard' do
+        subject(:start_z) { FoundationBrick.new('start-z', 'z', [1, 10], soft_a, :left) }
 
-      it '#cover records the rightmost overlay brick' do
-        expect(subject.cover).to eql(soft_e)
+        it '#cover records the leftmost overlay brick' do
+          expect(start_z.cover).to eql(soft_a)
+        end
+
+        it '#midpoint is adjusted to accommodate the cover brick' do
+          expect(start_z.midpoint).to eql(6.0)
+        end
       end
 
-      it '#midpoint is adjusted to accommodate the cover brick' do
-        expect(subject.midpoint).to eql(19.0)
+      context 'on the right side of the keyboard' do
+        subject(:end_th)  { FoundationBrick.new('end-th', 'th', [10, 19], soft_e) }
+
+        it '#cover records the rightmost overlay brick' do
+          expect(end_th.cover).to eql(soft_e)
+        end
+
+        it '#midpoint is adjusted to accommodate the cover brick' do
+          expect(end_th.midpoint).to eql(19.0)
+        end
       end
     end
 
@@ -178,7 +194,7 @@ module Steno
         end
       end
 
-      context "with bricks that do overlap" do
+      context "with bricks that overlap on right side" do
         subject{ Stroke.new([start_d, soft_e, end_th]) }
 
         it '#bricks returns a list of bricks' do
@@ -191,6 +207,22 @@ module Steno
 
         it '#overlay returns non-foundation bricks in reverse order' do
           expect(subject.overlay).to eql([soft_e, start_d])
+        end
+      end
+
+      context "with bricks that overlap on left side" do
+        subject{ Stroke.new([start_z, soft_a, end_g]) }
+
+        it '#bricks returns a list of bricks' do
+          expect(subject.bricks).to eql([start_z, soft_a, end_g])
+        end
+
+        it '#foundation returns start_z brick' do
+          expect(subject.foundation).to eql([FoundationBrick.new('start-z', 'z', [1, 10], soft_a, :left)])
+        end
+
+        it '#overlay returns non-foundation bricks in reverse order' do
+          expect(subject.overlay).to eql([end_g, soft_a])
         end
       end
     end
