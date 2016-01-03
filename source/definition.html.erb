@@ -10,12 +10,12 @@ title: Definition page
 
 <%= partial('brick-list', locals: {bricks: definition.bricks}) %>
 
-<% unless homographs.empty? %>
-  <h2>Homographs</h2>
+<% unless homophones.empty? %>
+  <h2>Homophones</h2>
 
   <p>These words sound similar but are defined differently:</p>
 
-  <%= partial('definitions-table', locals: {definitions: homographs}) %>
+  <%= partial('definitions-table', locals: {definitions: homophones}) %>
 <% end %>
 
 <% if synonyms.length > 1 %>

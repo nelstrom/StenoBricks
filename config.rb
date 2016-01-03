@@ -2,7 +2,7 @@ require 'pry'
 require 'lib/steno'
 require 'lib/steno_keyboard'
 require 'lib/steno_brick_kit'
-require 'lib/homographer'
+require 'lib/homophoner'
 require 'lib/brick_mapper'
 require 'lib/diagram_bounds'
 
@@ -11,7 +11,7 @@ if data.has_key?(:bricks) && data.has_key?(:definitions)
   set :brickset, Steno::BrickRegistry.new(data.bricks)
   set :definition_list, []
   set :wordset, Hash.new
-  set :homograph_dictionary, Homographer.new(data.homographs).dictionary
+  set :homophone_dictionary, Homophoner.new(data.homophones).dictionary
 
   definition_list = data.definitions.map do |data|
     Steno::Definition.new(data, brickset, mapper)
@@ -126,19 +126,19 @@ proxy "/definitions.html", "definition-list.html",
 definition_list.each do |definition|
   synonyms = definition_list.select { |defn| defn.output == definition.output }
 
-  if homograph_words = homograph_dictionary[definition.output]
-    homographs = homograph_words.flat_map do |output|
+  if homophone_words = homophone_dictionary[definition.output]
+    homophones = homophone_words.flat_map do |output|
       definition_list.select { |defn| defn.output == output }
     end
   else
-    homographs = []
+    homophones = []
   end
 
   proxy "/definitions/#{definition.notation}.svg", "/definition.svg",
     locals: { definition: definition, bounds: DiagramBounds.new(definition) }, ignore: true
 
   proxy "/definitions/#{definition.notation}.html", "/definition.html",
-    locals: { definition: definition, synonyms: synonyms, homographs: homographs, collisions: definition.collisions }, ignore: true
+    locals: { definition: definition, synonyms: synonyms, homophones: homophones, collisions: definition.collisions }, ignore: true
 end
 
 wordset.each_pair do |word, definitions|

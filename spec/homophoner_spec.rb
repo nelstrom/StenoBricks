@@ -1,13 +1,13 @@
 require 'rspec'
-require_relative '../lib/homographer'
+require_relative '../lib/homophoner'
 
-describe Homographer do
+describe Homophoner do
   let(:to_sounds)    { ["to", "two", "too"] }
   let(:there_sounds) { ["there", "they're", "their"] }
   let(:eye_sounds)   { ["I", "eye"] }
-  subject { Homographer.new([to_sounds, there_sounds, eye_sounds]) }
+  subject { Homophoner.new([to_sounds, there_sounds, eye_sounds]) }
 
-  it '#dictionary returns hash of word keys with a list of their homographs' do
+  it '#dictionary returns hash of word keys with a list of their homophones' do
     expect(subject.dictionary).to eql({
       "there"   => ["their", "they're"],
       "their"   => ["there", "they're"],
