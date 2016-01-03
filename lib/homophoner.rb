@@ -1,9 +1,9 @@
-class Homographer
+class Homophoner
   attr_reader :dictionary
 
-  def initialize(homographs)
+  def initialize(homophones)
     @dictionary = Hash.new
-    homographs.each do |wordlist|
+    homophones.each do |wordlist|
       wordlist.each do |word|
         @dictionary[word] = (wordlist - [word]).sort
       end
