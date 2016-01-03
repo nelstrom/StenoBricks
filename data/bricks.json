@@ -220,6 +220,11 @@
     "keystrokes": [1,2,3,4,5]
   },
   {
+    "id": "start-z-star",
+    "label": "Z",
+    "keystrokes": [1,10]
+  },
+  {
     "id": "end-z",
     "label": "Z",
     "keystrokes": [22]
