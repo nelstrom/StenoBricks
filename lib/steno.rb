@@ -68,8 +68,9 @@ module Steno
   class FoundationBrick < Brick
     attr_reader :cover
 
-    def initialize(id, label, keystrokes, cover)
+    def initialize(id, label, keystrokes, cover, side=:right)
       super(id, label, keystrokes)
+      @side = side
       @cover = cover
     end
 
@@ -78,12 +79,21 @@ module Steno
     end
 
     def label_span
-      first = cover.span[:start] + cover.span[:width]
-      last  = KEY_INFORMATION[keystrokes.last][:right]
-      {
-        start: first,
-        width: (last - first)
-      }
+      if @side == :right
+        first = cover.span[:start] + cover.span[:width]
+        last  = KEY_INFORMATION[keystrokes.last][:right]
+        {
+          start: first,
+          width: (last - first)
+        }
+      else
+        first = KEY_INFORMATION[keystrokes.first][:left]
+        last  = cover.span[:start]
+        {
+          start: first,
+          width: (last - first)
+        }
+      end
     end
   end
 
@@ -113,7 +123,13 @@ module Steno
           registry.lookup(b)
         end
       }
-      @bricks = bricks.sort_by { |b| b.keystrokes.last }
+      @bricks = bricks.sort_by { |b|
+        if b.keystrokes.length > 1 && b.keystrokes.last == 10
+          b.keystrokes[-2]
+        else
+          b.keystrokes.last
+        end
+      }
       detect_overlaps
       if mapper
         @notation = mapper.lookup(@bricks.map(&:id))
@@ -133,10 +149,19 @@ module Steno
     def detect_overlaps
       @overlay = bricks.reverse.clone
       @foundation = []
-      bricks.reverse.each_cons(2) do |one,two|
+      left, right = bricks.partition { |b| b.keystrokes.first < 10 }
+
+      right.reverse.each_cons(2) do |one,two|
         if one.span_key_set.intersect?(two.span_key_set)
           @overlay = @overlay - [one]
           @foundation << FoundationBrick.new(one.id, one.label, one.keystrokes, two)
+        end
+      end
+
+      left.each_cons(2) do |one,two|
+        if one.span_key_set.intersect?(two.span_key_set)
+          @overlay = @overlay - [one]
+          @foundation << FoundationBrick.new(one.id, one.label, one.keystrokes, two, :left)
         end
       end
     end
