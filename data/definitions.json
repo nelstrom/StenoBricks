@@ -1,797 +1,5 @@
 [
   {
-    "output": "due",
-    "input": "TKAOU",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "long-u"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "duffer",
-    "input": "TKUFR",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "short-u",
-          "end-f",
-          "end-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "deferral",
-    "input": "TKEFRL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "short-e",
-          "end-f",
-          "end-r",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "devil",
-    "input": "TKEFL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "short-e",
-          "end-v",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "double",
-    "input": "TKUBL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "short-u",
-          "end-b",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "debt",
-    "input": "TKET",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "short-e",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "dabble",
-    "input": "TKABL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "short-a",
-          "end-b",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "drug",
-    "input": "TKRUG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "start-r",
-          "short-u",
-          "end-g"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "depress",
-    "input": "TKPRES",
-    "strokes": [
-      {
-        "bricks": [
-          "start-d",
-          "start-p",
-          "start-r",
-          "short-e",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "desire",
-    "input": "STKAOEUR",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-d",
-          "long-i",
-          "end-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "dessert",
-    "input": "STKET",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-d",
-          "short-e",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "destroyed",
-    "input": "STKROEUD",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-d",
-          "start-r",
-          "dipthong-oi",
-          "end-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "feral",
-    "input": "TPERL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "short-e",
-          "end-r",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "ford",
-    "input": "TPORD",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "short-o",
-          "end-r",
-          "end-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "for",
-    "input": "TPOR",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "short-o",
-          "end-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "phrase",
-    "input": "TPRAEUZ",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "start-r",
-          "long-a",
-          "end-z"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "fierce",
-    "input": "TPAOERS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "long-e",
-          "end-r",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "fable",
-    "input": "TPAEUBL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "long-a",
-          "end-b",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "feeble",
-    "input": "TPAOEBL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "long-e",
-          "end-b",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "sphere",
-    "input": "STPAOER",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-f",
-          "long-e",
-          "end-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "fries",
-    "input": "TPRAOEUS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "start-r",
-          "long-i",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "leader",
-    "input": "HRAOERD",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "long-e",
-          "end-r",
-          "end-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "lace",
-    "input": "HRAEUS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "long-a",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "letter",
-    "input": "HRERT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "short-e",
-          "end-r",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "lust",
-    "input": "HRUFT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "short-u",
-          "end-f-as-s",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "lovers",
-    "input": "HROFRS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "short-o",
-          "end-f",
-          "end-r",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "leaders",
-    "input": "HRAOERDZ",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "long-e",
-          "end-r",
-          "end-d",
-          "end-z"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "glad",
-    "input": "TKPWHRAD",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "start-l",
-          "short-a",
-          "end-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "glare",
-    "input": "TKPWHRAEUR",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "start-l",
-          "long-a",
-          "end-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "glides",
-    "input": "TKPWHRAOEUDZ",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "start-l",
-          "long-i",
-          "end-d",
-          "end-z"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "give",
-    "input": "TKPWEUF",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "short-i",
-          "end-v"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "get",
-    "input": "TKPWET",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "short-e",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "group",
-    "input": "TKPWRAOUP",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "start-r",
-          "long-u",
-          "end-p"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "guest",
-    "input": "TKPWEFT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "short-e",
-          "end-f-as-s",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "guide",
-    "input": "TKPWAOEUD",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "long-i",
-          "end-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "gravel",
-    "input": "TKPWRAFL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "start-r",
-          "short-a",
-          "end-v",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "cigarette",
-    "input": "STKPWRET",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-g",
-          "start-r",
-          "short-e",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "goblet",
-    "input": "TKPWOBLT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "short-o",
-          "end-b",
-          "end-l",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "bored",
-    "input": "PWORD",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "short-o",
-          "end-r",
-          "end-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "board",
-    "input": "PWAORD",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "long-o-with-oa",
-          "end-r",
-          "end-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "bruise",
-    "input": "PWRAOUZ",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "start-r",
-          "long-u",
-          "end-z"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "buyer",
-    "input": "PWAOEUR",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "long-i",
-          "end-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "bobble",
-    "input": "PWOBL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "short-o",
-          "end-b",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "brutal",
-    "input": "PWRAOULT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "start-r",
-          "long-u",
-          "end-l",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "vile",
-    "input": "SRAOEUL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-v",
-          "long-i",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "vase",
-    "input": "SRAEUS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-v",
-          "long-a",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "virus",
-    "input": "SRAOEURS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-v",
-          "long-i",
-          "end-r",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "eke",
-    "input": "AOEBG",
-    "strokes": [
-      {
-        "bricks": [
-          "long-e",
-          "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "rockets",
-    "input": "ROBGTS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-r",
-          "short-o",
-          "end-k",
-          "end-t",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "correct",
-    "input": "KREBGT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-k",
-          "start-r",
-          "short-e",
-          "end-k",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "quake",
-    "input": "KWAEUBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-q",
-          "long-a",
-          "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "task",
-    "input": "TAFBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-t",
-          "short-a",
-          "end-f-as-s",
-          "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "zest",
-    "input": "S*EFT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-z-star",
-          "short-e",
-          "end-f-as-s",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "zap",
-    "input": "STKPWAP",
-    "strokes": [
-      {
-        "bricks": [
-          "start-z",
-          "short-a",
-          "end-p"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "zap",
-    "input": "SA*P",
-    "strokes": [
-      {
-        "bricks": [
-          "short-a",
-          "start-z-star",
-          "end-p"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "zag",
-    "input": "STKPWAG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-z",
-          "short-a",
-          "end-g"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "zag",
-    "input": "SA*G",
-    "strokes": [
-      {
-        "bricks": [
-          "short-a",
-          "start-z-star",
-          "end-g"
-        ]
-      }
-    ]
-  },
-  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
@@ -963,6 +171,18 @@
   },
   {
     "output": "and",
+    "input": "STK",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-d"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "and",
     "input": "SKP",
     "strokes": [
       {
@@ -982,18 +202,6 @@
           "short-a",
           "end-n",
           "end-d"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "and",
-    "input": "STK",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-d"
         ]
       }
     ]
@@ -1193,6 +401,34 @@
     ]
   },
   {
+    "output": "board",
+    "input": "PWAORD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "long-o-with-oa",
+          "end-r",
+          "end-d"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "bobble",
+    "input": "PWOBL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-o",
+          "end-b",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
     "output": "book",
     "input": "PWAOBG",
     "strokes": [
@@ -1201,6 +437,20 @@
           "start-b",
           "long-oo",
           "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "bored",
+    "input": "PWORD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-o",
+          "end-r",
+          "end-d"
         ]
       }
     ]
@@ -1248,6 +498,20 @@
     ]
   },
   {
+    "output": "bruise",
+    "input": "PWRAOUZ",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "start-r",
+          "long-u",
+          "end-z"
+        ]
+      }
+    ]
+  },
+  {
     "output": "brunch",
     "input": "PWRUFRPB",
     "strokes": [
@@ -1262,6 +526,21 @@
     ]
   },
   {
+    "output": "brutal",
+    "input": "PWRAOULT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "start-r",
+          "long-u",
+          "end-l",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
     "output": "buy",
     "input": "PWAOEU",
     "strokes": [
@@ -1269,6 +548,19 @@
         "bricks": [
           "start-b",
           "long-i"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "buyer",
+    "input": "PWAOEUR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "long-i",
+          "end-r"
         ]
       }
     ]
@@ -1430,6 +722,21 @@
     ]
   },
   {
+    "output": "cigarette",
+    "input": "STKPWRET",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-g",
+          "start-r",
+          "short-e",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
     "output": "clench",
     "input": "KHREFRPB",
     "strokes": [
@@ -1543,6 +850,21 @@
           "start-k",
           "short-o",
           "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "correct",
+    "input": "KREBGT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-r",
+          "short-e",
+          "end-k",
+          "end-t"
         ]
       }
     ]
@@ -1861,6 +1183,20 @@
     ]
   },
   {
+    "output": "dabble",
+    "input": "TKABL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-a",
+          "end-b",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
     "output": "dam",
     "input": "TKAPL",
     "strokes": [
@@ -1914,6 +1250,19 @@
     ]
   },
   {
+    "output": "debt",
+    "input": "TKET",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-e",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
     "output": "deer",
     "input": "TKAOER",
     "strokes": [
@@ -1922,6 +1271,107 @@
           "start-d",
           "long-e",
           "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "deferral",
+    "input": "TKEFRL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-e",
+          "end-f",
+          "end-r",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "depress",
+    "input": "TKPRES",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "start-p",
+          "start-r",
+          "short-e",
+          "end-s"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "desire",
+    "input": "STKAOEUR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-d",
+          "long-i",
+          "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "dessert",
+    "input": "STKET",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-d",
+          "short-e",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "destroyed",
+    "input": "STKROEUD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-d",
+          "start-r",
+          "dipthong-oi",
+          "end-d"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "devil",
+    "input": "TKEFL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-e",
+          "end-v",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "double",
+    "input": "TKUBL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-u",
+          "end-b",
+          "end-l"
         ]
       }
     ]
@@ -1950,6 +1400,46 @@
           "start-r",
           "long-i",
           "end-v"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "drug",
+    "input": "TKRUG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "start-r",
+          "short-u",
+          "end-g"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "due",
+    "input": "TKAOU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "long-u"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "duffer",
+    "input": "TKUFR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-u",
+          "end-f",
+          "end-r"
         ]
       }
     ]
@@ -2031,6 +1521,18 @@
     ]
   },
   {
+    "output": "eke",
+    "input": "AOEBG",
+    "strokes": [
+      {
+        "bricks": [
+          "long-e",
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
     "output": "elves",
     "input": "EFLS",
     "strokes": [
@@ -2100,6 +1602,62 @@
     ]
   },
   {
+    "output": "fable",
+    "input": "TPAEUBL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "long-a",
+          "end-b",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "feeble",
+    "input": "TPAOEBL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "long-e",
+          "end-b",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "feral",
+    "input": "TPERL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "short-e",
+          "end-r",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "fierce",
+    "input": "TPAOERS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "long-e",
+          "end-r",
+          "end-s"
+        ]
+      }
+    ]
+  },
+  {
     "output": "finch",
     "input": "TPEUFRPB",
     "strokes": [
@@ -2128,11 +1686,12 @@
   },
   {
     "output": "for",
-    "input": "TP-R",
+    "input": "TPOR",
     "strokes": [
       {
         "bricks": [
           "start-f",
+          "short-o",
           "end-r"
         ]
       }
@@ -2152,6 +1711,32 @@
     ]
   },
   {
+    "output": "for",
+    "input": "TP-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "ford",
+    "input": "TPORD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "short-o",
+          "end-r",
+          "end-d"
+        ]
+      }
+    ]
+  },
+  {
     "output": "four",
     "input": "TPOUR",
     "strokes": [
@@ -2160,6 +1745,20 @@
           "start-f",
           "dipthong-ow",
           "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "fries",
+    "input": "TPRAOEUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "start-r",
+          "long-i",
+          "end-s"
         ]
       }
     ]
@@ -2186,6 +1785,146 @@
           "start-g",
           "long-a-with-ea",
           "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "get",
+    "input": "TKPWET",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-e",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "give",
+    "input": "TKPWEUF",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-i",
+          "end-v"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "glad",
+    "input": "TKPWHRAD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "start-l",
+          "short-a",
+          "end-d"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "glare",
+    "input": "TKPWHRAEUR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "start-l",
+          "long-a",
+          "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "glides",
+    "input": "TKPWHRAOEUDZ",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "start-l",
+          "long-i",
+          "end-d",
+          "end-z"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "goblet",
+    "input": "TKPWOBLT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-o",
+          "end-b",
+          "end-l",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "gravel",
+    "input": "TKPWRAFL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "start-r",
+          "short-a",
+          "end-v",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "group",
+    "input": "TKPWRAOUP",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "start-r",
+          "long-u",
+          "end-p"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "guest",
+    "input": "TKPWEFT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-e",
+          "end-f-as-s",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "guide",
+    "input": "TKPWAOEUD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "long-i",
+          "end-d"
         ]
       }
     ]
@@ -2814,6 +2553,62 @@
     ]
   },
   {
+    "output": "lace",
+    "input": "HRAEUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "long-a",
+          "end-s"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "leader",
+    "input": "HRAOERD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "long-e",
+          "end-r",
+          "end-d"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "leaders",
+    "input": "HRAOERDZ",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "long-e",
+          "end-r",
+          "end-d",
+          "end-z"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "letter",
+    "input": "HRERT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "short-e",
+          "end-r",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
     "output": "lift",
     "input": "HREUFT",
     "strokes": [
@@ -2839,6 +2634,21 @@
           "start-l",
           "star",
           "short-i",
+          "end-s"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "lovers",
+    "input": "HROFRS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "short-o",
+          "end-f",
+          "end-r",
           "end-s"
         ]
       }
@@ -2890,6 +2700,20 @@
     ],
     "collisions": [
       "lunch"
+    ]
+  },
+  {
+    "output": "lust",
+    "input": "HRUFT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "short-u",
+          "end-f-as-s",
+          "end-t"
+        ]
+      }
     ]
   },
   {
@@ -3264,6 +3088,20 @@
     ]
   },
   {
+    "output": "phrase",
+    "input": "TPRAEUZ",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "start-r",
+          "long-a",
+          "end-z"
+        ]
+      }
+    ]
+  },
+  {
     "output": "piece",
     "input": "PAOES",
     "strokes": [
@@ -3505,27 +3343,6 @@
   },
   {
     "output": "present",
-    "input": "PRES/EPBT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-p",
-          "start-r",
-          "short-e",
-          "end-s"
-        ]
-      },
-      {
-        "bricks": [
-          "short-e",
-          "end-n",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "present",
     "input": "PREZ/EPBT",
     "strokes": [
       {
@@ -3553,6 +3370,27 @@
         "bricks": [
           "start-p",
           "start-r",
+          "short-e",
+          "end-n",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "present",
+    "input": "PRES/EPBT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "start-r",
+          "short-e",
+          "end-s"
+        ]
+      },
+      {
+        "bricks": [
           "short-e",
           "end-n",
           "end-t"
@@ -3775,6 +3613,19 @@
           "start-p",
           "short-u",
           "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "quake",
+    "input": "KWAEUBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-q",
+          "long-a",
+          "end-k"
         ]
       }
     ]
@@ -4197,6 +4048,21 @@
           "start-r",
           "long-o",
           "end-b"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "rockets",
+    "input": "ROBGTS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-r",
+          "short-o",
+          "end-k",
+          "end-t",
+          "end-s"
         ]
       }
     ]
@@ -4889,12 +4755,12 @@
   },
   {
     "output": "sore",
-    "input": "SOR",
+    "input": "SOER",
     "strokes": [
       {
         "bricks": [
           "start-s",
-          "short-o",
+          "long-o",
           "end-r"
         ]
       }
@@ -4902,12 +4768,12 @@
   },
   {
     "output": "sore",
-    "input": "SOER",
+    "input": "SOR",
     "strokes": [
       {
         "bricks": [
           "start-s",
-          "long-o",
+          "short-o",
           "end-r"
         ]
       }
@@ -4947,6 +4813,20 @@
           "start-s",
           "start-p",
           "long-u"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "sphere",
+    "input": "STPAOER",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-f",
+          "long-e",
+          "end-r"
         ]
       }
     ]
@@ -5408,6 +5288,20 @@
           "start-t",
           "short-a",
           "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "task",
+    "input": "TAFBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-a",
+          "end-f-as-s",
+          "end-k"
         ]
       }
     ]
@@ -5904,6 +5798,46 @@
     ]
   },
   {
+    "output": "vase",
+    "input": "SRAEUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "long-a",
+          "end-s"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "vile",
+    "input": "SRAOEUL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "long-i",
+          "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "virus",
+    "input": "SRAOEURS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "long-i",
+          "end-r",
+          "end-s"
+        ]
+      }
+    ]
+  },
+  {
     "output": "wad",
     "input": "WAD",
     "strokes": [
@@ -5998,13 +5932,13 @@
   },
   {
     "output": "was",
-    "input": "WAS",
+    "input": "WAZ",
     "strokes": [
       {
         "bricks": [
           "start-w",
           "short-a",
-          "end-s"
+          "end-z"
         ]
       }
     ]
@@ -6036,13 +5970,13 @@
   },
   {
     "output": "was",
-    "input": "WAZ",
+    "input": "WAS",
     "strokes": [
       {
         "bricks": [
           "start-w",
           "short-a",
-          "end-z"
+          "end-s"
         ]
       }
     ]
@@ -6423,6 +6357,72 @@
         "bricks": [
           "start-d",
           "short-a"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "zag",
+    "input": "SA*G",
+    "strokes": [
+      {
+        "bricks": [
+          "short-a",
+          "start-z-star",
+          "end-g"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "zag",
+    "input": "STKPWAG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-z",
+          "short-a",
+          "end-g"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "zap",
+    "input": "STKPWAP",
+    "strokes": [
+      {
+        "bricks": [
+          "start-z",
+          "short-a",
+          "end-p"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "zap",
+    "input": "SA*P",
+    "strokes": [
+      {
+        "bricks": [
+          "short-a",
+          "start-z-star",
+          "end-p"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "zest",
+    "input": "S*EFT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-z-star",
+          "short-e",
+          "end-f-as-s",
+          "end-t"
         ]
       }
     ]
