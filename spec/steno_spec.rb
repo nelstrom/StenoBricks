@@ -11,6 +11,8 @@ module Steno
     let(:star)    { Brick.new('star', '*',   [10]) }
     let(:soft_a)  { Brick.new('soft-a', 'a',   [8]) }
     let(:soft_e)  { Brick.new('soft-e', 'e',   [11]) }
+    let(:hard_a)  { Brick.new('hard-a', 'ay',   [8,11,12]) }
+    let(:hard_e)  { Brick.new('hard-e', 'ee',   [8,9,11]) }
     let(:end_b)   { Brick.new('end-b', 'b',  [16]) }
     let(:end_g)   { Brick.new('end-g', 'g',  [18]) }
     let(:end_th)  { Brick.new('end-th', 'th',  [10, 19]) }
@@ -29,6 +31,28 @@ module Steno
     end
 
     describe Brick do
+
+      describe '#side' do
+        it 'returns :left for bricks produced by left-hand' do
+          [start_z, start_d, start_b, soft_a].each do |brick|
+            expect(brick.side).to eql(:left)
+          end
+        end
+        it 'returns :right for bricks produced by right-hand' do
+          [end_b, end_g, end_nch, soft_e, end_th].each do |brick|
+            expect(brick.side).to eql(:right)
+          end
+        end
+        it 'returns :both for bricks produced by left and right hands' do
+          [hard_a, hard_e].each do |brick|
+            expect(brick.side).to eql(:both)
+          end
+        end
+        it 'returns :center for bricks produced by either hand' do
+          expect(star.side).to eql(:center)
+        end
+      end
+
       context 'with one keystroke, 2 units wide' do
         subject { star }
         it 'spans a range covering two units' do

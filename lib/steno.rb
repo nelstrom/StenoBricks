@@ -22,6 +22,19 @@ module Steno
       @keystrokes = keystrokes.sort
     end
 
+    def side
+      start  = @keystrokes.first <=> 10
+      finish = @keystrokes.last <=> 10
+      {
+        [-1, -1 ] => :left,
+        [-1,  0 ] => :left,
+        [-1,  1 ] => :both,
+        [ 0,  0 ] => :center,
+        [ 1,  1 ] => :right,
+        [ 0,  1 ] => :right,
+      }.fetch([start, finish])
+    end
+
     def span
       first = KEY_INFORMATION[keystrokes.first][:left]
       last  = KEY_INFORMATION[keystrokes.last][:right]
