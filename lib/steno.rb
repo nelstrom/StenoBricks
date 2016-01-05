@@ -140,11 +140,7 @@ module Steno
         end
       }
       @bricks = bricks.sort_by { |b|
-        if b.keystrokes.length > 1 && b.keystrokes.last == 10
-          b.keystrokes[-2]
-        else
-          b.keystrokes.last
-        end
+        b.side == :left ? b.keystrokes.first : b.keystrokes.last
       }
       detect_overlaps
       if mapper

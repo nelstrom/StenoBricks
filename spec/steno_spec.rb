@@ -193,10 +193,14 @@ module Steno
       end
 
       context "given bricks in wrong order" do
-        subject{ Stroke.new([soft_e, start_b, end_nch]) }
+        subject(:bench_stroke){ Stroke.new([soft_e, start_b, end_nch]) }
+        subject(:death_stroke){ Stroke.new([soft_e, start_d, end_th]) }
+        subject(:zag_stroke){ Stroke.new([soft_a, start_z, end_g]) }
 
         it '#bricks returns bricks with correct order' do
-          expect(subject.bricks).to eql([start_b, soft_e, end_nch])
+          expect(bench_stroke.bricks).to eql([start_b, soft_e, end_nch])
+          expect(death_stroke.bricks).to eql([start_d, soft_e, end_th])
+          expect(zag_stroke.bricks).to eql([start_z, soft_a, end_g])
         end
       end
 
