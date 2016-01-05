@@ -4,6 +4,8 @@ require_relative './steno_keyboard'
 
 module Steno
 
+  STAR_KEY_INDEX = 10
+
   def self.Brick(*args)
     case args.first
     when Brick then args.first
@@ -23,15 +25,15 @@ module Steno
     end
 
     def side
-      start  = @keystrokes.first <=> 10
-      finish = @keystrokes.last <=> 10
+      start  = @keystrokes.first <=> STAR_KEY_INDEX
+      finish = @keystrokes.last  <=> STAR_KEY_INDEX
       {
         [-1, -1 ] => :left,
         [-1,  0 ] => :left,
         [-1,  1 ] => :both,
         [ 0,  0 ] => :center,
-        [ 1,  1 ] => :right,
         [ 0,  1 ] => :right,
+        [ 1,  1 ] => :right,
       }.fetch([start, finish])
     end
 
@@ -161,7 +163,7 @@ module Steno
     def detect_overlaps
       @overlay = bricks.reverse.clone
       @foundation = []
-      left, right = bricks.partition { |b| b.keystrokes.first < 10 }
+      left, right = bricks.partition { |b| b.side == :left }
 
       right.reverse.each_cons(2) do |one,two|
         if one.span_key_set.intersect?(two.span_key_set)
