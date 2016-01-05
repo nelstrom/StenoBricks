@@ -5,10 +5,14 @@ module Steno
   describe 'Steno' do
     let(:registry) { double("BrickRegistry") }
     let(:mapper)   { double('BrickMapper') }
+    let(:start_z) { Brick.new('start-z', 'z',   [1, 10]) }
     let(:start_d) { Brick.new('start-d', 'd',   [2, 3]) }
     let(:start_b) { Brick.new('start-b', 'b',   [4, 5]) }
     let(:star)    { Brick.new('star', '*',   [10]) }
+    let(:soft_a)  { Brick.new('soft-a', 'a',   [8]) }
     let(:soft_e)  { Brick.new('soft-e', 'e',   [11]) }
+    let(:hard_a)  { Brick.new('hard-a', 'ay',   [8,11,12]) }
+    let(:hard_e)  { Brick.new('hard-e', 'ee',   [8,9,11]) }
     let(:end_b)   { Brick.new('end-b', 'b',  [16]) }
     let(:end_g)   { Brick.new('end-g', 'g',  [18]) }
     let(:end_th)  { Brick.new('end-th', 'th',  [10, 19]) }
@@ -27,6 +31,28 @@ module Steno
     end
 
     describe Brick do
+
+      describe '#side' do
+        it 'returns :left for bricks produced by left-hand' do
+          [start_z, start_d, start_b, soft_a].each do |brick|
+            expect(brick.side).to eql(:left)
+          end
+        end
+        it 'returns :right for bricks produced by right-hand' do
+          [end_b, end_g, end_nch, soft_e, end_th].each do |brick|
+            expect(brick.side).to eql(:right)
+          end
+        end
+        it 'returns :both for bricks produced by left and right hands' do
+          [hard_a, hard_e].each do |brick|
+            expect(brick.side).to eql(:both)
+          end
+        end
+        it 'returns :center for bricks produced by either hand' do
+          expect(star.side).to eql(:center)
+        end
+      end
+
       context 'with one keystroke, 2 units wide' do
         subject { star }
         it 'spans a range covering two units' do
@@ -96,15 +122,27 @@ module Steno
 
     end
 
-    describe FoundationBrick do
-      subject { FoundationBrick.new('end-th', 'th', [10, 19], soft_e) }
+    describe FoundationBrickLeft do
+      subject(:start_z) { FoundationBrickLeft.new('start-z', 'z', [1, 10], soft_a) }
 
-      it '#cover records the rightmost overlay brick' do
-        expect(subject.cover).to eql(soft_e)
+      it '#cover records the leftmost overlay brick' do
+        expect(start_z.cover).to eql(soft_a)
       end
 
       it '#midpoint is adjusted to accommodate the cover brick' do
-        expect(subject.midpoint).to eql(19.0)
+        expect(start_z.midpoint).to eql(6.0)
+      end
+    end
+
+    describe FoundationBrickRight do
+      subject(:end_th)  { FoundationBrickRight.new('end-th', 'th', [10, 19], soft_e) }
+
+      it '#cover records the rightmost overlay brick' do
+        expect(end_th.cover).to eql(soft_e)
+      end
+
+      it '#midpoint is adjusted to accommodate the cover brick' do
+        expect(end_th.midpoint).to eql(19.0)
       end
     end
 
@@ -155,10 +193,14 @@ module Steno
       end
 
       context "given bricks in wrong order" do
-        subject{ Stroke.new([soft_e, start_b, end_nch]) }
+        subject(:bench_stroke){ Stroke.new([soft_e, start_b, end_nch]) }
+        subject(:death_stroke){ Stroke.new([soft_e, start_d, end_th]) }
+        subject(:zag_stroke){ Stroke.new([soft_a, start_z, end_g]) }
 
         it '#bricks returns bricks with correct order' do
-          expect(subject.bricks).to eql([start_b, soft_e, end_nch])
+          expect(bench_stroke.bricks).to eql([start_b, soft_e, end_nch])
+          expect(death_stroke.bricks).to eql([start_d, soft_e, end_th])
+          expect(zag_stroke.bricks).to eql([start_z, soft_a, end_g])
         end
       end
 
@@ -178,7 +220,7 @@ module Steno
         end
       end
 
-      context "with bricks that do overlap" do
+      context "with bricks that overlap on right side" do
         subject{ Stroke.new([start_d, soft_e, end_th]) }
 
         it '#bricks returns a list of bricks' do
@@ -191,6 +233,22 @@ module Steno
 
         it '#overlay returns non-foundation bricks in reverse order' do
           expect(subject.overlay).to eql([soft_e, start_d])
+        end
+      end
+
+      context "with bricks that overlap on left side" do
+        subject{ Stroke.new([start_z, soft_a, end_g]) }
+
+        it '#bricks returns a list of bricks' do
+          expect(subject.bricks).to eql([start_z, soft_a, end_g])
+        end
+
+        it '#foundation returns start_z brick' do
+          expect(subject.foundation).to eql([FoundationBrick.new('start-z', 'z', [1, 10], soft_a)])
+        end
+
+        it '#overlay returns non-foundation bricks in reverse order' do
+          expect(subject.overlay).to eql([end_g, soft_a])
         end
       end
     end

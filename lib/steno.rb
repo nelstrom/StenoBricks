@@ -4,6 +4,8 @@ require_relative './steno_keyboard'
 
 module Steno
 
+  STAR_KEY_INDEX = 10
+
   def self.Brick(*args)
     case args.first
     when Brick then args.first
@@ -20,6 +22,19 @@ module Steno
       @id = id
       @label = label
       @keystrokes = keystrokes.sort
+    end
+
+    def side
+      start  = @keystrokes.first <=> STAR_KEY_INDEX
+      finish = @keystrokes.last  <=> STAR_KEY_INDEX
+      {
+        [-1, -1 ] => :left,
+        [-1,  0 ] => :left,
+        [-1,  1 ] => :both,
+        [ 0,  0 ] => :center,
+        [ 0,  1 ] => :right,
+        [ 1,  1 ] => :right,
+      }.fetch([start, finish])
     end
 
     def span
@@ -76,7 +91,20 @@ module Steno
     def is_foundation?
       true
     end
+  end
 
+  class FoundationBrickLeft < FoundationBrick
+    def label_span
+      first = KEY_INFORMATION[keystrokes.first][:left]
+      last  = cover.span[:start]
+      {
+        start: first,
+        width: (last - first)
+      }
+    end
+  end
+
+  class FoundationBrickRight < FoundationBrick
     def label_span
       first = cover.span[:start] + cover.span[:width]
       last  = KEY_INFORMATION[keystrokes.last][:right]
@@ -113,7 +141,9 @@ module Steno
           registry.lookup(b)
         end
       }
-      @bricks = bricks.sort_by { |b| b.keystrokes.last }
+      @bricks = bricks.sort_by { |b|
+        b.side == :left ? b.keystrokes.first : b.keystrokes.last
+      }
       detect_overlaps
       if mapper
         @notation = mapper.lookup(@bricks.map(&:id))
@@ -133,10 +163,19 @@ module Steno
     def detect_overlaps
       @overlay = bricks.reverse.clone
       @foundation = []
-      bricks.reverse.each_cons(2) do |one,two|
+      left, right = bricks.partition { |b| b.side == :left }
+
+      right.reverse.each_cons(2) do |one,two|
         if one.span_key_set.intersect?(two.span_key_set)
           @overlay = @overlay - [one]
-          @foundation << FoundationBrick.new(one.id, one.label, one.keystrokes, two)
+          @foundation << FoundationBrickRight.new(one.id, one.label, one.keystrokes, two)
+        end
+      end
+
+      left.each_cons(2) do |one,two|
+        if one.span_key_set.intersect?(two.span_key_set)
+          @overlay = @overlay - [one]
+          @foundation << FoundationBrickLeft.new(one.id, one.label, one.keystrokes, two)
         end
       end
     end
