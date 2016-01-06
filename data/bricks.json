@@ -115,6 +115,11 @@
     "keystrokes": [15, 17]
   },
   {
+    "id": "end-lm",
+    "label": "LM",
+    "keystrokes": [15, 17]
+  },
+  {
     "id": "start-n",
     "label": "N",
     "keystrokes": [2, 4, 6]
@@ -141,7 +146,7 @@
   },
   {
     "id": "start-q",
-    "label": "Q",
+    "label": "QU",
     "keystrokes": [3, 5]
   },
   {
