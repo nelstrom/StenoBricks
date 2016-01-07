@@ -1,5 +1,1317 @@
 [
   {
+    "output": "thefts",
+    "bricks": [
+      "start-th",
+      "short-e",
+      "end-f",
+      "end-t",
+      "end-s"
+    ]
+  },
+  {
+    "output": "thud",
+    "bricks": [
+      "start-th",
+      "short-u",
+      "end-d"
+    ]
+  },
+  {
+    "output": "thus",
+    "bricks": [
+      "start-th",
+      "short-u",
+      "end-s"
+    ]
+  },
+  {
+    "output": "thug",
+    "bricks": [
+      "start-th",
+      "short-u",
+      "end-g"
+    ]
+  },
+  {
+    "output": "oath",
+    "bricks": [
+      "long-o",
+      "end-th"
+    ]
+  },
+  {
+    "output": "troth",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "short-o",
+      "end-th"
+    ]
+  },
+  {
+    "output": "chess",
+    "bricks": [
+      "start-ch",
+      "short-e",
+      "end-s"
+    ]
+  },
+  {
+    "output": "chest",
+    "bricks": [
+      "start-ch",
+      "short-e",
+      "end-f-as-s",
+      "end-t"
+    ]
+  },
+  {
+    "output": "chart",
+    "bricks": [
+      "start-ch",
+      "short-a",
+      "end-r",
+      "end-t"
+    ]
+  },
+  {
+    "output": "chat",
+    "bricks": [
+      "start-ch",
+      "short-a",
+      "end-t"
+    ]
+  },
+  {
+    "output": "chop",
+    "bricks": [
+      "start-ch",
+      "short-o",
+      "end-p"
+    ]
+  },
+  {
+    "output": "chore",
+    "bricks": [
+      "start-ch",
+      "short-o",
+      "end-r"
+    ]
+  },
+  {
+    "output": "chaff",
+    "bricks": [
+      "start-ch",
+      "short-a",
+      "end-f"
+    ]
+  },
+  {
+    "output": "touch",
+    "bricks": [
+      "start-t",
+      "short-u",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "etch",
+    "bricks": [
+      "short-e",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "ratchet",
+    "bricks": [
+      "start-r",
+      "short-a",
+      "end-ch",
+      "end-t"
+    ]
+  },
+  {
+    "output": "hutch",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "hatch",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "watch",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "patch",
+    "bricks": [
+      "start-p",
+      "short-a",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "catch",
+    "bricks": [
+      "start-k",
+      "short-a",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "crutch",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-u",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "such",
+    "bricks": [
+      "start-s",
+      "short-u",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "sketch",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "short-e",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "stretch",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "start-r",
+      "short-e",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "retch",
+    "bricks": [
+      "start-r",
+      "short-e",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "shell",
+    "bricks": [
+      "start-sh",
+      "short-e",
+      "end-l"
+    ]
+  },
+  {
+    "output": "shuffled",
+    "bricks": [
+      "start-sh",
+      "short-u",
+      "end-f",
+      "end-l",
+      "suffix-ed"
+    ]
+  },
+  {
+    "output": "shall",
+    "bricks": [
+      "start-sh",
+      "short-a",
+      "end-l"
+    ]
+  },
+  {
+    "output": "shore",
+    "bricks": [
+      "start-sh",
+      "short-o",
+      "end-r"
+    ]
+  },
+  {
+    "output": "shovels",
+    "bricks": [
+      "start-sh",
+      "short-o",
+      "end-v",
+      "end-l",
+      "end-s"
+    ]
+  },
+  {
+    "output": "ash",
+    "bricks": [
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "rush",
+    "bricks": [
+      "start-r",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "rash",
+    "bricks": [
+      "start-r",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "hush",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "hash",
+    "bricks": [
+      "start-h",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "wash",
+    "bricks": [
+      "start-w",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "push",
+    "bricks": [
+      "start-p",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "posh",
+    "bricks": [
+      "start-p",
+      "short-o",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "crush",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "crash",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "trash",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "squash",
+    "bricks": [
+      "start-s",
+      "start-q",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "stash",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "anger",
+    "bricks": [
+      "short-a",
+      "end-r",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "storing",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "short-o",
+      "end-r",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "rung",
+    "bricks": [
+      "start-r",
+      "short-u",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "rang",
+    "bricks": [
+      "start-r",
+      "short-a",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "prong",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "short-o",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "tongue",
+    "bricks": [
+      "start-t",
+      "short-u",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "twang",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "short-a",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "song",
+    "bricks": [
+      "start-s",
+      "short-o",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "stung",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "short-u",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "strung",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "start-r",
+      "short-u",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "strong",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "start-r",
+      "short-o",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "sponge",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "short-o",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "orange",
+    "bricks": [
+      "short-o",
+      "end-r",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "thing",
+    "bricks": [
+      "start-th",
+      "short-i",
+      "end-ng"
+
+    ]
+  },
+  {
+    "output": "thence",
+    "bricks": [
+      "start-th",
+      "short-e",
+      "end-n",
+      "end-s"
+    ]
+  },
+  {
+    "output": "them",
+    "bricks": [
+      "start-th",
+      "short-e",
+      "end-m"
+    ]
+  },
+  {
+    "output": "thumb",
+    "bricks": [
+      "start-th",
+      "short-u",
+      "end-m"
+    ]
+  },
+  {
+    "output": "thrill",
+    "bricks": [
+      "start-th",
+      "start-r",
+      "short-i",
+      "end-l"
+    ]
+  },
+  {
+    "output": "throng",
+    "bricks": [
+      "start-th",
+      "start-r",
+      "short-o",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "thrash",
+    "bricks": [
+      "start-th",
+      "start-r",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "seethe",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-th"
+    ]
+  },
+  {
+    "output": "method",
+    "bricks": [
+      "start-m",
+      "short-e",
+      "end-th",
+      "end-d"
+    ]
+  },
+  {
+    "output": "math",
+    "bricks": [
+      "start-m",
+      "short-a",
+      "end-th"
+    ]
+  },
+  {
+    "output": "birth",
+    "bricks": [
+      "start-b",
+      "short-i",
+      "end-r",
+      "end-th"
+    ]
+  },
+  {
+    "output": "breath",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "short-e",
+      "end-th"
+    ]
+  },
+  {
+    "output": "fifth",
+    "bricks": [
+      "start-f",
+      "short-i",
+      "end-f",
+      "end-th"
+    ]
+  },
+  {
+    "output": "sleuth",
+    "bricks": [
+      "start-s",
+      "start-l",
+      "long-u",
+      "end-th"
+    ]
+  },
+  {
+    "output": "blithe",
+    "bricks": [
+      "start-b",
+      "start-l",
+      "long-i",
+      "end-th"
+    ]
+  },
+  {
+    "output": "growth",
+    "bricks": [
+      "start-g",
+      "start-r",
+      "long-o",
+      "end-th"
+    ]
+  },
+  {
+    "output": "choose",
+    "bricks": [
+      "start-ch",
+      "long-oo",
+      "end-s"
+    ]
+  },
+  {
+    "output": "chasm",
+    "bricks": [
+      "start-ch",
+      "short-a",
+      "end-f-as-s",
+      "end-m"
+    ]
+  },
+  {
+    "output": "chuck",
+    "bricks": [
+      "start-ch",
+      "short-u",
+      "end-k"
+    ]
+  },
+  {
+    "output": "check",
+    "bricks": [
+      "start-ch",
+      "short-e",
+      "end-k"
+    ]
+  },
+  {
+    "output": "churn",
+    "bricks": [
+      "start-ch",
+      "short-u",
+      "end-r",
+      "end-n"
+    ]
+  },
+  {
+    "output": "cherub",
+    "bricks": [
+      "start-ch",
+      "short-e",
+      "end-r",
+      "end-b"
+    ]
+  },
+  {
+    "output": "chin",
+    "bricks": [
+      "start-ch",
+      "short-i",
+      "end-n"
+    ]
+  },
+  {
+    "output": "channel",
+    "bricks": [
+      "start-ch",
+      "short-a",
+      "end-n",
+      "end-l"
+    ]
+  },
+  {
+    "output": "chant",
+    "bricks": [
+      "start-ch",
+      "short-a",
+      "end-n",
+      "end-t"
+    ]
+  },
+  {
+    "output": "chance",
+    "bricks": [
+      "start-ch",
+      "short-a",
+      "end-n",
+      "end-s"
+    ]
+  },
+  {
+    "output": "chive",
+    "bricks": [
+      "start-ch",
+      "long-i",
+      "end-v"
+    ]
+  },
+  {
+    "output": "charm",
+    "bricks": [
+      "start-ch",
+      "short-a",
+      "end-r",
+      "end-m"
+    ]
+  },
+  {
+    "output": "bleach",
+    "bricks": [
+      "start-b",
+      "start-l",
+      "long-e",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "much",
+    "bricks": [
+      "start-m",
+      "short-u",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "latch",
+    "bricks": [
+      "start-l",
+      "short-a",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "leech",
+    "bricks": [
+      "start-l",
+      "long-e",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "match",
+    "bricks": [
+      "start-m",
+      "short-a",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "botch",
+    "bricks": [
+      "start-b",
+      "short-o",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "fetch",
+    "bricks": [
+      "start-f",
+      "short-e",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "ditch",
+    "bricks": [
+      "start-d",
+      "short-i",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "glitch",
+    "bricks": [
+      "start-g",
+      "start-l",
+      "short-i",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "vouch",
+    "bricks": [
+      "start-v",
+      "dipthong-ow",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "slouch",
+    "bricks": [
+      "start-s",
+      "start-l",
+      "dipthong-ow",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "smooch",
+    "bricks": [
+      "start-s",
+      "start-m",
+      "long-oo",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "splotch",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-l",
+      "short-o",
+      "end-ch"
+    ]
+  },
+  {
+    "output": "shim",
+    "bricks": [
+      "start-sh",
+      "short-i",
+      "end-m"
+    ]
+  },
+  {
+    "output": "slime",
+    "bricks": [
+      "start-s",
+      "start-l",
+      "long-i",
+      "end-m"
+    ]
+  },
+  {
+    "output": "shrewd",
+    "bricks": [
+      "start-sh",
+      "start-r",
+      "long-u",
+      "end-d"
+    ]
+  },
+  {
+    "output": "shrine",
+    "bricks": [
+      "start-sh",
+      "start-r",
+      "long-i",
+      "end-n"
+    ]
+  },
+  {
+    "output": "shush",
+    "bricks": [
+      "start-sh",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "shuck",
+    "bricks": [
+      "start-sh",
+      "short-u",
+      "end-k"
+    ]
+  },
+  {
+    "output": "shark",
+    "bricks": [
+      "start-sh",
+      "short-a",
+      "end-r",
+      "end-k"
+    ]
+  },
+  {
+    "output": "shock",
+    "bricks": [
+      "start-sh",
+      "short-o",
+      "end-k"
+    ]
+  },
+  {
+    "output": "sheesh",
+    "bricks": [
+      "start-sh",
+      "long-e",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "shrivel",
+    "bricks": [
+      "start-sh",
+      "start-r",
+      "short-i",
+      "end-v",
+      "end-l"
+    ]
+  },
+  {
+    "output": "sugar",
+    "bricks": [
+      "start-sh",
+      "long-u",
+      "end-r",
+      "end-g"
+    ]
+  },
+  {
+    "output": "lash",
+    "bricks": [
+      "start-l",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "mesh",
+    "bricks": [
+      "start-m",
+      "short-e",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "mash",
+    "bricks": [
+      "start-m",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "plush",
+    "bricks": [
+      "start-p",
+      "start-l",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "bush",
+    "bricks": [
+      "start-b",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "brush",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "blush",
+    "bricks": [
+      "start-b",
+      "start-l",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "fish",
+    "bricks": [
+      "start-f",
+      "short-i",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "fresh",
+    "bricks": [
+      "start-f",
+      "start-r",
+      "short-e",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "flush",
+    "bricks": [
+      "start-f",
+      "start-l",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "flesh",
+    "bricks": [
+      "start-f",
+      "start-l",
+      "short-e",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "dash",
+    "bricks": [
+      "start-d",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "delish",
+    "bricks": [
+      "start-d",
+      "start-l",
+      "short-i",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "gosh",
+    "bricks": [
+      "start-g",
+      "short-o",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "gash",
+    "bricks": [
+      "start-g",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "shush",
+    "bricks": [
+      "start-sh",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "slash",
+    "bricks": [
+      "start-s",
+      "start-l",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "smush",
+    "bricks": [
+      "start-s",
+      "start-m",
+      "short-u",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "slosh",
+    "bricks": [
+      "start-s",
+      "start-l",
+      "short-o",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "splash",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-l",
+      "short-a",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "squish",
+    "bricks": [
+      "start-s",
+      "start-q",
+      "short-i",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "Irish",
+    "bricks": [
+      "long-i",
+      "end-sh"
+    ]
+  },
+  {
+    "output": "finger",
+    "bricks": [
+      "start-f",
+      "short-i",
+      "end-r",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "dung",
+    "bricks": [
+      "start-d",
+      "short-u",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "lung",
+    "bricks": [
+      "start-l",
+      "short-u",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "ping",
+    "bricks": [
+      "start-p",
+      "short-i",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "pong",
+    "bricks": [
+      "start-p",
+      "short-o",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "among",
+    "bricks": [
+      "start-m",
+      "short-o",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "bring",
+    "bricks": [
+      "start-b",
+      "start-r",
+      "short-i",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "young",
+    "bricks": [
+      "start-y",
+      "short-u",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "fang",
+    "bricks": [
+      "start-f",
+      "short-a",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "flung",
+    "bricks": [
+      "start-f",
+      "start-l",
+      "short-u",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "gang",
+    "bricks": [
+      "start-g",
+      "short-a",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "belong",
+    "bricks": [
+      "start-b",
+      "start-l",
+      "short-o",
+      "end-ng"
+    ]
+  },
+  {
+    "output": "change",
+    "bricks": [
+      "start-ch",
+      "long-a",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "range",
+    "bricks": [
+      "start-r",
+      "long-a",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "hinge",
+    "bricks": [
+      "start-h",
+      "short-i",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "lounge",
+    "bricks": [
+      "start-l",
+      "dipthong-ow",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "plunge",
+    "bricks": [
+      "start-p",
+      "start-l",
+      "short-u",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "cringe",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-i",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "tinge",
+    "bricks": [
+      "start-t",
+      "short-i",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "fringe",
+    "bricks": [
+      "start-f",
+      "start-r",
+      "short-i",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "derange",
+    "bricks": [
+      "start-d",
+      "start-r",
+      "long-a",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "grunge",
+    "bricks": [
+      "start-g",
+      "start-r",
+      "short-u",
+      "end-nj"
+    ]
+  },
+  {
+    "output": "syringe",
+    "bricks": [
+      "start-s",
+      "start-r",
+      "short-i",
+      "end-nj"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
@@ -3636,7 +4948,7 @@
       },
       {
         "bricks": [
-          "end-ch"
+          "suffix-ch"
         ]
       }
     ]
