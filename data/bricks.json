@@ -250,9 +250,34 @@
     "keystrokes": [3,6]
   },
   {
-    "id": "end-ch",
+    "id": "start-sh",
+    "label": "SH",
+    "keystrokes": [1,6]
+  },
+  {
+    "id": "suffix-ch",
     "label": "CH",
     "keystrokes": [10,13,15]
+  },
+  {
+    "id": "end-ch",
+    "label": "CH",
+    "keystrokes": [13,15]
+  },
+  {
+    "id": "end-sh",
+    "label": "SH",
+    "keystrokes": [14,16]
+  },
+  {
+    "id": "end-ng",
+    "label": "NG",
+    "keystrokes": [15,16,18]
+  },
+  {
+    "id": "end-nj",
+    "label": "NJ",
+    "keystrokes": [15,16,18]
   },
   {
     "id": "long-a",
