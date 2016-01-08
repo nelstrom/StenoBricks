@@ -33,6 +33,93 @@
     ]
   },
   {
+    "output": "rank",
+    "strokes": [
+      {
+        "bricks": [
+          "start-r",
+          "short-a",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "honk",
+    "strokes": [
+      {
+        "bricks": [
+          "start-h",
+          "short-o",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "prank",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "start-r",
+          "short-a",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "crank",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-r",
+          "short-a",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "tank",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-a",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
