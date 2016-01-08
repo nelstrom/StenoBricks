@@ -216,6 +216,15 @@
     ]
   },
   {
+    "output": "wretch",
+    "bricks": [
+      "start-w",
+      "start-r",
+      "short-e",
+      "end-ch"
+    ]
+  },
+  {
     "output": "shell",
     "bricks": [
       "start-sh",
