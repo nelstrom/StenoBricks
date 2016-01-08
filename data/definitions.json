@@ -8992,6 +8992,51 @@
           "end-ng"
         ]
       }
+    ],
+    "collisions": [
+      "think"
+    ]
+  },
+  {
+    "output": "think",
+    "input": "THEU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "short-i"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "think",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "short-i",
+          "end-nk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "think",
+    "input": "THEUPB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "short-i",
+          "end-n"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
+        ]
+      }
     ]
   },
   {
