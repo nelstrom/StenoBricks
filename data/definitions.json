@@ -1,5 +1,38 @@
 [
   {
+    "output": "crank",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-a",
+      "end-nk"
+    ]
+  },
+  {
+    "output": "dank",
+    "bricks": [
+      "start-d",
+      "short-a",
+      "end-nk"
+    ]
+  },
+  {
+    "output": "gunk",
+    "bricks": [
+      "start-g",
+      "short-u",
+      "end-nk"
+    ]
+  },
+  {
+    "output": "chunk",
+    "bricks": [
+      "start-ch",
+      "short-u",
+      "end-nk"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
