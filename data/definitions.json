@@ -1,152 +1,242 @@
 [
   {
     "output": "hemp",
-    "bricks": [
-      "start-h",
-      "short-e",
-      "end-mp"
+    "input": "H*EPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-h",
+          "short-e",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "trump",
-    "bricks": [
-      "start-t",
-      "start-r",
-      "short-u",
-      "end-mp"
+    "input": "TR*UPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "start-r",
+          "short-u",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "rump",
-    "bricks": [
-      "start-r",
-      "short-u",
-      "end-mp"
+    "input": "R*UPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-r",
+          "short-u",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "romp",
-    "bricks": [
-      "start-r",
-      "short-o",
-      "end-mp"
+    "input": "RO*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-r",
+          "short-o",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "ramp",
-    "bricks": [
-      "start-r",
-      "short-a",
-      "end-mp"
+    "input": "RA*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-r",
+          "short-a",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "pump",
-    "bricks": [
-      "start-p",
-      "short-u",
-      "end-mp"
+    "input": "P*UPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "short-u",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "camp",
-    "bricks": [
-      "start-k",
-      "short-a",
-      "end-mp"
+    "input": "KA*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "short-a",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "cramp",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "short-a",
-      "end-mp"
+    "input": "KRA*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-r",
+          "short-a",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "tamp",
-    "bricks": [
-      "start-t",
-      "short-a",
-      "end-mp"
+    "input": "TA*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-a",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "pomp",
-    "bricks": [
-      "start-p",
-      "short-o",
-      "end-mp"
+    "input": "PO*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "short-o",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "limp",
-    "bricks": [
-      "start-l",
-      "short-i",
-      "end-mp"
+    "input": "HR*EUPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "short-i",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "blimp",
-    "bricks": [
-      "start-b",
-      "start-l",
-      "short-i",
-      "end-mp"
+    "input": "PWHR*EUPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "start-l",
+          "short-i",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "chomp",
-    "bricks": [
-      "start-ch",
-      "short-o",
-      "end-mp"
+    "input": "KHO*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-ch",
+          "short-o",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "clamp",
-    "bricks": [
-      "start-k",
-      "start-l",
-      "short-a",
-      "end-mp"
+    "input": "KHRA*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-a",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "damp",
-    "bricks": [
-      "start-d",
-      "short-a",
-      "end-mp"
+    "input": "TKA*PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-a",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "slump",
-    "bricks": [
-      "start-s",
-      "start-l",
-      "short-u",
-      "end-mp"
+    "input": "SHR*UPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-l",
+          "short-u",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "shrimp",
-    "bricks": [
-      "start-sh",
-      "start-r",
-      "short-i",
-      "end-mp"
+    "input": "SHR*EUPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-sh",
+          "start-r",
+          "short-i",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
     "output": "jump",
-    "bricks": [
-      "start-j",
-      "short-u",
-      "end-mp"
+    "input": "SKWR*UPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-j",
+          "short-u",
+          "end-mp"
+        ]
+      }
     ]
   },
   {
