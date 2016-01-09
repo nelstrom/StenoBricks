@@ -360,6 +360,16 @@
     "keystrokes": [13,14,16]
   },
   {
+    "id": "end-lch",
+    "label": "LCH",
+    "keystrokes": [17,18]
+  },
+  {
+    "id": "end-lj",
+    "label": "LJ",
+    "keystrokes": [17,18]
+  },
+  {
     "id": "star",
     "label": "*",
     "keystrokes": [10]

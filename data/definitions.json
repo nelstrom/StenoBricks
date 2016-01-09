@@ -1,5 +1,70 @@
 [
   {
+    "output": "squelch",
+    "bricks": [
+      "start-s",
+      "start-q",
+      "short-e",
+      "end-lch"
+    ]
+  },
+  {
+    "output": "village",
+    "bricks": [
+      "start-v",
+      "short-i",
+      "end-lj"
+    ]
+  },
+  {
+    "output": "mulch",
+    "bricks": [
+      "start-m",
+      "short-u",
+      "end-lch"
+    ]
+  },
+  {
+    "output": "bulge",
+    "bricks": [
+      "start-b",
+      "short-u",
+      "end-lj"
+    ]
+  },
+  {
+    "output": "belch",
+    "bricks": [
+      "start-b",
+      "short-e",
+      "end-lch"
+    ]
+  },
+  {
+    "output": "bilge",
+    "bricks": [
+      "start-b",
+      "short-i",
+      "end-lj"
+    ]
+  },
+  {
+    "output": "gulch",
+    "bricks": [
+      "start-g",
+      "short-u",
+      "end-lch"
+    ]
+  },
+  {
+    "output": "pillage",
+    "bricks": [
+      "start-p",
+      "short-i",
+      "end-lj"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
