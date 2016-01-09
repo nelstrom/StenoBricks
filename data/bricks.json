@@ -285,6 +285,11 @@
     "keystrokes": [10,15,16,18]
   },
   {
+    "id": "end-lk",
+    "label": "LK",
+    "keystrokes": [10,17,18]
+  },
+  {
     "id": "long-a",
     "label": "AY",
     "keystrokes": [8,11,12]

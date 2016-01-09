@@ -1,5 +1,76 @@
 [
   {
+    "output": "hulk",
+    "bricks": [
+      "start-h",
+      "short-u",
+      "end-lk"
+    ]
+  },
+  {
+    "output": "calc",
+    "bricks": [
+      "start-k",
+      "short-a",
+      "end-lk"
+    ]
+  },
+  {
+    "output": "sulk",
+    "bricks": [
+      "start-s",
+      "short-u",
+      "end-lk"
+    ]
+  },
+  {
+    "output": "talc",
+    "bricks": [
+      "start-t",
+      "short-a",
+      "end-lk"
+    ]
+  },
+  {
+    "output": "ilk",
+    "bricks": [
+      "short-i",
+      "end-lk"
+    ]
+  },
+  {
+    "output": "milk",
+    "bricks": [
+      "start-m",
+      "short-i",
+      "end-lk"
+    ]
+  },
+  {
+    "output": "bulk",
+    "bricks": [
+      "start-b",
+      "short-u",
+      "end-lk"
+    ]
+  },
+  {
+    "output": "silk",
+    "bricks": [
+      "start-s",
+      "short-i",
+      "end-lk"
+    ]
+  },
+  {
+    "output": "bilk",
+    "bricks": [
+      "start-b",
+      "short-i",
+      "end-lk"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
