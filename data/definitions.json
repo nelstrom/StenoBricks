@@ -560,6 +560,24 @@
     ]
   },
   {
+    "output": "bilge",
+    "input": "PWEUL/-PBLG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-i",
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "end-j"
+        ]
+      }
+    ]
+  },
+  {
     "output": "birch",
     "input": "PWEUFRPB",
     "strokes": [
@@ -944,6 +962,24 @@
           "start-b",
           "short-u",
           "end-lj"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "bulge",
+    "input": "PWUL/-PBLG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-u",
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "end-j"
         ]
       }
     ]
@@ -6220,13 +6256,18 @@
   },
   {
     "output": "pillage",
-    "input": "PEULG",
+    "input": "PEUL/-PBLG",
     "strokes": [
       {
         "bricks": [
           "start-p",
           "short-i",
-          "end-lj"
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "end-j"
         ]
       }
     ]
@@ -10728,6 +10769,25 @@
           "start-v",
           "short-i",
           "end-lj"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "village",
+    "input": "SREUL/APBLG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "short-i",
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "short-a",
+          "end-j"
         ]
       }
     ]
