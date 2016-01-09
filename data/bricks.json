@@ -350,6 +350,11 @@
     "keystrokes": [10,19]
   },
   {
+    "id": "end-mp",
+    "label": "MP",
+    "keystrokes": [10,15,17]
+  },
+  {
     "id": "star",
     "label": "*",
     "keystrokes": [10]

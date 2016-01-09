@@ -1,5 +1,155 @@
 [
   {
+    "output": "hemp",
+    "bricks": [
+      "start-h",
+      "short-e",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "trump",
+    "bricks": [
+      "start-t",
+      "start-r",
+      "short-u",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "rump",
+    "bricks": [
+      "start-r",
+      "short-u",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "romp",
+    "bricks": [
+      "start-r",
+      "short-o",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "ramp",
+    "bricks": [
+      "start-r",
+      "short-a",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "pump",
+    "bricks": [
+      "start-p",
+      "short-u",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "camp",
+    "bricks": [
+      "start-k",
+      "short-a",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "cramp",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-a",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "tamp",
+    "bricks": [
+      "start-t",
+      "short-a",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "pomp",
+    "bricks": [
+      "start-p",
+      "short-o",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "limp",
+    "bricks": [
+      "start-l",
+      "short-i",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "blimp",
+    "bricks": [
+      "start-b",
+      "start-l",
+      "short-i",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "chomp",
+    "bricks": [
+      "start-ch",
+      "short-o",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "clamp",
+    "bricks": [
+      "start-k",
+      "start-l",
+      "short-a",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "damp",
+    "bricks": [
+      "start-d",
+      "short-a",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "slump",
+    "bricks": [
+      "start-s",
+      "start-l",
+      "short-u",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "shrimp",
+    "bricks": [
+      "start-sh",
+      "start-r",
+      "short-i",
+      "end-mp"
+    ]
+  },
+  {
+    "output": "jump",
+    "bricks": [
+      "start-j",
+      "short-u",
+      "end-mp"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
