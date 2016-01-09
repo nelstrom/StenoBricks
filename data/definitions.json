@@ -1,69 +1,109 @@
 [
   {
     "output": "curve",
-    "bricks": [
-      "start-k",
-      "short-u",
-      "end-rv"
+    "input": "KUFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "short-u",
+          "end-rv"
+        ]
+      }
     ]
   },
   {
     "output": "carve",
-    "bricks": [
-      "start-k",
-      "short-a",
-      "end-rv"
+    "input": "KAFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "short-a",
+          "end-rv"
+        ]
+      }
     ]
   },
   {
     "output": "serve",
-    "bricks": [
-      "start-s",
-      "short-e",
-      "end-rv"
+    "input": "SEFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-e",
+          "end-rv"
+        ]
+      }
     ]
   },
   {
     "output": "swerve",
-    "bricks": [
-      "start-s",
-      "start-w",
-      "short-e",
-      "end-rv"
+    "input": "SWEFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-w",
+          "short-e",
+          "end-rv"
+        ]
+      }
     ]
   },
   {
     "output": "starve",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "short-a",
-      "end-rv"
+    "input": "STAFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-t",
+          "short-a",
+          "end-rv"
+        ]
+      }
     ]
   },
   {
     "output": "nerve",
-    "bricks": [
-      "start-n",
-      "short-e",
-      "end-rv"
+    "input": "TPHEFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-e",
+          "end-rv"
+        ]
+      }
     ]
   },
   {
     "output": "verve",
-    "bricks": [
-      "start-v",
-      "short-e",
-      "end-rv"
+    "input": "SREFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "short-e",
+          "end-rv"
+        ]
+      }
     ]
   },
   {
     "output": "marvel",
-    "bricks": [
-      "start-m",
-      "short-a",
-      "end-rv",
-      "end-l"
+    "input": "PHAFRBL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "short-a",
+          "end-rv",
+          "end-l"
+        ]
+      }
     ]
   },
   {
