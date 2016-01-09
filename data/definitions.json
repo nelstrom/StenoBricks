@@ -1,73 +1,118 @@
 [
   {
     "output": "hulk",
-    "bricks": [
-      "start-h",
-      "short-u",
-      "end-lk"
+    "input": "H*ULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-h",
+          "short-u",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
     "output": "calc",
-    "bricks": [
-      "start-k",
-      "short-a",
-      "end-lk"
+    "input": "KA*LG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "short-a",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
     "output": "sulk",
-    "bricks": [
-      "start-s",
-      "short-u",
-      "end-lk"
+    "input": "S*ULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-u",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
     "output": "talc",
-    "bricks": [
-      "start-t",
-      "short-a",
-      "end-lk"
+    "input": "TA*LG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-a",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
     "output": "ilk",
-    "bricks": [
-      "short-i",
-      "end-lk"
+    "input": "*EULG",
+    "strokes": [
+      {
+        "bricks": [
+          "short-i",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
     "output": "milk",
-    "bricks": [
-      "start-m",
-      "short-i",
-      "end-lk"
+    "input": "PH*EULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "short-i",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
     "output": "bulk",
-    "bricks": [
-      "start-b",
-      "short-u",
-      "end-lk"
+    "input": "PW*ULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-u",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
     "output": "silk",
-    "bricks": [
-      "start-s",
-      "short-i",
-      "end-lk"
+    "input": "S*EULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-i",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
     "output": "bilk",
-    "bricks": [
-      "start-b",
-      "short-i",
-      "end-lk"
+    "input": "PW*EULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-i",
+          "end-lk"
+        ]
+      }
     ]
   },
   {
