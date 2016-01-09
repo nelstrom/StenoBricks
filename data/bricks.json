@@ -285,6 +285,21 @@
     "keystrokes": [10,15,16,18]
   },
   {
+    "id": "end-lk",
+    "label": "LK",
+    "keystrokes": [10,17,18]
+  },
+  {
+    "id": "end-shun",
+    "label": "SHUN",
+    "keystrokes": [18,20]
+  },
+  {
+    "id": "end-kshun",
+    "label": "KSHUN",
+    "keystrokes": [16,18,20]
+  },
+  {
     "id": "long-a",
     "label": "AY",
     "keystrokes": [8,11,12]
@@ -348,6 +363,26 @@
     "id": "end-th",
     "label": "TH",
     "keystrokes": [10,19]
+  },
+  {
+    "id": "end-mp",
+    "label": "MP",
+    "keystrokes": [10,15,17]
+  },
+  {
+    "id": "end-rv",
+    "label": "RV",
+    "keystrokes": [13,14,16]
+  },
+  {
+    "id": "end-lch",
+    "label": "LCH",
+    "keystrokes": [17,18]
+  },
+  {
+    "id": "end-lj",
+    "label": "LJ",
+    "keystrokes": [17,18]
   },
   {
     "id": "star",
