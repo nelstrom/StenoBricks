@@ -1,31 +1,47 @@
 [
   {
     "output": "section",
-    "bricks": [
-      "start-s",
-      "short-e",
-      "end-kshun"
+    "input": "SEBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-e",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "correction",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "short-e",
-      "end-kshun"
+    "input": "KREBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-r",
+          "short-e",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "suction",
-    "bricks": [
-      "start-s",
-      "short-u",
-      "end-kshun"
+    "input": "SUBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-u",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "suction",
+    "input": "SUBG/SHUPB",
     "strokes": [
       {
         "bricks": [
@@ -45,80 +61,125 @@
   },
   {
     "output": "election",
-    "bricks": [
-      "start-l",
-      "short-e",
-      "end-kshun"
+    "input": "HREBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "short-e",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "auction",
-    "bricks": [
-      "dipthong-aw",
-      "end-kshun"
+    "input": "AUBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "dipthong-aw",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "correction",
-    "bricks": [
-      "start-k",
-      "start-r",
-      "short-e",
-      "end-kshun"
+    "input": "KREBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-r",
+          "short-e",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "collection",
-    "bricks": [
-      "start-k",
-      "start-l",
-      "short-e",
-      "end-kshun"
+    "input": "KHREBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-e",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "fraction",
-    "bricks": [
-      "start-f",
-      "start-r",
-      "short-a",
-      "end-kshun"
+    "input": "TPRABGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "start-r",
+          "short-a",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "friction",
-    "bricks": [
-      "start-f",
-      "start-r",
-      "short-i",
-      "end-kshun"
+    "input": "TPREUBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f",
+          "start-r",
+          "short-i",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "depiction",
-    "bricks": [
-      "start-d",
-      "start-p",
-      "short-i",
-      "end-kshun"
+    "input": "TKPEUBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "start-p",
+          "short-i",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "selection",
-    "bricks": [
-      "start-s",
-      "start-l",
-      "short-e",
-      "end-kshun"
+    "input": "SHREBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-l",
+          "short-e",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
     "output": "seduction",
-    "bricks": [
-      "start-s",
-      "start-d",
-      "short-u",
-      "end-kshun"
+    "input": "STKUBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-d",
+          "short-u",
+          "end-kshun"
+        ]
+      }
     ]
   },
   {
