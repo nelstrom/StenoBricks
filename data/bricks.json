@@ -295,6 +295,11 @@
     "keystrokes": [18,20]
   },
   {
+    "id": "end-kshun",
+    "label": "KSHUN",
+    "keystrokes": [16,18,20]
+  },
+  {
     "id": "long-a",
     "label": "AY",
     "keystrokes": [8,11,12]

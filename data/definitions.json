@@ -1,5 +1,127 @@
 [
   {
+    "output": "section",
+    "bricks": [
+      "start-s",
+      "short-e",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "correction",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-e",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "suction",
+    "bricks": [
+      "start-s",
+      "short-u",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "suction",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-u",
+          "end-k"
+        ]
+      },
+      {
+        "bricks": [
+          "start-sh",
+          "short-u",
+          "end-n"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "election",
+    "bricks": [
+      "start-l",
+      "short-e",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "auction",
+    "bricks": [
+      "dipthong-aw",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "correction",
+    "bricks": [
+      "start-k",
+      "start-r",
+      "short-e",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "collection",
+    "bricks": [
+      "start-k",
+      "start-l",
+      "short-e",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "fraction",
+    "bricks": [
+      "start-f",
+      "start-r",
+      "short-a",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "friction",
+    "bricks": [
+      "start-f",
+      "start-r",
+      "short-i",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "depiction",
+    "bricks": [
+      "start-d",
+      "start-p",
+      "short-i",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "selection",
+    "bricks": [
+      "start-s",
+      "start-l",
+      "short-e",
+      "end-kshun"
+    ]
+  },
+  {
+    "output": "seduction",
+    "bricks": [
+      "start-s",
+      "start-d",
+      "short-u",
+      "end-kshun"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
