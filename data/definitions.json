@@ -1,5 +1,177 @@
 [
   {
+    "output": "session",
+    "bricks": [
+      "start-s",
+      "short-e",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "session",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-e",
+          "end-sh"
+        ]
+      },
+      {
+        "bricks": [
+          "short-o",
+          "end-n"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "option",
+    "bricks": [
+      "short-o",
+      "end-p",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "ration",
+    "bricks": [
+      "start-r",
+      "short-a",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "portion",
+    "bricks": [
+      "start-p",
+      "short-o",
+      "end-r",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "passion",
+    "bricks": [
+      "start-p",
+      "short-a",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "cushion",
+    "bricks": [
+      "start-k",
+      "short-u",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "caption",
+    "bricks": [
+      "start-k",
+      "short-a",
+      "end-p",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "suppression",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-r",
+      "short-e",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "lesion",
+    "bricks": [
+      "start-l",
+      "long-e",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "lesion",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "long-e"
+        ]
+      },
+      {
+        "bricks": [
+          "start-sh",
+          "short-u",
+          "end-n"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "provision",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "short-i",
+      "end-v",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "fusion",
+    "bricks": [
+      "start-f",
+      "long-u",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "lotion",
+    "bricks": [
+      "start-l",
+      "long-o",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "operation",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "long-a",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "mission",
+    "bricks": [
+      "start-m",
+      "short-i",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "motion",
+    "bricks": [
+      "start-m",
+      "long-o",
+      "end-shun"
+    ]
+  },
+  {
+    "output": "pollution",
+    "bricks": [
+      "start-p",
+      "start-l",
+      "long-u",
+      "end-shun"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
@@ -13,17 +185,17 @@
   },
   {
     "output": "(",
-    "input": "PREPB",
-    "strokes": [
-      {
-        "bricks": [
-          "start-p",
-          "start-r",
-          "short-e",
-          "end-n"
-        ]
-      }
-    ]
+      "input": "PREPB",
+      "strokes": [
+        {
+          "bricks": [
+            "start-p",
+            "start-r",
+            "short-e",
+            "end-n"
+          ]
+        }
+      ]
   },
   {
     "output": ")",
@@ -57,17 +229,17 @@
   },
   {
     "output": "[",
-    "input": "PWR-BGT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "start-r",
-          "end-k",
-          "end-t"
-        ]
-      }
-    ]
+      "input": "PWR-BGT",
+      "strokes": [
+        {
+          "bricks": [
+            "start-b",
+            "start-r",
+            "end-k",
+            "end-t"
+          ]
+        }
+      ]
   },
   {
     "output": "]",
@@ -11843,72 +12015,72 @@
   },
   {
     "output": "{",
-    "input": "TPR-BGT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "start-r",
-          "end-k",
-          "end-t"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "{!}",
-    "input": "SKHRAPL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-k",
-          "start-l",
-          "short-a",
-          "end-m"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "{?}",
-    "input": "H-F",
-    "strokes": [
-      {
-        "bricks": [
-          "start-h",
-          "end-f"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "{^%}",
-    "input": "PERS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-p",
-          "short-e",
-          "end-r",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "}",
-    "input": "TPR*BGT",
-    "strokes": [
-      {
-        "bricks": [
-          "start-f",
-          "start-r",
-          "star",
-          "end-k",
-          "end-t"
-        ]
-      }
-    ]
+      "input": "TPR-BGT",
+      "strokes": [
+        {
+          "bricks": [
+            "start-f",
+            "start-r",
+            "end-k",
+            "end-t"
+          ]
+        }
+      ]
+    },
+    {
+      "output": "{!}",
+      "input": "SKHRAPL",
+      "strokes": [
+        {
+          "bricks": [
+            "start-s",
+            "start-k",
+            "start-l",
+            "short-a",
+            "end-m"
+          ]
+        }
+      ]
+    },
+    {
+      "output": "{?}",
+      "input": "H-F",
+      "strokes": [
+        {
+          "bricks": [
+            "start-h",
+            "end-f"
+          ]
+        }
+      ]
+    },
+    {
+      "output": "{^%}",
+      "input": "PERS",
+      "strokes": [
+        {
+          "bricks": [
+            "start-p",
+            "short-e",
+            "end-r",
+            "end-s"
+          ]
+        }
+      ]
+    },
+    {
+      "output": "}",
+      "input": "TPR*BGT",
+      "strokes": [
+        {
+          "bricks": [
+            "start-f",
+            "start-r",
+            "star",
+            "end-k",
+            "end-t"
+          ]
+        }
+      ]
   }
 ]

@@ -290,6 +290,11 @@
     "keystrokes": [10,17,18]
   },
   {
+    "id": "end-shun",
+    "label": "SHUN",
+    "keystrokes": [18,20]
+  },
+  {
     "id": "long-a",
     "label": "AY",
     "keystrokes": [8,11,12]
