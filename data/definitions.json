@@ -1,5 +1,768 @@
 [
   {
+    "output": "a",
+    "bricks": [
+      "long-a"
+    ]
+  },
+  {
+    "output": "about",
+    "bricks": [
+      "start-b"
+    ]
+  },
+  {
+    "output": "actually",
+    "bricks": [
+      "start-t",
+      "start-w",
+      "long-a",
+      "end-l"
+    ]
+  },
+  {
+    "output": "after",
+    "bricks": [
+      "short-a",
+      "end-f"
+    ]
+  },
+  {
+    "output": "against",
+    "bricks": [
+      "start-g",
+      "short-e",
+      "end-n",
+      "end-s"
+    ]
+  },
+  {
+    "output": "almost",
+    "bricks": [
+      "start-l",
+      "end-m"
+    ]
+  },
+  {
+    "output": "amount",
+    "bricks": [
+      "short-a",
+      "end-m",
+      "end-t"
+    ]
+  },
+  {
+    "output": "another",
+    "bricks": [
+      "start-n",
+      "short-o",
+      "short-e",
+      "end-r"
+    ]
+  },
+  {
+    "output": "any",
+    "bricks": [
+      "start-n",
+      "short-i"
+    ]
+  },
+  {
+    "output": "anything",
+    "bricks": [
+      "start-n",
+      "short-i",
+      "suffix-ing"
+    ]
+  },
+  {
+    "output": "are",
+    "bricks": [
+      "start-r"
+    ]
+  },
+  {
+    "output": "ask",
+    "bricks": [
+      "start-s",
+      "start-k"
+    ]
+  },
+  {
+    "output": "be",
+    "bricks": [
+      "start-b"
+    ]
+  },
+  {
+    "output": "became",
+    "bricks": [
+      "start-b",
+      "long-a",
+      "end-m"
+    ]
+  },
+  {
+    "output": "because",
+    "bricks": [
+      "start-b",
+      "dipthong-aw",
+      "end-s"
+    ]
+  },
+  {
+    "output": "become",
+    "bricks": [
+      "start-b",
+      "end-k"
+    ]
+  },
+  {
+    "output": "becomes",
+    "bricks": [
+      "start-b",
+      "end-k",
+      "end-s"
+    ]
+  },
+  {
+    "output": "been",
+    "bricks": [
+      "start-b",
+      "end-n"
+    ]
+  },
+  {
+    "output": "before",
+    "bricks": [
+      "start-b",
+      "end-f"
+    ]
+  },
+  {
+    "output": "beginning",
+    "bricks": [
+      "start-g",
+      "short-i",
+      "end-n",
+      "suffix-ing"
+    ]
+  },
+  {
+    "output": "being",
+    "bricks": [
+      "end-b",
+      "suffix-ing"
+    ]
+  },
+  {
+    "output": "by",
+    "bricks": [
+      "start-b",
+      "short-i"
+    ]
+  },
+  {
+    "output": "can",
+    "bricks": [
+      "start-k"
+    ]
+  },
+  {
+    "output": "continue",
+    "bricks": [
+      "start-t",
+      "end-k"
+    ]
+  },
+  {
+    "output": "continued",
+    "bricks": [
+      "start-t",
+      "end-k",
+      "suffix-ed"
+    ]
+  },
+  {
+    "output": "could",
+    "bricks": [
+      "start-k",
+      "short-o"
+    ]
+  },
+  {
+    "output": "describe",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "start-r",
+      "short-i"
+    ]
+  },
+  {
+    "output": "described",
+    "bricks": [
+      "start-s",
+      "start-k",
+      "start-r",
+      "short-i",
+      "suffix-ed"
+    ]
+  },
+  {
+    "output": "do",
+    "bricks": [
+      "start-d",
+      "short-o"
+    ]
+  },
+  {
+    "output": "easy",
+    "bricks": [
+      "short-e",
+      "end-z"
+    ]
+  },
+  {
+    "output": "even",
+    "bricks": [
+      "long-e",
+      "end-n"
+    ]
+  },
+  {
+    "output": "ever",
+    "bricks": [
+      "end-f",
+      "end-r"
+    ]
+  },
+  {
+    "output": "every",
+    "bricks": [
+      "short-e",
+      "end-f",
+      "end-r"
+    ]
+  },
+  {
+    "output": "example",
+    "bricks": [
+      "start-x",
+      "end-m"
+    ]
+  },
+  {
+    "output": "have",
+    "bricks": [
+      "start-v"
+    ]
+  },
+  {
+    "output": "having",
+    "bricks": [
+      "start-v",
+      "suffix-ing"
+    ]
+  },
+  {
+    "output": "he",
+    "bricks": [
+      "short-e"
+    ]
+  },
+  {
+    "output": "idea",
+    "bricks": [
+      "start-y",
+      "end-d"
+    ]
+  },
+  {
+    "output": "ideas",
+    "bricks": [
+      "start-y",
+      "end-d",
+      "end-z"
+    ]
+  },
+  {
+    "output": "if",
+    "bricks": [
+      "start-f"
+    ]
+  },
+  {
+    "output": "in",
+    "bricks": [
+      "start-n"
+    ]
+  },
+  {
+    "output": "include",
+    "bricks": [
+      "start-k",
+      "start-l",
+      "short-u"
+    ]
+  },
+  {
+    "output": "included",
+    "bricks": [
+      "start-k",
+      "start-l",
+      "short-u",
+      "suffix-ed"
+    ]
+  },
+  {
+    "output": "including",
+    "bricks": [
+      "start-k",
+      "start-l",
+      "short-u",
+      "suffix-ing"
+    ]
+  },
+  {
+    "output": "includes",
+    "bricks": [
+      "start-k",
+      "start-l",
+      "short-u",
+      "end-s"
+    ]
+  },
+  {
+    "output": "interest",
+    "bricks": [
+      "start-t",
+      "end-r"
+    ]
+  },
+  {
+    "output": "interest",
+    "bricks": [
+      "start-t",
+      "start-r"
+    ]
+  },
+  {
+    "output": "I",
+    "bricks": [
+      "short-i"
+    ]
+  },
+  {
+    "output": "is",
+    "bricks": [
+      "start-s"
+    ]
+  },
+  {
+    "output": "many",
+    "bricks": [
+      "start-m",
+      "long-a-with-ea",
+      "end-n"
+    ]
+  },
+  {
+    "output": "move",
+    "bricks": [
+      "start-m",
+      "short-o",
+      "end-v"
+    ]
+  },
+  {
+    "output": "new",
+    "bricks": [
+      "start-n",
+      "short-u"
+    ]
+  },
+  {
+    "output": "of",
+    "bricks": [
+      "end-f"
+    ]
+  },
+  {
+    "output": "only",
+    "bricks": [
+      "long-o",
+      "end-n",
+      "end-l"
+    ]
+  },
+  {
+    "output": "opinion",
+    "bricks": [
+      "start-p",
+      "end-n"
+    ]
+  },
+  {
+    "output": "other",
+    "bricks": [
+      "short-o",
+      "short-e",
+      "end-r"
+    ]
+  },
+  {
+    "output": "others",
+    "bricks": [
+      "short-o",
+      "short-e",
+      "end-r",
+      "end-s"
+    ]
+  },
+  {
+    "output": "otherwise",
+    "bricks": [
+      "short-o",
+      "short-e",
+      "star",
+      "end-r",
+      "end-z"
+    ]
+  },
+  {
+    "output": "probably",
+    "bricks": [
+      "start-p",
+      "start-r",
+      "short-o",
+      "end-b",
+      "end-l"
+    ]
+  },
+  {
+    "output": "question",
+    "bricks": [
+      "start-q",
+      "short-e"
+    ]
+  },
+  {
+    "output": "receive",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-v"
+    ]
+  },
+  {
+    "output": "received",
+    "bricks": [
+      "start-s",
+      "long-e",
+      "end-v",
+      "suffix-ed"
+    ]
+  },
+  {
+    "output": "said",
+    "bricks": [
+      "start-s",
+      "long-a",
+      "end-d"
+    ]
+  },
+  {
+    "output": "somebody",
+    "bricks": [
+      "start-s",
+      "end-b"
+    ]
+  },
+  {
+    "output": "somehow",
+    "bricks": [
+      "start-s",
+      "start-h",
+      "dipthong-ow"
+    ]
+  },
+  {
+    "output": "somehow",
+    "bricks": [
+      "start-s",
+      "start-m",
+      "dipthong-ow"
+    ]
+  },
+  {
+    "output": "someone",
+    "bricks": [
+      "start-s",
+      "start-m",
+      "end-n"
+    ]
+  },
+  {
+    "output": "someplace",
+    "bricks": [
+      "start-s",
+      "start-p",
+      "start-l",
+      "long-a",
+      "end-s"
+    ]
+  },
+  {
+    "output": "something",
+    "bricks": [
+      "start-s",
+      "suffix-ing"
+    ]
+  },
+  {
+    "output": "sometimes",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "long-i",
+      "end-m",
+      "end-s"
+    ]
+  },
+  {
+    "output": "somewhere",
+    "bricks": [
+      "start-s",
+      "start-w",
+      "start-r"
+    ]
+  },
+  {
+    "output": "somewhere",
+    "bricks": [
+      "start-s",
+      "start-w",
+      "end-r"
+    ]
+  },
+  {
+    "output": "that",
+    "bricks": [
+      "start-th",
+      "short-a"
+    ]
+  },
+  {
+    "output": "there",
+    "bricks": [
+      "start-th",
+      "start-r"
+    ]
+  },
+  {
+    "output": "therefore",
+    "bricks": [
+      "start-th",
+      "start-r",
+      "end-f",
+      "end-r"
+    ]
+  },
+  {
+    "output": "the",
+    "bricks": [
+      "end-t"
+    ]
+  },
+  {
+    "output": "they",
+    "bricks": [
+      "start-t",
+      "short-e"
+    ]
+  },
+  {
+    "output": "this",
+    "bricks": [
+      "start-th"
+    ]
+  },
+  {
+    "output": "through",
+    "bricks": [
+      "start-th",
+      "start-r",
+      "short-u"
+    ]
+  },
+  {
+    "output": "today",
+    "bricks": [
+      "start-t",
+      "long-o",
+      "end-d"
+    ]
+  },
+  {
+    "output": "understand",
+    "bricks": [
+      "short-u",
+      "end-r",
+      "end-n",
+      "end-d"
+    ]
+  },
+  {
+    "output": "understanding",
+    "bricks": [
+      "short-u",
+      "end-r",
+      "end-n",
+      "suffix-ing",
+      "end-d"
+    ]
+  },
+  {
+    "output": "understands",
+    "bricks": [
+      "short-u",
+      "end-r",
+      "end-n",
+      "end-d",
+      "end-z"
+    ]
+  },
+  {
+    "output": "unless",
+    "bricks": [
+      "start-n",
+      "end-l",
+      "end-s"
+    ]
+  },
+  {
+    "output": "very",
+    "bricks": [
+      "start-v",
+      "short-e"
+    ]
+  },
+  {
+    "output": "were",
+    "bricks": [
+      "start-w",
+      "start-r"
+    ]
+  },
+  {
+    "output": "what",
+    "bricks": [
+      "start-w",
+      "start-h",
+      "short-a"
+    ]
+  },
+  {
+    "output": "where",
+    "bricks": [
+      "start-w",
+      "end-r"
+    ]
+  },
+  {
+    "output": "whether",
+    "bricks": [
+      "start-w",
+      "start-h",
+      "start-r"
+    ]
+  },
+  {
+    "output": "which",
+    "bricks": [
+      "start-w",
+      "short-i"
+    ]
+  },
+  {
+    "output": "who",
+    "bricks": [
+      "start-w",
+      "start-h",
+      "short-o"
+    ]
+  },
+  {
+    "output": "with",
+    "bricks": [
+      "start-w"
+    ]
+  },
+  {
+    "output": "within",
+    "bricks": [
+      "start-w",
+      "end-n"
+    ]
+  },
+  {
+    "output": "without",
+    "bricks": [
+      "start-w",
+      "dipthong-ow",
+      "end-t"
+    ]
+  },
+  {
+    "output": "would",
+    "bricks": [
+      "start-w",
+      "short-o"
+    ]
+  },
+  {
+    "output": "yes",
+    "bricks": [
+      "start-y",
+      "short-e"
+    ]
+  },
+  {
+    "output": "you",
+    "bricks": [
+      "short-u"
+    ]
+  },
+  {
+    "output": "you'd",
+    "bricks": [
+      "short-u",
+      "end-d"
+    ]
+  },
+  {
+    "output": "you'll",
+    "bricks": [
+      "short-u",
+      "end-l"
+    ]
+  },
+  {
+    "output": "you're",
+    "bricks": [
+      "short-u",
+      "end-r"
+    ]
+  },
+  {
+    "output": "you've",
+    "bricks": [
+      "short-u",
+      "end-v"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
@@ -513,7 +1276,7 @@
       },
       {
         "bricks": [
-          "end-g"
+          "suffix-ing"
         ]
       }
     ]
