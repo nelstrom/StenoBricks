@@ -1,5 +1,72 @@
 [
   {
+    "output": "curve",
+    "bricks": [
+      "start-k",
+      "short-u",
+      "end-rv"
+    ]
+  },
+  {
+    "output": "carve",
+    "bricks": [
+      "start-k",
+      "short-a",
+      "end-rv"
+    ]
+  },
+  {
+    "output": "serve",
+    "bricks": [
+      "start-s",
+      "short-e",
+      "end-rv"
+    ]
+  },
+  {
+    "output": "swerve",
+    "bricks": [
+      "start-s",
+      "start-w",
+      "short-e",
+      "end-rv"
+    ]
+  },
+  {
+    "output": "starve",
+    "bricks": [
+      "start-s",
+      "start-t",
+      "short-a",
+      "end-rv"
+    ]
+  },
+  {
+    "output": "nerve",
+    "bricks": [
+      "start-n",
+      "short-e",
+      "end-rv"
+    ]
+  },
+  {
+    "output": "verve",
+    "bricks": [
+      "start-v",
+      "short-e",
+      "end-rv"
+    ]
+  },
+  {
+    "output": "marvel",
+    "bricks": [
+      "start-m",
+      "short-a",
+      "end-rv",
+      "end-l"
+    ]
+  },
+  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [

@@ -355,6 +355,11 @@
     "keystrokes": [10,15,17]
   },
   {
+    "id": "end-rv",
+    "label": "RV",
+    "keystrokes": [13,14,16]
+  },
+  {
     "id": "star",
     "label": "*",
     "keystrokes": [10]
