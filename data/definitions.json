@@ -591,6 +591,24 @@
     ]
   },
   {
+    "output": "bilk",
+    "input": "PWEUL/-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-i",
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
     "output": "birch",
     "input": "PWEUFRPB",
     "strokes": [
@@ -1006,6 +1024,24 @@
           "start-b",
           "short-u",
           "end-lk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "bulk",
+    "input": "PWUL/-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-u",
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
         ]
       }
     ]
@@ -4595,6 +4631,23 @@
     ]
   },
   {
+    "output": "ilk",
+    "input": "EUL/-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "short-i",
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
+        ]
+      }
+    ]
+  },
+  {
     "output": "in",
     "input": "TPH",
     "strokes": [
@@ -5483,6 +5536,24 @@
           "start-m",
           "short-i",
           "end-lk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "milk",
+    "input": "PHEUL/-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "short-i",
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
         ]
       }
     ]
@@ -8663,6 +8734,24 @@
           "start-s",
           "short-i",
           "end-lk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "silk",
+    "input": "SEUL/-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-i",
+          "end-l"
+        ]
+      },
+      {
+        "bricks": [
+          "end-k"
         ]
       }
     ]
