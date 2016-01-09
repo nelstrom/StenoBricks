@@ -1,112 +1,5 @@
 [
   {
-    "output": "curve",
-    "input": "KUFRB",
-    "strokes": [
-      {
-        "bricks": [
-          "start-k",
-          "short-u",
-          "end-rv"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "carve",
-    "input": "KAFRB",
-    "strokes": [
-      {
-        "bricks": [
-          "start-k",
-          "short-a",
-          "end-rv"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "serve",
-    "input": "SEFRB",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "short-e",
-          "end-rv"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "swerve",
-    "input": "SWEFRB",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-w",
-          "short-e",
-          "end-rv"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "starve",
-    "input": "STAFRB",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-t",
-          "short-a",
-          "end-rv"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "nerve",
-    "input": "TPHEFRB",
-    "strokes": [
-      {
-        "bricks": [
-          "start-n",
-          "short-e",
-          "end-rv"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "verve",
-    "input": "SREFRB",
-    "strokes": [
-      {
-        "bricks": [
-          "start-v",
-          "short-e",
-          "end-rv"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "marvel",
-    "input": "PHAFRBL",
-    "strokes": [
-      {
-        "bricks": [
-          "start-m",
-          "short-a",
-          "end-rv",
-          "end-l"
-        ]
-      }
-    ]
-  },
-  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
@@ -1186,6 +1079,19 @@
     ]
   },
   {
+    "output": "carve",
+    "input": "KAFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "short-a",
+          "end-rv"
+        ]
+      }
+    ]
+  },
+  {
     "output": "castle",
     "input": "KAFL",
     "strokes": [
@@ -1851,6 +1757,20 @@
   },
   {
     "output": "crank",
+    "input": "KRA*PBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-r",
+          "short-a",
+          "end-nk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "crank",
     "input": "KRAPB/-BG",
     "strokes": [
       {
@@ -1864,20 +1784,6 @@
       {
         "bricks": [
           "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "crank",
-    "input": "KRA*PBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-k",
-          "start-r",
-          "short-a",
-          "end-nk"
         ]
       }
     ]
@@ -2151,6 +2057,19 @@
           "start-k",
           "long-u",
           "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "curve",
+    "input": "KUFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "short-u",
+          "end-rv"
         ]
       }
     ]
@@ -4194,19 +4113,6 @@
   },
   {
     "output": "honk",
-    "input": "HO*PBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-h",
-          "short-o",
-          "end-nk"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "honk",
     "input": "HOPB/-BG",
     "strokes": [
       {
@@ -4219,6 +4125,19 @@
       {
         "bricks": [
           "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "honk",
+    "input": "HO*PBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-h",
+          "short-o",
+          "end-nk"
         ]
       }
     ]
@@ -5155,20 +5074,6 @@
   },
   {
     "output": "lunch",
-    "input": "HRUPBS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "short-u",
-          "end-n",
-          "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "lunch",
     "input": "HRUPB/*FP",
     "strokes": [
       {
@@ -5181,6 +5086,20 @@
       {
         "bricks": [
           "suffix-ch"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "lunch",
+    "input": "HRUPBS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "short-u",
+          "end-n",
+          "end-s"
         ]
       }
     ]
@@ -5291,6 +5210,20 @@
           "start-m",
           "short-a",
           "end-rch"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "marvel",
+    "input": "PHAFRBL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "short-a",
+          "end-rv",
+          "end-l"
         ]
       }
     ]
@@ -5562,6 +5495,19 @@
           "short-e",
           "end-r",
           "end-d"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "nerve",
+    "input": "TPHEFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-e",
+          "end-rv"
         ]
       }
     ]
@@ -6587,20 +6533,6 @@
   },
   {
     "output": "prank",
-    "input": "PRA*PBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-p",
-          "start-r",
-          "short-a",
-          "end-nk"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "prank",
     "input": "PRAPB/-BG",
     "strokes": [
       {
@@ -6619,16 +6551,15 @@
     ]
   },
   {
-    "output": "present",
-    "input": "PREPBT",
+    "output": "prank",
+    "input": "PRA*PBG",
     "strokes": [
       {
         "bricks": [
           "start-p",
           "start-r",
-          "short-e",
-          "end-n",
-          "end-t"
+          "short-a",
+          "end-nk"
         ]
       }
     ]
@@ -6647,6 +6578,21 @@
       },
       {
         "bricks": [
+          "short-e",
+          "end-n",
+          "end-t"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "present",
+    "input": "PREPBT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "start-r",
           "short-e",
           "end-n",
           "end-t"
@@ -8238,6 +8184,19 @@
     ]
   },
   {
+    "output": "serve",
+    "input": "SEFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-e",
+          "end-rv"
+        ]
+      }
+    ]
+  },
+  {
     "output": "set",
     "input": "SET",
     "strokes": [
@@ -9209,6 +9168,20 @@
     ]
   },
   {
+    "output": "starve",
+    "input": "STAFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-t",
+          "short-a",
+          "end-rv"
+        ]
+      }
+    ]
+  },
+  {
     "output": "stash",
     "input": "STARB",
     "strokes": [
@@ -9500,6 +9473,20 @@
     ]
   },
   {
+    "output": "swerve",
+    "input": "SWEFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-w",
+          "short-e",
+          "end-rv"
+        ]
+      }
+    ]
+  },
+  {
     "output": "synergistic",
     "input": "SEUPB/ERPBLG/EUFT/EUBG",
     "strokes": [
@@ -9655,19 +9642,6 @@
   },
   {
     "output": "tank",
-    "input": "TA*PBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-t",
-          "short-a",
-          "end-nk"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "tank",
     "input": "TAPB/-BG",
     "strokes": [
       {
@@ -9680,6 +9654,19 @@
       {
         "bricks": [
           "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "tank",
+    "input": "TA*PBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-a",
+          "end-nk"
         ]
       }
     ]
@@ -9898,24 +9885,24 @@
   },
   {
     "output": "there",
-    "input": "TH-R",
-    "strokes": [
-      {
-        "bricks": [
-          "start-th",
-          "end-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "there",
     "input": "THR",
     "strokes": [
       {
         "bricks": [
           "start-th",
           "start-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "there",
+    "input": "TH-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "end-r"
         ]
       }
     ]
@@ -9963,19 +9950,6 @@
   },
   {
     "output": "think",
-    "input": "TH*EUPBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-th",
-          "short-i",
-          "end-nk"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "think",
     "input": "THEUPB/-BG",
     "strokes": [
       {
@@ -9988,6 +9962,19 @@
       {
         "bricks": [
           "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "think",
+    "input": "TH*EUPBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "short-i",
+          "end-nk"
         ]
       }
     ]
@@ -10615,6 +10602,19 @@
     ]
   },
   {
+    "output": "verve",
+    "input": "SREFRB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "short-e",
+          "end-rv"
+        ]
+      }
+    ]
+  },
+  {
     "output": "vile",
     "input": "SRAOEUL",
     "strokes": [
@@ -10775,13 +10775,13 @@
   },
   {
     "output": "was",
-    "input": "WAZ",
+    "input": "WAS",
     "strokes": [
       {
         "bricks": [
           "start-w",
           "short-a",
-          "end-z"
+          "end-s"
         ]
       }
     ]
@@ -10800,13 +10800,13 @@
   },
   {
     "output": "was",
-    "input": "WAS",
+    "input": "WAZ",
     "strokes": [
       {
         "bricks": [
           "start-w",
           "short-a",
-          "end-s"
+          "end-z"
         ]
       }
     ]
