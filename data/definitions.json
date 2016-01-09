@@ -1,110 +1,5 @@
 [
   {
-    "output": "squelch",
-    "input": "SKWELG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "start-q",
-          "short-e",
-          "end-lch"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "village",
-    "input": "SREULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-v",
-          "short-i",
-          "end-lj"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "mulch",
-    "input": "PHULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-m",
-          "short-u",
-          "end-lch"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "bulge",
-    "input": "PWULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "short-u",
-          "end-lj"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "belch",
-    "input": "PWELG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "short-e",
-          "end-lch"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "bilge",
-    "input": "PWEULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "short-i",
-          "end-lj"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "gulch",
-    "input": "TKPWULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-g",
-          "short-u",
-          "end-lch"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "pillage",
-    "input": "PEULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-p",
-          "short-i",
-          "end-lj"
-        ]
-      }
-    ]
-  },
-  {
     "output": "$",
     "input": "TK-PL",
     "strokes": [
@@ -612,6 +507,19 @@
     ]
   },
   {
+    "output": "belch",
+    "input": "PWELG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-e",
+          "end-lch"
+        ]
+      }
+    ]
+  },
+  {
     "output": "belong",
     "input": "PWHROPBG",
     "strokes": [
@@ -634,6 +542,19 @@
           "start-b",
           "short-i",
           "end-g"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "bilge",
+    "input": "PWEULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-i",
+          "end-lj"
         ]
       }
     ]
@@ -1010,6 +931,19 @@
           "end-j",
           "end-t",
           "end-s"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "bulge",
+    "input": "PWULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-u",
+          "end-lj"
         ]
       }
     ]
@@ -1862,20 +1796,6 @@
   },
   {
     "output": "crank",
-    "input": "KRA*PBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-k",
-          "start-r",
-          "short-a",
-          "end-nk"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "crank",
     "input": "KRAPB/-BG",
     "strokes": [
       {
@@ -1889,6 +1809,20 @@
       {
         "bricks": [
           "end-k"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "crank",
+    "input": "KRA*PBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-r",
+          "short-a",
+          "end-nk"
         ]
       }
     ]
@@ -3808,6 +3742,19 @@
     ]
   },
   {
+    "output": "gulch",
+    "input": "TKPWULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-u",
+          "end-lch"
+        ]
+      }
+    ]
+  },
+  {
     "output": "gunk",
     "input": "TKPW*UPBG",
     "strokes": [
@@ -4218,6 +4165,19 @@
   },
   {
     "output": "honk",
+    "input": "HO*PBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-h",
+          "short-o",
+          "end-nk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "honk",
     "input": "HOPB/-BG",
     "strokes": [
       {
@@ -4230,19 +4190,6 @@
       {
         "bricks": [
           "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "honk",
-    "input": "HO*PBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-h",
-          "short-o",
-          "end-nk"
         ]
       }
     ]
@@ -5179,6 +5126,20 @@
   },
   {
     "output": "lunch",
+    "input": "HRUPBS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "short-u",
+          "end-n",
+          "end-s"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "lunch",
     "input": "HRUPB/*FP",
     "strokes": [
       {
@@ -5191,20 +5152,6 @@
       {
         "bricks": [
           "suffix-ch"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "lunch",
-    "input": "HRUPBS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "short-u",
-          "end-n",
-          "end-s"
         ]
       }
     ]
@@ -5506,6 +5453,19 @@
           "short-u",
           "end-f",
           "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "mulch",
+    "input": "PHULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "short-u",
+          "end-lch"
         ]
       }
     ]
@@ -6259,6 +6219,19 @@
     ]
   },
   {
+    "output": "pillage",
+    "input": "PEULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "short-i",
+          "end-lj"
+        ]
+      }
+    ]
+  },
+  {
     "output": "ping",
     "input": "PEUPBG",
     "strokes": [
@@ -6671,14 +6644,14 @@
   },
   {
     "output": "present",
-    "input": "PRES/EPBT",
+    "input": "PREZ/EPBT",
     "strokes": [
       {
         "bricks": [
           "start-p",
           "start-r",
           "short-e",
-          "end-s"
+          "end-z"
         ]
       },
       {
@@ -6707,14 +6680,14 @@
   },
   {
     "output": "present",
-    "input": "PREZ/EPBT",
+    "input": "PRES/EPBT",
     "strokes": [
       {
         "bricks": [
           "start-p",
           "start-r",
           "short-e",
-          "end-z"
+          "end-s"
         ]
       },
       {
@@ -7576,12 +7549,12 @@
   },
   {
     "output": "roar",
-    "input": "ROR",
+    "input": "ROER",
     "strokes": [
       {
         "bricks": [
           "start-r",
-          "short-o",
+          "long-o",
           "end-r"
         ]
       }
@@ -7589,12 +7562,12 @@
   },
   {
     "output": "roar",
-    "input": "ROER",
+    "input": "ROR",
     "strokes": [
       {
         "bricks": [
           "start-r",
-          "long-o",
+          "short-o",
           "end-r"
         ]
       }
@@ -9171,6 +9144,20 @@
     ]
   },
   {
+    "output": "squelch",
+    "input": "SKWELG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-q",
+          "short-e",
+          "end-lch"
+        ]
+      }
+    ]
+  },
+  {
     "output": "squish",
     "input": "SKWEURB",
     "strokes": [
@@ -9747,6 +9734,19 @@
   },
   {
     "output": "tank",
+    "input": "TA*PBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-a",
+          "end-nk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "tank",
     "input": "TAPB/-BG",
     "strokes": [
       {
@@ -9759,19 +9759,6 @@
       {
         "bricks": [
           "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "tank",
-    "input": "TA*PBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-t",
-          "short-a",
-          "end-nk"
         ]
       }
     ]
@@ -9990,24 +9977,24 @@
   },
   {
     "output": "there",
-    "input": "THR",
-    "strokes": [
-      {
-        "bricks": [
-          "start-th",
-          "start-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "there",
     "input": "TH-R",
     "strokes": [
       {
         "bricks": [
           "start-th",
           "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "there",
+    "input": "THR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "start-r"
         ]
       }
     ]
@@ -10043,18 +10030,6 @@
   },
   {
     "output": "think",
-    "input": "THEU",
-    "strokes": [
-      {
-        "bricks": [
-          "start-th",
-          "short-i"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "think",
     "input": "THEUPB/-BG",
     "strokes": [
       {
@@ -10080,6 +10055,18 @@
           "start-th",
           "short-i",
           "end-nk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "think",
+    "input": "THEU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "short-i"
         ]
       }
     ]
@@ -10728,6 +10715,19 @@
           "start-v",
           "long-i",
           "end-l"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "village",
+    "input": "SREULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "short-i",
+          "end-lj"
         ]
       }
     ]
