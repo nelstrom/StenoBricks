@@ -263,6 +263,7 @@ module Steno
       let(:mono_stroke_constructor) { {
         "output": "be",
         "collisions": ["bee"],
+        "type": "brief",
         "strokes": [
           { "bricks": ["end-b"] }
         ]
@@ -324,6 +325,7 @@ module Steno
             "output": "be",
             "input": "-B",
             "collisions": ["bee"],
+            "type": "brief",
             "strokes": [
               {
                 "bricks": ["end-b"]

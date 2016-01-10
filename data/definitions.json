@@ -9,7 +9,8 @@
           "end-m"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "(",
@@ -85,6 +86,18 @@
     ]
   },
   {
+    "output": "a",
+    "input": "AEU",
+    "strokes": [
+      {
+        "bricks": [
+          "long-a"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "able",
     "input": "AEUBL",
     "strokes": [
@@ -96,6 +109,18 @@
         ]
       }
     ]
+  },
+  {
+    "output": "about",
+    "input": "PW",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "about",
@@ -119,6 +144,49 @@
         ]
       }
     ]
+  },
+  {
+    "output": "actually",
+    "input": "TWAEUL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "start-w",
+          "long-a",
+          "end-l"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "after",
+    "input": "AF",
+    "strokes": [
+      {
+        "bricks": [
+          "short-a",
+          "end-f"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "against",
+    "input": "TKPWEPBS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-e",
+          "end-n",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "aids",
@@ -184,6 +252,19 @@
     ]
   },
   {
+    "output": "almost",
+    "input": "HR-PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "end-m"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "among",
     "input": "PHOPBG",
     "strokes": [
@@ -197,6 +278,20 @@
     ]
   },
   {
+    "output": "amount",
+    "input": "APLT",
+    "strokes": [
+      {
+        "bricks": [
+          "short-a",
+          "end-m",
+          "end-t"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "and",
     "input": "SKP",
     "strokes": [
@@ -206,7 +301,8 @@
           "start-x"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "and",
@@ -231,7 +327,8 @@
           "start-d"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "anger",
@@ -261,6 +358,48 @@
     ]
   },
   {
+    "output": "another",
+    "input": "TPHOER",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-o",
+          "short-e",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "any",
+    "input": "TPHEU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-i"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "anything",
+    "input": "TPHEUG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-i",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "ape",
     "input": "AEUP",
     "strokes": [
@@ -283,6 +422,18 @@
         ]
       }
     ]
+  },
+  {
+    "output": "are",
+    "input": "R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "arm",
@@ -308,6 +459,19 @@
         ]
       }
     ]
+  },
+  {
+    "output": "ask",
+    "input": "SK",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-k"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "ate",
@@ -429,6 +593,18 @@
   },
   {
     "output": "be",
+    "input": "PW",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "be",
     "input": "-B",
     "strokes": [
       {
@@ -436,7 +612,8 @@
           "end-b"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "bear",
@@ -465,6 +642,61 @@
     ]
   },
   {
+    "output": "became",
+    "input": "PWAEUPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "long-a",
+          "end-m"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "because",
+    "input": "PWAUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "dipthong-aw",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "become",
+    "input": "PW-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "end-k"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "becomes",
+    "input": "PW-BGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "end-k",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "bee",
     "input": "PWAOE",
     "strokes": [
@@ -475,6 +707,19 @@
         ]
       }
     ]
+  },
+  {
+    "output": "been",
+    "input": "PW-PB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "beet",
@@ -488,6 +733,34 @@
         ]
       }
     ]
+  },
+  {
+    "output": "before",
+    "input": "PW-F",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "end-f"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "beginning",
+    "input": "TKPWEUPBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-i",
+          "end-n",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "beige",
@@ -513,10 +786,24 @@
       },
       {
         "bricks": [
-          "end-g"
+          "suffix-ing"
         ]
       }
-    ]
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "being",
+    "input": "-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "end-b",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "belch",
@@ -591,6 +878,19 @@
   },
   {
     "output": "bilk",
+    "input": "PW*EULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-i",
+          "end-lk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "bilk",
     "input": "PWEUL/-BG",
     "strokes": [
       {
@@ -603,19 +903,6 @@
       {
         "bricks": [
           "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "bilk",
-    "input": "PW*EULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "short-i",
-          "end-lk"
         ]
       }
     ]
@@ -998,6 +1285,19 @@
   },
   {
     "output": "bulge",
+    "input": "PWULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-u",
+          "end-lj"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "bulge",
     "input": "PWUL/-PBLG",
     "strokes": [
       {
@@ -1010,19 +1310,6 @@
       {
         "bricks": [
           "end-j"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "bulge",
-    "input": "PWULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "short-u",
-          "end-lj"
         ]
       }
     ]
@@ -1119,7 +1406,8 @@
           "short-i"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "cab",
@@ -1199,6 +1487,18 @@
         ]
       }
     ]
+  },
+  {
+    "output": "can",
+    "input": "K",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "cap",
@@ -1821,6 +2121,33 @@
     ]
   },
   {
+    "output": "continue",
+    "input": "T-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "end-k"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "continued",
+    "input": "T-BGD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "end-k",
+          "suffix-ed"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "cop",
     "input": "KOP",
     "strokes": [
@@ -1930,6 +2257,19 @@
         ]
       }
     ]
+  },
+  {
+    "output": "could",
+    "input": "KO",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "short-o"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "course",
@@ -2594,6 +2934,37 @@
     ]
   },
   {
+    "output": "describe",
+    "input": "SKREU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-k",
+          "start-r",
+          "short-i"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "described",
+    "input": "SKREUD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-k",
+          "start-r",
+          "short-i",
+          "suffix-ed"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "design",
     "input": "STKAOEUPB",
     "strokes": [
@@ -2734,6 +3105,19 @@
         ]
       }
     ]
+  },
+  {
+    "output": "do",
+    "input": "TKO",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-o"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "donor",
@@ -2953,6 +3337,19 @@
     ]
   },
   {
+    "output": "easy",
+    "input": "EZ",
+    "strokes": [
+      {
+        "bricks": [
+          "short-e",
+          "end-z"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "eat",
     "input": "AOET",
     "strokes": [
@@ -3113,6 +3510,46 @@
     ]
   },
   {
+    "output": "even",
+    "input": "AOEPB",
+    "strokes": [
+      {
+        "bricks": [
+          "long-e",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "ever",
+    "input": "-FR",
+    "strokes": [
+      {
+        "bricks": [
+          "end-f",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "every",
+    "input": "EFR",
+    "strokes": [
+      {
+        "bricks": [
+          "short-e",
+          "end-f",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "evil",
     "input": "AOEFL",
     "strokes": [
@@ -3124,6 +3561,19 @@
         ]
       }
     ]
+  },
+  {
+    "output": "example",
+    "input": "KP-PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-x",
+          "end-m"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "eye",
@@ -3400,11 +3850,12 @@
   },
   {
     "output": "for",
-    "input": "TP-R",
+    "input": "TPOR",
     "strokes": [
       {
         "bricks": [
           "start-f",
+          "short-o",
           "end-r"
         ]
       }
@@ -3412,12 +3863,11 @@
   },
   {
     "output": "for",
-    "input": "TPOR",
+    "input": "TP-R",
     "strokes": [
       {
         "bricks": [
           "start-f",
-          "short-o",
           "end-r"
         ]
       }
@@ -4173,6 +4623,43 @@
     ]
   },
   {
+    "output": "have",
+    "input": "SR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "having",
+    "input": "SR-G",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "he",
+    "input": "E",
+    "strokes": [
+      {
+        "bricks": [
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "head",
     "input": "HED",
     "strokes": [
@@ -4741,6 +5228,18 @@
           "short-i"
         ]
       }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "I",
+    "input": "EU",
+    "strokes": [
+      {
+        "bricks": [
+          "short-i"
+        ]
+      }
     ]
   },
   {
@@ -4766,6 +5265,45 @@
         ]
       }
     ]
+  },
+  {
+    "output": "idea",
+    "input": "KWR-D",
+    "strokes": [
+      {
+        "bricks": [
+          "start-y",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "ideas",
+    "input": "KWR-DZ",
+    "strokes": [
+      {
+        "bricks": [
+          "start-y",
+          "end-d",
+          "end-z"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "if",
+    "input": "TP",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "ilk",
@@ -4805,7 +5343,78 @@
           "start-n"
         ]
       }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "in",
+    "input": "TPH",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n"
+        ]
+      }
     ]
+  },
+  {
+    "output": "include",
+    "input": "KHRU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-u"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "included",
+    "input": "KHRUD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-u",
+          "suffix-ed"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "includes",
+    "input": "KHRUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-u",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "including",
+    "input": "KHRUG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-u",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "inhibit",
@@ -4847,6 +5456,32 @@
     ]
   },
   {
+    "output": "interest",
+    "input": "T-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "interest",
+    "input": "TR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "ire",
     "input": "AOEUR",
     "strokes": [
@@ -4869,6 +5504,18 @@
         ]
       }
     ]
+  },
+  {
+    "output": "is",
+    "input": "S",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "jagged",
@@ -5302,19 +5949,6 @@
   },
   {
     "output": "lesion",
-    "input": "HRAOEGS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-l",
-          "long-e",
-          "end-shun"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "lesion",
     "input": "HRAOE/SHUPB",
     "strokes": [
       {
@@ -5328,6 +5962,19 @@
           "start-sh",
           "short-u",
           "end-n"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "lesion",
+    "input": "HRAOEGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "long-e",
+          "end-shun"
         ]
       }
     ]
@@ -5601,6 +6248,20 @@
     ]
   },
   {
+    "output": "many",
+    "input": "PHAEPB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "long-a-with-ea",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "march",
     "input": "PHAFRPB",
     "strokes": [
@@ -5835,6 +6496,20 @@
     ]
   },
   {
+    "output": "move",
+    "input": "PHOF",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "short-o",
+          "end-v"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "much",
     "input": "PHUFP",
     "strokes": [
@@ -6038,6 +6713,19 @@
     ]
   },
   {
+    "output": "new",
+    "input": "TPHU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-u"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "no",
     "input": "TPHO",
     "strokes": [
@@ -6205,6 +6893,18 @@
     ]
   },
   {
+    "output": "of",
+    "input": "-F",
+    "strokes": [
+      {
+        "bricks": [
+          "end-f"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "oil",
     "input": "OEUL",
     "strokes": [
@@ -6215,6 +6915,20 @@
         ]
       }
     ]
+  },
+  {
+    "output": "only",
+    "input": "OEPBL",
+    "strokes": [
+      {
+        "bricks": [
+          "long-o",
+          "end-n",
+          "end-l"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "operation",
@@ -6229,6 +6943,19 @@
         ]
       }
     ]
+  },
+  {
+    "output": "opinion",
+    "input": "P-PB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "option",
@@ -6255,6 +6982,51 @@
         ]
       }
     ]
+  },
+  {
+    "output": "other",
+    "input": "OER",
+    "strokes": [
+      {
+        "bricks": [
+          "short-o",
+          "short-e",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "others",
+    "input": "OERS",
+    "strokes": [
+      {
+        "bricks": [
+          "short-o",
+          "short-e",
+          "end-r",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "otherwise",
+    "input": "O*ERZ",
+    "strokes": [
+      {
+        "bricks": [
+          "short-o",
+          "star",
+          "short-e",
+          "end-r",
+          "end-z"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "out",
@@ -7250,6 +8022,22 @@
     ]
   },
   {
+    "output": "probably",
+    "input": "PROBL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "start-r",
+          "short-o",
+          "end-b",
+          "end-l"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "prong",
     "input": "PROPBG",
     "strokes": [
@@ -7544,6 +8332,19 @@
         ]
       }
     ]
+  },
+  {
+    "output": "question",
+    "input": "KWE",
+    "strokes": [
+      {
+        "bricks": [
+          "start-q",
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "rabble",
@@ -7853,6 +8654,35 @@
     ]
   },
   {
+    "output": "receive",
+    "input": "SAOEF",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "long-e",
+          "end-v"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "received",
+    "input": "SAOEFD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "long-e",
+          "end-v",
+          "suffix-ed"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "red",
     "input": "RED",
     "strokes": [
@@ -8054,12 +8884,12 @@
   },
   {
     "output": "roar",
-    "input": "ROR",
+    "input": "ROER",
     "strokes": [
       {
         "bricks": [
           "start-r",
-          "short-o",
+          "long-o",
           "end-r"
         ]
       }
@@ -8067,12 +8897,12 @@
   },
   {
     "output": "roar",
-    "input": "ROER",
+    "input": "ROR",
     "strokes": [
       {
         "bricks": [
           "start-r",
-          "long-o",
+          "short-o",
           "end-r"
         ]
       }
@@ -8448,6 +9278,20 @@
         ]
       }
     ]
+  },
+  {
+    "output": "said",
+    "input": "SAEUD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "long-a",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "sail",
@@ -9116,6 +9960,19 @@
   },
   {
     "output": "silk",
+    "input": "S*EULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-i",
+          "end-lk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "silk",
     "input": "SEUL/-BG",
     "strokes": [
       {
@@ -9128,19 +9985,6 @@
       {
         "bricks": [
           "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "silk",
-    "input": "S*EULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "short-i",
-          "end-lk"
         ]
       }
     ]
@@ -9463,6 +10307,134 @@
     ]
   },
   {
+    "output": "somebody",
+    "input": "S-B",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "end-b"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "somehow",
+    "input": "SHOU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-h",
+          "dipthong-ow"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "somehow",
+    "input": "SPHOU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-m",
+          "dipthong-ow"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "someone",
+    "input": "SPH-PB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-m",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "someplace",
+    "input": "SPHRAEUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-p",
+          "start-l",
+          "long-a",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "something",
+    "input": "S-G",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "sometimes",
+    "input": "STAOEUPLS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-t",
+          "long-i",
+          "end-m",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "somewhere",
+    "input": "SWR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-w",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "somewhere",
+    "input": "SW-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-w",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "song",
     "input": "SOPBG",
     "strokes": [
@@ -9503,12 +10475,12 @@
   },
   {
     "output": "sore",
-    "input": "SOR",
+    "input": "SOER",
     "strokes": [
       {
         "bricks": [
           "start-s",
-          "short-o",
+          "long-o",
           "end-r"
         ]
       }
@@ -9516,12 +10488,12 @@
   },
   {
     "output": "sore",
-    "input": "SOER",
+    "input": "SOR",
     "strokes": [
       {
         "bricks": [
           "start-s",
-          "long-o",
+          "short-o",
           "end-r"
         ]
       }
@@ -10118,19 +11090,6 @@
   },
   {
     "output": "suction",
-    "input": "SUBGS",
-    "strokes": [
-      {
-        "bricks": [
-          "start-s",
-          "short-u",
-          "end-kshun"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "suction",
     "input": "SUBG/SHUPB",
     "strokes": [
       {
@@ -10145,6 +11104,19 @@
           "start-sh",
           "short-u",
           "end-n"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "suction",
+    "input": "SUBGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "short-u",
+          "end-kshun"
         ]
       }
     ]
@@ -10417,6 +11389,19 @@
   },
   {
     "output": "tank",
+    "input": "TA*PBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-a",
+          "end-nk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "tank",
     "input": "TAPB/-BG",
     "strokes": [
       {
@@ -10429,19 +11414,6 @@
       {
         "bricks": [
           "end-k"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "tank",
-    "input": "TA*PBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-t",
-          "short-a",
-          "end-nk"
         ]
       }
     ]
@@ -10593,6 +11565,19 @@
     ]
   },
   {
+    "output": "that",
+    "input": "THA",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "short-a"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "the",
     "input": "-T",
     "strokes": [
@@ -10601,7 +11586,8 @@
           "end-t"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "thefts",
@@ -10660,18 +11646,6 @@
   },
   {
     "output": "there",
-    "input": "THR",
-    "strokes": [
-      {
-        "bricks": [
-          "start-th",
-          "start-r"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "there",
     "input": "TH-R",
     "strokes": [
       {
@@ -10680,7 +11654,49 @@
           "end-r"
         ]
       }
-    ]
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "there",
+    "input": "THR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "therefore",
+    "input": "THR-FR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "start-r",
+          "end-f",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "they",
+    "input": "TE",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "they're",
@@ -10713,6 +11729,19 @@
   },
   {
     "output": "think",
+    "input": "TH*EUPBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "short-i",
+          "end-nk"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "think",
     "input": "THEUPB/-BG",
     "strokes": [
       {
@@ -10731,19 +11760,6 @@
   },
   {
     "output": "think",
-    "input": "TH*EUPBG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-th",
-          "short-i",
-          "end-nk"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "think",
     "input": "THEU",
     "strokes": [
       {
@@ -10752,7 +11768,20 @@
           "short-i"
         ]
       }
-    ]
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "this",
+    "input": "TH",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "thrash",
@@ -10795,6 +11824,20 @@
         ]
       }
     ]
+  },
+  {
+    "output": "through",
+    "input": "THRU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "start-r",
+          "short-u"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "thud",
@@ -10885,6 +11928,20 @@
         ]
       }
     ]
+  },
+  {
+    "output": "today",
+    "input": "TOED",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "long-o",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "toil",
@@ -11339,6 +12396,67 @@
     ]
   },
   {
+    "output": "understand",
+    "input": "URPBD",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-r",
+          "end-n",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "understanding",
+    "input": "URPBGD",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-r",
+          "end-n",
+          "suffix-ing",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "understands",
+    "input": "URPBDZ",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-r",
+          "end-n",
+          "end-d",
+          "end-z"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "unless",
+    "input": "TPH-LS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "end-l",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "urge",
     "input": "URPBLG",
     "strokes": [
@@ -11390,6 +12508,19 @@
     ]
   },
   {
+    "output": "very",
+    "input": "SRE",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "vile",
     "input": "SRAOEUL",
     "strokes": [
@@ -11398,19 +12529,6 @@
           "start-v",
           "long-i",
           "end-l"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "village",
-    "input": "SREULG",
-    "strokes": [
-      {
-        "bricks": [
-          "start-v",
-          "short-i",
-          "end-lj"
         ]
       }
     ]
@@ -11430,6 +12548,19 @@
         "bricks": [
           "short-a",
           "end-j"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "village",
+    "input": "SREULG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "short-i",
+          "end-lj"
         ]
       }
     ]
@@ -11595,6 +12726,18 @@
   },
   {
     "output": "was",
+    "input": "WA",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "short-a"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "was",
     "input": "WAS",
     "strokes": [
       {
@@ -11602,18 +12745,6 @@
           "start-w",
           "short-a",
           "end-s"
-        ]
-      }
-    ]
-  },
-  {
-    "output": "was",
-    "input": "WA",
-    "strokes": [
-      {
-        "bricks": [
-          "start-w",
-          "short-a"
         ]
       }
     ]
@@ -11794,6 +12925,19 @@
     ]
   },
   {
+    "output": "were",
+    "input": "WR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "wet",
     "input": "WET",
     "strokes": [
@@ -11805,6 +12949,20 @@
         ]
       }
     ]
+  },
+  {
+    "output": "what",
+    "input": "WHA",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "start-h",
+          "short-a"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "wheal",
@@ -11836,6 +12994,31 @@
   },
   {
     "output": "where",
+    "input": "W-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "where",
+    "input": "W-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "end-r"
+        ]
+      }
+    ]
+  },
+  {
+    "output": "where",
     "input": "WHER",
     "strokes": [
       {
@@ -11849,13 +13032,41 @@
     ]
   },
   {
-    "output": "where",
-    "input": "W-R",
+    "output": "whether",
+    "input": "WHR",
     "strokes": [
       {
         "bricks": [
           "start-w",
-          "end-r"
+          "start-h",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "which",
+    "input": "WEU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "short-i"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "who",
+    "input": "WHO",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "start-h",
+          "short-o"
         ]
       }
     ]
@@ -11970,6 +13181,45 @@
     ]
   },
   {
+    "output": "with",
+    "input": "W",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "within",
+    "input": "W-PB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "without",
+    "input": "WOUT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "dipthong-ow",
+          "end-t"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "wonk",
     "input": "WO*PBG",
     "strokes": [
@@ -12008,6 +13258,19 @@
         ]
       }
     ]
+  },
+  {
+    "output": "would",
+    "input": "WO",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "short-o"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "wove",
@@ -12147,6 +13410,19 @@
     ]
   },
   {
+    "output": "yes",
+    "input": "KWRE",
+    "strokes": [
+      {
+        "bricks": [
+          "start-y",
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
     "output": "yet",
     "input": "KWRET",
     "strokes": [
@@ -12171,6 +13447,70 @@
         ]
       }
     ]
+  },
+  {
+    "output": "you",
+    "input": "U",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "you'd",
+    "input": "UD",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "you'll",
+    "input": "UL",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-l"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "you're",
+    "input": "UR",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
+  },
+  {
+    "output": "you've",
+    "input": "UF",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-v"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "young",
@@ -12305,7 +13645,8 @@
           "end-m"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "{?}",
@@ -12317,7 +13658,8 @@
           "end-f"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "{^%}",

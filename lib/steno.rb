@@ -182,18 +182,20 @@ module Steno
   end
 
   class Definition
-    attr_reader :output, :strokes, :collisions
+    attr_reader :output, :strokes, :collisions, :type
 
     def initialize(params, registry=BrickRegistry.new, mapper=nil)
       params = OpenStruct.new(params)
       params.strokes ||= []
       params.collisions ||= []
+      params.type ||= 'phonetic'
       if params.bricks
         params.strokes << { bricks: params.bricks }
       end
 
       @collisions = params.collisions
-      @output   = params.output
+      @output    = params.output
+      @type      = params.type
       @strokes = params.strokes.map { |stroke|
         params = OpenStruct.new(stroke)
         Stroke.new(params.bricks, registry, mapper)
@@ -215,6 +217,9 @@ module Steno
         h[:input]      = input.upcase
         h[:strokes]    = strokes.map(&:to_h)
         h[:collisions] = collisions unless collisions.empty?
+        unless type == 'phonetic'
+          h[:type] = type
+        end
       }
     end
   end

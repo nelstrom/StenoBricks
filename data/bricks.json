@@ -65,6 +65,11 @@
     "keystrokes": [18]
   },
   {
+    "id": "suffix-ing",
+    "label": "ING",
+    "keystrokes": [18]
+  },
+  {
     "id": "start-h",
     "label": "H",
     "keystrokes": [6]
