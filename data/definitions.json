@@ -1,18 +1,21 @@
 [
   {
     "output": "a",
+    "type": "brief",
     "bricks": [
       "long-a"
     ]
   },
   {
     "output": "about",
+    "type": "brief",
     "bricks": [
       "start-b"
     ]
   },
   {
     "output": "actually",
+    "type": "brief",
     "bricks": [
       "start-t",
       "start-w",
@@ -22,6 +25,7 @@
   },
   {
     "output": "after",
+    "type": "brief",
     "bricks": [
       "short-a",
       "end-f"
@@ -29,6 +33,7 @@
   },
   {
     "output": "against",
+    "type": "brief",
     "bricks": [
       "start-g",
       "short-e",
@@ -38,6 +43,7 @@
   },
   {
     "output": "almost",
+    "type": "brief",
     "bricks": [
       "start-l",
       "end-m"
@@ -45,6 +51,7 @@
   },
   {
     "output": "amount",
+    "type": "brief",
     "bricks": [
       "short-a",
       "end-m",
@@ -53,6 +60,7 @@
   },
   {
     "output": "another",
+    "type": "brief",
     "bricks": [
       "start-n",
       "short-o",
@@ -62,6 +70,7 @@
   },
   {
     "output": "any",
+    "type": "brief",
     "bricks": [
       "start-n",
       "short-i"
@@ -69,6 +78,7 @@
   },
   {
     "output": "anything",
+    "type": "brief",
     "bricks": [
       "start-n",
       "short-i",
@@ -77,12 +87,14 @@
   },
   {
     "output": "are",
+    "type": "brief",
     "bricks": [
       "start-r"
     ]
   },
   {
     "output": "ask",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-k"
@@ -90,12 +102,14 @@
   },
   {
     "output": "be",
+    "type": "brief",
     "bricks": [
       "start-b"
     ]
   },
   {
     "output": "became",
+    "type": "brief",
     "bricks": [
       "start-b",
       "long-a",
@@ -104,6 +118,7 @@
   },
   {
     "output": "because",
+    "type": "brief",
     "bricks": [
       "start-b",
       "dipthong-aw",
@@ -112,6 +127,7 @@
   },
   {
     "output": "become",
+    "type": "brief",
     "bricks": [
       "start-b",
       "end-k"
@@ -119,6 +135,7 @@
   },
   {
     "output": "becomes",
+    "type": "brief",
     "bricks": [
       "start-b",
       "end-k",
@@ -127,6 +144,7 @@
   },
   {
     "output": "been",
+    "type": "brief",
     "bricks": [
       "start-b",
       "end-n"
@@ -134,6 +152,7 @@
   },
   {
     "output": "before",
+    "type": "brief",
     "bricks": [
       "start-b",
       "end-f"
@@ -141,6 +160,7 @@
   },
   {
     "output": "beginning",
+    "type": "brief",
     "bricks": [
       "start-g",
       "short-i",
@@ -150,6 +170,7 @@
   },
   {
     "output": "being",
+    "type": "brief",
     "bricks": [
       "end-b",
       "suffix-ing"
@@ -157,6 +178,7 @@
   },
   {
     "output": "by",
+    "type": "brief",
     "bricks": [
       "start-b",
       "short-i"
@@ -164,12 +186,14 @@
   },
   {
     "output": "can",
+    "type": "brief",
     "bricks": [
       "start-k"
     ]
   },
   {
     "output": "continue",
+    "type": "brief",
     "bricks": [
       "start-t",
       "end-k"
@@ -177,6 +201,7 @@
   },
   {
     "output": "continued",
+    "type": "brief",
     "bricks": [
       "start-t",
       "end-k",
@@ -185,6 +210,7 @@
   },
   {
     "output": "could",
+    "type": "brief",
     "bricks": [
       "start-k",
       "short-o"
@@ -192,6 +218,7 @@
   },
   {
     "output": "describe",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-k",
@@ -201,6 +228,7 @@
   },
   {
     "output": "described",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-k",
@@ -211,6 +239,7 @@
   },
   {
     "output": "do",
+    "type": "brief",
     "bricks": [
       "start-d",
       "short-o"
@@ -218,6 +247,7 @@
   },
   {
     "output": "easy",
+    "type": "brief",
     "bricks": [
       "short-e",
       "end-z"
@@ -225,6 +255,7 @@
   },
   {
     "output": "even",
+    "type": "brief",
     "bricks": [
       "long-e",
       "end-n"
@@ -232,6 +263,7 @@
   },
   {
     "output": "ever",
+    "type": "brief",
     "bricks": [
       "end-f",
       "end-r"
@@ -239,6 +271,7 @@
   },
   {
     "output": "every",
+    "type": "brief",
     "bricks": [
       "short-e",
       "end-f",
@@ -247,6 +280,7 @@
   },
   {
     "output": "example",
+    "type": "brief",
     "bricks": [
       "start-x",
       "end-m"
@@ -254,12 +288,14 @@
   },
   {
     "output": "have",
+    "type": "brief",
     "bricks": [
       "start-v"
     ]
   },
   {
     "output": "having",
+    "type": "brief",
     "bricks": [
       "start-v",
       "suffix-ing"
@@ -267,12 +303,14 @@
   },
   {
     "output": "he",
+    "type": "brief",
     "bricks": [
       "short-e"
     ]
   },
   {
     "output": "idea",
+    "type": "brief",
     "bricks": [
       "start-y",
       "end-d"
@@ -280,6 +318,7 @@
   },
   {
     "output": "ideas",
+    "type": "brief",
     "bricks": [
       "start-y",
       "end-d",
@@ -288,18 +327,21 @@
   },
   {
     "output": "if",
+    "type": "brief",
     "bricks": [
       "start-f"
     ]
   },
   {
     "output": "in",
+    "type": "brief",
     "bricks": [
       "start-n"
     ]
   },
   {
     "output": "include",
+    "type": "brief",
     "bricks": [
       "start-k",
       "start-l",
@@ -308,6 +350,7 @@
   },
   {
     "output": "included",
+    "type": "brief",
     "bricks": [
       "start-k",
       "start-l",
@@ -317,6 +360,7 @@
   },
   {
     "output": "including",
+    "type": "brief",
     "bricks": [
       "start-k",
       "start-l",
@@ -326,6 +370,7 @@
   },
   {
     "output": "includes",
+    "type": "brief",
     "bricks": [
       "start-k",
       "start-l",
@@ -335,6 +380,7 @@
   },
   {
     "output": "interest",
+    "type": "brief",
     "bricks": [
       "start-t",
       "end-r"
@@ -342,6 +388,7 @@
   },
   {
     "output": "interest",
+    "type": "brief",
     "bricks": [
       "start-t",
       "start-r"
@@ -349,18 +396,21 @@
   },
   {
     "output": "I",
+    "type": "brief",
     "bricks": [
       "short-i"
     ]
   },
   {
     "output": "is",
+    "type": "brief",
     "bricks": [
       "start-s"
     ]
   },
   {
     "output": "many",
+    "type": "brief",
     "bricks": [
       "start-m",
       "long-a-with-ea",
@@ -369,6 +419,7 @@
   },
   {
     "output": "move",
+    "type": "brief",
     "bricks": [
       "start-m",
       "short-o",
@@ -377,6 +428,7 @@
   },
   {
     "output": "new",
+    "type": "brief",
     "bricks": [
       "start-n",
       "short-u"
@@ -384,12 +436,14 @@
   },
   {
     "output": "of",
+    "type": "brief",
     "bricks": [
       "end-f"
     ]
   },
   {
     "output": "only",
+    "type": "brief",
     "bricks": [
       "long-o",
       "end-n",
@@ -398,6 +452,7 @@
   },
   {
     "output": "opinion",
+    "type": "brief",
     "bricks": [
       "start-p",
       "end-n"
@@ -405,6 +460,7 @@
   },
   {
     "output": "other",
+    "type": "brief",
     "bricks": [
       "short-o",
       "short-e",
@@ -413,6 +469,7 @@
   },
   {
     "output": "others",
+    "type": "brief",
     "bricks": [
       "short-o",
       "short-e",
@@ -422,6 +479,7 @@
   },
   {
     "output": "otherwise",
+    "type": "brief",
     "bricks": [
       "short-o",
       "short-e",
@@ -432,6 +490,7 @@
   },
   {
     "output": "probably",
+    "type": "brief",
     "bricks": [
       "start-p",
       "start-r",
@@ -442,6 +501,7 @@
   },
   {
     "output": "question",
+    "type": "brief",
     "bricks": [
       "start-q",
       "short-e"
@@ -449,6 +509,7 @@
   },
   {
     "output": "receive",
+    "type": "brief",
     "bricks": [
       "start-s",
       "long-e",
@@ -457,6 +518,7 @@
   },
   {
     "output": "received",
+    "type": "brief",
     "bricks": [
       "start-s",
       "long-e",
@@ -466,6 +528,7 @@
   },
   {
     "output": "said",
+    "type": "brief",
     "bricks": [
       "start-s",
       "long-a",
@@ -474,6 +537,7 @@
   },
   {
     "output": "somebody",
+    "type": "brief",
     "bricks": [
       "start-s",
       "end-b"
@@ -481,6 +545,7 @@
   },
   {
     "output": "somehow",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-h",
@@ -489,6 +554,7 @@
   },
   {
     "output": "somehow",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-m",
@@ -497,6 +563,7 @@
   },
   {
     "output": "someone",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-m",
@@ -505,6 +572,7 @@
   },
   {
     "output": "someplace",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-p",
@@ -515,6 +583,7 @@
   },
   {
     "output": "something",
+    "type": "brief",
     "bricks": [
       "start-s",
       "suffix-ing"
@@ -522,6 +591,7 @@
   },
   {
     "output": "sometimes",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-t",
@@ -532,6 +602,7 @@
   },
   {
     "output": "somewhere",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-w",
@@ -540,6 +611,7 @@
   },
   {
     "output": "somewhere",
+    "type": "brief",
     "bricks": [
       "start-s",
       "start-w",
@@ -548,6 +620,7 @@
   },
   {
     "output": "that",
+    "type": "brief",
     "bricks": [
       "start-th",
       "short-a"
@@ -555,6 +628,7 @@
   },
   {
     "output": "there",
+    "type": "brief",
     "bricks": [
       "start-th",
       "start-r"
@@ -562,6 +636,7 @@
   },
   {
     "output": "therefore",
+    "type": "brief",
     "bricks": [
       "start-th",
       "start-r",
@@ -571,12 +646,14 @@
   },
   {
     "output": "the",
+    "type": "brief",
     "bricks": [
       "end-t"
     ]
   },
   {
     "output": "they",
+    "type": "brief",
     "bricks": [
       "start-t",
       "short-e"
@@ -584,12 +661,14 @@
   },
   {
     "output": "this",
+    "type": "brief",
     "bricks": [
       "start-th"
     ]
   },
   {
     "output": "through",
+    "type": "brief",
     "bricks": [
       "start-th",
       "start-r",
@@ -598,6 +677,7 @@
   },
   {
     "output": "today",
+    "type": "brief",
     "bricks": [
       "start-t",
       "long-o",
@@ -606,6 +686,7 @@
   },
   {
     "output": "understand",
+    "type": "brief",
     "bricks": [
       "short-u",
       "end-r",
@@ -615,6 +696,7 @@
   },
   {
     "output": "understanding",
+    "type": "brief",
     "bricks": [
       "short-u",
       "end-r",
@@ -625,6 +707,7 @@
   },
   {
     "output": "understands",
+    "type": "brief",
     "bricks": [
       "short-u",
       "end-r",
@@ -635,6 +718,7 @@
   },
   {
     "output": "unless",
+    "type": "brief",
     "bricks": [
       "start-n",
       "end-l",
@@ -643,6 +727,7 @@
   },
   {
     "output": "very",
+    "type": "brief",
     "bricks": [
       "start-v",
       "short-e"
@@ -650,6 +735,7 @@
   },
   {
     "output": "were",
+    "type": "brief",
     "bricks": [
       "start-w",
       "start-r"
@@ -657,6 +743,7 @@
   },
   {
     "output": "what",
+    "type": "brief",
     "bricks": [
       "start-w",
       "start-h",
@@ -665,6 +752,7 @@
   },
   {
     "output": "where",
+    "type": "brief",
     "bricks": [
       "start-w",
       "end-r"
@@ -672,6 +760,7 @@
   },
   {
     "output": "whether",
+    "type": "brief",
     "bricks": [
       "start-w",
       "start-h",
@@ -680,6 +769,7 @@
   },
   {
     "output": "which",
+    "type": "brief",
     "bricks": [
       "start-w",
       "short-i"
@@ -695,12 +785,14 @@
   },
   {
     "output": "with",
+    "type": "brief",
     "bricks": [
       "start-w"
     ]
   },
   {
     "output": "within",
+    "type": "brief",
     "bricks": [
       "start-w",
       "end-n"
@@ -708,6 +800,7 @@
   },
   {
     "output": "without",
+    "type": "brief",
     "bricks": [
       "start-w",
       "dipthong-ow",
@@ -716,6 +809,7 @@
   },
   {
     "output": "would",
+    "type": "brief",
     "bricks": [
       "start-w",
       "short-o"
@@ -723,6 +817,7 @@
   },
   {
     "output": "yes",
+    "type": "brief",
     "bricks": [
       "start-y",
       "short-e"
@@ -730,12 +825,14 @@
   },
   {
     "output": "you",
+    "type": "brief",
     "bricks": [
       "short-u"
     ]
   },
   {
     "output": "you'd",
+    "type": "brief",
     "bricks": [
       "short-u",
       "end-d"
@@ -743,6 +840,7 @@
   },
   {
     "output": "you'll",
+    "type": "brief",
     "bricks": [
       "short-u",
       "end-l"
@@ -750,6 +848,7 @@
   },
   {
     "output": "you're",
+    "type": "brief",
     "bricks": [
       "short-u",
       "end-r"
@@ -757,6 +856,7 @@
   },
   {
     "output": "you've",
+    "type": "brief",
     "bricks": [
       "short-u",
       "end-v"
