@@ -11593,17 +11593,6 @@
           "end-t"
         ]
       }
-    ]
-  },
-  {
-    "output": "the",
-    "input": "-T",
-    "strokes": [
-      {
-        "bricks": [
-          "end-t"
-        ]
-      }
     ],
     "type": "brief"
   },
@@ -11672,18 +11661,6 @@
           "end-r"
         ]
       }
-    ]
-  },
-  {
-    "output": "there",
-    "input": "THR",
-    "strokes": [
-      {
-        "bricks": [
-          "start-th",
-          "start-r"
-        ]
-      }
     ],
     "type": "brief"
   },
@@ -11697,7 +11674,8 @@
           "start-r"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "therefore",
