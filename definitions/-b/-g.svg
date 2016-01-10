@@ -277,7 +277,7 @@ svg {
   <use xlink:href="#matcher-width-1" x="1000" y="0" class="stroked lightFill"/>
   <use xlink:href="#span-width-1" x="1000" y="-50" class="stroked whiteFill"/>
   <text class="buttonLabel" x="1025.0" y="85">
-    <tspan>G</tspan>
+    <tspan>ING</tspan>
   </text>
 </g>
 </g>
