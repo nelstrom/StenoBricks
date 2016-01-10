@@ -9,7 +9,8 @@
           "end-m"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "(",
@@ -300,7 +301,8 @@
           "start-x"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "and",
@@ -325,7 +327,8 @@
           "start-d"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "anger",
@@ -609,7 +612,8 @@
           "end-b"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "bear",
@@ -785,7 +789,8 @@
           "suffix-ing"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "being",
@@ -1403,18 +1408,6 @@
       }
     ],
     "type": "brief"
-  },
-  {
-    "output": "by",
-    "input": "PWEU",
-    "strokes": [
-      {
-        "bricks": [
-          "start-b",
-          "short-i"
-        ]
-      }
-    ]
   },
   {
     "output": "cab",
@@ -11775,7 +11768,8 @@
           "short-i"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "this",
@@ -13651,7 +13645,8 @@
           "end-m"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "{?}",
@@ -13663,7 +13658,8 @@
           "end-f"
         ]
       }
-    ]
+    ],
+    "type": "brief"
   },
   {
     "output": "{^%}",
