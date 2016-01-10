@@ -1,866 +1,1371 @@
 [
   {
     "output": "a",
-    "type": "brief",
-    "bricks": [
-      "long-a"
-    ]
+    "input": "AEU",
+    "strokes": [
+      {
+        "bricks": [
+          "long-a"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "about",
-    "type": "brief",
-    "bricks": [
-      "start-b"
-    ]
+    "input": "PW",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "actually",
-    "type": "brief",
-    "bricks": [
-      "start-t",
-      "start-w",
-      "long-a",
-      "end-l"
-    ]
+    "input": "TWAEUL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "start-w",
+          "long-a",
+          "end-l"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "after",
-    "type": "brief",
-    "bricks": [
-      "short-a",
-      "end-f"
-    ]
+    "input": "AF",
+    "strokes": [
+      {
+        "bricks": [
+          "short-a",
+          "end-f"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "against",
-    "type": "brief",
-    "bricks": [
-      "start-g",
-      "short-e",
-      "end-n",
-      "end-s"
-    ]
+    "input": "TKPWEPBS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-e",
+          "end-n",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "almost",
-    "type": "brief",
-    "bricks": [
-      "start-l",
-      "end-m"
-    ]
+    "input": "HR-PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-l",
+          "end-m"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "amount",
-    "type": "brief",
-    "bricks": [
-      "short-a",
-      "end-m",
-      "end-t"
-    ]
+    "input": "APLT",
+    "strokes": [
+      {
+        "bricks": [
+          "short-a",
+          "end-m",
+          "end-t"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "another",
-    "type": "brief",
-    "bricks": [
-      "start-n",
-      "short-o",
-      "short-e",
-      "end-r"
-    ]
+    "input": "TPHOER",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-o",
+          "short-e",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "any",
-    "type": "brief",
-    "bricks": [
-      "start-n",
-      "short-i"
-    ]
+    "input": "TPHEU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-i"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "anything",
-    "type": "brief",
-    "bricks": [
-      "start-n",
-      "short-i",
-      "suffix-ing"
-    ]
+    "input": "TPHEUG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-i",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "are",
-    "type": "brief",
-    "bricks": [
-      "start-r"
-    ]
+    "input": "R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "ask",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-k"
-    ]
+    "input": "SK",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-k"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "be",
-    "type": "brief",
-    "bricks": [
-      "start-b"
-    ]
+    "input": "PW",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "became",
-    "type": "brief",
-    "bricks": [
-      "start-b",
-      "long-a",
-      "end-m"
-    ]
+    "input": "PWAEUPL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "long-a",
+          "end-m"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "because",
-    "type": "brief",
-    "bricks": [
-      "start-b",
-      "dipthong-aw",
-      "end-s"
-    ]
+    "input": "PWAUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "dipthong-aw",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "become",
-    "type": "brief",
-    "bricks": [
-      "start-b",
-      "end-k"
-    ]
+    "input": "PW-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "end-k"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "becomes",
-    "type": "brief",
-    "bricks": [
-      "start-b",
-      "end-k",
-      "end-s"
-    ]
+    "input": "PW-BGS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "end-k",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "been",
-    "type": "brief",
-    "bricks": [
-      "start-b",
-      "end-n"
-    ]
+    "input": "PW-PB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "before",
-    "type": "brief",
-    "bricks": [
-      "start-b",
-      "end-f"
-    ]
+    "input": "PW-F",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "end-f"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "beginning",
-    "type": "brief",
-    "bricks": [
-      "start-g",
-      "short-i",
-      "end-n",
-      "suffix-ing"
-    ]
+    "input": "TKPWEUPBG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-g",
+          "short-i",
+          "end-n",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "being",
-    "type": "brief",
-    "bricks": [
-      "end-b",
-      "suffix-ing"
-    ]
+    "input": "-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "end-b",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "by",
-    "type": "brief",
-    "bricks": [
-      "start-b",
-      "short-i"
-    ]
+    "input": "PWEU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-b",
+          "short-i"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "can",
-    "type": "brief",
-    "bricks": [
-      "start-k"
-    ]
+    "input": "K",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "continue",
-    "type": "brief",
-    "bricks": [
-      "start-t",
-      "end-k"
-    ]
+    "input": "T-BG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "end-k"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "continued",
-    "type": "brief",
-    "bricks": [
-      "start-t",
-      "end-k",
-      "suffix-ed"
-    ]
+    "input": "T-BGD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "end-k",
+          "suffix-ed"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "could",
-    "type": "brief",
-    "bricks": [
-      "start-k",
-      "short-o"
-    ]
+    "input": "KO",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "short-o"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "describe",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-k",
-      "start-r",
-      "short-i"
-    ]
+    "input": "SKREU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-k",
+          "start-r",
+          "short-i"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "described",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-k",
-      "start-r",
-      "short-i",
-      "suffix-ed"
-    ]
+    "input": "SKREUD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-k",
+          "start-r",
+          "short-i",
+          "suffix-ed"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "do",
-    "type": "brief",
-    "bricks": [
-      "start-d",
-      "short-o"
-    ]
+    "input": "TKO",
+    "strokes": [
+      {
+        "bricks": [
+          "start-d",
+          "short-o"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "easy",
-    "type": "brief",
-    "bricks": [
-      "short-e",
-      "end-z"
-    ]
+    "input": "EZ",
+    "strokes": [
+      {
+        "bricks": [
+          "short-e",
+          "end-z"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "even",
-    "type": "brief",
-    "bricks": [
-      "long-e",
-      "end-n"
-    ]
+    "input": "AOEPB",
+    "strokes": [
+      {
+        "bricks": [
+          "long-e",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "ever",
-    "type": "brief",
-    "bricks": [
-      "end-f",
-      "end-r"
-    ]
+    "input": "-FR",
+    "strokes": [
+      {
+        "bricks": [
+          "end-f",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "every",
-    "type": "brief",
-    "bricks": [
-      "short-e",
-      "end-f",
-      "end-r"
-    ]
+    "input": "EFR",
+    "strokes": [
+      {
+        "bricks": [
+          "short-e",
+          "end-f",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "example",
-    "type": "brief",
-    "bricks": [
-      "start-x",
-      "end-m"
-    ]
+    "input": "KP-PL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-x",
+          "end-m"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "have",
-    "type": "brief",
-    "bricks": [
-      "start-v"
-    ]
+    "input": "SR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "having",
-    "type": "brief",
-    "bricks": [
-      "start-v",
-      "suffix-ing"
-    ]
+    "input": "SR-G",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "he",
-    "type": "brief",
-    "bricks": [
-      "short-e"
-    ]
+    "input": "E",
+    "strokes": [
+      {
+        "bricks": [
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "idea",
-    "type": "brief",
-    "bricks": [
-      "start-y",
-      "end-d"
-    ]
+    "input": "KWR-D",
+    "strokes": [
+      {
+        "bricks": [
+          "start-y",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "ideas",
-    "type": "brief",
-    "bricks": [
-      "start-y",
-      "end-d",
-      "end-z"
-    ]
+    "input": "KWR-DZ",
+    "strokes": [
+      {
+        "bricks": [
+          "start-y",
+          "end-d",
+          "end-z"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "if",
-    "type": "brief",
-    "bricks": [
-      "start-f"
-    ]
+    "input": "TP",
+    "strokes": [
+      {
+        "bricks": [
+          "start-f"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "in",
-    "type": "brief",
-    "bricks": [
-      "start-n"
-    ]
+    "input": "TPH",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "include",
-    "type": "brief",
-    "bricks": [
-      "start-k",
-      "start-l",
-      "short-u"
-    ]
+    "input": "KHRU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-u"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "included",
-    "type": "brief",
-    "bricks": [
-      "start-k",
-      "start-l",
-      "short-u",
-      "suffix-ed"
-    ]
+    "input": "KHRUD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-u",
+          "suffix-ed"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "including",
-    "type": "brief",
-    "bricks": [
-      "start-k",
-      "start-l",
-      "short-u",
-      "suffix-ing"
-    ]
+    "input": "KHRUG",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-u",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "includes",
-    "type": "brief",
-    "bricks": [
-      "start-k",
-      "start-l",
-      "short-u",
-      "end-s"
-    ]
+    "input": "KHRUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-k",
+          "start-l",
+          "short-u",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "interest",
-    "type": "brief",
-    "bricks": [
-      "start-t",
-      "end-r"
-    ]
+    "input": "T-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "interest",
-    "type": "brief",
-    "bricks": [
-      "start-t",
-      "start-r"
-    ]
+    "input": "TR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "I",
-    "type": "brief",
-    "bricks": [
-      "short-i"
-    ]
+    "input": "EU",
+    "strokes": [
+      {
+        "bricks": [
+          "short-i"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "is",
-    "type": "brief",
-    "bricks": [
-      "start-s"
-    ]
+    "input": "S",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "many",
-    "type": "brief",
-    "bricks": [
-      "start-m",
-      "long-a-with-ea",
-      "end-n"
-    ]
+    "input": "PHAEPB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "long-a-with-ea",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "move",
-    "type": "brief",
-    "bricks": [
-      "start-m",
-      "short-o",
-      "end-v"
-    ]
+    "input": "PHOF",
+    "strokes": [
+      {
+        "bricks": [
+          "start-m",
+          "short-o",
+          "end-v"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "new",
-    "type": "brief",
-    "bricks": [
-      "start-n",
-      "short-u"
-    ]
+    "input": "TPHU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "short-u"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "of",
-    "type": "brief",
-    "bricks": [
-      "end-f"
-    ]
+    "input": "-F",
+    "strokes": [
+      {
+        "bricks": [
+          "end-f"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "only",
-    "type": "brief",
-    "bricks": [
-      "long-o",
-      "end-n",
-      "end-l"
-    ]
+    "input": "OEPBL",
+    "strokes": [
+      {
+        "bricks": [
+          "long-o",
+          "end-n",
+          "end-l"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "opinion",
-    "type": "brief",
-    "bricks": [
-      "start-p",
-      "end-n"
-    ]
+    "input": "P-PB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "other",
-    "type": "brief",
-    "bricks": [
-      "short-o",
-      "short-e",
-      "end-r"
-    ]
+    "input": "OER",
+    "strokes": [
+      {
+        "bricks": [
+          "short-o",
+          "short-e",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "others",
-    "type": "brief",
-    "bricks": [
-      "short-o",
-      "short-e",
-      "end-r",
-      "end-s"
-    ]
+    "input": "OERS",
+    "strokes": [
+      {
+        "bricks": [
+          "short-o",
+          "short-e",
+          "end-r",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "otherwise",
-    "type": "brief",
-    "bricks": [
-      "short-o",
-      "short-e",
-      "star",
-      "end-r",
-      "end-z"
-    ]
+    "input": "O*ERZ",
+    "strokes": [
+      {
+        "bricks": [
+          "short-o",
+          "star",
+          "short-e",
+          "end-r",
+          "end-z"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "probably",
-    "type": "brief",
-    "bricks": [
-      "start-p",
-      "start-r",
-      "short-o",
-      "end-b",
-      "end-l"
-    ]
+    "input": "PROBL",
+    "strokes": [
+      {
+        "bricks": [
+          "start-p",
+          "start-r",
+          "short-o",
+          "end-b",
+          "end-l"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "question",
-    "type": "brief",
-    "bricks": [
-      "start-q",
-      "short-e"
-    ]
+    "input": "KWE",
+    "strokes": [
+      {
+        "bricks": [
+          "start-q",
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "receive",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "long-e",
-      "end-v"
-    ]
+    "input": "SAOEF",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "long-e",
+          "end-v"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "received",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "long-e",
-      "end-v",
-      "suffix-ed"
-    ]
+    "input": "SAOEFD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "long-e",
+          "end-v",
+          "suffix-ed"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "said",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "long-a",
-      "end-d"
-    ]
+    "input": "SAEUD",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "long-a",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "somebody",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "end-b"
-    ]
+    "input": "S-B",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "end-b"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "somehow",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-h",
-      "dipthong-ow"
-    ]
+    "input": "SHOU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-h",
+          "dipthong-ow"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "somehow",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-m",
-      "dipthong-ow"
-    ]
+    "input": "SPHOU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-m",
+          "dipthong-ow"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "someone",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-m",
-      "end-n"
-    ]
+    "input": "SPH-PB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-m",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "someplace",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-p",
-      "start-l",
-      "long-a",
-      "end-s"
-    ]
+    "input": "SPHRAEUS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-p",
+          "start-l",
+          "long-a",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "something",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "suffix-ing"
-    ]
+    "input": "S-G",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "suffix-ing"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "sometimes",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-t",
-      "long-i",
-      "end-m",
-      "end-s"
-    ]
+    "input": "STAOEUPLS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-t",
+          "long-i",
+          "end-m",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "somewhere",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-w",
-      "start-r"
-    ]
+    "input": "SWR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-w",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "somewhere",
-    "type": "brief",
-    "bricks": [
-      "start-s",
-      "start-w",
-      "end-r"
-    ]
+    "input": "SW-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-s",
+          "start-w",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "that",
-    "type": "brief",
-    "bricks": [
-      "start-th",
-      "short-a"
-    ]
+    "input": "THA",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "short-a"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "there",
-    "type": "brief",
-    "bricks": [
-      "start-th",
-      "start-r"
-    ]
+    "input": "THR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "therefore",
-    "type": "brief",
-    "bricks": [
-      "start-th",
-      "start-r",
-      "end-f",
-      "end-r"
-    ]
+    "input": "THR-FR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "start-r",
+          "end-f",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "the",
-    "type": "brief",
-    "bricks": [
-      "end-t"
-    ]
+    "input": "-T",
+    "strokes": [
+      {
+        "bricks": [
+          "end-t"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "they",
-    "type": "brief",
-    "bricks": [
-      "start-t",
-      "short-e"
-    ]
+    "input": "TE",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "this",
-    "type": "brief",
-    "bricks": [
-      "start-th"
-    ]
+    "input": "TH",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "through",
-    "type": "brief",
-    "bricks": [
-      "start-th",
-      "start-r",
-      "short-u"
-    ]
+    "input": "THRU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-th",
+          "start-r",
+          "short-u"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "today",
-    "type": "brief",
-    "bricks": [
-      "start-t",
-      "long-o",
-      "end-d"
-    ]
+    "input": "TOED",
+    "strokes": [
+      {
+        "bricks": [
+          "start-t",
+          "long-o",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "understand",
-    "type": "brief",
-    "bricks": [
-      "short-u",
-      "end-r",
-      "end-n",
-      "end-d"
-    ]
+    "input": "URPBD",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-r",
+          "end-n",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "understanding",
-    "type": "brief",
-    "bricks": [
-      "short-u",
-      "end-r",
-      "end-n",
-      "suffix-ing",
-      "end-d"
-    ]
+    "input": "URPBGD",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-r",
+          "end-n",
+          "suffix-ing",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "understands",
-    "type": "brief",
-    "bricks": [
-      "short-u",
-      "end-r",
-      "end-n",
-      "end-d",
-      "end-z"
-    ]
+    "input": "URPBDZ",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-r",
+          "end-n",
+          "end-d",
+          "end-z"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "unless",
-    "type": "brief",
-    "bricks": [
-      "start-n",
-      "end-l",
-      "end-s"
-    ]
+    "input": "TPH-LS",
+    "strokes": [
+      {
+        "bricks": [
+          "start-n",
+          "end-l",
+          "end-s"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "very",
-    "type": "brief",
-    "bricks": [
-      "start-v",
-      "short-e"
-    ]
+    "input": "SRE",
+    "strokes": [
+      {
+        "bricks": [
+          "start-v",
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "were",
-    "type": "brief",
-    "bricks": [
-      "start-w",
-      "start-r"
-    ]
+    "input": "WR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "what",
-    "type": "brief",
-    "bricks": [
-      "start-w",
-      "start-h",
-      "short-a"
-    ]
+    "input": "WHA",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "start-h",
+          "short-a"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "where",
-    "type": "brief",
-    "bricks": [
-      "start-w",
-      "end-r"
-    ]
+    "input": "W-R",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "whether",
-    "type": "brief",
-    "bricks": [
-      "start-w",
-      "start-h",
-      "start-r"
-    ]
+    "input": "WHR",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "start-h",
+          "start-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "which",
-    "type": "brief",
-    "bricks": [
-      "start-w",
-      "short-i"
-    ]
+    "input": "WEU",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "short-i"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "who",
-    "bricks": [
-      "start-w",
-      "start-h",
-      "short-o"
+    "input": "WHO",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "start-h",
+          "short-o"
+        ]
+      }
     ]
   },
   {
     "output": "with",
-    "type": "brief",
-    "bricks": [
-      "start-w"
-    ]
+    "input": "W",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "within",
-    "type": "brief",
-    "bricks": [
-      "start-w",
-      "end-n"
-    ]
+    "input": "W-PB",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "end-n"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "without",
-    "type": "brief",
-    "bricks": [
-      "start-w",
-      "dipthong-ow",
-      "end-t"
-    ]
+    "input": "WOUT",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "dipthong-ow",
+          "end-t"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "would",
-    "type": "brief",
-    "bricks": [
-      "start-w",
-      "short-o"
-    ]
+    "input": "WO",
+    "strokes": [
+      {
+        "bricks": [
+          "start-w",
+          "short-o"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "yes",
-    "type": "brief",
-    "bricks": [
-      "start-y",
-      "short-e"
-    ]
+    "input": "KWRE",
+    "strokes": [
+      {
+        "bricks": [
+          "start-y",
+          "short-e"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "you",
-    "type": "brief",
-    "bricks": [
-      "short-u"
-    ]
+    "input": "U",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "you'd",
-    "type": "brief",
-    "bricks": [
-      "short-u",
-      "end-d"
-    ]
+    "input": "UD",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-d"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "you'll",
-    "type": "brief",
-    "bricks": [
-      "short-u",
-      "end-l"
-    ]
+    "input": "UL",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-l"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "you're",
-    "type": "brief",
-    "bricks": [
-      "short-u",
-      "end-r"
-    ]
+    "input": "UR",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-r"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "you've",
-    "type": "brief",
-    "bricks": [
-      "short-u",
-      "end-v"
-    ]
+    "input": "UF",
+    "strokes": [
+      {
+        "bricks": [
+          "short-u",
+          "end-v"
+        ]
+      }
+    ],
+    "type": "brief"
   },
   {
     "output": "$",
