@@ -2,8 +2,9 @@
 
 <table>
   <tr>
-    <th>input</th>
-    <th>output</th>
+    <th>Input</th>
+    <th>Output</th>
+    <th>Type</th>
   </tr>
 
   <% definitions.each do |definition| %>
@@ -11,6 +12,7 @@
     <tr class="<%= highlight ? 'active' : '' %>">
       <td class="input"><%= link_to_definition(definition) %></td>
       <td class="output"><%= definition.output %></td>
+      <td><small><%= definition.type %></small></td>
     </tr>
   <% end %>
 
