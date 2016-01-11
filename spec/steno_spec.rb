@@ -32,6 +32,17 @@ module Steno
 
     describe Brick do
 
+      describe '#notation' do
+        before do
+          allow(mapper).to receive(:lookup)
+            .with(['soft-a'])
+            .and_return('a')
+        end
+        it 'is calculated from the provided brickset' do
+          expect(soft_a.notation(mapper)).to eql('A')
+        end
+      end
+
       describe '#side' do
         it 'returns :left for bricks produced by left-hand' do
           [start_z, start_d, start_b, soft_a].each do |brick|
