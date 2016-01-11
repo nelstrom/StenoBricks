@@ -13,6 +13,10 @@ if data.has_key?(:bricks) && data.has_key?(:definitions)
   set :wordset, Hash.new
   set :homophone_dictionary, Homophoner.new(data.homophones).dictionary
 
+  brick_list = data.bricks.map do |data|
+    Steno::Brick.new(data.id, data.label, data.keystrokes)
+  end
+
   definition_list = data.definitions.map do |data|
     Steno::Definition.new(data, brickset, mapper)
   end
@@ -103,18 +107,34 @@ configure :build do
   set :rootpath, "/StenoBricks"
 end
 
-if data.has_key? :bricks
-  data.bricks.each do |brick|
-    definitions = definition_list.select { |defn| defn.bricks.map(&:id).include?(brick.id) }
-    similar = (data.bricks - [brick]).select { |b| b.keystrokes == brick.keystrokes }
+brick_list.each do |brick|
+  definitions = definition_list.select { |defn|
+    defn.bricks.map(&:id).include?(brick.id)
+  }
 
-    proxy "/bricks/#{brick.id}.svg", "/brick.svg",
-      locals: { brick: brick, bounds: DiagramBounds.new }, ignore: true
+  similar = (brick_list - [brick]).select { |b|
+    b.keystrokes == brick.keystrokes
+  }
 
-    proxy "/bricks/#{brick.id}.html", "/brick.html",
-      locals: { brick: brick, definitions: definitions, similar: similar}, ignore: true
-  end
+  proxy "/bricks/#{brick.id}.svg", "/brick.svg",
+    locals: { brick: brick, bounds: DiagramBounds.new }, ignore: true
+
+  proxy "/bricks/#{brick.id}.html", "/brick.html",
+    locals: { brick: brick, definitions: definitions, similar: similar}, ignore: true
 end
+
+# if data.has_key? :bricks
+#   data.bricks.each do |brick|
+#     definitions = definition_list.select { |defn| defn.bricks.map(&:id).include?(brick.id) }
+#     similar = (data.bricks - [brick]).select { |b| b.keystrokes == brick.keystrokes }
+
+#     proxy "/bricks/#{brick.id}.svg", "/brick.svg",
+#       locals: { brick: brick, bounds: DiagramBounds.new }, ignore: true
+
+#     proxy "/bricks/#{brick.id}.html", "/brick.html",
+#       locals: { brick: brick, definitions: definitions, similar: similar}, ignore: true
+#   end
+# end
 
 # Strange but true: the definition_list defined in this file is made available
 # to proxy pages, but for some reason it is not available to normal pages.
