@@ -107,6 +107,16 @@ configure :build do
   set :rootpath, "/StenoBricks"
 end
 
+# Strange but true: the definition_list and brick_list defined in this file
+# are made available to proxy pages, but for some reason they are not
+# available to normal pages. That's why we're doing this slightly awkward
+# dance to make the definition_list available in the definitions.html page,
+# and to make the brick_list available in the bricks.html page
+proxy "/definitions.html", "definition-list.html",
+  locals: { definitions: definition_list }, ignore: true
+proxy "/bricks.html", "brick-list.html",
+  locals: { bricks: brick_list }, ignore: true
+
 brick_list.each do |brick|
   definitions = definition_list.select { |defn|
     defn.bricks.map(&:id).include?(brick.id)
@@ -122,26 +132,6 @@ brick_list.each do |brick|
   proxy "/bricks/#{brick.id}.html", "/brick.html",
     locals: { brick: brick, definitions: definitions, similar: similar}, ignore: true
 end
-
-# if data.has_key? :bricks
-#   data.bricks.each do |brick|
-#     definitions = definition_list.select { |defn| defn.bricks.map(&:id).include?(brick.id) }
-#     similar = (data.bricks - [brick]).select { |b| b.keystrokes == brick.keystrokes }
-
-#     proxy "/bricks/#{brick.id}.svg", "/brick.svg",
-#       locals: { brick: brick, bounds: DiagramBounds.new }, ignore: true
-
-#     proxy "/bricks/#{brick.id}.html", "/brick.html",
-#       locals: { brick: brick, definitions: definitions, similar: similar}, ignore: true
-#   end
-# end
-
-# Strange but true: the definition_list defined in this file is made available
-# to proxy pages, but for some reason it is not available to normal pages.
-# That's why we're doing this slightly awkward dance to make the
-# definition_list availble in the definitions.html page
-proxy "/definitions.html", "definition-list.html",
-  locals: { definitions: definition_list }, ignore: true
 
 definition_list.each do |definition|
   synonyms = definition_list.select { |defn| defn.output == definition.output }
