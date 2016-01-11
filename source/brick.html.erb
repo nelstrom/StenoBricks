@@ -17,9 +17,6 @@ title: Brick
 
   <p>These bricks are composed from the same keystrokes:</p>
 
-  <ul class="brick-list">
-    <% similar.each do |brick| %>
-      <li><%= link_to brick.id, "#{rootpath}/bricks/#{brick.id}/" %></li>
-    <% end %>
-  </ul>
+  <%= partial('brick-table', locals: {bricks: similar}) %>
+
 <% end %>

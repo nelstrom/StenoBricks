@@ -1,4 +1,4 @@
-<table class="brick-list">
+<table class="brick-table">
 
   <tr>
     <td>identifier</td>
@@ -7,7 +7,6 @@
   </tr>
 
   <% bricks.each do |brick| %>
-    <% brick = Steno::Brick.new(brick.id, brick.label, brick.keystrokes) %>
     <tr>
       <td><%= link_to brick.id, "#{rootpath}/bricks/#{brick.id}/" %></td>
       <td><%= brick.notation(mapper) %></td>
