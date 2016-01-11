@@ -24,6 +24,10 @@ module Steno
       @keystrokes = keystrokes.sort
     end
 
+    def notation(mapper)
+      mapper.lookup([id]).upcase
+    end
+
     def side
       start  = @keystrokes.first <=> STAR_KEY_INDEX
       finish = @keystrokes.last  <=> STAR_KEY_INDEX

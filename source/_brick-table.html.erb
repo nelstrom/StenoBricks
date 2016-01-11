@@ -1,0 +1,17 @@
+<table class="brick-table">
+
+  <tr>
+    <td>identifier</td>
+    <td>input</td>
+    <td>label</td>
+  </tr>
+
+  <% bricks.each do |brick| %>
+    <tr>
+      <td><%= link_to brick.id, "#{rootpath}/bricks/#{brick.id}/" %></td>
+      <td><%= brick.notation(mapper) %></td>
+      <td><%= brick.label %></td>
+    </tr>
+  <% end %>
+
+</table>
